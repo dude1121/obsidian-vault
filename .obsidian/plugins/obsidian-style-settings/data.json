@@ -1,0 +1,15 @@
+{
+  "minimal-style@@h1-color@@dark": "#E59A38",
+  "minimal-style@@h1-variant": "small-caps",
+  "minimal-style@@h1-weight": 800,
+  "minimal-style@@h1-size": "1.25em",
+  "minimal-style@@h2-size": "1.125em",
+  "minimal-style@@h2-color@@dark": "#E6AF65",
+  "minimal-style@@h2-variant": "small-caps",
+  "minimal-style@@h3-color@@dark": "#E8C9A2",
+  "minimal-style@@h3-variant": "small-caps",
+  "minimal-style@@h3-l": false,
+  "minimal-style@@h2-l": false,
+  "minimal-style@@h1-l": true,
+  "minimal-style@@h4-size": "1em"
+}

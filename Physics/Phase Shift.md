@@ -1,0 +1,1 @@
+A **phase shift** is a displacement of a waveform in time. It is typically denoted with $\theta$ and is measured in either degrees or radians.

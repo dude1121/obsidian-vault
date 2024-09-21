@@ -1,0 +1,1 @@
+The **band frequency** of a [[Resonance|resonant]] circuit is the [[frequency]] at which the [[Real Power|real power]] dissipation is exactly half its maximum value.

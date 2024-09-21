@@ -1,0 +1,65 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#mathematics  ",
+      "color": {
+        "a": 1,
+        "rgb": 6063574
+      }
+    },
+    {
+      "query": "tag:#circuit-analysis  ",
+      "color": {
+        "a": 1,
+        "rgb": 6084188
+      }
+    },
+    {
+      "query": "tag:#electromagnetism  ",
+      "color": {
+        "a": 1,
+        "rgb": 14048348
+      }
+    },
+    {
+      "query": "tag:#classical-mechanics",
+      "color": {
+        "a": 1,
+        "rgb": 14275360
+      }
+    },
+    {
+      "query": "tag:#physics  ",
+      "color": {
+        "a": 1,
+        "rgb": 6084269
+      }
+    },
+    {
+      "query": "tag:#philosophy  ",
+      "color": {
+        "a": 1,
+        "rgb": 13378758
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": -0.5,
+  "nodeSizeMultiplier": 1.10902926481085,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.338541666666667,
+  "repelStrength": 12.03125,
+  "linkStrength": 1,
+  "linkDistance": 141,
+  "scale": 0.0591616952734136,
+  "close": true
+}

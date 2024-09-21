@@ -1,0 +1,1 @@
+A material with a high electrical [[Resistance|resistivity]].

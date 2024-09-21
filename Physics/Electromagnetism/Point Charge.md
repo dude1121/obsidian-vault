@@ -1,0 +1,1 @@
+A [[Charge|charged]] [[Particle|particle]] of zero size.

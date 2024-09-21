@@ -1,0 +1,1 @@
+**Impiety** is the opposite of [[Piety]].

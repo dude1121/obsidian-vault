@@ -17,7 +17,7 @@ to[L] (2,-3)
 to[short] (0,-3)
 
 (2.75,-3) to[L] (2.75,0)
-to[diode, bipoles/length=.8cm] (3.9,0) to[short, -o] (4,0)
+to[diode, bipoles/length=1cm] (3.9,0) to[short, -o] (4,0)
 (2.75,-3) to[short, -o] (4,-3)
 ;
 \end{circuitikz}

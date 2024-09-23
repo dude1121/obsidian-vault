@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1e254abfc1d9a7ab",
+        "id": "bb77b20d3cc85511",
         "type": "tabs",
         "children": [
           {
-            "id": "da333f448632ab4a",
+            "id": "0b95fd41219ad49c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -169,11 +169,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "da333f448632ab4a",
+  "active": "0b95fd41219ad49c",
   "lastOpenFiles": [
-    "Rectifier.md",
-    "Full Wave Rectifier.md",
     "Half Wave Rectifier.md",
+    "Full Wave Rectifier.md",
+    "Rectifier.md",
     "Physics/Electromagnetism/Circuit Analysis/pictures/half-wave-waveform.png",
     "Mathematics/Linear Algebra/Cross Product.md",
     "Diode.md",

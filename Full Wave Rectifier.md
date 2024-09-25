@@ -28,7 +28,7 @@ to[short, -*] (7,2) to[short] (7,4)
 \end{circuitikz}
 \end{document}
 ```
-The above circuit is a full wave rectifier that makes use of a centre-tapped [[Transformer|transformer]]. In the positive half-cycle of the input signal, diode $D_{1}$ will conduct, and $D_{2}$ will be reverse biased. In the negative half-cycle, diode $D_{1}$ will be reverse biased and diode $D_{2}$ will conduct. This results in the entire waveform being converted into a dc signal through the load resistor $R_{L}$. However, since this uses a centre-tapped transformer, the peak [[Voltage|voltage]] across the output $V_{o}$ will be half the transformer's secondary voltage, minus the diode's $V_{F}\approx 0.7\pu{ V}$. 
+The above circuit is a full wave rectifier that makes use of a centre-tapped [[Transformer|transformer]]. In the positive half-cycle of the input signal, [[diode]] $D_{1}$ will conduct, and $D_{2}$ will be reverse biased. In the negative half-cycle, diode $D_{1}$ will be reverse biased and diode $D_{2}$ will conduct. This results in the entire waveform being converted into a dc signal through the load resistor $R_{L}$. However, since this uses a centre-tapped transformer, the peak [[Voltage|voltage]] across the output $V_{o}$ will be half the transformer's secondary voltage, minus the diode's $V_{F}\approx 0.7\pu{ V}$. 
 $$
 V_{o-pk}=\frac{V_{S-pk}}{2}-V_{F}
 $$
@@ -95,3 +95,19 @@ $$
 ## Filtering
 
 The output of a full wave bridge rectifier as shown above would be a pulsing signal.
+![[full-wave-unfiltered.png]]
+While this is technically DC, it is not very stable. Ideally, we want a completely flat line at some voltage level. By adding a capacitor in parallel with our output, we can smooth out the waveform.
+![[Full-Wave Ripple.png]]
+Generally speaking, the larger the capacitor value added in parallel, the better quality the output waveform. We can qualify how well the output is filtered by the [[Ripple Factor|ripple factor]]. 
+
+![[Ripple Factor]]
+
+The peak-to-peak ripple voltage and the average "DC" value can be approximated by,
+$$
+V_{r-pp}=\left(\frac{1}{fR_{L}C}\right)V_{pk(rect)}
+$$
+and
+$$
+V_{DC}\approx\left(1 -\frac{1}{2fR_{L}C} \right)V_{pk(rect)}
+$$
+where $V_{pk(rect)}$ is the peak rectified voltage, $f$ is the frequency of the *rectified* voltage (important to note this is *not* the input frequency, but rather the output frequency, which will be double the input frequency), $R_{L}$ is the resistance of the load, and $C$ is the capacitance of the filtering capacitor. 

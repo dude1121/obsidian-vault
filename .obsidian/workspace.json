@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Full Wave Rectifier.md",
+                "file": "Zener Diode.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "113826b82780db8b",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Full Wave Rectifier.md",
+                "file": "Zener Diode.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Full Wave Rectifier.md",
+                "file": "Zener Diode.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Full Wave Rectifier.md"
+                "file": "Zener Diode.md"
               }
             }
           },
@@ -147,7 +148,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Full Wave Rectifier.md"
+                "file": "Zener Diode.md"
               }
             }
           }
@@ -171,12 +172,21 @@
   },
   "active": "0b95fd41219ad49c",
   "lastOpenFiles": [
+    "Physics/Electromagnetism/Circuit Analysis/pictures/zener-diode-biasing.png",
+    "Physics/Electromagnetism/Circuit Analysis/pictures/Screenshot From 2024-09-24 22-01-35.png",
+    "Diode.md",
     "Half Wave Rectifier.md",
     "Full Wave Rectifier.md",
+    "Zener Diode.md",
+    "Load Regulation.md",
+    "Line Regulation.md",
     "Rectifier.md",
+    "Ripple Factor.md",
+    "Physics/Electromagnetism/Circuit Analysis/pictures/Full-Wave Ripple.png",
+    "Physics/Electromagnetism/Circuit Analysis/pictures/full-wave-unfiltered.png",
+    "Physics/Electromagnetism/Circuit Analysis/pictures/Screenshot From 2024-09-24 21-33-28.png",
     "Physics/Electromagnetism/Circuit Analysis/pictures/half-wave-waveform.png",
     "Mathematics/Linear Algebra/Cross Product.md",
-    "Diode.md",
     "Physics/Electromagnetism/pictures/forward-reverse bias temp.png",
     "Physics/Electromagnetism/pictures/forward-reverse bias.png",
     "Forward Bias.md",
@@ -195,18 +205,9 @@
     "Hole Current.md",
     "Physics/Electromagnetism/pictures/hole-current.png",
     "Semiconductor.md",
-    "Physics/Electromagnetism/pictures/band-gap.png",
     "Physics/Electromagnetism/Generator.md",
     "Physics/Electromagnetism/DC Electricity.md",
     "Physics/Electromagnetism/AC Electricity.md",
-    "Physics/Electromagnetism/Amperes.md",
-    "Physics/Electromagnetism/Reactance.md",
-    "Physics/Electromagnetism/Charge.md",
-    "Physics/Electromagnetism/Atom.md",
-    "Mathematics/Complex Numbers.md",
-    "Physics/Electromagnetism/Circuit Analysis/pictures/commutator.png",
-    "Physics/Electromagnetism/Circuit Analysis/pictures/band-pass.png",
-    "Physics/Electromagnetism/Circuit Analysis/pictures/High-Pass.png",
     "Physics/Electromagnetism/pictures/~syncthing~parallel-resonance-impedance.png.tmp",
     "Books/Philosophy/~syncthing~Apology.md.tmp",
     "Books/Philosophy/~syncthing~Piety.md.tmp",

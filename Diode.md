@@ -13,7 +13,7 @@ A **diode** is a circuit component that only allows [[Current|current]] flow in 
 \begin{document}
 \begin{circuitikz}
 \draw
-(0,0) to[diode] (4,0)
+(0,0) to[full diode] (4,0)
 ;
 \end{circuitikz}
 \end{document}
@@ -54,7 +54,7 @@ In the ideal diode model, the diode is modeled simply as an open or closed switc
 \draw
 (0,0) to[battery, l=\Large$E_s$] (4,0)
 (0,0) to[R, l=\Large$R$] (0,4)
-to[diode, l=\Large$D$] (4,4)
+to[full diode, l=\Large$D$] (4,4)
 to[short] (4,0)
 
 (6,0) to[battery, l=\Large$E_s$] (10,0)
@@ -75,7 +75,7 @@ to[short] (10,0)
 \draw
 (4,0) to[battery, l=\Large$E_s$] (0,0)
 (0,0) to[R, l=\Large$R$] (0,4)
-to[diode, l=\Large$D$] (4,4)
+to[full diode, l=\Large$D$] (4,4)
 to[short] (4,0)
 
 (10,0) to[battery, l=\Large$E_s$] (6,0)
@@ -99,7 +99,7 @@ In the practical model, the diode is modeled as a switch still, but there is an 
 \draw
 (0,0) to[battery, l=\Large$E_s$] (4,0)
 (0,0) to[R, l=\Large$R$] (0,4)
-to[diode, l=\Large$D$] (4,4)
+to[full diode, l=\Large$D$] (4,4)
 to[short] (4,0)
 
 (6,0) to[battery, l=\Large$E_s$] (10,0)
@@ -125,7 +125,7 @@ This is the most accurate model of a diode. It includes the barrier potential an
 \draw
 (0,0) to[battery, l=\Large$E_s$] (4,0)
 (0,0) to[R, l=\Large$R$] (0,4)
-to[diode, l=\Large$D$] (4,4)
+to[full diode, l=\Large$D$] (4,4)
 to[short] (4,0)
 
 (6,0) to[battery, l=\Large$E_s$] (10,0)
@@ -149,7 +149,7 @@ to[short] (10,0)
 \draw
 (0,0) to[battery, l=\Large$E_s$] (4,0)
 (0,0) to[R, l=\Large$R$] (0,4)
-to[diode, l=\Large$D$] (4,4)
+to[full diode, l=\Large$D$] (4,4)
 to[short] (4,0)
 
 (10,0) to[battery, l=\Large$E_s$] (6,0)

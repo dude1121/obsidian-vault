@@ -4,7 +4,7 @@ tags:
   - physics
   - circuit-analysis
 ---
-A **Half wave rectifier** is a type of [[Rectifier|rectifier]] circuit that converts half of an [[AC Electricity|ac signal]] into a [[DC Electricity|dc signal]]. It can be constructed with a single diode.
+A **Half wave rectifier** is a type of [[Rectifier|rectifier]] circuit that converts half of an [[AC Electricity|ac signal]] into a [[DC Electricity|dc signal]]. It can be constructed with a single [[diode]].
 
 ```tikz
 \usepackage{circuitikz}

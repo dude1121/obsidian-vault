@@ -28,3 +28,50 @@ Much like normal diodes, a zener diode consists of a [[PN Junction]]. However, a
 ## Ideal Model
 
 In the ideal zener diode model, the diode is modelled simply as an opposing voltage source, with no internal [[resistance]]. 
+
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{circuitikz}
+\draw
+(0,0) to[battery, invert] (0,4)
+to[zzD*, invert,  l=\Large$D$, bipoles/length=1cm, -o] (3,4)
+(0,0) to[R, -o] (3,0)
+
+(4,2) node[]{\Large$=$}
+
+(5,0) to[battery, invert] (5,4)
+to[battery1, l=\Large$D$, -o] (8,4)
+(5,0) to [R, -o] (8,0)
+;
+\end{circuitikz}
+\end{document}
+```
+
+## Practical Model
+
+In practice, however, there is some resistance in the zener diode.
+
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{circuitikz}
+\draw
+(0,0) to[battery, invert] (0,4)
+to[zzD*, invert, bipoles/length=1cm, -o] (3,4)
+(0,0) to[R, -o] (3,0)
+
+(1.75, 5) node[]{\Large$D$}
+
+(4,2) node[]{\Large$=$}
+
+(5,0) to[battery, invert] (5,4)
+to[R, l=$Z_Z$] (7,4)
+to[battery1, -o] (8,4)
+(5,0) to [R, -o] (8,0)
+
+(6.75, 5) node[]{\Large$D$}
+;
+\end{circuitikz}
+\end{document}
+```

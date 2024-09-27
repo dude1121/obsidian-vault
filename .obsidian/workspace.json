@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zener Diode.md",
+                "file": "Physics/Electromagnetism/Inductance.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zener Diode.md",
+                "file": "Physics/Electromagnetism/Inductance.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zener Diode.md",
+                "file": "Physics/Electromagnetism/Inductance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Zener Diode.md"
+                "file": "Physics/Electromagnetism/Inductance.md"
               }
             }
           },
@@ -148,7 +148,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Zener Diode.md"
+                "file": "Physics/Electromagnetism/Inductance.md"
               }
             }
           }
@@ -172,12 +172,13 @@
   },
   "active": "0b95fd41219ad49c",
   "lastOpenFiles": [
+    "Physics/Electromagnetism/Circuit Analysis/Inductor.md",
+    "Zener Diode.md",
+    "Diode.md",
+    "Full Wave Rectifier.md",
     "Physics/Electromagnetism/Circuit Analysis/pictures/zener-diode-biasing.png",
     "Physics/Electromagnetism/Circuit Analysis/pictures/Screenshot From 2024-09-24 22-01-35.png",
-    "Diode.md",
     "Half Wave Rectifier.md",
-    "Full Wave Rectifier.md",
-    "Zener Diode.md",
     "Load Regulation.md",
     "Line Regulation.md",
     "Rectifier.md",
@@ -195,7 +196,6 @@
     "Pasted image 20240910174308.png",
     "Barrier Potential.md",
     "PN Junction.md",
-    "Physics/Electromagnetism/Circuit Analysis/Inductor.md",
     "Physics/Electromagnetism/Circuit Analysis/Insulator.md",
     "Physics/Electromagnetism/Circuit Analysis/Filters.md",
     "Physics/Electromagnetism/Circuit Analysis/Current Sources.md",
@@ -203,7 +203,6 @@
     "Semiconductor Doping.md",
     "Physics/Electromagnetism/Electron.md",
     "Hole Current.md",
-    "Physics/Electromagnetism/pictures/hole-current.png",
     "Semiconductor.md",
     "Physics/Electromagnetism/Generator.md",
     "Physics/Electromagnetism/DC Electricity.md",

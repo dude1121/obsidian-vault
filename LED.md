@@ -4,6 +4,7 @@ tags:
   - physics
   - electronics
   - circuit-analysis
+  - components
 ---
 A **LED** or **Light-Emitting Diode** is a special kind of [[Diode|diode]] that emits [[Light|light]] when in forward bias. 
 ```tikz

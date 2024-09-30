@@ -5,6 +5,7 @@ tags:
   - circuit-analysis
   - semiconductors
   - electronics
+  - components
 ---
 A **diode** is a circuit component that only allows [[Current|current]] flow in one direction.
 
@@ -168,3 +169,11 @@ to[short, -*] (9.5,3)
 \end{document}
 ```
  In a forward biased diode, this resistance is placed in series with the switch and the [[Voltage Sources|voltage source]]. The small resistance represents the slight increase in voltage and current as a greater $V_{BIAS}$ is applied. In a reverse biased diode, the very large reverse resistance $r_{R}'$ allows to calculate the trickle current through the diode while in reverse bias.
+# Other Diode Types
+
+See:
+- [[LED]]
+- [[OLED]]
+- [[Photodiode]]
+- [[Schottky Diode]]
+- [[Zener Diode]]

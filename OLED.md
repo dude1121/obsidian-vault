@@ -5,6 +5,7 @@ tags:
   - physics
   - circuit-analysis
   - semiconductors
+  - components
 ---
 An **OLED** (**O**rganic **L**ight **E**mitting **D**iode) is a special type of [[LED]] that makes use of organic (containing [[Carbon|carbon]]) materials to emit [[Light|light]].
 
@@ -19,3 +20,5 @@ When a voltage is applied across the anode and cathode, the resulting current pr
 Due to their nature, OLEDs are able to be sprayed onto the surface of some substrates, similar to how ink is sprayed onto paper in an inkjet printer. This makes making large displays like 80-inch TV screens or billboards much more affordable than with other materials. 
 
 OLEDs are typically used in making displays, although the fact that OLEDs are more [[Efficiency|efficient]] than standard LEDs means that OLEDs might be used more in lighting applications.
+
+Much like standard LED displays, OLED displays are made by combining red, green, and blue OLEDs into [[Pixel|pixels]] and arranging those pixels into large screens. 

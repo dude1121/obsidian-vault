@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semiconductor.md",
+                "file": "Books/Philosophy/Apology.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "113826b82780db8b",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Semiconductor.md",
+                "file": "Books/Philosophy/Apology.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Semiconductor.md",
+                "file": "Books/Philosophy/Apology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Semiconductor.md"
+                "file": "Books/Philosophy/Apology.md"
               }
             }
           },
@@ -148,7 +147,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Semiconductor.md"
+                "file": "Books/Philosophy/Apology.md"
               }
             }
           }
@@ -167,13 +166,30 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "8c31ee1596a327a2",
+  "active": "12261bf91ce98be6",
   "lastOpenFiles": [
-    "BJT.md",
+    "Units of Measurement.md",
+    "Second.md",
+    "Power.md",
+    "Phase Shift.md",
+    "Period.md",
+    "Newton.md",
+    "Metre.md",
+    "Kilogram.md",
+    "Hertz.md",
+    "Frequency.md",
+    "Efficiency.md",
+    "Books/Philosophy/Meletus.md",
+    "Books/Philosophy/Apology.md",
+    "Books/Philosophy/Five Dialogues.md",
+    "Books/Philosophy/Euthyphro.md",
     "Semiconductor.md",
+    "BJT.md",
     "Physics/Electromagnetism/Circuit Analysis/pictures/bjt construction.png",
     "Physics/Electromagnetism/Circuit Analysis/pictures/Screenshot From 2024-09-29 22-10-53.png",
     "Untitled.md",
@@ -186,25 +202,10 @@
     "Barrier Potential.md",
     "PN Junction.md",
     "Solar Cell.md",
-    "Band Gap.md",
-    "Photon.md",
     "Physics/Electromagnetism/Circuit Analysis/pictures/Solar-cell.png",
     "Physics/Electromagnetism/Circuit Analysis/pictures/Screenshot From 2024-09-29 12-03-44.png",
-    "Photodiode.md",
-    "Physics/Units of Measurement.md",
-    "Physics/Efficiency.md",
     "Physics/Electromagnetism/Circuit Analysis/pictures/OLED.png",
     "Physics/Electromagnetism/Circuit Analysis/pictures/Screenshot From 2024-09-28 10-55-30.png",
-    "Electrophosphorescence.md",
-    "Radiant Flux.md",
-    "Gallium Arsenide Phosphide.md",
-    "Gallium Arsenide.md",
-    "Gallium Nitride.md",
-    "Arsenic.md",
-    "Microwave.md",
-    "Indium Gallium Nitride.md",
-    "Gallium.md",
-    "Indium Nitride.md",
     "Physics/Electromagnetism/Circuit Analysis/pictures/zener-diode-biasing.png",
     "Physics/Electromagnetism/Circuit Analysis/pictures/Screenshot From 2024-09-24 22-01-35.png",
     "Physics/Electromagnetism/Circuit Analysis/pictures/Full-Wave Ripple.png",

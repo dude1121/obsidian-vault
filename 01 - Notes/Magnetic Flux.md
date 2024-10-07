@@ -21,7 +21,3 @@ $$
 \Phi=\frac{\mathcal{F}}{\mathcal{R}}
 $$
 This is also called *[[Ohm's Law]] for Magnetic Circuits*. 
-
-$$
-v = x^2\hat{x}+3xz^2\hat{y}-2xz\hat{z}
-$$

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "bb77b20d3cc85511",
+        "id": "773d6302057d38e7",
         "type": "tabs",
         "children": [
           {
-            "id": "8c31ee1596a327a2",
+            "id": "8565cd976c8b4d9c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Books/Philosophy/Apology.md",
+                "file": "Op-Amp.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "113826b82780db8b",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/Philosophy/Apology.md",
+                "file": "Op-Amp.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/Philosophy/Apology.md",
+                "file": "Op-Amp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Books/Philosophy/Apology.md"
+                "file": "Op-Amp.md"
               }
             }
           },
@@ -147,7 +148,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Books/Philosophy/Apology.md"
+                "file": "Op-Amp.md"
               }
             }
           }
@@ -166,13 +167,28 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "12261bf91ce98be6",
+  "active": "8565cd976c8b4d9c",
   "lastOpenFiles": [
+    "Op-Amp.md",
+    "01 - Notes/BJT.md",
+    "01 - Notes/Current Gain.md",
+    "02 - Pictures/beta-dc-temperature.png",
+    "02 - Pictures/saturation-active-plot.png",
+    "01 - Notes/Untitled.md",
+    "01 - Notes/Kirchhoff's Current Law.md",
+    "01 - Notes/Transistor.md",
+    "01 - Notes/Lorentz Force Law.md",
+    "01 - Notes/AC Electricity.md",
+    "01 - Notes/Tesla.md",
+    "01 - Notes/Webers.md",
+    "01 - Notes/Magnetic Field.md",
+    "01 - Notes/Magnetic Flux.md",
+    "01 - Notes/Magnetomotive Force.md",
+    "01 - Notes/Reluctance.md",
+    "01 - Notes/Permeability.md",
     "Units of Measurement.md",
     "Second.md",
     "Power.md",
@@ -184,31 +200,14 @@
     "Hertz.md",
     "Frequency.md",
     "Efficiency.md",
-    "Books/Philosophy/Meletus.md",
-    "Books/Philosophy/Apology.md",
-    "Books/Philosophy/Five Dialogues.md",
-    "Books/Philosophy/Euthyphro.md",
-    "Semiconductor.md",
-    "BJT.md",
     "Physics/Electromagnetism/Circuit Analysis/pictures/bjt construction.png",
     "Physics/Electromagnetism/Circuit Analysis/pictures/Screenshot From 2024-09-29 22-10-53.png",
-    "Untitled.md",
     "Physics/Electromagnetism/Circuit Analysis/pictures/Screenshot From 2024-09-29 22-07-09.png",
-    "Schottky Diode.md",
-    "Transistor.md",
-    "OLED.md",
-    "Diode.md",
-    "LED.md",
-    "Barrier Potential.md",
-    "PN Junction.md",
-    "Solar Cell.md",
     "Physics/Electromagnetism/Circuit Analysis/pictures/Solar-cell.png",
     "Physics/Electromagnetism/Circuit Analysis/pictures/Screenshot From 2024-09-29 12-03-44.png",
     "Physics/Electromagnetism/Circuit Analysis/pictures/OLED.png",
     "Physics/Electromagnetism/Circuit Analysis/pictures/Screenshot From 2024-09-28 10-55-30.png",
     "Physics/Electromagnetism/Circuit Analysis/pictures/zener-diode-biasing.png",
-    "Physics/Electromagnetism/Circuit Analysis/pictures/Screenshot From 2024-09-24 22-01-35.png",
-    "Physics/Electromagnetism/Circuit Analysis/pictures/Full-Wave Ripple.png",
     "Physics/Electromagnetism/pictures/~syncthing~parallel-resonance-impedance.png.tmp",
     "Books/Philosophy/~syncthing~Apology.md.tmp",
     "Books/Philosophy/~syncthing~Piety.md.tmp",

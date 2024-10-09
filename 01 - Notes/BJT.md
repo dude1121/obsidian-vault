@@ -160,3 +160,41 @@ Suppose a $4\pu{ V}_{\pu{pp}}$ is sent through a BJT amplifier circuit with a ga
 
 The location of this q-point can be described graphically by the *dc load line*. This line is superimposed on the characteristic curves of $I_{C}$ vs $V_{CE}$ and it ranges from the saturation value where $I_{C}=I_{C(sat)}$ to the cutoff value where $V_{CE}=V_{CC}$. This load line is determined by the external circuit and not the transistor itself.
 ![[dc-load-line.png]]
+
+The region along the load line from saturation to cutoff is generally known as the *linear region*. So long as the transistor is operated with values along this line, the output voltage is ideally a linear reproduction of the input. 
+
+>[!QUESTION] Example
+>```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{circuitikz}
+\ctikzset{resistors/scale=0.75, batteries/scale=0.8}
+\draw
+(0,0) node[npn, anchor=B, scale=1](Q){}
+to[R, l2_=$R_B$ and $10$k$\Omega$, l2 valign=b] ++(-2.5,0)
+to[sV, l=$V_{in}$] ++(0,-2)
+to[battery1, l2=$V_{BB}$ and $13$V] ++(0,-1.5)
+node[ground](G){}
+(Q.C) to[R, l2=$R_C$ and $220\Omega$, l2 halign=l] ++(0, 1.5)
+-- ++(1,0) node[](A){}
+to[battery, l2=$V_{CC}$ and $10$V] (G -| A) node[ground]{}
+(Q.E) -- ++(0,-0.25) node[anchor=east]{$\beta_{DC}=100$} 
+to[short] (G -| Q.E) node[ground]{}
+;
+\end{circuitikz}
+\end{document}
+>```
+>Find the Q-point of the above circuit.
+>$$
+>\begin{aligned}
+>I_{BQ}&=\frac{V_{BB}-0.7\pu{ V}}{R_{B}} &I_{CQ}&=\beta_{DC}I_{BQ}&V_{CE}&=V_{CC}-I_{CQ}R_{C}\\&=\frac{3.7\pu{ V}-0.7\pu{ V}}{10\pu{ k}\Omega}&&=(100)(300\mu\pu{ A})&&=10\pu{ V}-(30\pu{ mA})(220\Omega)\\&=300\mu\pu{ A}&&\boxed{=30\pu{ mA}}&&\boxed{=3.4\pu{ V}}\\
+>\end{aligned}
+>$$
+>$\therefore \text{The circuit's Q-point is at }I_{CQ}=30\pu{ mA}\text{ and }V_{CE}=3.4\pu{ V}\text{.}$
+>
+
+
+
+
+
+ 

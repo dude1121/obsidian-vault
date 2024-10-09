@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Op-Amp.md",
+                "file": "01 - Notes/BJT.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Op-Amp.md",
+                "file": "01 - Notes/BJT.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Op-Amp.md",
+                "file": "01 - Notes/BJT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Op-Amp.md"
+                "file": "01 - Notes/BJT.md"
               }
             }
           },
@@ -148,7 +148,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Op-Amp.md"
+                "file": "01 - Notes/BJT.md"
               }
             }
           }
@@ -166,14 +166,20 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "markdown-importer:Open format converter": false
     }
   },
   "active": "8565cd976c8b4d9c",
   "lastOpenFiles": [
-    "Op-Amp.md",
+    "02 - Pictures/dc-load-line.png",
+    "01 - Notes/Voltage Gain.md",
     "01 - Notes/BJT.md",
+    "01 - Notes/Amplifier.md",
+    "01 - Notes/Phototransistor.md",
+    "01 - Notes/Voltage Sources.md",
+    "01 - Notes/Series AC Circuits.md",
+    "01 - Notes/Series Circuits.md",
+    "Op-Amp.md",
     "01 - Notes/Current Gain.md",
     "02 - Pictures/beta-dc-temperature.png",
     "02 - Pictures/saturation-active-plot.png",
@@ -193,13 +199,6 @@
     "Second.md",
     "Power.md",
     "Phase Shift.md",
-    "Period.md",
-    "Newton.md",
-    "Metre.md",
-    "Kilogram.md",
-    "Hertz.md",
-    "Frequency.md",
-    "Efficiency.md",
     "Physics/Electromagnetism/Circuit Analysis/pictures/bjt construction.png",
     "Physics/Electromagnetism/Circuit Analysis/pictures/Screenshot From 2024-09-29 22-10-53.png",
     "Physics/Electromagnetism/Circuit Analysis/pictures/Screenshot From 2024-09-29 22-07-09.png",

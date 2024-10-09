@@ -152,4 +152,11 @@ The $I_{e}$ terms cancel, leaving
 $$
 A_{v}\approx\frac{R_{C}}{r_{e}'}
 $$
+## Q-Point
 
+The *q-point* (quiescent point) of a BJT amplifier circuit (also known as the dc operating point) is the [[Steady State|steady state]] dc voltage or current that allows the transistor to amplify a signal without hitting cutoff or saturation.
+
+Suppose a $4\pu{ V}_{\pu{pp}}$ is sent through a BJT amplifier circuit with a gain of $A_{v}=3$. The output voltage can not be greater than the dc bias voltage, so if the transistor is only biased with $5\pu{ V}_{\pu{ DC}}$ then the signal will experience clipping as it hits the "rails" of the amplifier circuit.
+
+The location of this q-point can be described graphically by the *dc load line*. This line is superimposed on the characteristic curves of $I_{C}$ vs $V_{CE}$ and it ranges from the saturation value where $I_{C}=I_{C(sat)}$ to the cutoff value where $V_{CE}=V_{CC}$. This load line is determined by the external circuit and not the transistor itself.
+![[dc-load-line.png]]

@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Notes/BJT.md",
+                "file": "01 - Notes/Vector.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "08a9e61f1aea533c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 - Notes/Set.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 - Notes/BJT.md",
+                "file": "01 - Notes/Vector.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 - Notes/BJT.md",
+                "file": "01 - Notes/Vector.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 - Notes/BJT.md"
+                "file": "01 - Notes/Vector.md"
               }
             }
           },
@@ -148,7 +160,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "01 - Notes/BJT.md"
+                "file": "01 - Notes/Vector.md"
               }
             }
           }
@@ -171,6 +183,19 @@
   },
   "active": "0b95fd41219ad49c",
   "lastOpenFiles": [
+    "01 - Notes/Cross Product.md",
+    "01 - Notes/Vector.md",
+    "01 - Notes/Complex Numbers.md",
+    "01 - Notes/Transcendental Number.md",
+    "01 - Notes/Set.md",
+    "01 - Notes/Vector Space.md",
+    "01 - Notes/Field (mathematics).md",
+    "01 - Notes/Determinant.md",
+    "01 - Notes/Op-Amp.md",
+    "01 - Notes/BJT.md",
+    "01 - Notes/Voltage Divider Rule.md",
+    "01 - Notes/Binomial Theorem.md",
+    "02 - Pictures/signal-cutoff.png",
     "01 - Notes/AC Electricity.md",
     "01 - Notes/Admittance.md",
     "Zener Diode.md",
@@ -183,7 +208,6 @@
     "02 - Pictures/Superposition 1c.png",
     "02 - Pictures/Superposition 1b.png",
     "02 - Pictures/Superposition 1a.png",
-    "02 - Pictures/Source Conversion.png",
     "02 - Pictures",
     "01 - Notes/Zener Diode.md",
     "01 - Notes/Webers.md",
@@ -192,22 +216,10 @@
     "01 - Notes/Voltage.md",
     "01 - Notes/Voltage Sources.md",
     "01 - Notes/Voltage Gain.md",
-    "01 - Notes/Voltage Divider Rule.md",
-    "01 - Notes/Vector.md",
     "01 - Notes/Untitled.md",
     "01 - Notes/Units of Measurement.md",
-    "01 - Notes/Transcendental Number.md",
     "01 - Notes/Transistor.md",
     "01 - Notes/Tesla.md",
-    "01 - Notes/Thévenin's Theorem.md",
-    "01 - Notes/Superposition Theorem (Circuit Analysis).md",
-    "01 - Notes/Susceptance.md",
-    "01 - Notes/Square Root.md",
-    "01 - Notes/Source Conversion.md",
-    "01 - Notes/Solar Cell.md",
-    "01 - Notes/Series-Parallel R & X Conversions.md",
-    "01 - Notes/Semiconductor.md",
-    "01 - Notes/Series Circuits.md",
     "01 - Notes",
     "Physics/Electromagnetism/pictures/~syncthing~parallel-resonance-impedance.png.tmp",
     "Books/Philosophy/~syncthing~Apology.md.tmp",

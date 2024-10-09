@@ -3,7 +3,7 @@ tags:
   - mathematics
   - linear-algebra
 ---
-A **vector** is a quantity with both a magnitude and direction. In [[physics]], vectors are often used for things like [[displacement]], [[Force|force]], or [[field|fields]]. A vector is typically denoted with a bolded variable $\mathbf{v}$ or an arrow above the variable name $\vec{v}$, or sometimes both $\vec{\mathbf{v}}$. Graphically, a vector is represented with an arrow whose length denotes the magnitude and the direction in which the arrow points is the vector's direction. Typically vectors are said to originate at the [[origin]], but their position is usually irrelevant, as the magnitude and direction are what is important.
+A **vector** is a quantity with both a magnitude and direction. In [[physics]], vectors are often used for things like [[displacement]], [[Force|force]], or [[Field|fields]]. A vector is typically denoted with a bolded variable $\mathbf{v}$ or an arrow above the variable name $\vec{v}$, or sometimes both $\vec{\mathbf{v}}$. Graphically, a vector is represented with an arrow whose length denotes the magnitude and the direction in which the arrow points is the vector's direction. Typically vectors are said to originate at the [[origin]], but their position is usually irrelevant, as the magnitude and direction are what is important.
 
 A vector can be written with either as *column vectors*, *row vectors*, or for two-dimensional or three-dimensional vectors, the "hat" notation with three [[Unit Vector|unit vectors]] may be used (although this is typically used in physics only, not mathematics). 
 $$

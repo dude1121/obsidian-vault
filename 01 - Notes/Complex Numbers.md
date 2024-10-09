@@ -46,7 +46,7 @@ $$
 $$
 z=\sqrt{ 5 }\angle 63.435\degree=1+2i
 $$
-The set of all complex numbers is denoted with $\mathbb{C}$. Basic mathematical operations like addition, subtraction, multiplication, and division are similar to that of [[Vector|vectors]]. 
+The [[Set|set]] of all complex numbers is denoted with $\mathbb{C}$. Basic mathematical operations like addition, subtraction, multiplication, and division are similar to that of [[Vector|vectors]]. 
 $$
 (a_{1}+b_{1}i) + (a_{2}+b_{2}i)=(a_{1}+a_{2})+(b_{1}+b_{2})i
 $$
@@ -60,9 +60,9 @@ The complex *conjugate* of a complex number $z=a+bi$ is defined as $\bar{z}=a-bi
 \draw[step=1cm,gray,very thin](-3.9, -3.9) grid (3.9,3.9);
 \draw[very thick, <->] (-3.5,0) -- (3.5,0) node[anchor=north west] {Re};
 \draw[very thick, <->] (0,-3.5) -- (0,3.5) node[anchor=north west] {Im};
-\draw[thick, ->] (0,0) -- (1,2) node[anchor=south west] {$z$};
+\draw[thick, ->] (0,0) -- (1,2) node[anchor=south west] {\large$z$};
 \draw[dashed](1,-2) -- (1,2);
-\draw[thick,->] (0,0)--(1,-2) node[anchor=south west]{$\bar{z}$};
+\draw[thick,->] (0,0)--(1,-2) node[anchor=south west]{\large$\bar{z}$};
 \end{tikzpicture}
 \end{document}
 ```

@@ -27,8 +27,7 @@ The cross product is defined as
 $$
 \vec{a}\times \vec{b}=ab\sin \theta \ \vec{n}
 $$
-where $\vec{n}$ is the normal vector perpendicular to the plane created by $\vec{a}$ and $\vec{b}$, and $\theta$
-is the angle formed by $\vec{a}$ and $\vec{b}$. Another way to solve the cross product is to set up a $3$ x $3$ [[Matrix|matrix]] as such,
+where $\vec{n}$ is the normal vector perpendicular to the plane created by $\vec{a}$ and $\vec{b}$, and $\theta$ is the angle formed by $\vec{a}$ and $\vec{b}$. Another way to solve the cross product is to set up a $3$ x $3$ [[Matrix|matrix]] as such,
 $$
 \begin{pmatrix}
 \hat{i}&\hat{j}&\hat{k} \\

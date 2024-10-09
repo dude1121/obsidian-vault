@@ -1,3 +1,9 @@
+---
+tags:
+  - mathematics
+  - linear-algebra
+---
+
 The **determinant** is a [[Scalar|scalar]] function on [[Square Matrix|square matrices]]. It is typically noted as $\det(A)$ where $A$ is some square [[matrix]]. The determinant is zero if and only if the matrix is [[invertible]].
 
 If we define the $2$ x $2$ matrix $A$ as,

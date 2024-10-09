@@ -173,7 +173,7 @@ The region along the load line from saturation to cutoff is generally known as t
 (0,0) node[npn, anchor=B, scale=1](Q){}
 to[R, l2_=$R_B$ and $10$k$\Omega$, l2 valign=b] ++(-2.5,0)
 to[sV, l=$V_{in}$] ++(0,-2)
-to[battery1, l2=$V_{BB}$ and $13$V] ++(0,-1.5)
+to[battery1, l2=$V_{BB}$ and $3.7$V] ++(0,-1.5)
 node[ground](G){}
 (Q.C) to[R, l2=$R_C$ and $220\Omega$, l2 halign=l] ++(0, 1.5)
 -- ++(1,0) node[](A){}
@@ -192,9 +192,63 @@ to[short] (G -| Q.E) node[ground]{}
 >$$
 >$\therefore \text{The circuit's Q-point is at }I_{CQ}=30\pu{ mA}\text{ and }V_{CE}=3.4\pu{ V}\text{.}$
 >
+>Find the current value when the transistor is in saturation $I_{C(sat)}$.
+>
+>$$
+>I_{C(sat)}=\frac{V_{CC}}{R_{C}}=\frac{10\pu{ V}}{220\Omega}\boxed{=45.455\pu{ mA}}
+>$$
+>
 
+Depending on the location of the Q-point along the dc load line, an input signal may be clipped if it brings the transistor too close to saturation or cutoff. 
+![[signal-cutoff.png]]
+When designing an amplifier then, the designer must make sure that the Q-point will not result in signal distortion.
 
+## Voltage Divider Bias
 
+In most circuits analyzed so far, there was a separate source biasing the base of the transistor. But in practice, this typically is not the case. Instead a single source, $V_{CC}$, is used to bias the transistor and provide a voltage source to the collector. One way this can be done is through a [[Voltage Divider Rule|voltage divider]] circuit.
 
+Typically, the circuit is designed such that the base current $I_{B}$ is much smaller than the current through the second resistor in the voltage divider, $I_{{2}}$.
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{circuitikz}
+\ctikzset{resistors/scale=0.75, batteries/scale=0.8}
+\draw
+(0,0) node[npn, anchor=B](Q){}
+to[short, -*] ++(-1,0) node[](A){}
+(Q.C) to[R, l=$R_C$] ++(0, 2.5) node[vcc]{$V_{CC}$}
+(A) to[R, l=$R_2$] ++(0,-3) node[ground](G){}
+(A) to[R, l=$R_1$] ++(0,3) node[](B){} 
+(B) to[short,-*] (B -| Q.C)
+(Q.E) to[R, l=$R_E$] (G -| Q.E) node[ground]{}
+;
+\end{circuitikz}
+\end{document}
+```
+A voltage divider in which the base current is much smaller than the current through $R_{2}$ is known as a *stiff voltage divider*.
 
- 
+### Stiff Voltage Divider Circuits
+
+In a voltage divider circuit is stiff, some assumptions can be made to make circuit analysis easier. Since the base current can almost be ignored, we can assume that the voltage at the base of the transistor $V_{B}$ is the same as the voltage across $V_{R2}$. This is given by,
+$$
+V_{B}\approx \left( \frac{R_{2}}{R_{1}+R_{2}}V_{CC} \right)
+$$
+Once the base voltage is known the other voltages and currents can be found.
+$$
+V_{E}=V_{B}-V_{BE}
+$$
+$$
+I_{C}\approx I_{E} = \frac{V_{E}}{R_{E}}
+$$
+$$
+V_{C}=V_{CC}-I_{C}R_{C}
+$$
+To determine if a voltage divider bias circuit is stiff, the dc input resistance to the transistor must be examined. If this value, $R_{IN(BASE)}$, is greater than or equal to ten times $R_{2}$, the voltage divider is stiff, and the assumptions above hold. If not, then a more complex equation must be used. 
+$$
+V_{B}=\left( \frac{R_{2}||R_{IN(BASE)}}{R_{1}+R_{2}||R_{IN(BASE)}}\right)V_{CC} 
+$$
+The internal resistance is given by,
+$$
+R_{IN(BASE)}=\frac{\beta_{DC}V_{B}}{I_{E}}
+$$
+Since the equation for the internal resistance depends on the base voltage $V_{B}$ and the emitter current $I_{E}$, for circuit analysis we can first assume the voltage divider is stiff to find $V_{B}$ and $I_{E}$, then use those values to calculate $R_{IN(BASE)}$. If $R_{IN(BASE)}\geq  10R_{2}$, then we know our assumption was correct. Else, our $V_{B}$ and $I_{E}$ will need to be recalculated using the calculated $R_{IN(BASE)}$.

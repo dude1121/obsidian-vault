@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 - Notes/Vector.md",
+                "file": "01 - Notes/Set.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 - Notes/Vector.md",
+                "file": "01 - Notes/Set.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 - Notes/Vector.md"
+                "file": "01 - Notes/Set.md"
               }
             }
           },
@@ -160,7 +161,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "01 - Notes/Vector.md"
+                "file": "01 - Notes/Set.md"
               }
             }
           }
@@ -181,13 +182,18 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "0b95fd41219ad49c",
+  "active": "08a9e61f1aea533c",
   "lastOpenFiles": [
-    "01 - Notes/Cross Product.md",
+    "01 - Notes/Integer.md",
+    "01 - Notes/Set.md",
+    "01 - Notes/Natural Numbers.md",
+    "01 - Notes/Cardinality.md",
+    "01 - Notes/Empty Set.md",
+    "01 - Notes/Element (Mathematics).md",
     "01 - Notes/Vector.md",
+    "01 - Notes/Cross Product.md",
     "01 - Notes/Complex Numbers.md",
     "01 - Notes/Transcendental Number.md",
-    "01 - Notes/Set.md",
     "01 - Notes/Vector Space.md",
     "01 - Notes/Field (mathematics).md",
     "01 - Notes/Determinant.md",
@@ -215,11 +221,6 @@
     "01 - Notes/Volts.md",
     "01 - Notes/Voltage.md",
     "01 - Notes/Voltage Sources.md",
-    "01 - Notes/Voltage Gain.md",
-    "01 - Notes/Untitled.md",
-    "01 - Notes/Units of Measurement.md",
-    "01 - Notes/Transistor.md",
-    "01 - Notes/Tesla.md",
     "01 - Notes",
     "Physics/Electromagnetism/pictures/~syncthing~parallel-resonance-impedance.png.tmp",
     "Books/Philosophy/~syncthing~Apology.md.tmp",

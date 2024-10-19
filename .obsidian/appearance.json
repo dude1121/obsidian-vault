@@ -4,7 +4,8 @@
     "main"
   ],
   "baseFontSize": 16,
-  "cssTheme": "Minimal",
+  "cssTheme": "Border",
   "theme": "obsidian",
-  "interfaceFontFamily": "Hasklug Nerd Font"
+  "interfaceFontFamily": "Hasklug Nerd Font",
+  "textFontFamily": "Hasklug Nerd Font"
 }

@@ -55,9 +55,16 @@
         "a": 1,
         "rgb": 16733440
       }
+    },
+    {
+      "query": "tag:#chemistry",
+      "color": {
+        "a": 1,
+        "rgb": 1445709
+      }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": -0.5,
   "nodeSizeMultiplier": 1.10902926481085,
@@ -67,6 +74,6 @@
   "repelStrength": 12.03125,
   "linkStrength": 1,
   "linkDistance": 141,
-  "scale": 0.6738886852237255,
+  "scale": 0.13348388671875,
   "close": true
 }

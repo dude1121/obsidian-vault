@@ -8,10 +8,10 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:#mathematics  ",
+      "query": "tag:#elements",
       "color": {
         "a": 1,
-        "rgb": 6063574
+        "rgb": 16733440
       }
     },
     {
@@ -19,6 +19,13 @@
       "color": {
         "a": 1,
         "rgb": 6084188
+      }
+    },
+    {
+      "query": "tag:#mathematics  ",
+      "color": {
+        "a": 1,
+        "rgb": 6063574
       }
     },
     {
@@ -50,13 +57,6 @@
       }
     },
     {
-      "query": "tag:#elements",
-      "color": {
-        "a": 1,
-        "rgb": 16733440
-      }
-    },
-    {
       "query": "tag:#chemistry",
       "color": {
         "a": 1,
@@ -74,6 +74,6 @@
   "repelStrength": 12.03125,
   "linkStrength": 1,
   "linkDistance": 141,
-  "scale": 0.13348388671875,
+  "scale": 0.200225830078125,
   "close": true
 }

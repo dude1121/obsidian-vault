@@ -35,3 +35,12 @@ we now see that everything lines up, and the equation is balanced. Note that the
 
 # Types of Chemical Reactions
 
+Chemical reactions can broadly be defined into three distinct categories: *precipitation reactions*, *acid-base reactions*, *oxidation-reduction reactions*. 
+
+## Precipitation Reactions
+
+When two [[Solution|solutions]] are mixed they can sometimes result a [[Solid|solid]] forming that separates from the solution. This solid that forms is called a [[Precipitate|precipitate]] and the reaction as a whole is called a *precipitation reaction*. 
+
+## Acid-Base Reactions
+
+Acid-base reactions are also known as *neutralization reactions*. 

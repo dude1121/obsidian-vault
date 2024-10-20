@@ -13,12 +13,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Notes/Water.md",
+                "file": "01 - Notes/Chemical Reaction.md",
                 "mode": "source",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Water"
+              }
             }
           }
         ]
@@ -41,9 +39,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
+              }
             }
           },
           {
@@ -58,9 +54,7 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "Search"
+              }
             }
           },
           {
@@ -68,9 +62,7 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "state": {}
             }
           }
         ]
@@ -94,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 - Notes/Water.md",
+                "file": "01 - Notes/Chemical Reaction.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,9 +94,7 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for Water"
+              }
             }
           },
           {
@@ -113,12 +103,10 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 - Notes/Water.md",
+                "file": "01 - Notes/Chemical Reaction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from Water"
+              }
             }
           },
           {
@@ -129,9 +117,7 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
+              }
             }
           },
           {
@@ -140,10 +126,8 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 - Notes/Water.md"
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Water"
+                "file": "01 - Notes/Chemical Reaction.md"
+              }
             }
           },
           {
@@ -155,9 +139,7 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "All properties"
+              }
             }
           },
           {
@@ -166,10 +148,8 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "01 - Notes/Water.md"
-              },
-              "icon": "lucide-info",
-              "title": "File properties for Water"
+                "file": "01 - Notes/Chemical Reaction.md"
+              }
             }
           },
           {
@@ -177,16 +157,16 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 236.5
+    "width": 236.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,9 +182,12 @@
   },
   "active": "aaa43f1a57044dfd",
   "lastOpenFiles": [
-    "01 - Notes/Chemical Reaction.md",
     "01 - Notes/Water.md",
+    "01 - Notes/Solution.md",
+    "01 - Notes/Electrolytes.md",
     "01 - Notes/Polyatomic Ion.md",
+    "02 - Pictures/water-dissolving-salt.png",
+    "01 - Notes/Chemical Reaction.md",
     "01 - Notes/Atom.md",
     "01 - Notes/Atomic Mass Unit.md",
     "01 - Notes/Ion.md",
@@ -227,8 +210,6 @@
     "01 - Notes/Magnetic Field.md",
     "01 - Notes/Semiconductor Doping.md",
     "01 - Notes/Isotope.md",
-    "01 - Notes/Chemical Bond.md",
-    "01 - Notes/Compound.md",
     "02 - Pictures/signal-cutoff.png",
     "02 - Pictures/zener-diode-biasing.png",
     "02 - Pictures/voltage vs time capacitor charge.png",
@@ -237,7 +218,6 @@
     "02 - Pictures/Thevenin 1b.png",
     "02 - Pictures/Thevenin 1a.png",
     "02 - Pictures/Superposition 1c.png",
-    "02 - Pictures/Superposition 1b.png",
     "02 - Pictures",
     "01 - Notes",
     "Physics/Electromagnetism/pictures/~syncthing~parallel-resonance-impedance.png.tmp",

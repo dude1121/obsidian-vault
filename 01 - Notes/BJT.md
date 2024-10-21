@@ -252,3 +252,40 @@ $$
 R_{IN(BASE)}=\frac{\beta_{DC}V_{B}}{I_{E}}
 $$
 Since the equation for the internal resistance depends on the base voltage $V_{B}$ and the emitter current $I_{E}$, for circuit analysis we can first assume the voltage divider is stiff to find $V_{B}$ and $I_{E}$, then use those values to calculate $R_{IN(BASE)}$. If $R_{IN(BASE)}\geq  10R_{2}$, then we know our assumption was correct. Else, our $V_{B}$ and $I_{E}$ will need to be recalculated using the calculated $R_{IN(BASE)}$.
+
+## Theveninizing the Voltage Divider
+
+To make circuit analysis easier, the base-emitter circuit can be re-drawn as a [[Thévenin's Theorem|Théveninized]] circuit by applying Thévenin's theorem.
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{circuitikz}
+\ctikzset{resistors/scale=0.75, batteries/scale=0.8}
+\draw
+(0,0) node[ocirc, label=left:$V_{CC}$]{}
+to[R, l=$R_1$, -*] ++(3,0) node[](A){}
+(A) to[short] ++(1,0) node[npn, anchor=B, scale=1](Q){}
+(Q.C) to[R, l=$R_C$] ++(0,2) node[ocirc, label=above:$V_{CC}$]{}
+(A) to[short] (A |- Q.E)
+to[R, l=$R_2$] ++(0,-2.5) node[ground](G){}
+(Q.E) to[R, l=$R_E$] (Q.E |- G) node[ground]{}
+;
+\end{circuitikz}
+\end{document}
+```
+
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{circuitikz}
+\ctikzset{resistors/scale=0.75, batteries/scale=0.8}
+\draw
+(0,0) node[ocirc, label=left:$V_{Th}$]{}
+to[R, l=$R_{Th}$] ++(2,0)
+node[npn, anchor=B, scale=1](Q){}
+(Q.C) to[R, l=$R_C$] ++(0,2) node[ocirc, label=above:$V_{CC}$]{}
+(Q.E) to[R, l=$R_E$] ++(0,-2.5) node[ground]{}
+;
+\end{circuitikz}
+\end{document}
+```

@@ -11,5 +11,6 @@
   "minimal-style@@h3-l": false,
   "minimal-style@@h2-l": false,
   "minimal-style@@h1-l": true,
-  "minimal-style@@h4-size": "1em"
+  "minimal-style@@h4-size": "1em",
+  "Editor@@line-height-customize": 2
 }

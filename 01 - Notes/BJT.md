@@ -253,7 +253,7 @@ R_{IN(BASE)}=\frac{\beta_{DC}V_{B}}{I_{E}}
 $$
 Since the equation for the internal resistance depends on the base voltage $V_{B}$ and the emitter current $I_{E}$, for circuit analysis we can first assume the voltage divider is stiff to find $V_{B}$ and $I_{E}$, then use those values to calculate $R_{IN(BASE)}$. If $R_{IN(BASE)}\geq  10R_{2}$, then we know our assumption was correct. Else, our $V_{B}$ and $I_{E}$ will need to be recalculated using the calculated $R_{IN(BASE)}$.
 
-## Theveninizing the Voltage Divider
+### Theveninizing the Voltage Divider
 
 To make circuit analysis easier, the base-emitter circuit can be re-drawn as a [[Thévenin's Theorem|Théveninized]] circuit by applying Thévenin's theorem.
 ```tikz
@@ -273,7 +273,15 @@ to[R, l=$R_2$] ++(0,-2.5) node[ground](G){}
 \end{circuitikz}
 \end{document}
 ```
-
+We can Théveninize this circuit by applying the voltage divider rule.
+$$
+V_{Th}=V_{CC}\left(\frac{R_{2}}{R_{1}+R_{2}}\right)
+$$
+$R_{Th}$ can be found by finding the equivalent parallel resistance for $R_{1}$ and $R_{2}$.
+$$
+R_{Th}=\frac{R_{1}R_{2}}{R_{1}+R_{2}}
+$$
+Then we can redraw the circuit.
 ```tikz
 \usepackage{circuitikz}
 \begin{document}
@@ -289,3 +297,117 @@ node[npn, anchor=B, scale=1](Q){}
 \end{circuitikz}
 \end{document}
 ```
+Doing this allows us to more easily calculate the base current $I_{B}$.
+
+## Emitter Bias
+
+A transistor biased in emitter bias is very stable despite changes to $\beta$ or temperature. It requires both a positive and negative dc supply.
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{circuitikz}
+\ctikzset{resistors/scale=0.75, batteries/scale=0.8}
+\draw
+(0,0) node[ground]{}
+to[R, l=$R_B$] ++(2,0) node[npn, anchor=B](Q){}
+(Q.C) to[R, l=$R_C$] ++(0,2) node[ocirc, label=above:$V_{CC}$]{}
+(Q.E) to[R, l=$R_E$] ++(0,-2) node[ocirc, label=below:$V_{EE}$]{}
+;
+\end{circuitikz}
+\end{document}
+```
+The small base current causes the base $V_{B}$ to be slightly below ground. The voltage at the emitter is one diode drop (~$0.7\pu{ V}$) less than this. We can approximate then that the emitter voltage $V_{E}$ is $-1\pu{ V}$. We can therefore also approximate the emitter current as
+$$
+I_{E}\approx\frac{-V_{EE}-1\pu{ V}}{R_{E}}
+$$
+And since $I_{C}\approx I_{E}$,
+$$
+V_{C}\approx V_{CC}-I_{E}R_{C}
+$$
+In some cases however, this approximation of $I_{E}\approx-1\pu{ V}$ is not accurate enough. In this case, we can use [[Kirchhoff’s Voltage Law|KVL]] to find the emitter current.
+$$
+\begin{aligned}
+V_{EE}+V_{R_{B}}+V_{BE}+V_{R_{E}}&=0\pu{ V}\\
+V_{{EE}}+I_{B}R_{B}+V_{BE}+I_{E}R_{E}&=0\pu{ V}
+\end{aligned}
+$$
+Substituting $I_{B}\approx I_{E}/\beta_{DC}$,
+$$
+\begin{aligned}
+V_{{EE}}+\frac{I_{E}R_{B}}{\beta_{DC}}+V_{BE}+I_{E}R_{E}&=0\pu{ V}\\
+\end{aligned}
+$$
+Solving for $I_{E}$,
+$$
+\begin{aligned}
+\frac{I_{E}R_{B}}{\beta_{DC}}+I_{E}R_{E}&=-V_{EE}-V_{{BE}}\\
+I_{E}\left(\frac{R_{B}}{\beta_{DC}}+R_{E}\right)&=-V_{EE}-V_{BE}\\
+\end{aligned}
+$$
+$$
+\boxed{I_{E}=\frac{-V_{EE}-V_{BE}}{R_{E}+\frac{R_{B}}{\beta_{DC}}}}
+$$
+
+## Base Bias
+
+Base bias is common in switching circuits. It also is a simple circuit, requiring only one power source and one biasing resistor.
+
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{circuitikz}
+\ctikzset{resistors/scale=0.75, batteries/scale=0.8}
+\draw
+(0,0) node[ocirc, label=above:$V_{CC}$]{}
+to[short] ++(0,-0.5) node[circ](A){}
+(A) to[R, l=$R_C$] ++(0,-2) node[npn, anchor=C](Q){}
+(Q.B) to[R, l=$R_B$] ++(-2,0) node[](B){} to[short] (B |- A) to[short] (A)
+(Q.E) to[short] ++(0,-1) node[ground]{}
+;
+\end{circuitikz}
+\end{document}
+```
+By a KVL loop we see that,
+$$
+\boxed{V_{CE}=V_{CC}-I_{C}R_{C}}
+$$
+Our collector current $I_{C}$ can be found by seeing that the base current $I_{B}$ is given by
+$$
+I_{B}=\frac{V_{CC}-V_{BE}}{R_{B}}
+$$
+And since $I_{C}=\beta_{DC}I_{B}$,
+$$
+\boxed{I_{C}=\beta_{DC}\left(\frac{V_{CC}-V_{BE}}{R_{B}}\right)}
+$$
+This means that the collector current is very dependant on the transistor's $\beta_{DC}$, and variations in this parameter could mean large variations in the circuit's behaviour. This circuit therefore should not be used in cases where Q-point stability is required. Thus, this circuit is primarily used for switching where the transistor is in either saturation or cutoff, not in linear applications.
+
+## Emitter Feedback Bias
+
+If we add an emitter resistor to the base bias circuit, it becomes emitter feedback bias. This circuit is slightly more stable than base bias as it reduces the circuit's reliance on the $\beta_{DC}$ of the transistor.
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{circuitikz}
+\ctikzset{resistors/scale=0.75, batteries/scale=0.8}
+\draw
+(0,0) node[ocirc, label=above:$V_{CC}$]{}
+to[short] ++(0,-0.5) node[circ](A){}
+(A) to[R, l=$R_C$] ++(0,-2) node[npn, anchor=C](Q){}
+(Q.B) to[R, l=$R_B$] ++(-2,0) node[](B){} to[short] (B |- A) to[short] (A)
+(Q.E) to[R, l=$R_E$] ++(0,-2) node[ground]{}
+;
+\end{circuitikz}
+\end{document}
+```
+If we write the KVL equation,
+$$
+V_{CC}-I_{B}R_{B}-V_{BE}-I_{E}R_{E}=0\pu{ V}
+$$
+Then substitute $I_{B}= I_{E}/\beta_{DC}$ and isolate for $I_{E}$,
+$$
+\boxed{I_{E}=\frac{V_{CC}-V_{BE}}{R_{E}+\frac{R_{B}}{\beta_{DC}}}}
+$$
+$I_{E}$ is still dependant on $\beta_{DC}$ but much less so. This is very similar to the relationship we found in emitter bias.
+
+## Collector Feedback Bias
+

@@ -13,5 +13,5 @@ e=\lim_{ n \to \infty }\left(1+\frac{1}{n}\right)^n
 $$
 this definition has its roots in the idea of compounding interest. This number also has a definition as the sum of an [[Series|infinite series]], namely,
 $$
-e=\sum_{n=0}^\infty \frac{1}{n!}=1+\frac{1}{1}+\frac{1}{1\cdot 2}+\frac{1}{1\cdot 2\cdot 3}+\dots
+e=\sum_{n=0}^\infty \frac{1}{n!}=1+\frac{1}{1}+\frac{1}{2!}+\frac{1}{3!}+\dots
 $$

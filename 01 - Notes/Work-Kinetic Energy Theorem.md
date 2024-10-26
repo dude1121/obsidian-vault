@@ -1,0 +1,31 @@
+---
+tags:
+  - physics
+  - kinematics
+---
+The **work-kinetic energy theorem** is a theorem that links the concept of [[Work|work]] to [[Kinetic Energy|kinetic energy]].
+
+Consider the integral definition of work:
+$$
+W=\int_{\mathbf{r}_{i}}^{\mathbf{r}_{f}}\sum \mathbf{\vec{F}}\cdot d\mathbf{\vec{r}}
+$$
+Recalling [[Newton's Laws|Newton's second law]],
+$$
+\sum \mathbf{\vec{F}}=m\mathbf{\vec{a}}
+$$
+Substituting,
+$$
+W=\int_{\mathbf{r}_i}^{\mathbf{r}_{f}}m\mathbf{\vec{a}}\cdot d\mathbf{\vec{r}}
+$$
+Recall that [[Acceleration|acceleration]] is the [[Time|time]] [[Derivative|derivative]] of [[Velocity|velocity]] (and velocity is the time derivative of [[Position|position]]),
+$$
+W=\int_{\mathbf{r}_{i}}^{\mathbf{r}_{f}}m\frac{d\mathbf{\vec{v}}}{d\mathbf{\vec{r}}}\frac{d\mathbf{\vec{r}}}{dt}d\mathbf{\vec{r}}
+$$
+$$
+W=\int_{\mathbf{v}_{i}}^{\mathbf{v}_{f}}mv\ dv
+$$
+Evaluating the definite integral,
+$$
+W=\frac{1}{2}mv_{f}^2-\frac{1}{2}mv_{i}^2
+$$
+The quantity $\frac{1}{2}mv^2$ represents the energy associated with the [[Motion|motion]] of the particle. w

@@ -36,7 +36,7 @@
       }
     },
     {
-      "query": "tag:#classical-mechanics",
+      "query": "tag:#kinematics",
       "color": {
         "a": 1,
         "rgb": 14275360
@@ -74,6 +74,6 @@
   "repelStrength": 12.03125,
   "linkStrength": 1,
   "linkDistance": 141,
-  "scale": 0.200225830078125,
+  "scale": 0.45898045127079634,
   "close": true
 }

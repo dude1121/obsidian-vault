@@ -48,7 +48,7 @@ In a [[DC Electricity|dc]] circuit, the capacitor has two states: the transient 
 
 In this phase, the charges are deposited onto the plates of the capacitor. This continues until the voltage across the capacitor approaches (but will never truly equal) the [[Voltage Sources|source]] voltage. This relationship is [[Exponential|exponential]] which is why the capacitor will never truly equal the source voltage, but it will come very close to it, so close that we can assume they are in fact equal.
 
-The time it takes to charge the capacitor depends on two factors: the capacitance of the capacitor, and the resistance in the circuit. We can model voltage across the capacitor as a function of time by,
+The time it takes to charge the capacitor depends on two factors: the capacitance of the capacitor, and the resistance in the circuit. We can model voltage across the capacitor as a [[Function|function]] of time by,
 $$
 	v_C=E\left(1-e^{-t/\tau}\right)
 $$

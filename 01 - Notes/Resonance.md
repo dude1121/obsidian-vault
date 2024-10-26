@@ -81,7 +81,7 @@ $$
 ### Selectivity
 
 ![[series-resonance.png]]
-Above is a plot of the current through a given series resonant circuit as a function of frequency. As can be seen, at resonance frequency, $f_{s}$, the current is at a maximum. For this circuit in particular, that frequency is about $f=15\text{kHz}$. Note that this curve is not entirely symmetrical. This is due to the fact that while inductive reactance is linear, capacitive reactance is not, and the current vs frequency curve falls off much slower as $f\rightarrow \infty$ than as $f\rightarrow 0$. 
+Above is a plot of the current through a given series resonant circuit as a [[Function|function]] of frequency. As can be seen, at resonance frequency, $f_{s}$, the current is at a maximum. For this circuit in particular, that frequency is about $f=15\text{kHz}$. Note that this curve is not entirely symmetrical. This is due to the fact that while inductive reactance is linear, capacitive reactance is not, and the current vs frequency curve falls off much slower as $f\rightarrow \infty$ than as $f\rightarrow 0$. 
 ![[series-resonance-impedance.png]]
 The impedance vs frequency graph seems to mirror the current vs frequency graph, which makes sense since $\mathbf{I} \propto \mathbf{Z}^{-1}$. 
 

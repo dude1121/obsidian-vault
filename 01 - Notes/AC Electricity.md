@@ -13,7 +13,7 @@ tags:
 
 This type of waveform is the only type whose shape is unaffected by the response characteristics of [[Resistor|R]], [[Inductor|L]], or [[Capacitor|C]] components. If a sinusoidal voltage is applied across any of these elements, the resulting current will always also be sinusoidal. This is not the case with square or triangular waveforms.
 
-If we imagine the rotating voltage like a [[vector]] at the origin, the vertical (or $y$-coordinate) of that vector can be plotted as a function of time. The result is a sine wave. How quickly the vector spins is determined by its [[Angular Velocity|angular velocity]] $\omega$. The time to complete one rotation is equal to the waveform's [[period]]. Therefore,
+If we imagine the rotating voltage like a [[vector]] at the origin, the vertical (or $y$-coordinate) of that vector can be plotted as a [[Function|function]] of time. The result is a sine wave. How quickly the vector spins is determined by its [[Angular Velocity|angular velocity]] $\omega$. The time to complete one rotation is equal to the waveform's [[period]]. Therefore,
 
 $$
 \omega=\frac{2\pi}{T}

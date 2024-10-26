@@ -104,7 +104,7 @@ Assuming $v_{{L_1}}=0\text{V}$ when the switch $SW_{1}$ is closed, the inductor 
 
 Since the current prior to $t=0\text{s}$ was $0\text{A}$, the inductor will first attempt to maintain this state. Since the current in the entire circuit is also $0\text{A}$, the voltage across each of the resistors is $0\text{V}$ (since $V=IR$). By [[Kirchhoff’s Voltage Law|KVL]], then, we can conclude that at  $t=0\text{s}$, the voltage across the coil must equal the source voltage, $E_{S1}=v_{L1}$. As the current through the inductor begins to increase, the current in the circuit begins to increase, meaning the resistors develop a voltage drop across them, decreasing the voltage across the inductor. This will continue until the voltage across the inductor is $0\text{V}$ and the current through the inductor is its maximum value.
 
-The rate at which the voltage decreases (or, *decays*) and the current increases (or, *grows*) can be modeled the same way a capacitor's transient state is modeled, as an *[[Exponential|exponential]]* function.
+The rate at which the voltage decreases (or, *decays*) and the current increases (or, *grows*) can be modeled the same way a capacitor's transient state is modeled, as an [[Exponential Function|exponential function]].
 $$
 i_{L}=I_{Max}\left(e^{-t/\tau}\right)
 $$

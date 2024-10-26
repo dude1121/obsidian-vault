@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "f81044657b39885b",
+    "id": "e9c353420390f13e",
     "type": "split",
     "children": [
       {
-        "id": "39b5dd0e93efbf54",
+        "id": "553888cf0e579410",
         "type": "tabs",
         "children": [
           {
-            "id": "4dd48138ac903109",
+            "id": "3e5548ba1cad260c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "83ec332c123d2e7a",
+    "id": "0a39e1448ba8e048",
     "type": "split",
     "children": [
       {
-        "id": "315b2c38445e85d7",
+        "id": "16d29172a2902181",
         "type": "tabs",
         "children": [
           {
-            "id": "12261bf91ce98be6",
+            "id": "fea5a453b3d194fe",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -47,12 +47,12 @@
             }
           },
           {
-            "id": "086a477e73e223b8",
+            "id": "476cbd7c55adaa06",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "amps",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -64,7 +64,7 @@
             }
           },
           {
-            "id": "e6b4440ead6d559a",
+            "id": "ed37102a30c95a0a",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -77,52 +77,51 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
-    "id": "113826b82780db8b",
+    "id": "032c2202b7edfc9d",
     "type": "split",
     "children": [
       {
-        "id": "fd58e1bdb3e831f2",
+        "id": "eb42c152e08e8188",
         "type": "tabs",
         "children": [
           {
-            "id": "9befff544a4aec34",
+            "id": "8e7d61d93847d6d9",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 - Notes/H-Bridge.md",
-                "collapseAll": true,
+                "file": "01 - Notes/Electric Field.md",
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for H-Bridge"
+              "title": "Backlinks for Electric Field"
             }
           },
           {
-            "id": "8014d415a50488d1",
+            "id": "b32ccdeaf4694825",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hydrocarbon.md",
+                "file": "01 - Notes/Electric Field.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Hydrocarbon"
+              "title": "Outgoing links from Electric Field"
             }
           },
           {
-            "id": "67c83c97a79b2f5d",
+            "id": "83435347500718e2",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -135,19 +134,7 @@
             }
           },
           {
-            "id": "861582084fd73e54",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Hydrocarbon.md"
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Hydrocarbon"
-            }
-          },
-          {
-            "id": "99ee5747f1519c90",
+            "id": "2bde7999613ed52f",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -161,32 +148,22 @@
             }
           },
           {
-            "id": "bfab1c9177c6c93c",
+            "id": "cf499ad75f7e510f",
             "type": "leaf",
             "state": {
-              "type": "file-properties",
+              "type": "outline",
               "state": {
-                "file": "Hydrocarbon.md"
+                "file": "01 - Notes/Electric Field.md"
               },
-              "icon": "lucide-info",
-              "title": "File properties for Hydrocarbon"
-            }
-          },
-          {
-            "id": "6190c3b7b9f2e8ed",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "lucide-list",
+              "title": "Outline of Electric Field"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 236.5,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
@@ -201,54 +178,6 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4dd48138ac903109",
-  "lastOpenFiles": [
-    "01 - Notes/BJT.md",
-    "01 - Notes/H-Bridge.md",
-    "01 - Notes/Hydrocarbon.md",
-    "01 - Notes/Hydrogen.md",
-    "Hydrocarbon.md",
-    "01 - Notes/Units of Measurement.md",
-    "01 - Notes/Arsenic.md",
-    "01 - Notes/Chemical Reaction.md",
-    "01 - Notes/Oxidation State.md",
-    "01 - Notes/Water.md",
-    "01 - Notes/Solubility.md",
-    "01 - Notes/Ammonium.md",
-    "01 - Notes/Ammonia.md",
-    "01 - Notes/Electrolytes.md",
-    "01 - Notes/Solution.md",
-    "01 - Notes/Polyatomic Ion.md",
-    "02 - Pictures/water-dissolving-salt.png",
-    "01 - Notes/Atom.md",
-    "01 - Notes/Atomic Mass Unit.md",
-    "01 - Notes/Ion.md",
-    "01 - Notes/Ionic Compound.md",
-    "01 - Notes/Nucleus.md",
-    "01 - Notes/OLED.md",
-    "01 - Notes/LED.md",
-    "01 - Notes/Branch Current Analysis.md",
-    "01 - Notes/Element (Chemistry).md",
-    "01 - Notes/Periodic Table.md",
-    "02 - Pictures/periodic-table.png",
-    "02 - Pictures/signal-cutoff.png",
-    "02 - Pictures/zener-diode-biasing.png",
-    "02 - Pictures/voltage vs time capacitor charge.png",
-    "02 - Pictures/Thevenin 1d.png",
-    "02 - Pictures/Thevenin 1c.png",
-    "02 - Pictures/Thevenin 1b.png",
-    "02 - Pictures/Thevenin 1a.png",
-    "02 - Pictures/Superposition 1c.png",
-    "02 - Pictures",
-    "01 - Notes",
-    "Physics/Electromagnetism/pictures/~syncthing~parallel-resonance-impedance.png.tmp",
-    "Books/Philosophy/~syncthing~Apology.md.tmp",
-    "Books/Philosophy/~syncthing~Piety.md.tmp",
-    "Books/Philosophy/~syncthing~Impiety.md.tmp",
-    "~syncthing~Piety.md.tmp",
-    "Physics/Electromagnetism/Circuit Analysis/~syncthing~Branch Current Analysis.md.tmp",
-    "Books/Philosophy/~syncthing~Euthyphro.md.tmp",
-    "Books/Philosophy/~syncthing~Five Dialogues.md.tmp",
-    "Untitled.canvas"
-  ]
+  "active": "3e5548ba1cad260c",
+  "lastOpenFiles": []
 }

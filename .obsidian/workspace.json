@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Notes/BJT.md",
+                "file": "01 - Notes/Electric Field.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BJT"
+              "title": "Electric Field"
             }
           }
         ]
@@ -203,6 +203,7 @@
   },
   "active": "4dd48138ac903109",
   "lastOpenFiles": [
+    "01 - Notes/BJT.md",
     "01 - Notes/H-Bridge.md",
     "01 - Notes/Hydrocarbon.md",
     "01 - Notes/Hydrogen.md",
@@ -230,7 +231,6 @@
     "01 - Notes/Element (Chemistry).md",
     "01 - Notes/Periodic Table.md",
     "02 - Pictures/periodic-table.png",
-    "01 - Notes/Nitrogen.md",
     "02 - Pictures/signal-cutoff.png",
     "02 - Pictures/zener-diode-biasing.png",
     "02 - Pictures/voltage vs time capacitor charge.png",

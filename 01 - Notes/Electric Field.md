@@ -10,7 +10,7 @@ The **Electric Field** is a [[Field Force|field force]] that exists in the regio
 $$
 	\vec{E}=\frac{\vec{F_e}}{q_0}
 $$
-$\vec{E}$ has the units $\text{N}/\text{C}$. Note that $\vec{E}$ is the field *produced by* some charge *separate* from the test charge; it is not the field produced by the test charge itself. Also note that the presence of the test charge is not necessary for the field to exist. The test charge serves as a *detector* of the electric field that exists due to the source charge regardless of the existence of the test charge.
+$\vec{E}$ has the units $[\pu{ N/C}]$. Note that $\vec{E}$ is the field *produced by* some charge *separate* from the test charge; it is not the field produced by the test charge itself. Also note that the presence of the test charge is not necessary for the field to exist. The test charge serves as a *detector* of the electric field that exists due to the source charge regardless of the existence of the test charge.
 
 To find the strength of the electric field created by a charged particle at some given point, we can combine the equation above with [[Coulomb's Law]]. Recall that Coulomb's Law states:
 $$

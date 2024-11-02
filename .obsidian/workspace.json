@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Notes/Work.md",
+                "file": "01 - Notes/Electric Field.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Work"
+              "title": "Electric Field"
             }
           },
           {
@@ -45,7 +45,8 @@
               "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -101,7 +102,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "032c2202b7edfc9d",
@@ -136,12 +138,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 - Notes/Work-Kinetic Energy Theorem.md",
+                "file": "01 - Notes/Electric Field.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Work-Kinetic Energy Theorem"
+              "title": "Outgoing links from Electric Field"
             }
           },
           {
@@ -202,8 +204,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3e5548ba1cad260c",
+  "active": "4a642190edadb120",
   "lastOpenFiles": [
+    "01 - Notes/Reactance.md",
+    "01 - Notes/Power Factor.md",
+    "01 - Notes/Kinetic Energy.md",
+    "01 - Notes/Energy.md",
+    "01 - Notes/Law of Conservation of Energy.md",
     "01 - Notes/Work.md",
     "01 - Notes/Work-Kinetic Energy Theorem.md",
     "01 - Notes/Hooke's Law.md",
@@ -224,8 +231,6 @@
     "01 - Notes/Speed.md",
     "01 - Notes/Distance.md",
     "01 - Notes/Projectile Motion.md",
-    "01 - Notes/Motion under Constant Acceleration.md",
-    "01 - Notes/Motion under Constant Velocity.md",
-    "01 - Notes/Electric Field.md"
+    "01 - Notes/Motion under Constant Acceleration.md"
   ]
 }

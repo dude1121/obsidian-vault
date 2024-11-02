@@ -28,4 +28,13 @@ Evaluating the definite integral,
 $$
 W=\frac{1}{2}mv_{f}^2-\frac{1}{2}mv_{i}^2
 $$
-The quantity $\frac{1}{2}mv^2$ represents the energy associated with the [[Motion|motion]] of the particle. w
+The quantity $\frac{1}{2}mv^2$ represents the energy associated with the [[Motion|motion]] of the particle. This is therefore known as the particle's *kinetic energy*. 
+$$
+K=\frac{1}{2}m\mathbf{\vec{v}}^2
+$$
+The work-kinetic energy theorem therefore states:
+
+>[!quote] Work-Kinetic Energy Theorem
+>When work is done on a system and the only change in the system is in its [[Speed|speed]], the net work done on the system equals the change in kinetic energy of the system.
+
+Note though that this theorem only holds for [[Conservative Force|conservative forces]] since the work done by conservative forces is the same regardless of the path taken. [[Nonconservative Force|Nonconservative forces]] on the other hand are path-dependent, and the work done will vary on the path. 

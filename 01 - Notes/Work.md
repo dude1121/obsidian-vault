@@ -11,3 +11,5 @@ $$
 W=\int_{\mathbf{r}_{i}}^{\mathbf{r}_f} \sum\mathbf{\vec{F}}\cdot d\mathbf{\vec{r}}
 $$
 where $d\mathbf{\vec{r}}$ is a small change in the position vector. This formula is especially useful if the force is time-varying. Work can be related to [[Kinetic Energy|kinetic energy]] by the [[Work-Kinetic Energy Theorem|work-kinetic energy theorem]]. 
+
+It is important to note, however, that this relationship only holds if the net force $\sum F$ is [[Conservative Force|conservative]], since conservative forces do not vary according to the path taken. [[Nonconservative Force|Nonconservative forces]] do, so a more intricate path would have more work done than a shorter, more concise path. 

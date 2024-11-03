@@ -3,7 +3,7 @@ tags:
   - physics
   - kinematics
 ---
-**Kinetic energy** is a form of [[Energy|energy]] that an object possesses while it is in [[Motion|motion]]. As a form of energy, it is measured in [[Joule|joules]] $[\pu{ J}]$. Kinetic energy can be transferred between objects and transformed into other forms of energy. For non-rotating objects, kinetic energy is given by
+**Kinetic energy** is a form of [[Energy|energy]] that an object possesses while it is in [[Motion|motion]]. As a form of energy, it is measured in [[Joule|joules]] $[\pu{ J}]$ and is typically denoted with a $K$ or $T$. Kinetic energy can be transferred between objects and transformed into other forms of energy. For non-rotating objects, kinetic energy is given by
 $$
 K=\frac{1}{2}m\mathbf{\vec{v}}^2
 $$

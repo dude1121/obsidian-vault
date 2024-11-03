@@ -34,6 +34,10 @@ So long as the [[Speed|speed]] of the object is much less than the [[Speed of Li
 $$
 \sum \mathbf{\vec{F}}=m\mathbf{\vec{a}}
 $$
+Interestingly, this is not the original wording of this law. Newton originally described his second law with the relation that the net force was directly proportional to the time [[Derivative|rate of change]] of an object's [[Linear Momentum|linear momentum]].
+$$
+\sum \mathbf{\vec{F}}=\frac{d\mathbf{\vec{p}}}{dt}
+$$
 # Third Law
 
 The third law is often stated as "every action has an equal and opposite reaction". Expressing this more directly,

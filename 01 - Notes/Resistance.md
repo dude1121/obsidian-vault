@@ -6,7 +6,7 @@ tags:
   - physics
   - georg-ohm
 ---
-💡 **Resistance** is the opposition to the flow of charge. It is one form of opposition, along with **[[Reactance]]** and **[[impedance]]**. It is [[Units of Measurement|measured]] in [[Ohms|ohms]] $[\Omega]$ after the German physicist Georg Ohm. Resistance shares an inverse relationship with [[Conductance|conductance]].
+💡 **Resistance** is the opposition to the flow of charge. It is one form of opposition, along with **[[Reactance]]** and **[[impedance]]**. It is [[Units of Measurement|measured]] in [[Ohm|ohms]] $[\Omega]$ after the German physicist Georg Ohm. Resistance shares an inverse relationship with [[Conductance|conductance]].
 
 The resistance of a material is proportional to its length and inversely proportional to its cross-sectional area.
 $$ R\propto\frac{\ell}{A} $$

@@ -3,7 +3,7 @@ tags:
   - electromagnetism
   - physics
 ---
-**Impedance** is the total opposition to the flow of [[Charge|charge]] within a circuit. It is made up of both [[Resistance|resistance]] and [[Reactance|reactance]]. Impedance is a [[Vector|vector]] but crucially it is *not* a [[Phasor|phasor]] since it is constant and not time-varying. Impedance is denoted using $Z$ and it is [[Units of Measurement|measured]] in [[Ohms]] $[\Omega]$. The inverse of impedance is [[Admittance|admittance]].
+**Impedance** is the total opposition to the flow of [[Charge|charge]] within a circuit. It is made up of both [[Resistance|resistance]] and [[Reactance|reactance]]. Impedance is a [[Vector|vector]] but crucially it is *not* a [[Phasor|phasor]] since it is constant and not time-varying. Impedance is denoted using $Z$ and it is [[Units of Measurement|measured]] in [[Ohm]] $[\Omega]$. The inverse of impedance is [[Admittance|admittance]].
 $$
 Z=R+jX
 $$

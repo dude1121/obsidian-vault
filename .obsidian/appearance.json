@@ -1,11 +1,12 @@
 {
-  "accentColor": "#eb6105",
+  "accentColor": "#f04f0a",
   "enabledCssSnippets": [
     "main"
   ],
-  "baseFontSize": 16,
-  "cssTheme": "Border",
+  "baseFontSize": 14,
+  "cssTheme": "Catppuccin",
   "theme": "obsidian",
   "interfaceFontFamily": "Hasklug Nerd Font",
-  "textFontFamily": "Hasklug Nerd Font"
+  "textFontFamily": "Hasklug Nerd Font",
+  "baseFontSizeAction": true
 }

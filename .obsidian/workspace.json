@@ -13,12 +13,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Notes/Avogadro's Number.md",
+                "file": "01 - Notes/Noise.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Avogadro's Number"
+              "title": "Noise"
+            }
+          },
+          {
+            "id": "6d79848facfdf1e4",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -94,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 - Notes/Avogadro's Number.md",
+                "file": "01 - Notes/Noise.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Avogadro's Number"
+              "title": "Backlinks for Noise"
             }
           },
           {
@@ -113,12 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 - Notes/Impulse.md",
+                "file": "01 - Notes/Communication System.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Impulse"
+              "title": "Outgoing links from Communication System"
             }
           },
           {
@@ -154,10 +164,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 - Notes/Electric Field.md"
+                "file": "01 - Notes/Communication System.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Electric Field"
+              "title": "Outline of Communication System"
             }
           }
         ]
@@ -180,31 +190,33 @@
   },
   "active": "3e5548ba1cad260c",
   "lastOpenFiles": [
-    "01 - Notes/Impulse.md",
+    "01 - Notes/Energy.md",
+    "01 - Notes/Noise.md",
+    "01 - Notes/Communication System.md",
+    "01 - Notes/Decibel.md",
+    "01 - Notes/Watt.md",
+    "01 - Notes/Ohm.md",
+    "01 - Notes/Power.md",
+    "01 - Notes/Amperes.md",
+    "01 - Notes/Volts.md",
+    "01 - Notes/Transceiver.md",
+    "02 - Pictures/communication-system-block-diagram.png",
+    "02 - Pictures/2024-11-24-192650_hyprshot.png",
+    "01 - Notes/Receiver.md",
+    "01 - Notes/Transmitter.md",
+    "01 - Notes/Transducer.md",
+    "01 - Notes/Frequency.md",
+    "01 - Notes/Modulation.md",
+    "01 - Notes/Intelligence.md",
+    "01 - Notes/Carrier.md",
+    "01 - Notes/Channel.md",
+    "01 - Notes/Friction.md",
+    "01 - Notes/Solar Cell.md",
     "01 - Notes/Avogadro's Number.md",
+    "01 - Notes/Impulse.md",
     "01 - Notes/Linear Momentum.md",
     "01 - Notes/Newton's Laws.md",
     "01 - Notes/Fundamental Theorem of Calculus.md",
-    "01 - Notes/Integral.md",
-    "01 - Notes/Derivative.md",
-    "01 - Notes/Potential Energy.md",
-    "Conservative Force.md",
-    "01 - Notes/Kinetic Energy.md",
-    "01 - Notes/Work-Kinetic Energy Theorem.md",
-    "01 - Notes/Electric Field.md",
-    "01 - Notes/Reactance.md",
-    "01 - Notes/Power Factor.md",
-    "01 - Notes/Energy.md",
-    "01 - Notes/Law of Conservation of Energy.md",
-    "01 - Notes/Work.md",
-    "01 - Notes/Hooke's Law.md",
-    "01 - Notes/Nonuniform Circular Motion.md",
-    "01 - Notes/Uniform Circular Motion.md",
-    "01 - Notes/Standard Temperature and Pressure.md",
-    "01 - Notes/Force.md",
-    "01 - Notes/Alkaline Earth Metal.md",
-    "01 - Notes/Piety.md",
-    "01 - Notes/Gravitational Force.md",
-    "01 - Notes/Inertia.md"
+    "01 - Notes/Integral.md"
   ]
 }

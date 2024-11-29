@@ -43,6 +43,13 @@
       }
     },
     {
+      "query": "tag:#telecommunications",
+      "color": {
+        "a": 1,
+        "rgb": 14616327
+      }
+    },
+    {
       "query": "tag:#physics  ",
       "color": {
         "a": 1,
@@ -65,7 +72,7 @@
     }
   ],
   "collapse-display": false,
-  "showArrow": false,
+  "showArrow": true,
   "textFadeMultiplier": -0.5,
   "nodeSizeMultiplier": 1.10902926481085,
   "lineSizeMultiplier": 1,
@@ -74,6 +81,6 @@
   "repelStrength": 12.03125,
   "linkStrength": 1,
   "linkDistance": 141,
-  "scale": 0.13599420778393956,
+  "scale": 0.09066280518929298,
   "close": true
 }

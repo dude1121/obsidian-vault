@@ -6,7 +6,7 @@ Power is the time rate of [[Energy|energy]] transfer and it is defined as
 $$
 	\mathscr{P}=\frac{dE}{dt}=\dot{E}
 $$
-In some branches of physics, power is denoted with a scripted $\mathscr{P}$ as above, but in fields like electricity it is often denoted as a normal $P$. The [[Units of Measurement|unit]] of power is the Watt \[$\text{W}$] which is defined as 
+In some branches of physics, power is denoted with a scripted $\mathscr{P}$ as above, but in fields like electricity it is often denoted as a normal $P$. The [[Units of Measurement|unit]] of power is the [[Watt]] \[$\text{W}$] which is defined as 
 $$
 	1\text{W}=1\text{J}\cdot\text{s}^{-1}=1\text{kg}\cdot\text{m}^2\cdot\text{s}^{-3}
 $$

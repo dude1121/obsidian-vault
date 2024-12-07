@@ -5,7 +5,7 @@ tags:
   - magnetic-circuits
 ---
 
-**Magnetic flux** is a way of [[Units of Measurement|measuring]] how strong a [[Magnetic Field|magnetic field]] is at a certain point. It is measured in [[Webers|webers]] $[\text{Wb}]$. It is related to the magnitude of a magnetic field by,
+**Magnetic flux** or **magnetic flux density** is a way of [[Units of Measurement|measuring]] how strong a [[Magnetic Field|magnetic field]] is at a certain point. It is measured in [[Webers|webers]] $[\text{Wb}]$. It is related to the magnitude of a magnetic field by,
 $$
 B=\frac{\Phi}{A}
 $$

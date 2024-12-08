@@ -4,6 +4,12 @@ tags:
   - electrical-engineering
 ---
 A **dc machine** is an [[Electrical Machine|electrical machine]] that runs on [[DC Electricity|dc electricity]]. It can be operated as either a [[Generator|generator]] or a [[Motor|motor]].
+
+Dc machines typically consist of a *field winding*, and an *armature winding*. The field winding generates the magnetic field that allows a voltage to be induced in the conductors in the armature. In permanent magnet dc machines, there is no field winding. The armature winding is the winding that is either the output of a generator or the input to a motor. 
+
+Some machines also include a *compensation winding* which serves to combat *armature reaction*. Armature reaction is when the current present in the armature conductors generates an mmf counter to the establish field. This has the effect of "curving" the magnetic field around the armature and shifting the neutral plane. To counteract this, compensation windings are added in series with the armature winding to generate an mmf that effectively "cancels out" the armature reaction, restoring the neutral plane.
+
+A final winding sometimes seen in dc machines is the *series winding*. This winding is discussed in the wiring methods section.
 # As a Generator
 
 In a dc generator, a conductor is put in a magnetic field. Some external force rotates this conductor, such that it induces a [[voltage]] in the conductor. This voltage is given by,
@@ -53,6 +59,8 @@ A self-excited dc generator (also called a *shunt* excited generator, since shun
 
 This process works because of *residual magnetism*. When a generator is operated, the iron core becomes magnetized. But when the power is shut off, the iron is not fully demagnetized (see [[Hysteresis|hysteresis]]). This residual magnetism allows there to be a weaker magnetic field through the poles, allowing the generator to generate some voltage. This voltage in turn is fed into the field windings which strengthen the magnetic field at the poles, generating an even larger voltage, until the core is saturated.
 
+If the motor has lost some of its residual magnetism, or is magnetized in the opposite polarity, this method may not work, and the core will need to be re-magnetized.
+
 The trade off with this configuration is that a self-excited generator's output voltage will tend to drop as load is increased. This is because as the terminal voltage drops, the field current drops as well, reduced the generated $\Phi$. The voltage regulation of a self-excited generator is around 15%.
 
 ### Compound
@@ -77,7 +85,7 @@ However, applying the entire source voltage across the armature at once would ca
 ![[dc-motor-starter.png]]
 As the arm moves along the contacts, the effective resistance in the armature circuit decreases until there is only the base winding resistance. This ensures that the starting current is not too high for the machine. The [[Solenoid|solenoid]] at position 4 holds the contact arm in place as long as there is a field in place. If, for whatever reason, the field circuit opens or loses power, the arm is let go by the magnet and the motor is de-energized.
 
-Another solution to the starting problem is electronic methods like [[Variable Frequency Drive|VFDs]] or solid-state solutions.
+Another, more common, solution to the starting problem is electronic methods like [[Variable Frequency Drive|VFDs]] or solid-state solutions. These are much more popular today.
 
 ## Counter-emf
 
@@ -94,6 +102,58 @@ $$
 I_{A}=\frac{E_{s}-E_{o}}{R_{A}}
 $$
 will decrease as the speed of the motor increases. However, the motor can not accelerate infinitely. It will settle around a no-load maximum speed such that $E_{o}$ is slightly less than $E_{s}$ (if $E_{o}=E_{s}$, then the armature net voltage would be $0\pu{ V}$, meaning no current would be present and therefore no force would act on the conductors, causing the motor to slow down). When under load, the motor will run at a speed that allows $I_{A}$ to generate the correct amount of [[Torque|torque]] to match the load torque.
+
+This counter-emf prevents the motor from overheating by regulating the armature current. However, in starting conditions or if the motor stalls, the lack of relative motion means that no back-emf is generated, eliminating the restraint on the armature current, thus possibly causing damage to the motor if there is no thermal overload protection.
+
+### Torque and Current Relationship
+
+Since,
+$$
+P_o=\frac{n\tau \pi}{30}=E_{o}I
+$$
+and,
+$$
+E_{o}=\frac{Zn\Phi}{60}
+$$
+then,
+$$
+\begin{aligned}
+\frac{n\tau \pi}{30}&=\frac{Zn\Phi I}{60}\\
+\tau&=\frac{30Zn\Phi I}{60\pi n}\\
+\Aboxed{\tau&=\frac{Z\Phi I}{2\pi}}\\
+\end{aligned}
+$$
+From this we can see that $\tau \propto I$. It is because of this relationship that a greater armature current translates to a greater motor torque.
+
+## Stopping the Motor
+
+The motor can be stopped in one of two distinct ways: plugging and dynamic braking.
+
+### Plugging
+
+Plugging a motor is a method of rapidly stopping a motor by suddenly reversing the polarity of the armature and therefore reversing the armature current. This inversion of the armature voltage causes the source voltage $E_{s}$ and the counter-emf $E_{o}$ no longer opposing one another but actually *aiding* one another, resulting in a very large armature current. If not kept under control, this large current would result in arcing and damage to the motor.
+
+To prevent this, we limit the reverse current by adding a resistor in series with the reversing circuit. 
+![[plugging-motor.png]]
+However, once the motor stops the reversing circuit needs to be opened otherwise the motor will begin to run in the opposite direction. This method is able to stop the motor after two [[Time Constant|time constants]] (see dynamic braking below), which is much faster than dynamic braking. However, dynamic braking is simpler to implement, and is a much more popular solution. Plugging is also very hard on the motor and can generate significant heat and stress in motor components. 
+
+### Dynamic Braking
+
+In contrast to plugging, dynamic braking is much slower way of slowing a motor but it is easier to implement. Instead of quickly reversing the polarity of the armature, we instead remove the voltage source and place a load resistor across the armature terminals, briefly turning the motor into a generator until it runs out of energy and comes to rest. 
+![[dynamic-braking.png]]
+This causes a current to flow through the armature and resistor, but crucially this new current $I_{2}$ is in the opposite direction than previously, causing a reverse torque that brings the motor to a stop.
+
+#### Mechanical Time Constant
+
+The time it takes for a motor to stop due to dynamic braking can be determined by use of a time constant, $\tau$. Typically a time constant is the time it takes for a value to fall (or rise) to 36.8% of its previous value. In this case, it is more helpful to define a new time constant, $\tau_{o}$, that is the time it takes for the speed of the motor to fall to $\frac{1}{2}$ its previous value. This time constant is equal to the standard time constant by the relationship,
+$$
+\tau_{o}=\ln2\cdot\tau
+$$
+If we assume that the braking effect is entirely due to the energy lost in the braking resistor, we can define an expression for our new one-half time constant.
+$$
+\tau_{o}=\frac{Jn_{1}^2\ln2}{\left( \frac{30}{\pi} \right)^2P_{1}}
+$$
+where $J$ is the [[Moment of Inertia|moment of inertia]] for the rotating parts in [[Kilogram|kilogram]]-[[Metre|metres]] squared $[\pu{ kg\cdot m^2}]$, $n_{1}$ is the initial speed of the motor before the braking is applied in $[\pu{ rpm}]$, and $P_{1}$ is the initial power delivered to the braking resistor in [[Watt|watts]] $[\pu{ W}]$.
 
 ---
 [^1]: Technically to find the induced [[emf]] you would need to rearrange [[Lorentz Force Law|Lorenz's law]] but for practical cases only the maximum induced emf is important, which occurs when the three position vectors are perpendicular to one another. 

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Notes/Generator.md",
+                "file": "01 - Notes/Synchronous Machine.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Generator"
+              "title": "Synchronous Machine"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Notes/DC Machine.md",
+                "file": "01 - Notes/Induction Machine.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DC Machine"
+              "title": "Induction Machine"
             }
           },
           {
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 - Notes/DC Machine.md",
+                "file": "01 - Notes/Induction Machine.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for DC Machine"
+              "title": "Backlinks for Induction Machine"
             }
           },
           {
@@ -205,29 +205,32 @@
   },
   "active": "c4c7e22dae2d4254",
   "lastOpenFiles": [
+    "01 - Notes/Motor.md",
+    "01 - Notes/Induction Machine.md",
+    "01 - Notes/DC Machine.md",
+    "01 - Notes/Generator.md",
+    "01 - Notes/Synchronous Machine.md",
+    "01 - Notes/Time Constant.md",
+    "02 - Pictures/plugging-motor.png",
+    "02 - Pictures/plugging.png",
+    "02 - Pictures/2024-12-07-234545_hyprshot.png",
+    "02 - Pictures/dynamic-braking.png",
+    "02 - Pictures/2024-12-07-234315_hyprshot.png",
+    "02 - Pictures/2024-12-07-232314_hyprshot.png",
     "02 - Pictures/dc-motor-starter.png",
     "02 - Pictures/2024-12-07-124703_hyprshot.png",
-    "01 - Notes/Generator.md",
-    "01 - Notes/DC Machine.md",
     "01 - Notes/Lorentz Force Law.md",
     "01 - Notes/Electrical Machine.md",
     "01 - Notes/Transformer.md",
     "02 - Pictures/ideal-transformer.png",
     "02 - Pictures/2024-12-07-113336_hyprshot.png",
     "01 - Notes/Magnetic Circuit.md",
-    "02 - Pictures/transformer-magnetic-circuit.png",
-    "02 - Pictures/magnetic-circuit-diagram.png",
-    "02 - Pictures/magnetic-circuit.png",
     "01 - Notes/Solenoid.md",
     "01 - Notes/Inductance.md",
     "01 - Notes/Untitled.md",
     "01 - Notes/Hysteresis.md",
     "01 - Notes/Magnetic Flux.md",
-    "02 - Pictures/magnetic-hysteresis.png",
-    "02 - Pictures/2024-12-06-111523_hyprshot.png",
     "01 - Notes/Magnetic Field.md",
-    "02 - Pictures/no-load-sep-excited-v-vs-ix.png",
-    "02 - Pictures/2024-12-06-110259_hyprshot.png",
     "01 - Notes/Commutator.md",
     "01 - Notes/Organizational Structure.md",
     "01 - Notes/Leadership.md",
@@ -237,9 +240,6 @@
     "01 - Notes/Stakeholder.md",
     "01 - Notes/Organizational Culture.md",
     "01 - Notes/Business Case.md",
-    "01 - Notes/Project Communication.md",
-    "01 - Notes/Constraint.md",
-    "01 - Notes/Process.md",
-    "01 - Notes/Transmission Line.md"
+    "01 - Notes/Project Communication.md"
   ]
 }

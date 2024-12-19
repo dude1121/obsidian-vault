@@ -34,7 +34,7 @@ Power Rule:
 $$
 \frac{d}{dx}x^{n}=nx^{n-1}
 $$
-Constant Rule (assuming $A$ is some [[Constant|constant]] that does not vary with time):
+Constant Rule (assuming $A$ is some [[Constant|constant]] that does not vary with $x$):
 $$
 \frac{d}{dx}A=0
 $$

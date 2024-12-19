@@ -75,7 +75,7 @@ A special case of the compound generator is the differential compound generator,
 
 # As a Motor
 
-As a motor the dc machine operates very similarly to the dc generator. Instead of an external force providing the relative motion in the armature, a voltage is applied to the armature and the field windings to generate this motion.
+As a motor the dc machine operates very similarly to the dc generator. Instead of an external force providing the relative motion in the armature, a voltage is applied to the armature and the field windings to generate this motion. The following describes a *brushed dc motor*. See [[Brushless DC Motor|here]] for brushless dc motors.
 
 ## Starting the Motor
 

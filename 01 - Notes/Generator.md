@@ -25,4 +25,4 @@ for single phase, or
 $$
 P_{o}=3E_{\Phi}I_{\Phi}
 $$
-for three phase. 
+for three phase.

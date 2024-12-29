@@ -114,5 +114,9 @@ The copper rings produce a slight delay in the magnetic flux, which induces moti
 ### Universal Motor
 
 Universal motors are very similar to [[DC Machine|dc series motors]] and can operate on either ac or [[DC Electricity|dc]] with no change to its torque-speed curve (hence the name *universal*). The field and the armature are connected in series, which means that when connected to an ac source the field and armature flip polarity at the same time, meaning the direction of rotation never changes. This machine does not produce a revolving field, instead operating on the same principle as a dc machine.
-
+![[universal-motor.png]]
 These motors have high speeds and high starting torque which lends them well to uses in vacuum cleaners or portable tools like saws and drills. No load speeds ranging from $5000\pu{ rpm}-15000\pu{ rpm}$ are possible with these motors, but as with any series motor, the speed decreases with an increase in load torque. Universal motors are however very noisy and require more maintenance than other types of motors. 
+
+### Hysteresis Motor
+
+The hysteresis motor 

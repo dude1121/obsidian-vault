@@ -1,38 +1,24 @@
 {
   "main": {
-    "id": "e9c353420390f13e",
+    "id": "755a038cdc4a64e7",
     "type": "split",
     "children": [
       {
-        "id": "51fa55f4adcde2aa",
+        "id": "3cd0169ab1913e52",
         "type": "tabs",
         "children": [
           {
-            "id": "f4fc6546c873f290",
+            "id": "74ed12f838626362",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Notes/Transistor.md",
+                "file": "01 - Notes/Linear Momentum.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Transistor"
-            }
-          },
-          {
-            "id": "6d8dec01e4f1e832",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - Notes/Collision.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Collision"
+              "title": "Linear Momentum"
             }
           }
         ]
@@ -41,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "0a39e1448ba8e048",
+    "id": "4d671a6873f9760e",
     "type": "split",
     "children": [
       {
-        "id": "16d29172a2902181",
+        "id": "03181f2b68310d84",
         "type": "tabs",
         "children": [
           {
-            "id": "fea5a453b3d194fe",
+            "id": "93fca07d514028a9",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -61,7 +47,7 @@
             }
           },
           {
-            "id": "476cbd7c55adaa06",
+            "id": "617ce96408d834ef",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -78,7 +64,7 @@
             }
           },
           {
-            "id": "ed37102a30c95a0a",
+            "id": "ffbc0effbc21063e",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -91,28 +77,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
-    "id": "032c2202b7edfc9d",
+    "id": "e9b292d34ab8b0bc",
     "type": "split",
     "children": [
       {
-        "id": "eb42c152e08e8188",
+        "id": "a428b6edcecd806e",
         "type": "tabs",
         "children": [
           {
-            "id": "8e7d61d93847d6d9",
+            "id": "243fa4002dabbe7a",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "01 - Notes/Induction Machine.md",
-=======
-                "file": "01 - Notes/Collision.md",
->>>>>>> laptop
+                "file": "01 - Notes/Linear Momentum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,25 +103,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Collision"
+              "title": "Backlinks for Linear Momentum"
             }
           },
           {
-            "id": "b32ccdeaf4694825",
+            "id": "b27354a113782e00",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 - Notes/Impulse.md",
+                "file": "01 - Notes/Linear Momentum.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Impulse"
+              "title": "Outgoing links from Linear Momentum"
             }
           },
           {
-            "id": "83435347500718e2",
+            "id": "fa9419bef7ab8e48",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -153,7 +134,7 @@
             }
           },
           {
-            "id": "2bde7999613ed52f",
+            "id": "77d90bde638c5cb3",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -167,22 +148,22 @@
             }
           },
           {
-            "id": "cf499ad75f7e510f",
+            "id": "1dbea5489449eeeb",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 - Notes/Electric Field.md"
+                "file": "01 - Notes/Linear Momentum.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Electric Field"
+              "title": "Outline of Linear Momentum"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 220,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
@@ -197,41 +178,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6d8dec01e4f1e832",
+  "active": "74ed12f838626362",
   "lastOpenFiles": [
-    "02 - Pictures/two-dimensional-collision.png",
-    "01 - Notes/Impulse.md",
-    "01 - Notes/Collision.md",
-    "01 - Notes/Linear Momentum.md",
-    "01 - Notes/Law of Conservation of Linear Momentum.md",
-    "01 - Notes/Transistor.md",
-    "01 - Notes/Brushless DC Motor.md",
-    "01 - Notes/Stepper Motor.md",
-    "02 - Pictures/brushless-dc-controller.png",
-    "02 - Pictures/2024-12-19-150357_hyprshot.png",
-    "02 - Pictures/brushless-dc-motor.png",
-    "02 - Pictures/2024-12-19-150057_hyprshot.png",
-    "01 - Notes/DC Machine.md",
-    "01 - Notes/Generator.md",
-    "01 - Notes/Induction Machine.md",
-    "01 - Notes/Microprocessor.md",
-    "01 - Notes/Derivative.md",
-    "01 - Notes/Microcontroller.md",
-    "01 - Notes/Units of Measurement.md",
-    "01 - Notes/Permeability.md",
-    "01 - Notes/Rectifier.md",
-    "02 - Pictures/stepper-oscillation-viscous.png",
-    "02 - Pictures/stepper-oscillation-load.png",
-    "02 - Pictures/stepper-oscillation-higher-inertia.png",
-    "02 - Pictures/stepper-oscillation.png",
-    "02 - Pictures/2024-12-08-133327_hyprshot.png",
-    "01 - Notes/Electrical Machine.md",
-    "01 - Notes/Synchronous Machine.md",
-    "01 - Notes/Lenz's Law.md",
-    "01 - Notes/Slip.md",
-    "01 - Notes/Time Constant.md",
-    "01 - Notes/Lorentz Force Law.md",
-    "01 - Notes/Transformer.md",
-    "01 - Notes/Magnetic Circuit.md"
+    "01 - Notes/Velocity.md",
+    "01 - Notes/Position.md",
+    "01 - Notes/Centre of Mass.md",
+    "02 - Pictures/centre-of-mass-x-axis.png",
+    "02 - Pictures/2024-12-28-233320_hyprshot.png",
+    "02 - Pictures/centre-of-mass.png",
+    "02 - Pictures/2024-12-28-233038_hyprshot.png",
+    "01 - Notes/Collision.md"
   ]
 }

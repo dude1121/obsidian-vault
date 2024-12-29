@@ -61,4 +61,7 @@ $$
 $$
 0=m_{1}v_{1f}\sin \theta-m_{2}v_{2f}\sin \phi
 $$
-The negative in the second equation is to indicate that the $y$ component of the second particle's velocity has a downward direction. As long as no more than two of the seven components in a given problem is known, these equations can be solved simultaneously. If the collision is elastic, we can also use the conservation of kinetic energy
+The negative in the second equation is to indicate that the $y$ component of the second particle's velocity has a downward direction. As long as no more than two of the seven components in a given problem is known, these equations can be solved simultaneously. If the collision is elastic, we can also use the conservation of kinetic energy to give us a third equation:
+$$
+\frac{1}{2}m_{1}{v_{1i}}^2=\frac{1}{2}m_{1}{v_{1f}}^2+\frac{1}{2}m_{2}{v_{2f}}^2
+$$

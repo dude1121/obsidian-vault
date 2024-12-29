@@ -11,4 +11,7 @@ This also means that displacement is the [[Integral|integral]] of velocity.
 $$
 \mathbf{\vec{r}}=\int \mathbf{\vec{v}}\ dt
 $$
-Position is measured in [[Metre|metres]] $[\pu{ m}]$.
+Position is measured in [[Metre|metres]] $[\pu{ m}]$. The position vector is defined as:
+$$
+\mathbf{\vec{r}}\equiv x\mathbf{\hat{i}}+y\mathbf{\hat{j}}+z\mathbf{\hat{k}}
+$$

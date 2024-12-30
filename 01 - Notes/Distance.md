@@ -11,3 +11,4 @@ This therefore means that distance is the [[Integral|integral]] of speed.
 $$
 d=\int v\ dt
 $$
+Distance, being a linear quantity, has an angular counterpart, that of [[Arc Length|arc length]].

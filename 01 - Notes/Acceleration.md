@@ -15,3 +15,17 @@ Acceleration is a [[Vector|vector]] quantity and does not have a scalar counterp
 $$
 \mathbf{\vec{F}}\propto \mathbf{\vec{a}}
 $$
+# Tangential and centripetal acceleration
+
+If an object is rotating about some point $O$, its acceleration is split into two components: the *tangential* acceleration, and the *centripetal* acceleration. Tangential acceleration is directed [[Tangent Line|tangent]] to the point being examined, whereas centripetal acceleration is directed toward the centre point, $O$.  The following relationships allow us to calculate both forms of acceleration:
+$$
+a_{t}=r\alpha
+$$
+$$
+a_{c}=\frac{v^2}{r}=r\omega^2
+$$
+For the first relationship, $a_{t}$ is the tangential acceleration's magnitude, $r$ is the distance (or, radius) from the centre $O$, and $\alpha$ is the body's [[Angular Acceleration|angular acceleration]].  For the second relationship, $a_{c}$ is the centripetal acceleration's magnitude, $r$ is once again the distance from $O$, and $\omega$ is the body's [[Angular Velocity|angular velocity]].  The magnitude of the total acceleration is therefore,
+$$
+a=\sqrt{ a_{t}^2+a_{c}^2 }=\sqrt{ r^2(\alpha^2+\omega^4) }=r\sqrt{ \alpha^2+\omega^4 }
+$$
+![[rotational-acceleration.png]]

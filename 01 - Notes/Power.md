@@ -6,11 +6,27 @@ Power is the time rate of [[Energy|energy]] transfer and it is defined as
 $$
 	\mathscr{P}=\frac{dE}{dt}=\dot{E}
 $$
-In some branches of physics, power is denoted with a scripted $\mathscr{P}$ as above, but in fields like electricity it is often denoted as a normal $P$. The [[Units of Measurement|unit]] of power is the [[Watt]] \[$\text{W}$] which is defined as 
+In some branches of physics, power is denoted with a scripted $\mathscr{P}$ as above, but in fields like electrical engineering it is often denoted as a normal $P$. The [[Units of Measurement|unit]] of power is the [[Watt]] $[\text{W}]$ which is defined as 
 $$
 	1\text{W}=1\text{J}\cdot\text{s}^{-1}=1\text{kg}\cdot\text{m}^2\cdot\text{s}^{-3}
 $$
-## Electromagnetism
+
+# Kinematics
+
+The power of a system is defined as,
+$$
+\mathscr{P}=\frac{dW}{dt}
+$$
+where $W$ is the [[Work|work]] done in [[Joule|joules]] $[\text{J}]$. An alternative way to find the power delivered by a [[Force|force]] on an object or particle is,
+$$
+\mathscr{P}=\mathbf{\vec{F}}\cdot \mathbf{\vec{v}}
+$$
+where $\mathbf{\vec{F}}$ is the force applied on the object and $\mathbf{\vec{v}}$ is the [[Velocity|velocity]] of the object. If the object or particle is rotating, the instantaneous power delivered is instead,
+$$
+\mathscr{P}=\tau \omega
+$$
+where $\tau$ is the applied [[Torque|torque]] and $\omega$ is the [[Angular Velocity|angular velocity]] of the object.
+# Electromagnetism
 
 Recall that a [[Volts|volt]] is defined as:
 $$
@@ -36,7 +52,7 @@ we are now able to calculate the power dissipated by the [[Resistor|resistor]] $
 $$ P=\frac{V^2}{R}=\frac{12\text{V}^2}{1\text{k}\Omega}=144\text{mW} $$
 In the case of an electrical circuit, this power represents the amount of energy lost from the circuit due to [[Heat|heat]]. 
 
-Let’s say that this circuit was powered for 3 hours. How much energy did the resistor consume? We can find this by multiplying the power dissipated by the time for which it was energized.
+Let’s say that this circuit was powered for 10 hours. How much energy did the resistor consume? We can find this by multiplying the power dissipated by the time for which it was energized.
 
 $$ E=Pt=(144\text{mW})(10\text{h})=1.44\text{Wh} $$
 

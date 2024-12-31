@@ -32,3 +32,10 @@ The tangential acceleration can therefore be found by taking the derivative of t
 $$
 a_{t}=r\frac{d\omega}{dt}=r\alpha
 $$
+
+# Relation to angular momentum
+
+The magnitude of the total [[Angular Momentum|angular momentum]] of a rotating body can be expressed as the product of the body's angular velocity and its [[Moment of Inertia|moment of inertia]].
+$$
+L=I\omega
+$$

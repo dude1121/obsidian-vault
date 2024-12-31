@@ -44,3 +44,12 @@ $$
 I=\int \rho r^2dV
 $$
 If $\rho$ is constant, the integration can be performed and the moment of inertia calculated. If it is not constant, its variation with position must be known.
+
+The formulas for various homogeneous shapes are detailed in the table below.
+![[moments-of-inertia.png]]
+
+By use of the [[Parallel Axis Theorem|parallel axis theorem]], we can also find moments of inertia for shapes whose rotation is not perfectly symmetrical and does not fall on the [[Centre of Mass|centre of mass]] of the object.
+$$
+I=I_{\text{CM}}+MD^2
+$$
+where $I_{\text{CM}}$ is the moment of inertia at the centre of mass of the object, $M$ is the total mass of the object, and $D$ is the distance from the origin $O$ to the centre of mass.

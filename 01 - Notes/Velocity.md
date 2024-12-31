@@ -22,3 +22,21 @@ $$
 \mathbf{\vec{v}}_{\text{CM}}=\frac{d\mathbf{\vec{r}}_{\text{CM}}}{dt}=\frac{1}{M}\displaystyle \sum_{i}m_{i}\frac{d\mathbf{\vec{r}}_{i}}{dt}=\frac{1}{M}\displaystyle \sum_{i}m_{i}\mathbf{\vec{v}}_{i}
 $$
 This quantity, $\mathbf{\vec{v}}_{\text{CM}}$, is useful for defining the total [[Linear Momentum|linear momentum]] of a system.
+
+# Relation to momentum
+
+The linear momentum of an object or system of particles is directly proportional to its velocity, with the [[Mass|mass]] of the system being the proportionality constant.
+$$
+\mathbf{\vec{p}}=m\mathbf{\vec{v}}
+$$
+
+# Relation to angular velocity
+
+Velocity's angular counterpart, [[Angular Velocity|angular velocity]], is related to linear velocity by the relationship,
+$$
+v=r\omega 
+$$
+and by extension, using vector quantities,
+$$
+\mathbf{\vec{v}}=\mathbf{\vec{r}}\times \mathbf{\vec{\omega}}
+$$

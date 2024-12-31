@@ -36,3 +36,20 @@ b_{1}&b_{2}&b_{3} \\
 \end{pmatrix}
 $$
 where $\hat{i}$, $\hat{j}$, and $\hat{k}$ are the three-dimensional [[Unit Vector|unit vectors]], and then evaluate its [[determinant]]. Note that the cross product can be found for two vectors in two-dimensional space (simply set $a_{3}$ and $b_{3}$ to $0$), but the resulting vector will make the entire [[Vector Space|vector space]] three-dimensional. 
+
+The cross product, unlike the dot product, is *not* commutative. 
+$$
+\vec{a}\times \vec{b}\neq \vec{b}\times \vec{a}
+$$
+In order to change the order in the cross product, the sign must be altered.
+$$
+\vec{a}\times \vec{b}=-\vec{b}\times \vec{a}
+$$
+If $\vec{a}$ and $\vec{b}$ are parallel (i.e. $\theta=0\degree$ or $\theta=180\degree$) then their cross product is $0$. It therefore follows that the cross product of any vector and itself is also $0$. If instead $\vec{a}$ and $\vec{b}$ are perpendicular, then the magnitude of their cross product is the product of their magnitudes.
+$$
+\left|\vec{\mathbf{a}}\times \vec{\mathbf{b}}\right|=ab
+$$
+The [[Derivative|derivative]] of the cross product with respect to some variable $t$ is,
+$$
+\frac{d}{dt}(\vec{a}\times \vec{b})=\frac{d\vec{a}}{dt}\times \vec{b}+\vec{a}\times \frac{d\vec{b}}{dt}
+$$

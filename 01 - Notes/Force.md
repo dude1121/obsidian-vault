@@ -12,7 +12,7 @@ A special case arises when discussing the force acting on an object due to [[Gra
 $$
 \mathbf{\vec{F}}_{g}=m\mathbf{\vec{g}}
 $$
-where $\mathbf{\vec{F}}_{g}$ is the force acting on the object and $\mathbf{\vec{g}}$ is the acceleration of the object due to gravity ($\approx 9.801\pu{ m/s^2}$). If the object is not in free-fall and is resting or in motion on some surface, perpendicular to that surface there will be a [[Normal Force|normal force]], which will be equal to the relevant component of the gravitational force, but in the opposite direction. This is a direct application of Newton's third law.
+where $\mathbf{\vec{F}}_{g}$ is the force acting on the object and $\mathbf{\vec{g}}$ is the acceleration of the object due to gravity ($\approx 9.801\pu{ m/s^2}$). If the object is not in free-fall and is resting or in motion on some surface, perpendicular to that surface there will be a [[Normal Force|normal force]] which will be equal to the relevant component of the gravitational force, but in the opposite direction. This is a direct application of Newton's third law.
 
 # Fundamental Forces
 

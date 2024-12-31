@@ -45,5 +45,5 @@ This relationship also holds for a rigid object (see *Physics*, Serway & Jewett 
 
 Torque is also related to the body's [[Angular Momentum|angular momentum]] by,
 $$
-\sum \mathbf{\vec{\tau}}=\frac{d\mathbf{\vec{L}}}{dt}
+\sum \pmb{\vec{\tau}}=\frac{d\mathbf{\vec{L}}}{dt}
 $$

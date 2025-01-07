@@ -13,43 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Notes/Angular Momentum.md",
+                "file": "01 - Notes/Elasticity in Solids.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Angular Momentum"
+              "title": "Elasticity in Solids"
             }
           },
           {
-            "id": "233d1824173fc400",
+            "id": "507fcb18bfa49041",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Notes/Torque.md",
+                "file": "01 - Notes/Permittivity.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Torque"
-            }
-          },
-          {
-            "id": "b702f44b76e6b8dd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - Notes/Angular Velocity.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Angular Velocity"
+              "title": "Permittivity"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -80,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:mathematics",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -101,8 +88,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -123,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 - Notes/Moment of Inertia.md",
+                "file": "01 - Notes/Permittivity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Moment of Inertia"
+              "title": "Backlinks for Permittivity"
             }
           },
           {
@@ -208,26 +194,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "74ed12f838626362",
+  "active": "507fcb18bfa49041",
   "lastOpenFiles": [
-    "01 - Notes/Angular Velocity.md",
-    "01 - Notes/Angular Acceleration.md",
-    "01 - Notes/Torque.md",
-    "01 - Notes/Angular Momentum.md",
-    "01 - Notes/Linear Momentum.md",
-    "01 - Notes/Newton's Laws.md",
-    "01 - Notes/Force.md",
-    "01 - Notes/Vector.md",
+    "01 - Notes/Permeability.md",
+    "01 - Notes/Permittivity.md",
     "01 - Notes/Moment of Inertia.md",
-    "01 - Notes/Velocity.md",
-    "01 - Notes/Centre of Mass.md",
+    "01 - Notes/Speed of Light.md",
+    "01 - Notes/Elasticity in Solids.md",
     "01 - Notes/Rigid Body.md",
-    "01 - Notes/Cross Product.md",
-    "01 - Notes/Dot Product.md",
-    "01 - Notes/Power.md",
+    "01 - Notes/Angular Acceleration.md",
+    "01 - Notes/Angular Velocity.md",
+    "01 - Notes/Angular Momentum.md",
     "02 - Pictures/torque-wrench-example.png",
-    "02 - Pictures/Pasted image.png",
     "02 - Pictures/moments-of-inertia.png",
+    "01 - Notes/Torque.md",
+    "01 - Notes/Rigid Object under constant angular acceleration.md",
     "01 - Notes/Kinetic Energy.md",
     "01 - Notes/Acceleration.md",
     "02 - Pictures/rotational-acceleration.png",
@@ -235,11 +216,15 @@
     "01 - Notes/Motion under Constant Acceleration.md",
     "01 - Notes/Motion.md",
     "01 - Notes/Tangent Line.md",
+    "01 - Notes/Cross Product.md",
+    "01 - Notes/Vector.md",
     "01 - Notes/Derivative.md",
     "01 - Notes/Nonuniform Circular Motion.md",
     "01 - Notes/Uniform Circular Motion.md",
     "01 - Notes/Motion under Constant Velocity.md",
     "01 - Notes/Angular Position.md",
+    "01 - Notes/Displacement.md",
+    "01 - Notes/Radian.md",
     "02 - Pictures/centre-of-mass-x-axis.png",
     "02 - Pictures/2024-12-28-233320_hyprshot.png",
     "02 - Pictures/centre-of-mass.png",

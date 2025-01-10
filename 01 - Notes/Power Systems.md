@@ -1,0 +1,67 @@
+---
+tags:
+  - physics
+  - electrical-engineering
+  - power-systems
+---
+**Power systems** are systems that handle the *generation*, *transmission*, and *distribution* of electrical power to consumers.  
+
+# Generation
+Electrical power systems make use of large generation stations that generate electricity by means of [[Generator|generators]]. The generated [[Voltage|voltage]] at these stations ranges from $1-30\pu{ kV}$. Ideally, the generated power must be balanced. That is, at any given moment, the power generated must be the same as the power being consumed.
+$$
+P_{\text{G}}=P_{\text{C}}
+$$
+Even something like storing power in batteries is considered *consumed* power, until that battery is used in power generation in which case it becomes part of the *generated* power. From a power systems design perspective, the generated power is what we have control over.
+
+If this demand is not met, the load will increase and this increase in load will slow down the generator. Since in a generator, [[Angular Velocity|rotational speed]] is proportional to the output [[Frequency|frequency]], an unbalanced generation system will have a frequency that is not exactly $60\pu{ Hz}$. If the power demand exceeds the generation, the generator speed will decrease and the frequency will be less than $60\pu{ Hz}$. If, on the other hand, the generation exceeds the power demand, the generator speed will increase and the frequency will be greater than $60\pu{ Hz}$. This makes *frequency* the indicator as to whether the generated power matches the power demand.
+
+In a given power plant, the generator's speed is monitored by a *speed regulator* or *governor*. These regulators can detect a change of $0.02\%$ in the generator's speed, or a change in frequency of about $0.012\pu{ Hz}$. 
+
+Note that this idea of power "balancing" is a *local* job. For example, in North America all power grids are connected, but this can be thought of as the *base* power stations being connected, whereas peak and intermediate power stations are local stations that can react to local demands.
+
+## Power Demand
+The consumed power is also known as the *power demand*. The power demand is how the consumer behaves and when they require more or less power. The average daily power demand is shown below (source: ieso.ca):
+![[daily-power-demand.png]]
+Over time various patterns emerge from this data.
+- **Base demand**. This base demand is around $1\pu{ GW}$ and is needed all the time.
+- **Intermediate demand**. This demand is around $4\pu{ GW}$ and is constant for quite a bit of time but not all the time.
+- **Peak demand**. This demand is around an additional $3\pu{ GW}$ but it is changing all the time and must be adjusted constantly. 
+
+To meet these types of power demands, we have three different types of generation stations. They are named after the demand they fill: *Base station*, *Intermediate station*, and *Peak station*.
+
+### Base-Power stations
+These stations deliver full power at all times and never changes. An example of this type of power station is a [[Nuclear Power Plant|nuclear power plant]] which takes *days* to adjust their power output.
+
+### Intermediate-Power stations
+These stations respond relatively quickly to demand changes. An example of this type is a [[Hydroelectric Power Station|hydroelectric power station]].
+
+### Peak-Power stations
+These stations respond *very* quickly to changes (matter of minutes or even seconds). Examples of peak power stations are diesel engines or gas turbines. This is the main issue with fully renewable power sources: renewable sources struggle to react quickly to changes in the power demand. 
+
+## Types of generation stations
+![[ontario-generation-capacity.png]]
+Above is a chart depicting the current (as of Jan. 2025) breakdown of all Ontario power generation capacity. The actual delivered power is shown below:
+![[ontario-generation-output.png]]
+While only making up $33\%$ of the total power generation capacity, nuclear power makes up $53\%$ of the actual generated power used in 2023. 
+### Hydro stations
+
+### Thermal (fossil) stations
+
+### Nuclear stations
+
+### Wind stations
+
+### Solar stations
+
+### Biomass stations
+# Transmission
+From generation stations, electricity is transmitted via [[Transmission Line|transmission lines]] to distribution stations. Before leaving the generation station, the voltage is [[Transformer|stepped up]] to anywhere from $115\pu{ kV}$ to $800\pu{ kV}$. This high voltage serves to reduce the current in transmission lines which serves 2 purposes: 1) lower current means less internal losses due to the transmission lines, and 2) lower current means smaller cables to carry that current. 
+
+# Distribution
+Before power is sent to consumers, it arrives at distribution stations. Here, it is stepped down to anywhere from $2.4\pu{ kV}$ to $69\pu{ kV}$. This distribution voltage is what is sent to the consumers.
+
+Similar to how generation stations monitor frequency changes for varying power demands, distribution stations also monitor frequency in case of emergencies. If extra power can not be put into the system by either increasing peak and intermediate plants or by buying power from neighbouring grids, distribution stations may need to *load shed*. This is where the distribution station cuts off power from consumers in order to balance the power generated with the power demand.
+
+# Power Flow
+![[power-systems-flow.png]]
+Traditionally, power only flows in one direction: from the generation stations to the consumers. However, due to renewable options becoming more prevalent, more and more the power flow becomes bidirectional, as someone with a solar panel may generate more power than they consume, sending the remainder back to the utilities.

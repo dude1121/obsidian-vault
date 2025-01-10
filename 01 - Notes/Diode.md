@@ -8,26 +8,20 @@ tags:
   - components
 ---
 A **diode** is a circuit component that only allows [[Current|current]] flow in one direction.
-
 ```tikz
 \usepackage{circuitikz}
 \begin{document}
 \begin{circuitikz}
 \draw
-(0,0) to[full diode] (4,0)
+(0,0) node[anchor=north] {A} to[full diode] (3,0) node[anchor=north] {K}
 ;
 \end{circuitikz}
 \end{document}
 ```
-
 The symbol for a diode points in the direction in which it will allow current to flow. The left side is known as the *anode* (A) and the right side is known as the *cathode* (K). On a physical diode, the cathode is typically denoted with a band or tab.
-
 # Construction
-
 A diode is, at its core, a [[PN Junction]]. The anode is connected to the p-type region and the cathode is connected to the n-type region. When a [[Voltage|voltage]] is applied across the diode, more electrons pass through the diode into the n-type region, and are able to overcome the barrier voltage. This shrinks the depletion region, and it allows current to flow.
-
 # Biasing
-
 A diode is said to be in *forward bias* if the condition described above is met. That is, if a voltage is applied across the diode that is sufficiently large to overcome the [[Barrier Potential|barrier potential]], current is able to flow through the diode. The applied voltage must also be in the correct polarity, that is, the anode must be more positive than the cathode.
 
 A diode is in *reverse bias* if the applied voltage is in reverse polarity, where the cathode is more positive than the anode. In this state, a typical diode will not conduct current. This is because the applied voltage has the opposite effect on the depletion region than in forward bias. The depletion region is enlarged and (in theory) no current is able to flow. In reality, a small *reverse current* will be allowed to flow, but in most cases it is too small to be noticeable. 
@@ -40,12 +34,9 @@ If the applied voltage $V_{D}$ is between the breakdown voltage $V_{BR}$ and the
 
 If there is an increase in temperature, the response of the diode is slightly different. As a general rule, the barrier potential $V_{B}$ decreases by $2\pu{ mV}$ for each degree increase in temperature.
 ![[forward-reverse bias temp.png]]
-
 # Diode Models
 In circuit analysis, we can represent a diode in three different models: the ideal model, the practical model, and the complete model.
-
 ## The Ideal Model
-
 In the ideal diode model, the diode is modeled simply as an open or closed switch, depending on if it is forward or reverse bias. 
 
 ```tikz
@@ -90,7 +81,6 @@ to[short] (10,0)
 \end{document}
 ```
 ## The Practical Model
-\
 In the practical model, the diode is modeled as a switch still, but there is an added opposing voltage source if the diode is in forward bias, to represent the barrier potential.
 
 ```tikz
@@ -116,7 +106,6 @@ to[short] (10,0)
 \end{document}
 ```
 ## The Complete Model
-
 This is the most accurate model of a diode. It includes the barrier potential and a switch, like the practical model, but it also includes the dynamic [[Resistance|resistance]] of the diode, $r_{d}'$.
 
 ```tikz
@@ -169,7 +158,17 @@ to[short, -*] (9.5,3)
 \end{document}
 ```
  In a forward biased diode, this resistance is placed in series with the switch and the [[Voltage Sources|voltage source]]. The small resistance represents the slight increase in voltage and current as a greater $V_{BIAS}$ is applied. In a reverse biased diode, the very large reverse resistance $r_{R}'$ allows to calculate the trickle current through the diode while in reverse bias.
-# Other Diode Types
+# Parameters
+When selecting a diode for design purposes, there are many parameters that must be taken into consideration.
+## Forward voltage $V_{\text{f}}$
+The forward voltage is the voltage drop across the diode when it is forward biased. Typical values for [[Silicon|silicon]] diodes is about $0.7\pu{ V}$. Ideally, we want this voltage to be as *small as possible*. Keep in mind this voltage will vary with temperature. In practice, the smallest possible $V_{\text{f}}$ will be very expensive, so a balance must be struck between the amount of losses in the diode (since $P_{\text{loss}}=V_{\text{f}}I_{\text{o}}$) and the cost of the component.
+## Reverse voltage $V_{\text{r}}$
+The reverse voltage is the maximum voltage the diode can handle when reverse biased before the diode enters breakdown and *reverse conduction*. We typically want this to be anywhere from $2-3$ times the designed value, i.e. if we design a circuit in which a diode must be able to withstand $20\pu{ V}$ of reverse voltage, the diode selected should be rated for anywhere from $40-60\pu{ V}$.
+## Conducting current $I_{o}$
+The conducting current is the maximum amount of current (either continuous or pulsed) that a diode can withstand while conducting (i.e. while in forward bias).  Much like reverse voltage, this value should be $2-3$ times the design value.
+## Reverse recovery time $t_{rr}$
+This is the transient time from the diode's $\text{ON}$ state to its $\text{OFF}$ state. This affects the ability of a diode to switch. When selecting a diode this value should be $<1\%$ of the switching cycle period.  Anything less than $500\pu{ ns}$ is considered "fast" switching time, and anything greater than $500\pu{ ns}$ is a "standard" switching time (this cutoff is at around $f=20\pu{ kHz}$). 
+# Other diode types
 
 See:
 - [[LED]]

@@ -43,17 +43,14 @@ These stations respond *very* quickly to changes (matter of minutes or even seco
 Above is a chart depicting the current (as of Jan. 2025) breakdown of all Ontario power generation capacity. The actual delivered power is shown below:
 ![[ontario-generation-output.png]]
 While only making up $33\%$ of the total power generation capacity, nuclear power makes up $53\%$ of the actual generated power used in 2023. 
-### Hydro stations
 
-### Thermal (fossil) stations
-
-### Nuclear stations
-
-### Wind stations
-
-### Solar stations
-
-### Biomass stations
+The most commonly used generation stations are:
+- [[Hydroelectric Power Station]]
+- [[Thermal Power Station]]
+- [[Nuclear Power Plant]]
+- [[Wind Turbine]]
+- [[Solar Power Plant]]
+- [[Biomass Power Station]]
 # Transmission
 From generation stations, electricity is transmitted via [[Transmission Line|transmission lines]] to distribution stations. Before leaving the generation station, the voltage is [[Transformer|stepped up]] to anywhere from $115\pu{ kV}$ to $800\pu{ kV}$. This high voltage serves to reduce the current in transmission lines which serves 2 purposes: 1) lower current means less internal losses due to the transmission lines, and 2) lower current means smaller cables to carry that current. 
 

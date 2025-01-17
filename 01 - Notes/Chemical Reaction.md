@@ -85,4 +85,11 @@ $$
 $$
 From this equation we can see that in order to produce two parts [[Ammonia|ammonia]], we must have one part [[Nitrogen|nitrogen gas]] and three parts [[Hydrogen|hydrogen gas]]. So, if there were $2\pu{ mol}$ of nitrogen and $6\pu{ mol}$ of hydrogen, we could produce $4\pu{ mol}$ of ammonia. This mixture would be called a [[Stoichiometric Mixture|stoichiometric mixture]] because the relative amounts of reactants matches the balanced equation. But what if we didn't have the perfect amount of each reactant?
 
-In this case we would not be able to create the same amount of products. 
+In this case we would not be able to create the same amount of products. For example, what if we had $5\pu{ mol}$ of nitrogen and $9\pu{ mol}$ of hydrogen? If we assume the reaction goes until completion, we would have two possibilities: 1) we run out of hydrogen or 2) we run out of nitrogen. We can determine which will run out first by remembering that a balanced equation represents the relative number of molecules that will react. That is, *the ratio of numbers in the change row must be the same as the ratio of the coefficients in the balanced equation*. 
+
+|        | **$\ce{N_{2}}$** | **$\ce{+}$** | **$\ce{3H_{2}}$** | **$\ce{->}$** | **$\ce{NH_{3}}$** |
+| ------ |:----------------:| ------------ |:-----------------:| ------------- |:-----------------:|
+| Before |        5         |              |         9         |               |         0         |
+| Change |        -3        |              |        -9         |               |        +6         |
+| After  |        2         |              |         0         |               |         6         |
+This means that in this case, the hydrogen will run out first. This means that if we only have $9\pu{ mol}$ of hydrogen, it doesn't matter how much nitrogen we have (as long as its above $3\pu{ mol}$), we can only ever make $6\pu{ mol}$ of ammonia. We would call hydrogen in this case the [[Limiting Reagent|limiting reagent]]. 

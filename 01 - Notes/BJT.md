@@ -8,7 +8,6 @@ tags:
   - semiconductors
 ---
 A **BJT** (**B**ipolar **J**unction **T**ransistor) is a type of [[Transistor|transistor]] used for signal amplification and switching. It comes in two types: *npn* and *pnp*, referring to the arrangement of the doped regions within the device.
-
 ```tikz
 \usepackage{circuitikz}
 \begin{document}
@@ -23,15 +22,11 @@ A **BJT** (**B**ipolar **J**unction **T**ransistor) is a type of [[Transistor|tr
 \end{document}
 ```
 This is called a *bipolar* transistor because it makes use of both [[Electron|electrons]] and [[Hole Current|holes]] as current carriers.
-
 # Construction
-
 A BJT consists of three [[Semiconductor|semiconductor]] regions, each doped in an alternating pattern. In an *npn* BJT, there are two *n*-type regions and one *p*-type regions, and the opposite is true in a *pnp* BJT.
 ![[bjt construction.png]]
 The [[PN Junction|pn junction]] joining the base and the emitter is fittingly called the *base-emitter junction*, and the junction between the base and the collector is known as the *base-collector junction*. The base is very lightly doped compared to the emitter and collectors. The emitter is heavily doped, whereas the collector is only moderately doped. Because of this, the emitter and collector are *not* interchangeable. 
-
 # Biasing
-
 ```tikz
 \usepackage{circuitikz}
 \begin{document}
@@ -60,9 +55,7 @@ $$
 I_{E}=I_{C}+I_{B}
 $$
 This follows from [[Kirchhoff's Current Law]]. 
-
 # Characteristics 
-
 The dc [[Current Gain|current gain]] of a transistor is the ratio of the dc collector current $I_{C}$ to the dc base current $I_{B}$. It is typically denoted as $\beta_{DC}$, but may be seen on datasheets as $h_{FE}$ (see datasheet values for hybrid parameters). 
 $$
 \beta_{DC}=\frac{I_{C}}{I_{B}}
@@ -72,11 +65,8 @@ $$
 \alpha_{DC}=\frac{I_{C}}{I_{E}}
 $$
 $\alpha_{DC}$ ranges typically from $0.95 - 0.99$ but is always less than $1$ because $I_{C}$ will always be at least slightly less than $I_{E}$. 
-
 ## Collector Characteristic Curves
-
 Consider the following circuit:
-
 ```tikz
 \usepackage{circuitikz}
 \begin{document}
@@ -106,11 +96,8 @@ $$
 When $V_{CE}$ gets too high, the base-collector junction goes into reverse breakdown and the collector current skyrockets. This can cause damage to the device, and as such no BJT transistor is operated in this region.
 
 This relationship between saturation, linear, and breakdown is shown in the above plots for various values of $I_{B}$. When $I_{B}=0\pu{ A}$, the transistor is in cutoff, and it ideally has zero [[Conductance|conductance]]. This allows the transistor to be operated as a current controlled switch.
-
 # Amplifier
-
 A bipolar junction transistor can also act as a [[Voltage|voltage]] [[Amplifier|amplifier]] for ac signals. If an ac signal is superimposed on the dc bias voltage, the resulting output ac voltage will be amplified. Consider the following circuit:
-
 ```tikz
 \usepackage{circuitikz}
 \begin{document}
@@ -153,14 +140,12 @@ $$
 A_{v}\approx\frac{R_{C}}{r_{e}'}
 $$
 ## Q-Point
-
 The *q-point* (quiescent point) of a BJT amplifier circuit (also known as the dc operating point) is the [[Steady State|steady state]] dc voltage or current that allows the transistor to amplify a signal without hitting cutoff or saturation.
 
 Suppose a $4\pu{ V}_{\pu{pp}}$ is sent through a BJT amplifier circuit with a gain of $A_{v}=3$. The output voltage can not be greater than the dc bias voltage, so if the transistor is only biased with $5\pu{ V}_{\pu{ DC}}$ then the signal will experience clipping as it hits the "rails" of the amplifier circuit.
 
 The location of this q-point can be described graphically by the *dc load line*. This line is superimposed on the characteristic curves of $I_{C}$ vs $V_{CE}$ and it ranges from the saturation value where $I_{C}=I_{C(sat)}$ to the cutoff value where $V_{CE}=V_{CC}$. This load line is determined by the external circuit and not the transistor itself.
 ![[dc-load-line.png]]
-
 The region along the load line from saturation to cutoff is generally known as the *linear region*. So long as the transistor is operated with values along this line, the output voltage is ideally a linear reproduction of the input. 
 
 >[!QUESTION] Example
@@ -202,9 +187,7 @@ to[short] (G -| Q.E) node[ground]{}
 Depending on the location of the Q-point along the dc load line, an input signal may be clipped if it brings the transistor too close to saturation or cutoff. 
 ![[signal-cutoff.png]]
 When designing an amplifier then, the designer must make sure that the Q-point will not result in signal distortion.
-
 ## Voltage Divider Bias
-
 In most circuits analyzed so far, there was a separate source biasing the base of the transistor. But in practice, this typically is not the case. Instead a single source, $V_{CC}$, is used to bias the transistor and provide a voltage source to the collector. One way this can be done is through a [[Voltage Divider Rule|voltage divider]] circuit.
 
 Typically, the circuit is designed such that the base current $I_{B}$ is much smaller than the current through the second resistor in the voltage divider, $I_{{2}}$.
@@ -226,9 +209,7 @@ to[short, -*] ++(-1,0) node[](A){}
 \end{document}
 ```
 A voltage divider in which the base current is much smaller than the current through $R_{2}$ is known as a *stiff voltage divider*.
-
 ### Stiff Voltage Divider Circuits
-
 In a voltage divider circuit is stiff, some assumptions can be made to make circuit analysis easier. Since the base current can almost be ignored, we can assume that the voltage at the base of the transistor $V_{B}$ is the same as the voltage across $V_{R2}$. This is given by,
 $$
 V_{B}\approx \left( \frac{R_{2}}{R_{1}+R_{2}}V_{CC} \right)
@@ -252,9 +233,7 @@ $$
 R_{IN(BASE)}=\frac{\beta_{DC}V_{B}}{I_{E}}
 $$
 Since the equation for the internal resistance depends on the base voltage $V_{B}$ and the emitter current $I_{E}$, for circuit analysis we can first assume the voltage divider is stiff to find $V_{B}$ and $I_{E}$, then use those values to calculate $R_{IN(BASE)}$. If $R_{IN(BASE)}\geq  10R_{2}$, then we know our assumption was correct. Else, our $V_{B}$ and $I_{E}$ will need to be recalculated using the calculated $R_{IN(BASE)}$.
-
 ### Theveninizing the Voltage Divider
-
 To make circuit analysis easier, the base-emitter circuit can be re-drawn as a [[Thévenin's Theorem|Théveninized]] circuit by applying Thévenin's theorem.
 ```tikz
 \usepackage{circuitikz}
@@ -298,9 +277,7 @@ node[npn, anchor=B, scale=1](Q){}
 \end{document}
 ```
 Doing this allows us to more easily calculate the base current $I_{B}$.
-
 ## Emitter Bias
-
 A transistor biased in emitter bias is very stable despite changes to $\beta$ or temperature. It requires both a positive and negative dc supply.
 ```tikz
 \usepackage{circuitikz}
@@ -347,9 +324,7 @@ $$
 $$
 \boxed{I_{E}=\frac{-V_{EE}-V_{BE}}{R_{E}+\frac{R_{B}}{\beta_{DC}}}}
 $$
-
 ## Base Bias
-
 Base bias is common in switching circuits. It also is a simple circuit, requiring only one power source and one biasing resistor.
 
 ```tikz
@@ -380,9 +355,7 @@ $$
 \boxed{I_{C}=\beta_{DC}\left(\frac{V_{CC}-V_{BE}}{R_{B}}\right)}
 $$
 This means that the collector current is very dependant on the transistor's $\beta_{DC}$, and variations in this parameter could mean large variations in the circuit's behaviour. This circuit therefore should not be used in cases where Q-point stability is required. Thus, this circuit is primarily used for switching where the transistor is in either saturation or cutoff, not in linear applications.
-
 ## Emitter Feedback Bias
-
 If we add an emitter resistor to the base bias circuit, it becomes emitter feedback bias. This circuit is slightly more stable than base bias as it reduces the circuit's reliance on the $\beta_{DC}$ of the transistor.
 ```tikz
 \usepackage{circuitikz}
@@ -408,6 +381,60 @@ $$
 \boxed{I_{E}=\frac{V_{CC}-V_{BE}}{R_{E}+\frac{R_{B}}{\beta_{DC}}}}
 $$
 $I_{E}$ is still dependant on $\beta_{DC}$ but much less so. This is very similar to the relationship we found in emitter bias.
-
 ## Collector Feedback Bias
 
+# BJT as a switch
+By operating only in cutoff and saturation, the BJT can be operated as a current controlled switch. This is beneficial because it allows us to use the smaller base current $I_{B}$ to control a much larger collector-emitter current $I_{CE}$. 
+## Cutoff
+In cutoff mode, we assume the base current $I_{B}=0\pu{ A}$. This means that ideally, $I_{CE}$ is also $0\pu{ A}$. We know that in reality there will be some small *leakage* current through the transistor but for practical purposes this can be ignored. This means that the collector-emitter voltage $V_{CE}$ is the same as the source voltage across the transistor. 
+$$
+V_{\text{CE(cutoff)}}=V_{\text{CC}}
+$$
+## Saturation
+In saturation, we assume that the collector-emitter current $I_{\text{CE}}$ is its maximum value. The base-emitter junction must also be forward biased and the base current must be sufficient to drive the transistor into saturation. In this case,
+$$
+I_{\text{C(sat)}}=\frac{V_{\text{CC}}-V_{\text{CE(sat)}}}{R_{\text{C}}}
+$$
+However, $V_{\text{CE(sat)}}$ is typically very small compared to $V_{\text{CC}}$ (around $0.3\pu{ V}$), so it can be ignored for practical purposes. Therefore,
+$$
+I_{\text{C(sat)}}\approx \frac{V_{\text{CC}}}{R_{\text{C}}}
+$$
+where $R_{\text{C}}$ is a current limiting [[Resistor|resistor]] connected to the collector. The minimum base current required to drive the transistor into saturation is given by,
+$$
+I_{\text{B(min)}}=\frac{I_{\text{C(sat)}}}{\beta_{\text{DC}}}
+$$
+Ideally, $I_{\text{B}}$ should be much greater than $I_{\text{B(min)}}$ to ensure the transistor is saturated.
+## Example control circuit
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{circuitikz}
+\draw
+(0,0) to[battery, l=12V] ++(0,-4) -- ++(10,0) node[ocirc](V2){}
+(0,0) -- ++(1,0) node[circ](A){} -- ++(2,0) node[pnp, anchor=E, rotate=90, scale=1.2](Q1){}
+(Q1.C) -- (V2 |- Q1) node[ocirc](V1){}
+(A) -- ++(0,-1) node[](B){} to[R, l=$R_1$, n=R1] (B -| Q1.B) node[circ](C){}
+-- (Q1.B) 
+(C) to[R, l=$R_2$] ++(3,0) -- ++(0,-0.5) node[npn, anchor=C, scale=1.2](Q2){}
+(Q2.E) node[circ](D){}
+(D) -- (D |- V2) node[circ]{}
+(D) to[R, l_=$R_5$] ++(-3,0) node[](E){}
+(Q2.B) -- (Q2.B -| E) node[circ](F){} to[short] (E)
+(F) to[R, l=$R_4$] ++(-3,0) node[ocirc](Control){}
+(Control) node[below=2mm]{CTRL}
+
+(V1) to[open] ++(-1.5,0) node[circ](C1){}
+(C1) to[cC, l=$C_1$] ++(0,-4) -- (C1 |- V2) node[circ](C2){}
+
+(V1) to[open] ++(0,-0.25) node[](V1Arrow){}
+(V2) to[open] ++(0,0.25) node[](V2Arrow){}
+;
+\draw[<->] (V1Arrow) -- (V2Arrow);
+\coordinate (S) at ($(V1)!0.5!(V2)$);
+\draw (S) node[right]{$V_{o}$};
+\path (Q1) node[above]{$Q_1$};
+\path (Q2) node[right]{$Q_2$};
+\end{circuitikz}
+\end{document}
+```
+Above is a sample control circuit that uses two BJTs. A circuit like this may be used to drive some larger load (this specific circuit was used in an example regarding an automobile control circuit, so the load may be something like a radio or heater, etc.) using a small control signal. The control signal is sent to the $\text{CTRL}$ point. A high signal will bias $Q_{2}$, allowing $R_{2}$ and $R_{1}$ to conduct. This thereby biases $Q_{1}$, allowing current to flow to the load. The [[Capacitor|capacitor]] $C_{1}$ is there to filter out any noise introduced by the load. 

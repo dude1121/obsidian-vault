@@ -21,7 +21,6 @@ $$
 # Vector Addition
 
 Vectors are added together in what is commonly called the "tip-to-tail" method.
-
 ```tikz
 \usepackage{tikz}
 \begin{document}

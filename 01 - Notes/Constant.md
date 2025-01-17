@@ -14,4 +14,4 @@ mx+b
 $$
 the terms $m$ and $b$ could be considered constants, since they do not change, whereas $x$ is a [[Variable|variable]] that does change. Alternatively, $m$ may be referred to as a "coefficient", and $b$ would be the "constant". 
 
-[[Integration]] also makes use of constants for definite integrals.
+[[Integral|Integration]] also makes use of [[Integration Constant|constants]] for definite integrals.

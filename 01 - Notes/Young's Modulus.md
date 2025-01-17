@@ -11,4 +11,7 @@ where $E$ is Young's modulus, $\sigma$ is the tensile [[Stress|stress]] experien
 $$
 \sigma=\frac{F}{A}
 $$
-where $F$ is the applied force and $A$ is the cross-sectional [[Area|area]] of the object.
+where $F$ is the applied force and $A$ is the cross-sectional [[Area|area]] of the object. Young's modulus is typically used to characterize a rod or wire stressed under either tension or compression. Since strain is dimensionless, $E$ has units of [[Newton|newtons]] per square [[Metre|metre]] $[\pu{ N/m^2}]$. 
+
+For relatively small stresses, a bar will return to its initial length when the force is removed. The *elastic limit* of a material is the maximum stress it can endure before it becomes permanently deformed. If even this limit is exceeded until the *break point*, the material will break. Initially, the stress vs. strain plot is a straight line until it reaches the elastic limit.
+![[stress-vs-strain.png]]

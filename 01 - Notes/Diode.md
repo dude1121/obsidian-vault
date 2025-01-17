@@ -13,7 +13,7 @@ A **diode** is a circuit component that only allows [[Current|current]] flow in 
 \begin{document}
 \begin{circuitikz}
 \draw
-(0,0) node[anchor=north] {A} to[full diode] (3,0) node[anchor=north] {K}
+(0,0) node[left] {A} to[full diode] (3,0) node[right] {K}
 ;
 \end{circuitikz}
 \end{document}

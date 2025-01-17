@@ -10,7 +10,7 @@ tags:
 
 The resistance of a material is proportional to its length and inversely proportional to its cross-sectional area.
 $$ R\propto\frac{\ell}{A} $$
-The proportionality constant in this case is the material’s **resistivity** and it is denoted by the Greek letter $\rho$. Resistivity is measured in ohm-metres $[\Omega\cdot\text{m}]$ and varies from material to material and by temperature. Commonly used values are listed below.
+The proportionality constant in this case is the material’s **[[Resistivity|resistivity]]** and it is denoted by the Greek letter $\rho$. Resistivity is measured in ohm-metres $[\Omega\cdot\text{m}]$ and varies from material to material and by temperature. Commonly used values are listed below.
 
 | Material      | Resistivity ($\rho$) @ $T=20\degree\text{C}$ |
 | ------------- | -------------------------------------------- |

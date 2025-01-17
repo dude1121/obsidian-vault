@@ -25,4 +25,26 @@ To find the solution of an $n$-th order differential equation, we would expect t
 ## Proving a function is a solution to a differential equation
 If given a function to "show" that it is a solution to a differential equation, follow the following steps:
 1. *Identify all the derivatives* of the given function to the order of the differential equation.
-2. 
+2. *Substitute* each of these equations into the given differential equation.
+3. *Simplify*.
+# Separation of variables
+A differential equation of the first order and the first degree contains the first derivative to the first power. I.e., we could re-write it as $\frac{dy}{dx}=f(x,y)$. This is more commonly written in differential form:
+$$
+M(x,y)dx+N(x,y)dy=0
+$$
+where $M(x,y)$ and $N(x,y)$ may represent constants, functions of either $x$ or $y$, or functions of $x$ *and* $y$.  To solve,
+1. Write the equation in the form above. Verify that $M(x,y)$ and $N(x,y)$ are both products of a function involving only $x$ and a function involving only $y$. If this is not the case, separation of variables cannot be used.
+2. Separate the $x$ and $y$ terms by multiplying or dividing the equation by an appropriate expression.
+3. Integrate each term and add the constant of integration, which becomes the arbitrary constant of the solution.
+
+>[!question] Example
+>Solve $dx-4xy^3dy=0$.
+>$$
+>\begin{aligned}
+>dx-4xy^3dy&=0\\
+>(1)dx+(-4xy^3)dy&=0\\
+>\frac{dx}{x}-4y^3dy&=0\\
+>\int\frac{dx}{x}-\int 4y^3dy&=0\\
+>\boxed{\ln x-y^4=c}
+>\end{aligned}
+>$$

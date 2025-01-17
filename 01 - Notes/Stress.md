@@ -7,4 +7,7 @@ tags:
 $$
 \sigma=\frac{F}{A}
 $$
-but should not be confused with [[Pressure|pressure]], which is also force over area.
+but should not be confused with [[Pressure|pressure]], which is also force over area. Depending on applications, stress may be given a different variable. For example, shear stress is usually designated $\tau$. 
+
+*Shear stress* $\tau$ is stress applied to an object when an object is subjected to a force parallel to one of  its faces while the opposite face is held fixed by another force. An example is shown below.
+![[shear.png]]

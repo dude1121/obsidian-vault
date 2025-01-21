@@ -30,6 +30,19 @@ and then recount our atoms,
 | Hydrogen $\ce{ {H} }$ | 4     | Hydrogen $\ce{ {H} }$ | 4     |
 | Oxygen $\ce{O}$       | 4     | Oxygen $\ce{O}$       | 4     |
 we now see that everything lines up, and the equation is balanced. Note that the formulas for each compound were not altered when the equation was balanced, only the coefficients. This balancing must occur due to the [[Law of Conservation of Mass]].
+## Describing reactions in solution
+For example when [[Aqueous|aqueous]] potassium chromate is mixed with aqueous barium nitrate a reaction occurs that forms a precipitate ($\ce{BaCrO_{4}}$) and dissolved potassium nitrate. We can write the overall *formula equation* as,
+$$
+\ce{K_{2}CrO_{4}(aq) + Ba(NO_{3})2(aq) -> BaCrO_{4}(s) + 2KNO_{3}(aq)}
+$$
+We might however be interested in how the [[Ion|ions]] interact in this reaction, so we instead write the *complete ionic equation*,
+$$
+\begin{aligned}
+\ce{2K+(aq) + CrO_{4}^{2-}(aq) + Ba^{2+}(aq) + 2NO_{3}-(aq) -> 
+\\ BaCrO_{4}(s) + 2K+(aq) + 2NO_{3}-(aq)} 
+\end{aligned}
+$$
+Writing it this way better represents the actual forms of the reactants and products in the solution. In a complete ionic equation, *all substances that are strong electrolytes are represented as ions*.
 # Types of Chemical Reactions
 Chemical reactions can broadly be defined into three distinct categories: *precipitation reactions*, *acid-base reactions*, *oxidation-reduction reactions*. 
 ## Precipitation Reactions
@@ -65,6 +78,8 @@ A general principle for acid-base reactions emerges here.
 >[!info] $\ce{OH-}$ in Acid-Base Reactions
 >The hydroxide ion is such a strong base that for purposes of stoichiometric calculations it can be assumed to react completely with any weak acid that it encounters.
 
+### Titrations
+*Volumetric analysis* is a technique for determining the amount of a certain substance by doing a titration. Titration involves delivery (from a *buret*) of a measured volume of a solution of known [[Concentration|concentration]] (called the *titrant*) into a solution containing the substance being analyzed (the *analyte*). The point in the titration in which enough titrant has been added to react exactly with the analyte is the *equivalence point* or *stoichiometric point*. This is often marked by an *indicator*, a substance added at the beginning of the titration that changes colour very close to the equivalence point.
 ## Oxidation-Reduction Reactions
 Reactions in which one or more electrons are transferred from one substance to another are called *oxidation-reduction reactions* or *redox reactions*. Everyday examples of redox reactions are [[Photosynthesis|photosynthesis]] in plants converting [[Carbon Dioxide|carbon dioxide]] and [[Water|water]] into [[Sugar|sugar]]. In fact, most reactions that result in a production of energy are redox reactions. Combustion reactions are another example of oxidation-reduction reactions. 
 $$

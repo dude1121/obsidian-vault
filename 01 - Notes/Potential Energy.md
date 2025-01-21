@@ -11,10 +11,18 @@ $$
 U_{s}=\frac{1}{2}kx^2
 $$
 where $k$ is the spring constant. A [[Charge|charged]] particle in an [[Electric Field|electric field]] also has potential energy the moment before the field force acts on the particle.
-
 # Relation to conservative forces
-
 A given [[Force|force]] is said to be [[Conservative Force|conservative]] if a potential energy can be defined for said force. In other words, a conservative force *necessarily* must be obtained by taking the [[Partial Derivative|derivatives with respect to each dimension]] of some function $U$. A conservative force can therefore be defined by,
 $$
 \mathbf{\vec{F}}=-\nabla U
 $$
+# Gravitational potential energy
+For a body at some distance $r$ from the earth, the potential energy with respect to the object's position is,
+$$
+U(r)=-\frac{GM_{\text{E}m}}{r}
+$$
+This form of potential energy assumes that $U( \infty)=0$, which makes it not entirely equivalent to the form,
+$$
+U(h)=mgh
+$$
+which assumes that the potential energy at the earth's surface is $0$. 

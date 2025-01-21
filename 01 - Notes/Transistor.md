@@ -10,4 +10,4 @@ A **transistor** is a [[Semiconductor|semiconductor]] device that can either [[A
 
 # Transistor Types
 
-The most commonly used kind of transistor is a [[FETs|Field Effect Transistor]] (FET), specifically [[MOSFET|Metal Oxide Semiconductor FETs]] (MOSFETs). Related to MOSFETs are [[JFET|Junction Field Effect Transistors]] (JFETs). The most common non-FET transistor is the [[BJT|Bipolar Junction Transistor]] (BJT). 
+The most commonly used kind of transistor is a [[Field Effect Transistor|Field Effect Transistor]] (FET), specifically [[MOSFET|Metal Oxide Semiconductor FETs]] (MOSFETs). Related to MOSFETs are [[JFET|Junction Field Effect Transistors]] (JFETs). The most common non-FET transistor is the [[BJT|Bipolar Junction Transistor]] (BJT). 

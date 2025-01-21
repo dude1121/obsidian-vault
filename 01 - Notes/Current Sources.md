@@ -12,4 +12,4 @@ The symbol for a dc or ac current source is typically an arrow indicating the di
 
 # Independent and Dependent Sources
 
-Much like voltage sources, current sources can be either independent or dependent. In fact, in reality most current sources are dependent. An example would be a [[FETs|FET transistor]] that is current controlled and acts as a current source.
+Much like voltage sources, current sources can be either independent or dependent. In fact, in reality most current sources are dependent. An example would be a [[Field Effect Transistor|FET transistor]] that is current controlled and acts as a current source.

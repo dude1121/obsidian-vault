@@ -48,3 +48,24 @@ where $M(x,y)$ and $N(x,y)$ may represent constants, functions of either $x$ or 
 >\boxed{\ln x-y^4=c}
 >\end{aligned}
 >$$
+# Linear differential equations of the first order
+This form of a differential equation is,
+$$
+dy+Py\ dx=Q\ dx
+$$
+where $P$ and $Q$ are functions of $x$. To evaluate this form, we multiply both sides by,
+$$
+e^{\int P\ dx}
+$$
+That is,
+$$
+e^{\int P\ dx}(dy + Py\ dx)=e^{\int P\ dx}Q\ dx
+$$
+This term is sometimes called $I$.
+$$
+I=e^{\int P\ dx}
+$$
+Therefore we can say that,
+$$
+y=\frac{1}{I}\int QI\ dx + C
+$$

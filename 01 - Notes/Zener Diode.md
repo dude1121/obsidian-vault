@@ -3,7 +3,7 @@ tags:
   - electronics
   - electromagnetism
   - physics
-  - circuit-analysis
+  - semiconductors
 ---
 The **zener diode** is a special type of [[Diode|diode]] that is designed to operate in reverse breakdown. 
 ```tikz

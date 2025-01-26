@@ -17,5 +17,7 @@ A metal-halide lamp produces light by creating an [[Electric Arc|arc]] through a
 
 Metal-halide lamps produce very high [[Colour Rendering Index|CRI]] light. As such, they are very often used as wide area overhead lighting for commercial, industrial, and public places.
 ### High Pressure Sodium
+High pressure sodium lamps (or, *sodium-vapour lamps*)  are gas-discharge lamps that use [[Sodium|sodium]] in an excited state to produce light at a [[Wavelength|wavelength]] of approximately $\lambda =589\pu{ nm}$. Low-pressure sodium lights do exist but their characteristic yellow light restricts them to outdoor lighting like street lamps. High-pressure lamps emit a broader spectrum of light than the low-pressure lamps but still have poorer colour-rendering.
 
+HPS lamps are widely used in industrial lighting and plant growing lights. These lamps are quite efficient at around $100$ lumens per watt but there are some bulbs that achieve efficacies of up to $150$ lumens per watt. 
 ## LED

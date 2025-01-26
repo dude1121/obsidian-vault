@@ -1,4 +1,9 @@
-**Inductance** is a measure of the strength of a magnetic field generated around a coil (or, [[Inductor|inductor]]) due to an applied current. The higher the inductance, the stronger the magnetic field. It is [[Units of Measurement|measured]] in [[Henries]] after the American physicist *Joseph Henry*. 
+---
+tags:
+  - physics
+  - electromagnetism
+---
+**Inductance** is a measure of the strength of a magnetic field generated around a coil (or, [[Inductor|inductor]]) due to an applied current. The higher the inductance, the stronger the magnetic field. It is [[Units of Measurement|measured]] in [[Henry (Unit)|henries]] after the American physicist *Joseph Henry*. 
 
 If an inductor will establish a [[Voltage|voltage]] of $1\text{V}$ across the coil due to a change in [[Current|current]] of $1\text{A/s}$, it is said to have an inductance of $1\text{H}$.
 

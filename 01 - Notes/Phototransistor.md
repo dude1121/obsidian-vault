@@ -6,7 +6,7 @@ tags:
   - circuit-analysis
   - components
 ---
-A **phototransistor** is a type of [[Transistor|transistor]] similar to a [[BJT]] except the base [[Current|current]] $I_{B}$ is produced and controlled by [[Light|light]] and not a [[Voltage Sources|voltage source]]. 
+A **phototransistor** is a type of [[Transistor|transistor]] similar to a [[Bipolar junction transistor]] except the base [[Current|current]] $I_{B}$ is produced and controlled by [[Light|light]] and not a [[Voltage Sources|voltage source]]. 
 ```tikz
 \usepackage{circuitikz}
 \begin{document}

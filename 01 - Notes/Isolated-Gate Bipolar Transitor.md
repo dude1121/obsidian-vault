@@ -5,7 +5,7 @@ tags:
   - electrical-engineering
   - semiconductors
 ---
-The **insulated-gate bipolar transistor**, or **IGBT**, is a [[Semiconductor|semiconductor]] device that has the output conduction characteristics of a [[BJT|BJT]] but is [[Voltage|voltage]] controlled like a [[Field Effect Transistor|FET]].  Much like a BJT, the IGBT comes in both *npn* and *pnp* types. 
+The **insulated-gate bipolar transistor**, or **IGBT**, is a [[Semiconductor|semiconductor]] device that has the output conduction characteristics of a [[Bipolar junction transistor|Bipolar junction transistor]] but is [[Voltage|voltage]] controlled like a [[Field Effect Transistor|FET]].  Much like a BJT, the IGBT comes in both *npn* and *pnp* types. 
 ```tikz
 \usepackage{circuitikz}
 \begin{document}
@@ -31,7 +31,7 @@ node[pigbt, anchor=E, scale=1.5, bodydiode](Q2){}
 ```
 Also like a BJT, an IGBT contains a *collector* and *emitter* terminal, and the type of IGBT determines whether [[Current|current]] flows from collector to emitter (npn) or emitter to collector (pnp). Unlike the BJT, however, the transistor is controlled by a *gate* voltage. Since a BJT can not operate with a reverse voltage applied across it, most IGBTs contain a "body diode", a diode that is connected in parallel with the collector and emitter such that when the IGBT is reverse biased the IGBT itself is protected.
 
-IGBTs are much better at handling high voltage and high current than MOSFETs and they typically exhibit a lower saturation voltage than MOSFETs. They also are better than BJTs for switching purposes since an IGBT can switch faster than a BJT. 
+IGBTs are much better at handling high voltage and high current than MOSFETs and they typically exhibit a lower saturation voltage than [[Metal Oxide-Semiconductor Field Effect Transistor|MOSFETs]]. They also are better than BJTs for switching purposes since an IGBT can switch faster than a BJT. 
 # Operating the IGBT
 In order to make an IGBT conduct, the voltage across the gate to the emitter $V_{\text{GE}}$ must be greater than some threshold value determined by the specific component. This voltage must also be great enough to drive the IGBT into saturation (around double the threshold value). The IGBT itself must also be properly biased depending on its construction. The voltage across the IGBT in saturation is typically around $0.3\pu{ V}$ but this will vary from component to component. 
 

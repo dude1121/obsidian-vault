@@ -6,7 +6,7 @@ tags:
   - circuit-analysis
   - semiconductors
 ---
-**Current gain** is a [[BJT|BJT transistor]] datasheet value that is a ratio of the collector [[Current|current]] with respect to the base current. It is denoted with either $\beta_{DC}$ or $h_{FE}$.
+**Current gain** is a [[Bipolar junction transistor|BJT transistor]] datasheet value that is a ratio of the collector [[Current|current]] with respect to the base current. It is denoted with either $\beta_{DC}$ or $h_{FE}$.
 $$
 \beta_{DC}=\frac{I_{C}}{I_{B}}
 $$

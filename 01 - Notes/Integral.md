@@ -28,7 +28,7 @@ For [[Trigonometric Functions|trigonometric functions]], the following relations
 $$
 \begin{aligned}
 &\int \sin u\ du=-\cos u+C&&\int \cos u\ du=\sin u+C\\
-&\int \tan u\ du= \ln|\sec u|+C&&\int \cot u\ du=-\ln|\csc u|+C\\
+&\int \tan u\ du= \ln|\sec u|+C&&\int \cot u\ du=\ln|\sin u|+C\\
 &\int \sec u\ du=\ln|\sec u+\tan u|+C&&\int \csc u\ du=-\ln|\csc u+\cot u|+C\\
 \end{aligned}
 $$

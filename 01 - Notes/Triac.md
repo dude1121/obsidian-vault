@@ -37,6 +37,8 @@ Much like the SCR, as the gate [[Current|current]] $I_{G}$ increases, the breako
 \end{document}
 ```
 Triacs are frequently used in low-[[Power|power]] applications. It is much cheaper and easier to control compared to two SCRs connected antiparallel. However, a triac has a lower $dv/dt$ capability and a longer turnoff time, and it is not available in high voltage and high current ratings.
+
+Similar to the SCR, the triac can be turned off by sufficiently dropping the anode current to the holding current $I_{\text{H}}$.  This value is dependant on the gate current with increasing levels of $I_{\text{G}}$ decreasing the holding current $I_{\text{H}}$. Dropping the anode current is most easily done by reversing the polarity of the triac or removing the $T_{1} - T_{2}$ voltage.
 # Parameters
 - *Off-state voltage*, $V_{\text{DRM}}$. This is the  maximum voltage across the triac when the gate is not triggered. This is similar to the "reverse breakdown voltage" in an SCR, but since a triac is symmetrical a "reverse" voltage has little meaning. This parameter should be $2-3$ times the design value.
 - *On-state voltage*, $V_{\text{T}}$. This is the voltage across the triac when it is conducting. This value should ideally be as small as possible so as to reduce losses in the triac.

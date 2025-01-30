@@ -14,9 +14,14 @@ A **BJT** (**B**ipolar **J**unction **T**ransistor) is a type of [[Transistor|tr
 \begin{circuitikz}
 \draw
 (0,0) node[npn](Q){}
-(Q.C) -- ++(0,1) node[ocirc, label=\Large C]{}
+(Q.C) -- ++(0,1) node[ocirc, label=\Large C]{} node[above=7mm]{npn}
 (Q.B) -- ++(-1,0) node[ocirc, label=left:\Large B]{}
 (Q.E) -- ++(0,-1) node[ocirc, label=below:\Large E]{}
+
+(4,0) node[pnp](Q2){}
+(Q2.E) -- ++(0,1) node[ocirc, label=\Large E]{} node[above=7mm]{pnp}
+(Q2.B) -- ++(-1,0) node[ocirc, label=left:\Large B]{}
+(Q2.C) -- ++(0,-1) node[ocirc, label=below:\Large C]{}
 ;
 \end{circuitikz}
 \end{document}

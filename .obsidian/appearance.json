@@ -3,7 +3,7 @@
   "enabledCssSnippets": [
     "main"
   ],
-  "baseFontSize": 16,
+  "baseFontSize": 18,
   "cssTheme": "Catppuccin",
   "theme": "obsidian",
   "interfaceFontFamily": "Hasklug Nerd Font",

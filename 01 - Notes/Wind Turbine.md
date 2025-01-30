@@ -16,13 +16,22 @@ A **wind turbine** is a device that converts wind [[Kinetic Energy|kinetic energ
 - The *high-speed shaft* spins at a higher speed relative to the turbine rotor shaft. This speed will be the synchronous speed of the generator depending on the frequency of the voltage it  is generating. 
 - The *low-speed shaft* is the shaft that connects to the blades, and therefore rotates at a relatively slower speed.
 - The *[[Nacelle|nacelle]]* is the housing of the wind turbine that contains all the components less the blades themselves, external sensors, and the yaw drive unit.
-- *Pitch*.
+- The *pitch* of the rotor blades determine how much wind blows the blades, thereby determining the speed at which they rotate. This pitch can be adjusted so that the turbine always turns at the correct speed to generate electricity at the correct frequency ($50\pu{ Hz}$ in Europe, $60\pu{ Hz}$ in North America). 
 - *Rotor*.
 - *Tower*.
 - *Wind direction*.
 - *Wind vane*.
 - *Yaw drive*.
 - *Yaw motor*.
+## Generator
+As mentioned, there is a generator in the nacelle of the wind turbine. Unlike other forms of power generation, however, this generator is typically an asynchronous generator (or, [[Induction Machine|induction generator]]) or, if the turbine is smaller, a [[DC Machine|dc generator]] may sometimes be used.
+### Dc generator
+In the even the turbine is driving a dc generator, the generated power may be stored in a [[Battery|battery]] so that it can be used later to power some load. This allows the wind turbine to, if the battery is sized properly, have a continuous supply of power instead of an intermittent one. The battery capacity can be selected by the formula,
+$$
+C_{b}=\frac{Pt}{E}
+$$
+### Asynchronous generator
+In order for the asynchronous generator to generate electricity, there needs to be some supply of [[Reactive Power|reactive power]] to generate the stator field. This power comes from the grid itself. This reactive power introduces a [[Phase Shift|phase shift]] since the load is primarily [[Inductor|inductive]]. To remedy this, a [[Capacitor|capacitor]] bank is introduced in parallel to the generator to bring the [[Power Factor|power factor]] back to $1$. In most cases, the generator turns at a constant speed, however there are some more theoretical but costly ideas to build VVVF (variable voltage, variable frequency) turbines that can allow the generator to turn at various speeds but output the correct frequency by use of convertors. These designs are, at present, too expensive to realistically implement.
 ## Power
 We can find the power of the wind that spins the turbine blades by first determining the [[Kinetic Energy|kinetic energy]] of the wind. 
 $$

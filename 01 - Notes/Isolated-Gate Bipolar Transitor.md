@@ -5,22 +5,22 @@ tags:
   - electrical-engineering
   - semiconductors
 ---
-The **insulated-gate bipolar transistor**, or **IGBT**, is a [[Semiconductor|semiconductor]] device that has the output conduction characteristics of a [[Bipolar junction transistor|Bipolar junction transistor]] but is [[Voltage|voltage]] controlled like a [[Field Effect Transistor|FET]].  Much like a BJT, the IGBT comes in both *npn* and *pnp* types. 
+The **insulated-gate bipolar transistor**, or **IGBT**, is a [[Semiconductor|semiconductor]] device that has the output conduction characteristics of a [[Bipolar junction transistor|bipolar junction transistor]] but is [[Voltage|voltage]] controlled like a [[Field Effect Transistor|FET]].  Much like a BJT, the IGBT comes in both *npn* and *pnp* types. 
 ```tikz
 \usepackage{circuitikz}
 \begin{document}
 \begin{circuitikz}
 \draw
-(0,0) node[above=2mm]{npn} node[ocirc]{} to[short] ++(0,-1)
-node[nigbt, anchor=C, scale=1.5, bodydiode](Q1){}
-(Q1.E) to[short] ++(0,-1) node[ocirc]{}
+(0,0) node[above=2mm]{npn} node[ocirc]{} to[short] ++(0,-0.25)
+node[nigbt, anchor=C, bodydiode](Q1){}
+(Q1.E) to[short] ++(0,-0.25) node[ocirc]{}
 (Q1.G) node[left]{G} node[ocirc]{}
 (Q1.C) node[right]{C}
 (Q1.E) node[right]{E}
 
-(4,0) node[above=2mm]{pnp} node[ocirc]{} to[short] ++(0,-1)
-node[pigbt, anchor=E, scale=1.5, bodydiode](Q2){}
-(Q2.C) to[short] ++(0,-1) node[ocirc]{}
+(4,0) node[above=2mm]{pnp} node[ocirc]{} to[short] ++(0,-0.25)
+node[pigbt, anchor=E, bodydiode](Q2){}
+(Q2.C) to[short] ++(0,-0.25) node[ocirc]{}
 (Q2.G) node[left]{G} node[ocirc]{}
 (Q2.C) node[right]{C}
 (Q2.E) node[right]{E}

@@ -153,6 +153,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "markdown-importer:Open format converter": false,
       "switcher:Open quick switcher": false,
@@ -165,8 +166,13 @@
   },
   "active": "dd47d99597a95dce",
   "lastOpenFiles": [
-    "01 - Notes/Acceleration.md",
+    "SmartSelect_Pin.jpg",
     "01 - Notes/Velocity.md",
+    "Excalidraw/Buoyancy Example.excalidraw.md",
+    "SmartSelect_Pin_0.jpg",
+    "Excalidraw",
+    "2025-01-30.md",
+    "01 - Notes/Acceleration.md",
     "01 - Notes/Distance.md",
     "01 - Notes/Metre.md",
     "01 - Notes/Displacement.md",
@@ -191,9 +197,6 @@
     "Physics/Electromagnetism/Circuit Analysis/Capacitor.md",
     "Physics/Electromagnetism/Impedance.md",
     "Mathematics/Linear Algebra/Vector.md",
-    "Mathematics/Transcendental Number.md",
-    "Mathematics/Euler's Number.md",
-    "Mathematics/Euler's Identity.md",
     "Books/Philosophy",
     "Books",
     "Physics/Classical Mechanics",
@@ -202,8 +205,6 @@
     "Physics/Electromagnetism/Circuit Analysis/pictures/inductor-frequency.png",
     "Physics/Electromagnetism/Circuit Analysis/pictures/inductor-lagging.png",
     "Physics/Electromagnetism/pictures/flux-lines.png",
-    "Physics/Electromagnetism/pictures/bar magnet.png",
-    "Physics/Electromagnetism/Circuit Analysis/pictures/Capacitor-VHF-response.png",
     "Physics/Electromagnetism/pictures"
   ]
 }

@@ -8,8 +8,8 @@ A **vector space** is a set consisting of [[Vector|vector]] [[Element (Mathemati
 # Proper Definition
 
 A **vector space** (or **linear space**) $V$ over a [[Field (mathematics)|field]] $F$ consists of a [[Set|set]] on which two operations (called **addition** and **scalar multiplication**, respectively) are defined so that for each pair of elements $x$, $y$, in $V$ there is a unique element $x+y$ in $V$, and for each element $a$ in $F$ and each element $x$ in $V$ there is a unique element $ax$ in $V$, such that the following conditions hold:
-1) For all $x$, $y$ in $V$, $x+y=y+x$ ([[Commutativity|commutativity]] of addition)
-2) For all $x$, $y$, $z$ in $V$, $(x+y)+z=x+(y+z)$ ([[Associativity|associativity]] of addition)
+1) For all $x$, $y$ in $V$, $x+y=y+x$ ([[Commutative Property|commutativity]] of addition)
+2) For all $x$, $y$, $z$ in $V$, $(x+y)+z=x+(y+z)$ ([[Associative Property|associativity]] of addition)
 3) There exists an element in $V$ denoted by $0$ such that $x+0=x$ for each $x$ in $V$. 
 4) For each element $x$ in $V$ there exists an element $y$ in $V$ such that $x+y=0$.
 5) For each element $x$ in $V$, $1x=x$.

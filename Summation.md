@@ -8,3 +8,10 @@ Summation is often denoted with the symbol $\sum$. For example, the sum of all [
 $$
 \sum_{i=1}^{100}i
 $$
+$i$ is referred to as the *index of summation*. In this case, $1$ is the *lower bound of summation* and $100$ is the *upper bound of summation*. The $i=1$ means that the summation begins with $i$ having a value of $1$.
+
+The terms can also have operations done to them, or even be functions. For example,
+$$
+\sum_{i=1}^4i^2=1+2^2+3^2+4^2=30
+$$
+Sometimes the bounds are omitted if the context is clear. 

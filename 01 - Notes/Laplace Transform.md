@@ -15,28 +15,19 @@ s=\sigma + i\omega
 $$
 where $\sigma$ and $\omega$ are real numbers.
 # Common Laplace transforms
-| $f(t)$                                 | $\mathcal{L}(f)$                            |
-| -------------------------------------- | ------------------------------------------- |
-| $1$                                    | $\displaystyle \frac{1}{s}$                 |
-| $\displaystyle \frac{t^{n-1}}{(n-1)!}$ | $\displaystyle \frac{1}{s^n}$               |
-| $e^{-at}$                              | $\displaystyle \frac{1}{s+a}$               |
-| $1-e^{-at}$                            | $\displaystyle \frac{a}{s(s+a)}$            |
-| $\cos at$                              | $\displaystyle \frac{s}{s^2+a^2}$           |
-| $\sin at$                              | $\displaystyle \frac{a}{s^2+a^2}$           |
-| $1-\cos at$                            | $\displaystyle \frac{a^2}{s(s^2+a^2)}$      |
-| $at - \sin at$                         | $\displaystyle \frac{a^3}{s^2(s^2+a^2)}$    |
-| $e^{-at}-e^{-bt}$                      | $\displaystyle \frac{b-a}{(s+a)(s+b)}$      |
-| $ae^{-at}-be^{-at}$                    | $\displaystyle \frac{s(a-b)}{(s+a)(s+b)}$   |
-| $te^{-at}$                             | $\displaystyle \frac{1}{(s+a)^2}$           |
-| $t^{n-1}e^{-at}$                       | $\displaystyle \frac{(n-1)!}{(s+a)^n}$      |
-| $e^{-at}(1-at)$                        | $\displaystyle \frac{s}{(s+a)^2}$           |
-| $[(b-a)t+1]e^{-at}$                    | $\displaystyle \frac{s+b}{(s+a)^2}$         |
-| $\sin at - at \cos at$                 | $\displaystyle \frac{2a^3}{(s^2+a^2)^2}$    |
-| $t\sin at$                             | $\displaystyle \frac{2as}{(s^2+a^2)^2}$     |
-| $\sin at+at\cos at$                    | $\displaystyle \frac{2as^2}{(s^2+a^2)^2}$   |
-| $t\cos at$                             | $\displaystyle \frac{s^2-a^2}{(s^2+a^2)^2}$ |
-| $e^{-at}\sin bt$                       | $\displaystyle \frac{b}{(s+a)^2+b^2}$       |
-| $e^{-at}\cos bt$                       | $\displaystyle \frac{s+a}{(s+a)^2+b^2}$     |
+| $f(t)$                                 | $\mathcal{L}(f)$                            | $f(t)$                 | $\mathcal{L}(f)$                            |
+| -------------------------------------- | ------------------------------------------- | ---------------------- | ------------------------------------------- |
+| $1$                                    | $\displaystyle \frac{1}{s}$                 | $te^{-at}$             | $\displaystyle \frac{1}{(s+a)^2}$           |
+| $\displaystyle \frac{t^{n-1}}{(n-1)!}$ | $\displaystyle \frac{1}{s^n}$               | $t^{n-1}e^{-at}$       | $\displaystyle \frac{(n-1)!}{(s+a)^n}$      |
+| $e^{-at}$                              | $\displaystyle \frac{1}{s+a}$               | $e^{-at}(1-at)$        | $\displaystyle \frac{s}{(s+a)^2}$           |
+| $1-e^{-at}$                            | $\displaystyle \frac{a}{s(s+a)}$            | $[(b-a)t+1]e^{-at}$    | $\displaystyle \frac{s+b}{(s+a)^2}$         |
+| $\cos at$                              | $\displaystyle \frac{s}{s^2+a^2}$           | $\sin at - at \cos at$ | $\displaystyle \frac{2a^3}{(s^2+a^2)^2}$    |
+| $\sin at$                              | $\displaystyle \frac{a}{s^2+a^2}$           | $t\sin at$             | $\displaystyle \frac{2as}{(s^2+a^2)^2}$     |
+| $1-\cos at$                            | $\displaystyle \frac{a^2}{s(s^2+a^2)}$      | $\sin at+at\cos at$    | $\displaystyle \frac{2as^2}{(s^2+a^2)^2}$   |
+| $at - \sin at$                         | $\displaystyle \frac{a^3}{s^2(s^2+a^2)}$    | $t\cos at$             | $\displaystyle \frac{s^2-a^2}{(s^2+a^2)^2}$ |
+| $e^{-at}-e^{-bt}$                      | $\displaystyle \frac{b-a}{(s+a)(s+b)}$      | $e^{-at}\sin bt$       | $\displaystyle \frac{b}{(s+a)^2+b^2}$       |
+| $ae^{-at}-be^{-at}$                    | $\displaystyle \frac{s(a-b)}{(s+a)(s+b)}$   | $e^{-at}\cos bt$       | $\displaystyle \frac{s+a}{(s+a)^2+b^2}$     |
+
 # The linearity property
 For a sum of two function $f(t)$ and $g(t)$ multiplied by constants $a$ and $b$, the Laplace transform is defined as,
 $$

@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Notes/CEC s.8.md",
+                "file": "Summation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CEC s.8"
+              "title": "Summation"
             }
           },
           {
@@ -90,9 +90,79 @@
               "icon": "lucide-file",
               "title": "Solar Cell"
             }
+          },
+          {
+            "id": "fe99312862eb9fa1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 - Notes/Laplace Transform.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Laplace Transform"
+            }
+          },
+          {
+            "id": "2675e47f402584d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 - Notes/Absolute Value.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Absolute Value"
+            }
+          },
+          {
+            "id": "5673950631a2dcd0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 - Notes/Vector.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Vector"
+            }
+          },
+          {
+            "id": "419a712d5ee3e23f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 - Notes/Derivative.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Derivative"
+            }
+          },
+          {
+            "id": "53fb3837b1d39fb2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 - Notes/Integral.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Integral"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -263,11 +333,20 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6bfcceef14f34765",
+  "active": "fe99312862eb9fa1",
   "lastOpenFiles": [
+    "01 - Notes/Integral.md",
+    "01 - Notes/Derivative.md",
+    "01 - Notes/Laplace Transform.md",
+    "01 - Notes/Limit.md",
+    "01 - Notes/Heaviside Function.md",
+    "01 - Notes/Function.md",
+    "01 - Notes/Absolute Value.md",
+    "01 - Notes/Vector.md",
+    "01 - Notes/Solar Cell.md",
+    "01 - Notes/Pressure.md",
     "Summation.md",
     "Addition.md",
-    "01 - Notes/Solar Cell.md",
     "Associative Property.md",
     "Commutative Property.md",
     "Trajectory.md",
@@ -275,7 +354,6 @@
     "01 - Notes/CEC s.28.md",
     "01 - Notes/Bouyancy.md",
     "01 - Notes/Light Fixture.md",
-    "01 - Notes/Pressure.md",
     "01 - Notes/Solar Power Plant.md",
     "01 - Notes/Schottky Diode.md",
     "01 - Notes/Fission Reactor.md",
@@ -283,20 +361,12 @@
     "01 - Notes/Relay.md",
     "01 - Notes/Electrical Energy.md",
     "01 - Notes/Joule.md",
-    "Excalidraw/Buoyancy Example.excalidraw.md",
     "02 - Pictures/buoyancy-example.png",
     "02 - Pictures/2025-01-30-211620_hyprshot.png",
-    "01 - Notes/DC Machine.md",
     "Excalidraw",
     "Untitled.canvas",
-    "01 - Notes/Conductivity.md",
-    "01 - Notes/Junction Field Effect Transistor.md",
     "02 - Pictures/drain-characteristic-curve.png",
     "02 - Pictures/2025-01-30-201133_hyprshot.png",
-    "01 - Notes/Conductance.md",
-    "01 - Notes/Conductor.md",
-    "01 - Notes/Generator.md",
-    "01 - Notes/Synchronous Machine.md",
     "02 - Pictures/Temperature-effects-on-the-I-V-curve-of-a-PV-cell.png",
     "02 - Pictures/curve-of-solar-Cell-under-Different-illumination.png",
     "02 - Pictures/pv-cell-i-v-curve-family.png",

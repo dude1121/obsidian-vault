@@ -1,7 +1,9 @@
 {
   "useCache": true,
-  "hideExcluded": false,
-  "downrankedFoldersFilters": [],
+  "hideExcluded": true,
+  "downrankedFoldersFilters": [
+    "02 - Pictures"
+  ],
   "ignoreDiacritics": true,
   "ignoreArabicDiacritics": false,
   "indexedFileTypes": [],

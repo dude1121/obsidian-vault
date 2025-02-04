@@ -4,8 +4,7 @@ tags:
   - physics
   - circuit-analysis
 ---
-A **full wave rectifier** is a [[Rectifier|rectifier]] circuit that converts the entire [[AC Electricity|ac waveform]] into a steady [[DC Electricity|dc signal]].
-
+A **full wave rectifier** is a [[Rectifier|rectifier]] circuit that converts an [[AC Electricity|ac waveform]] into a steady [[DC Electricity|dc signal]]. Unlike  the [[Half Wave Rectifier|half wave rectifier]], the full wave rectifier converts both halves of the ac waveform.
 # Full Wave (Centre-Tapped)
 ```tikz
 \usepackage{circuitikz}
@@ -33,13 +32,9 @@ $$
 V_{o-pk}=\frac{V_{S-pk}}{2}-V_{F}
 $$
 ## Peak Inverse Voltage
-
 A key attribute of rectifying diodes is their Peak Inverse Voltage rating (PIV). This refers to the maximum amount of reverse voltage that the diode will experience during normal operation of the circuit. In the case above, during the positive half-cycle, diode $D_{1}$ will have no reverse voltage since it is in conduction, but $D_{2}$ will have the *entire* secondary voltage dropped across it, less $D_{1}$'s $V_{F}$. When selecting a diode, the designer must make sure the component can withstand a reverse voltage greater than the calculated PIV. 
-
 # Full Wave (Bridge Rectifier)
-
 A bridge rectifier is a way to rectify ac voltage that does not require a centre-tapped transformer. It consists of 4 diodes arranged in a bridge network that will output a dc signal.
-
 ```tikz
 \usepackage{circuitikz}
 \begin{document}
@@ -62,9 +57,7 @@ to[R, l=$R_L$, f=$I$] ++(0,-2) node[ground]{}
 \end{circuitikz}
 \end{document}
 ```
-
 Above is a full wave bridge rectifier circuit during the positive half-cycle of an ac input, and below is during the negative half-cycle.
-
 ```tikz
 \usepackage{circuitikz}
 \begin{document}

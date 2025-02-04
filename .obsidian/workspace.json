@@ -64,20 +64,6 @@
             }
           },
           {
-            "id": "6bfcceef14f34765",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Summation.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Summation"
-            }
-          },
-          {
             "id": "f3d8c26376cbc835",
             "type": "leaf",
             "state": {
@@ -92,73 +78,45 @@
             }
           },
           {
-            "id": "fe99312862eb9fa1",
+            "id": "9c9c35f54827ded0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Notes/Laplace Transform.md",
+                "file": "01 - Notes/Full Wave Rectifier.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Laplace Transform"
+              "title": "Full Wave Rectifier"
             }
           },
           {
-            "id": "2675e47f402584d7",
+            "id": "08800ce161b72d8f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Notes/Absolute Value.md",
+                "file": "01 - Notes/Rectifier.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Absolute Value"
+              "title": "Rectifier"
             }
           },
           {
-            "id": "5673950631a2dcd0",
+            "id": "c9a887568df16beb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Notes/Vector.md",
+                "file": "01 - Notes/Wind Turbine.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vector"
-            }
-          },
-          {
-            "id": "419a712d5ee3e23f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - Notes/Derivative.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Derivative"
-            }
-          },
-          {
-            "id": "53fb3837b1d39fb2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - Notes/Integral.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Integral"
+              "title": "Wind Turbine"
             }
           }
         ],
@@ -333,45 +291,45 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "fe99312862eb9fa1",
+  "active": "08800ce161b72d8f",
   "lastOpenFiles": [
-    "01 - Notes/Integral.md",
-    "01 - Notes/Derivative.md",
+    "01 - Notes/Wind Turbine.md",
+    "01 - Notes/Hydroelectric Power Station.md",
+    "01 - Notes/Thermal Power Station.md",
+    "01 - Notes/Power Systems.md",
+    "CEC s.42.md",
+    "CEC d.2.md",
+    "02 - Pictures/diagram-2-NEMA.png",
+    "CEC d.1.md",
+    "Flexible Cable.md",
+    "02 - Pictures/diagram-1-NEMA.png",
+    "CEC t.11B.md",
+    "CEC t.12.md",
+    "02 - Pictures/table-12-3.png",
+    "02 - Pictures/table-12-2.png",
+    "02 - Pictures/table-12-1.png",
+    "CEC s.12.md",
+    "02 - Pictures/table-11b-continued-7.png",
+    "02 - Pictures/table-11b-continued-6.png",
+    "02 - Pictures/table-11b-continued-5.png",
+    "02 - Pictures/table-11b-continued-4.png",
+    "02 - Pictures/table-11b-continued-3.png",
+    "CEC t.11A.md",
+    "01 - Notes/Rectifier.md",
+    "01 - Notes/Full Wave Rectifier.md",
+    "01 - Notes/Half Wave Rectifier.md",
+    "01 - Notes/AC Electricity.md",
+    "01 - Notes/Solar Cell.md",
     "01 - Notes/Laplace Transform.md",
+    "01 - Notes/CEC s.8.md",
     "01 - Notes/Limit.md",
     "01 - Notes/Heaviside Function.md",
-    "01 - Notes/Function.md",
     "01 - Notes/Absolute Value.md",
-    "01 - Notes/Vector.md",
-    "01 - Notes/Solar Cell.md",
-    "01 - Notes/Pressure.md",
     "Summation.md",
     "Addition.md",
     "Associative Property.md",
     "Commutative Property.md",
-    "Trajectory.md",
-    "01 - Notes/Elasticity in Solids.md",
-    "01 - Notes/CEC s.28.md",
-    "01 - Notes/Bouyancy.md",
-    "01 - Notes/Light Fixture.md",
-    "01 - Notes/Solar Power Plant.md",
-    "01 - Notes/Schottky Diode.md",
-    "01 - Notes/Fission Reactor.md",
-    "01 - Notes/Nuclear Fission.md",
-    "01 - Notes/Relay.md",
-    "01 - Notes/Electrical Energy.md",
-    "01 - Notes/Joule.md",
-    "02 - Pictures/buoyancy-example.png",
-    "02 - Pictures/2025-01-30-211620_hyprshot.png",
     "Excalidraw",
-    "Untitled.canvas",
-    "02 - Pictures/drain-characteristic-curve.png",
-    "02 - Pictures/2025-01-30-201133_hyprshot.png",
-    "02 - Pictures/Temperature-effects-on-the-I-V-curve-of-a-PV-cell.png",
-    "02 - Pictures/curve-of-solar-Cell-under-Different-illumination.png",
-    "02 - Pictures/pv-cell-i-v-curve-family.png",
-    "02 - Pictures/pv-cell-i-v-curve.png",
-    "02 - Pictures/hydraulic-press-pascals-law.png",
-    "02 - Pictures/solar-cells-operation.png"
+    "Untitled.canvas"
   ]
 }

@@ -1,0 +1,5 @@
+![[table-11a.png]]
+![[table-11a-continued.png]]
+![[table-11a-continued-1.png]]
+![[table-11a-continued-2.png]]
+![[table-11a-continued-3.png]]

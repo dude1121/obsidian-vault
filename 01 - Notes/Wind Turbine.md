@@ -31,7 +31,7 @@ $$
 C_{b}=\frac{Pt}{E}
 $$
 ### Asynchronous generator
-In order for the asynchronous generator to generate electricity, there needs to be some supply of [[Reactive Power|reactive power]] to generate the stator field. This power comes from the grid itself. This reactive power introduces a [[Phase Shift|phase shift]] since the load is primarily [[Inductor|inductive]]. To remedy this, a [[Capacitor|capacitor]] bank is introduced in parallel to the generator to bring the [[Power Factor|power factor]] back to $1$. In most cases, the generator turns at a constant speed, however there are some more theoretical but costly ideas to build VVVF (variable voltage, variable frequency) turbines that can allow the generator to turn at various speeds but output the correct frequency by use of convertors. These designs are, at present, too expensive to realistically implement.
+In order for the asynchronous generator to generate electricity, there needs to be some supply of [[Reactive Power|reactive power]] to generate the stator field. This power comes from the grid itself. This reactive power introduces a [[Phase Shift|phase shift]] since the load is primarily [[Inductor|inductive]]. To remedy this, a [[Capacitor|capacitor]] bank is introduced in parallel to the generator to bring the [[Power Factor|power factor]] back to $1$. In most cases, the generator turns at a constant speed, however there are some more theoretical but costly ideas to build VVVF (variable voltage, variable frequency) turbines that can allow the generator to turn at various speeds but output the correct frequency by use of convertors.[^1] These designs are, at present, too expensive to realistically implement.
 ## Power
 We can find the power of the wind that spins the turbine blades by first determining the [[Kinetic Energy|kinetic energy]] of the wind. 
 $$
@@ -75,3 +75,6 @@ $$
 where $\omega$ is the [[Angular Velocity|angular speed]] of the turbine blades, $r$ is the length of the turbine blade, and $v_{\text{W}}$ is the wind speed.
 # Pros & Cons
 Wind power, as mentioned, is entirely *clean*, meaning it produces no harmful by-products. It also is free in that there is no cost to the "fuel" the turbine consumes. However, wind power is not constant, and therefore the power output of wind turbines is not constant. 
+
+---
+[^1]: Interesting to note that VVVF wind turbine systems are essentially [[Variable Frequency Drive|VFDs]] operating in reverse, going from VVVF to CVCF.

@@ -5,13 +5,20 @@ tags:
 # 28-010 Special terminology
 **Service** - Relates to the nature of the mechanical load. 
 **Continuous duty** - "any application of a motor where the motor can operate continuously with load under  any normal or abnormal condition of use"
+**Locked rotor current rating** - a current rating marked on electric equipment or, where not marked, deemed to be equal to six times the full load current rating from the nameplate of the equipment or from Table [[CEC t.44|44]] or [[CEC t.45|45]] as applicable.
 **Non-continuous duty** - start and stop types of load. e.g. elevators, conveyors, presses
 **Service factor** - a multiplier that, when applied to the rated horsepower of an ac motor, to the rated armature current of a dc motor, or to the rated output of a [[Generator|generator]], indicates a permissible loading that may be carries continuously at rated voltage and frequency. For example, typical values for the service factor range from $1.0-1.2$, so if the service factor was $1.1$ then a $10\pu{ hp}$ could run at $11\pu{ hp}$.
+
+![[CEC t.44]]
+![[CEC t.45]]
 # 28-106 Insulated conductors - individual motors
 ## 1)
 > The insulated conductors of a branch circuit supplying a motor for use on continuous duty service shall have an ampacity not less than $125\%$ of the full load current rating of the motor.
 ## 2)
 > The insulated conductors of a branch circuit supplying a motor for use on non-continuous duty service shall have an ampacity not less than the current value obtained by multiplying the full load current rating of the motor by the applicable percentage given in [[CEC t.27|table 27]] for the duty involved, or varying duty service where a deviation has been allowed in accordance with [[CEC s.28#2-030 Deviation or postponement|Rule 2-030]] by a percentage less than that specified in table 27.
+
+![[CEC t.27]]
+
 # 28-108 Insulated conductors - Two or more motors
 ## 1)
 > Insulated conductors supplying a group of two or more motors shall have an ampacity not less than
@@ -43,12 +50,15 @@ In other words, the conductor sizing for a circuit with a motor and other loads 
 ## 1)
 > For a feeder supplying motor branch circuits only, the ratings or settings of the feeder overcurrent device shall not exceed the calculated value of the overcurrent devices permitted by Rule [[CEC s.28#28-200 Branch circuit overcurrent protection|28-200]] for the motor that is permitted the highest rated overcurrent devices of any motor supplied by the feeder, plus the sum of the full load current ratings of all other motors that will be in operation at the same time.
 ## 2)
-> Where a feeder supplies a group of motors, two or more of which are required to start simultaneously, and the feeder overcurrent devices as calculated in accordance with Subrule 1) are not sufficient to allow the motors to start, the rating or setting of the feeder overcurrent devices shall be permitted to be increased as necessary, to a maximum that does not exceed the rating permitting for a single motor having a full load current rating not less than the sum of the full load current ratings of all other motors that will be in operation at the same time, provided that this value does not exceed 300% of the ampacity of the feeder conductors.
+> Where a feeder supplies a group of motors, two or more of which are required to start simultaneously, and the feeder overcurrent devices as calculated in accordance with Subrule 1) are not sufficient to allow the motors to start, the rating or setting of the feeder overcurrent devices shall be permitted to be increased as necessary, to a maximum that does not exceed the rating permitting for a single motor having a full load current rating not less than the sum of the full load current ratings of all other motors that will be in operation at the same time, provided that this value does not exceed $300\%$ of the ampacity of the feeder conductors.
 ## 3)
 > Where a feeder supplies one or more motor branch circuits together with other loads, the overcurrent protection required shall be determined by calculating the overcurrent protection required for the motor circuits and adding to this value the requirements of the other loads supplied by the feeder.
 
 Similar to [[CEC s.28#1)|here]], the overcurrent protection is first found by determining the motor circuit overcurrent protection and then adding to it the requirements of the other loads.
 # 28-210 Instantaneous-trip circuit breakers
+> When used for branch circuit protection, instantaneous-trip circuit breakers shall be part of a combination motor starter or controller that also provides overload protection and
+> 		a) rated or adjusted, for an ac motor, to trip at not more than $1300\%$ of the motor full load current or at not more than $215\%$ of the motor locked rotor current, where given, except that ratings or settings for trip currents need not be less than $15\pu{ A}$; or
+		  b) rated or adjusted, for a dc motor rated at $50\pu{\! hp}$ or less, to trip at not more than $250\%$ of the motor full load current, or for a dc motor rated at more than $50\ \pu{ hp}$, to trip at not more than $200\%$ of the motor full load current.
 
 # 28-306 Rating or trip selection of overload devices
 ## 1)

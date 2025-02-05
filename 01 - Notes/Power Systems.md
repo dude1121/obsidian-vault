@@ -36,7 +36,7 @@ These stations deliver full power at all times and never changes. An example of 
 These stations respond relatively quickly to demand changes. An example of this type is a [[Hydroelectric Power Station|hydroelectric power station]].
 
 ### Peak-Power stations
-These stations respond *very* quickly to changes (matter of minutes or even seconds). Examples of peak power stations are diesel engines or gas turbines. This is the main issue with fully renewable power sources: renewable sources struggle to react quickly to changes in the power demand. 
+These stations respond *very* quickly to changes (matter of minutes or even seconds). Examples of peak power stations are diesel engines or gas turbines (see [[Thermal Power Station|thermal power station]]). This is the main issue with fully renewable power sources: renewable sources struggle to react quickly to changes in the power demand. 
 
 ## Types of generation stations
 ![[ontario-generation-capacity.png]]

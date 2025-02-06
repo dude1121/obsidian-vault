@@ -25,7 +25,6 @@ $$
 x \notin A
 $$
 # Describing a Set
-
 Sometimes a set may be defined as a finite list of the elements it contains. E.g.,
 $$
 A=\{1,2,3,4\}
@@ -36,13 +35,10 @@ If a set follows a certain pattern and continues up to a certain limit, an ellip
 $$
 A=\{1,2,3,\dots,1000\}
 $$
-
 # Cardinality
 
 ![[Cardinality]]
-
 # Commonly Used Sets
-
 Some sets are referenced so often that there exists shorthand for these sets. These sets include:
 
 The [[Empty Set|empty set]]. A set with no members (i.e. a set with cardinality $0$) is known as the "empty set". This set is typically denoted as $\emptyset$ where $\emptyset=\{  \}$. 
@@ -72,9 +68,7 @@ $$
 \mathbb{C}=\{ a+bi\ |\ a,b \in \mathbb{R}, i=\sqrt{ -1 } \}
 $$
 The [[Universal Set|universal set]] (or sometimes, the "universe") is the set of all things currently under discussion and it is denoted by $\mathbb{U}$.
-
 # Set Equality
-
 Two sets $A$ and $B$ are said to be equal if every element of $A$ is an element of $B$ and every element of $B$ is an element of $A$. This can be expressed as,
 $$
 A \subseteq B \ \ \ \ \ \ \ \ B \subseteq A 

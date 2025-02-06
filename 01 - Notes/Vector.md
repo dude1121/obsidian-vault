@@ -65,8 +65,8 @@ $$
 \end{pmatrix}
 \end{aligned}
 $$
+This is sometimes referred to as the *[[Parallelogram|parallelogram]] law for vector addition*. That is, the sum of two vectors $x$ and $y$ that act at the same point $P$ is the vector beginning at $P$ that is represented by the diagonal of a parallelogram having $x$ and $y$ as adjacent sides.
 # Vector Subtraction
-
 Subtraction is very similar to vector addition. To complete it, we first must discuss what the *negative* or *additive inverse* of a vector means. Given a vector $\vec{a}$,
 ```tikz
 \usepackage{tikz}
@@ -114,9 +114,7 @@ Using the same vectors as above, lets now subtract $\vec{b}$ from $\vec{a}$ inst
 \end{document}
 ```
   Using the same "tip-to-tail" method that allows us to add vectors, we can subtract $\vec{b}$ from $\vec{a}$. Graphically we see that the resultant vector is located at $\vec{c}=(\begin{smallmatrix}2\\-4\\\end{smallmatrix})$ .
-
 # Scalar Multiplication & Division
-
 We can multiply vectors and [[Scalar|scalars]] together by way of *scalar multiplication*. The result of this operation is a vector with the same direction as the original vector, but whose magnitude has been scaled by the scalar. For example,
 ```tikz
 \usepackage{tikz}
@@ -153,10 +151,9 @@ $$
 where $k$ is some scalar value. Note that if $k=-1$, we get the additive inverse from above, where the magnitude is unchanged but the direction has been reversed.
 
 Division can be viewed as multiplication by $\frac{1}{k}$. 
-
+## Parallel vectors
+The vectors $x$ and $y$ are said to be parallel if $y=tx$ for some nonzero [[Real Numbers|real]] number $t$. That is, parallel vectors have the same direction but their magnitudes differ by a factor of $t$. If $t<0$, then the vectors will point in the exact opposite directions but still be considered parallel.
 # Dot Product
 ![[Dot Product]]
-
 # Cross Product
-
 ![[Cross Product]]

@@ -111,3 +111,4 @@ to[short] ++(-1,0) node[ocirc]{} node[left]{$G_4$}
 \end{circuitikz}
 \end{document}
 ```
+The above circuit is a driver for $T_{1}$ and $T_{4}$. The exact values of the resistors do not matter, so long as the ratios between them are consistent. The transformer has a $1:1:1$ turns ratio, meaning that the induced voltage in $S_{1}$ and $S_{2}$ are both equal to the primary winding $P$. A similar circuit could be designed for $T_{2}$ and $T_{3}$, but would be controlled by an oppositely-timed gate pulse $GP$. This pulse is created by either [[Software|software]] that digitally controls the pulses or a [[Phase Shift Circuit|phase shift circuit]].

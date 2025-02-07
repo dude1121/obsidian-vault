@@ -9,9 +9,7 @@ tags:
 ---
 
 A **capacitor** is a two-terminal component that has the ability to temporarily store [[Charge|charge]] when a voltage is applied across its terminals. The amount of charge that a capacitor can store is determined by its [[Capacitance|capacitance]]. 
-
 # Construction
-
 A capacitor's construction can vary but they all operate based on the same principle. At their core, a capacitor is made up of two plates separated by a [[Dielectric|dielectric]]. 
 
 ![[Dielectric]]
@@ -37,15 +35,10 @@ $$
 	C=\epsilon\frac{A}{d}
 $$
 Since a dielectric like *mica* has a higher [[Permittivity|permittivity]] than air, this also results in an increase in capacitance, despite the fact that the area and distance remain unchanged.
-
 # Behaviour
-
 ## DC Circuits
-
 In a [[DC Electricity|dc]] circuit, the capacitor has two states: the transient charging / discharging stage, and *steady state*.
-
 ### Transient Charging State
-
 In this phase, the charges are deposited onto the plates of the capacitor. This continues until the voltage across the capacitor approaches (but will never truly equal) the [[Voltage Sources|source]] voltage. This relationship is [[Exponential|exponential]] which is why the capacitor will never truly equal the source voltage, but it will come very close to it, so close that we can assume they are in fact equal.
 
 The time it takes to charge the capacitor depends on two factors: the capacitance of the capacitor, and the resistance in the circuit. We can model voltage across the capacitor as a [[Function|function]] of time by,
@@ -133,7 +126,6 @@ Once $5\tau$ has elapsed, we can consider the capacitor fully charged. However, 
 
 ---
 #### Example
-
 Consider the following circuit:
 
 ```tikz
@@ -240,16 +232,13 @@ $$
 So while it took $5\text{ms}$ for the capacitor to fully charge, it will take $7.5\text{ms}$ for it to completely discharge, due to the added [[Resistance|resistance]].
 
 ---
-
 ### Steady State
-
 As discovered above, after $5\tau$, the capacitor is fully charged. At this point, the current through it becomes $0\text{A}$. However, when the circuit is first energized or the switch is first thrown to connect the capacitor to a voltage source, the current is its maximum value. We can therefore characterize the capacitor in familiar terms.
 
 > [!info] Steady State Capacitor
 > When a capacitor is first connected, it behaves like a *short*, since the current is maximum and the voltage across it is $0\text{V}$. However, after $5\tau$, it acts like an *open*, since the current is $0\text{A}$ and the voltage across it is maximum.
 
 ## AC Circuits
-
 For a given voltage across the capacitor, the greater the capacitance, the greater the current. An increase in [[Frequency|frequency]] corresponds to an increase in the rate of change of the voltage across the capacitor and therefore an increase in the current through the capacitor. Since, 
 $$
 	i_C=C\frac{dv_C}{dt}	
@@ -298,9 +287,7 @@ $$
 \end{aligned}
 $$
 From this we can see that the reactance of an ideal capacitor has an angle of $-90\degree$. 
-
 ### Frequency Response
-
 As discussed above, the reactance of a capacitor is given by,
 $$
 	X_C=\frac{1}{\omega C}
@@ -310,9 +297,7 @@ where $\omega=2\pi f$. This means that a capacitor's reactance has an inverse re
 Above is a plot of the reactance vs frequency for two different capacitors, the red line is a capacitor of $30\text{nF}$, the purple is a capacitor of $10\text{nF}$, and the black line is a capacitor of $100\text{nF}$. It is evident that an increase in capacitance corresponds to the graph approaching the origin, and therefore a more sensitive response to changes in its frequency.
 
 As $f\rightarrow0$, $X_C\rightarrow\infty$, meaning that at very low frequencies a capacitor behaves as an open (as demonstrated at the lowest frequency, DC, where at steady state a capacitor behaves as an open). As $f\rightarrow\infty$, $X_C\rightarrow0$, meaning that at very high frequencies, a capacity behaves like a short. This is a much less gradual change than an [[Inductor|inductor]]. An inductor's reactance vs time plot is linear, this is not. 
-
 ### Practical Response
-
 In theory, a capacitor is treated as *ideal*. That is, there are no [[Inductance|inductive]] or resistive features within the component.
 ```tikz 
 \usepackage{circuitikz} 

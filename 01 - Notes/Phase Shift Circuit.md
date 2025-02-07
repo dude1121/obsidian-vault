@@ -8,45 +8,194 @@ A **phase shift circuit** is a circuit that can generate pulses for an [[Rectifi
 ```tikz
 \usepackage{circuitikz}
 \begin{document}
-\begin{circuitikz}
+\begin{circuitikz}[scale=0.6, transform shape]
 \draw
 (0,0) node[ocirc](AC1){} node[left]{$AC1$} to[R, l=$R_1$, a=$10\mathrm{k}\Omega$] ++(2,0) node[circ](A){}
-to[R, l=$R_2$, a=$1\mathrm{k}\Omega$] ++(0,-2) node[ground]{}
+to[R, l=$R_2$, a=$1\mathrm{k}\Omega$] ++(0,-2) node[rground]{}
 (A) to[short] ++(1,0) node[circ](B){} to[short] ++(1,0)
 node[op amp, anchor=+, yscale=-1](U1){}
 
+(U1.center) node[]{$U_1$}
+
 (0,-3) node[ocirc](AC2){} node[left]{$AC2$} to[R, l=$R_3$, a=$10\mathrm{k}\Omega$] ++(2,0) node[circ](C){}
-to[R, l=$R_4$, a=$1\mathrm{k}\Omega$] ++(0,-2) node[ground]{}
+to[R, l=$R_4$, a=$1\mathrm{k}\Omega$] ++(0,-2) node[rground]{}
 (C) to[short] ++(1.5,0) node[circ](D){} to[short] ++(0.5,0)
 node[op amp, anchor=+, yscale=-1](U2){}
+
+(U2.center) node[]{$U_2$}
 
 (U1.-) to[short] (U1.- -| D) to[short] (D)
 (U2.-) to[short] (U2.- -| B) to[short] (B)
 
-(U1.out) to[short] ++(1,0) node[circ](E){} to[R, l=$R_5$, a=$10\mathrm{k}\Omega$] ++(0,2) node[ocirc]{} node[above]{$5\mathrm{V}$}
+(U1.out) to[short] ++(1,0) node[circ](E){} to[R, l=$R_5$, a=$10\mathrm{k}\Omega$] ++(0,2) node[vcc]{5V}
 
-(E) to[short] ++(0,-0.5) to[R,l=$R_6$, a=$10\mathrm{k}\Omega$] ++(2,0) node[circ](F){} to[cC, l=$C_1$] node[xshift=10mm, yshift=1mm]{$0.1\mu\mathrm{F}$} ++(0,-1) node[ground]{}
+(E) to[short] ++(0,-0.5) to[R,l=$R_6$, a=$10\mathrm{k}\Omega$] ++(2,0) node[circ](F){} to[cC, l=$C_1$] node[xshift=10mm, yshift=1mm]{$0.1\mu\mathrm{F}$} ++(0,-1) node[rground]{}
 
-(E) to[short] ++(4,0) node[nand port, anchor=in 1](U3){}
-(U3.center) node[xshift=-7mm]{$\LARGE \mathrm{S}$}
+(E) to[short] ++(2,0) node[circ](DP){} to[short] ++(2,0) node[nand port, anchor=in 1](U3){}
+(U3.center) node[xshift=-7mm]{$\LARGE \mathrm{S}$} node[yshift=8mm, xshift=-7mm]{$U_3$}
 
-(U2.out) to[short] ++(1,0) node[circ](H){} to[R, l=$R_7$, a=$10\mathrm{k}\Omega$] ++(0,2) node[ocirc]{} node[above]{$5\mathrm{V}$}
+(DP) to[short] ++(0,0.5) node[circ]{} node[above]{DP}
 
-(H) to[short] ++(0,-1) to[R,l=$R_8$, a=$10\mathrm{k}\Omega$] ++(2,0) node[circ](I){} to[cC, l=$C_2$] node[xshift=10mm, yshift=1mm]{$0.1\mu\mathrm{F}$} ++(0,-1) node[ground]{}
+(U2.out) to[short] ++(1,0) node[circ](H){} to[R, l=$R_7$, a=$10\mathrm{k}\Omega$] ++(0,2) node[vcc]{} node[left]{5V}
 
-(H) to[short] ++(4,0) node[nand port, anchor=in 2](U4){}
+(H) to[short] ++(0,-1) to[R,l=$R_8$, a=$10\mathrm{k}\Omega$] ++(2,0) node[circ](I){} to[cC, l=$C_2$] node[xshift=10mm, yshift=1mm]{$0.1\mu\mathrm{F}$} ++(0,-1) node[rground]{}
+
+(H) to[short] ++(2,0) node[circ](DN){} to[short] ++(2,0) node[nand port, anchor=in 2](U4){}
 (U4.center) node[xshift=-7mm]{$\LARGE \mathrm{S}$}
+node[yshift=8mm, xshift=-7mm]{$U_4$}
+
+(DN) to[short] ++(0,0.5) node[circ]{} node[above]{DN}
 
 (F) to[short] ++(1.5,0) node[](F1){} to[short] (F1 |- U4.in 1) to[short] (U4.in 1)
+
+(F1) node[above, xshift=-5mm]{DPD}
 
 (I) to[short] ++(1.75,0) node[](I1){} to[short] (I1 |- U3.in 2)
 to[short] (U3.in 2)
 
-(U3.out) to[short] ++(2,0) node[nand port, anchor=in 1](U5){}
-(U5.center) node[xshift=-7mm]{$\LARGE \mathrm{S}$}
+(I1) node[above, xshift=-5mm]{DND}
 
-(U4.out) to[short] ++(1.5,0) node[](U4A){} to[short] (U4A |- U5.in 2)
+(U3.out) to[short] ++(1,0) node[nand port, anchor=in 1](U5){}
+(U5.center) node[xshift=-7mm]{$\LARGE \mathrm{S}$}
+node[yshift=8mm, xshift=-7mm]{$U_5$}
+
+(U4.out) to[short] ++(0.5,0) node[](U4A){} to[short] (U4A |- U5.in 2)
 to[short] (U5.in 2)
+
+(U5.out) to[short] ++(2,0)
+node[dipchip, num pins=12, hide numbers, no topmark, external pins width=0, anchor=bpin 2](U6){$U_6$}
+(U6.bpin 1) 
+node[left, yshift=2mm, font=\tiny]{1} 
+node[right, font=\small] {A}
+(U6.bpin 2)
+node[left, yshift=1mm, font=\tiny]{2} 
+node[right, font=\small] {B}
+(U6.bpin 4)
+node[left, yshift=1mm, font=\tiny]{14} 
+node[right, font=\small] {C}
+(U6.bpin 5)
+node[left, yshift=1mm, font=\tiny]{15} 
+node[right, font=\small] {R/C}
+(U6.bpin 6)
+node[left, yshift=2mm, font=\tiny]{3} 
+node[right, font=\small] {CLR}
+(U6.bpin 7)
+node[right, yshift=1mm, font=\tiny]{4} 
+node[left, font=\small] {$\bar{\mathrm{ Q }}$}
+(U6.bpin 9)
+node[right, yshift=1mm, font=\tiny]{13} 
+node[left, font=\small] {Q}
+
+(U6.bpin 1) node[ocirc, xshift=-1mm, scale=1.5]{} to[short] ++(-0.5,0) node[circ](P1){}
+to[short] ++(0,1) to[short] ++(0.5,0) node[rground]{}
+(U6.bpin 4) to[short] (U6.bpin 4 -| P1) to[short] (P1)
+(U6.bpin 5) to[short] ++(-1.5,0) node[circ](P15){} to[short] ++(-1.5,0) to[cC, l=$C_3$, a=$1\mu\mathrm{F}$] ++(0,-1.25) to[short] ++(0,-0.75) node[rground]{}
+
+(U6.bpin 6) node[ocirc, xshift=-1mm, scale=1.5]{} to[short] ++(-0.5,0) node[circ](P3){} to[short] ++(0,-0.5) node[circ]{} node[yshift=-2mm, xshift=4mm]{$5\mathrm{V}$}
+(P3) to[short] ++(-0.2,0) to[pR, mirror, n=POT] ++(0,-2)
+(POT.wiper) to[short] (POT.wiper -| P15) to[short] (P15)
+
+(U6.bpin 7) to[short] ++(0.5,0) node[circ](P4){} to[short] ++(2.5,0) node[circ](P4A){} to[short] ++(0,3) to[short] ++(1,0)
+node[and port, number inputs=4, anchor=in 3](U7){}
+(U7.center) node[xshift=-7mm]{$U_7$}
+
+(U7.in 1) to[short] ++(-0.5,0) to[short] ++(0,0.5) node[vcc]{5V}
+(U7.in 2) to[short] ++(-1.5,0) node[circ]{} node[above]{DPD}
+(U7.in 4) to[short] ++(-2.5,0) node[circ](U75){} to[short] ++(0,0.5) node[ocirc]{} node[above]{OC}
+
+(U75) to[short] ++(0,-4) node[circ](J){}
+(J) to[short] (J -| U7.in 4) node[and port, number inputs=4, anchor=in 2](U8){}
+(U8.center) node[xshift=-7mm]{$U_8$}
+
+(U8.in 1) to[short] ++(-0.5,0) node[circ]{} node[above]{DND}
+(U8.in 3) to[short] (U8.in 3 -| P4A) to[short] (P4A)
+(U8.in 4) to[short] ++(-0.5,0) node[circ]{} node[yshift=-5mm]{5V}
+
+(J) to[R, l=$R_9$, a=$10\mathrm{k}\Omega$] ++(-2,0) node[circ](K){}
+
+(K) to[short] ++(0,-1.25) node[circ](L){} to[short] ++(0.25,0) node[nand port, anchor=in 1](U9){}
+(U9.center) node[xshift=-7mm]{$\LARGE \mathrm{S}$}
+node[yshift=-8mm, xshift=-7mm]{$U_9$}
+(L) to[short] (L |- U9.in 2) to[short] (U9.in 2)
+
+(K) to[short] ++(-0.75,0) to[cC] ++(0,-2) node[rground]{} node[xshift=-7mm, yshift=5mm]{$C_4$}
+node[xshift=-5mm, yshift=1mm]{$0.1\mu\mathrm{F}$}
+
+(U9.out) to[short] (U9.out -| J) to[short] (J)
+
+(P4) to[short] ++(0,0.5) node[ocirc]{} node[above]{SH}
+
+(U7.out) to[short] ++(0.5,0) node[circ]{} node[right]{GP}
+(U8.out) to[short] ++(0.5,0) node[circ]{} node[right]{GN}
+;
+\end{circuitikz}
+\end{document}
+```
+The above circuit is a sample driver circuit for an SCR rectifier. It operates in five main steps:
+1. **Digital**. The first section of the circuit "digitizes" the [[AC Electricity|ac]] input, converting the sinusoidal voltage into a high signal and a low signal. These inputs are fed into [[Comparator|comparators]] $U_{1}$ and $U_{2}$ with outputs $DP$ and $DN$, respectively. 
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{circuitikz}
+\draw
+(0,0) node[ocirc](AC1){} node[left]{$AC1$} to[R, l=$R_1$, a=$10\mathrm{k}\Omega$] ++(2,0) node[circ](A){}
+to[R, l=$R_2$, a=$1\mathrm{k}\Omega$] ++(0,-2) node[rground]{}
+(A) to[short] ++(1,0) node[circ](B){} to[short] ++(1,0)
+node[op amp, anchor=+, yscale=-1](U1){}
+
+(U1.center) node[]{$U_1$}
+
+(0,-3) node[ocirc](AC2){} node[left]{$AC2$} to[R, l=$R_3$, a=$10\mathrm{k}\Omega$] ++(2,0) node[circ](C){}
+to[R, l=$R_4$, a=$1\mathrm{k}\Omega$] ++(0,-2) node[rground]{}
+(C) to[short] ++(1.5,0) node[circ](D){} to[short] ++(0.5,0)
+node[op amp, anchor=+, yscale=-1](U2){}
+
+(U2.center) node[]{$U_2$}
+
+(U1.-) to[short] (U1.- -| D) to[short] (D)
+(U2.-) to[short] (U2.- -| B) to[short] (B)
+
+(U1.out) to[short] ++(1,0)
+(U2.out) to[short] ++(1,0)
+;
+\end{circuitikz}
+\end{document}
+```
+2. **Edge Detector**. This section of the circuit detects when the signals $DP$ and $DN$ change from low to high or high to low. It accomplishes this by feeding their output into a configuration of [[NAND Gate|NAND gate]] [[Schmitt Trigger|Schmitt triggers]]. 
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{circuitikz}
+\draw
+(0,0) to[short] ++(2,0) node[circ](E){} to[R, l=$R_5$, a=$10\mathrm{k}\Omega$] ++(0,2) node[vcc]{5V}
+
+(E) to[short] ++(0,-0.5) to[R,l=$R_6$, a=$10\mathrm{k}\Omega$] ++(2,0) node[circ](F){} to[cC, l=$C_1$] node[xshift=10mm, yshift=1mm]{$0.1\mu\mathrm{F}$} ++(0,-1) node[rground]{}
+
+(E) to[short] ++(2,0) node[circ](DP){} to[short] ++(2,0) node[nand port, anchor=in 1](U3){}
+(U3.center) node[xshift=-7mm]{$\LARGE \mathrm{S}$} node[yshift=8mm, xshift=-7mm]{$U_3$}
+
+(DP) to[short] ++(0,0.5) node[circ]{} node[above]{DP}
+
+(0,-3) to[short] ++(2,0) node[circ](H){} to[R, l=$R_7$, a=$10\mathrm{k}\Omega$] ++(0,2) node[vcc]{} node[left]{5V}
+
+(H) to[short] ++(0,-1) to[R,l=$R_8$, a=$10\mathrm{k}\Omega$] ++(2,0) node[circ](I){} to[cC, l=$C_2$] node[xshift=10mm, yshift=1mm]{$0.1\mu\mathrm{F}$} ++(0,-1) node[rground]{}
+
+(H) to[short] ++(2,0) node[circ](DN){} to[short] ++(2,0) node[nand port, anchor=in 2](U4){}
+(U4.center) node[xshift=-7mm]{$\LARGE \mathrm{S}$}
+node[yshift=8mm, xshift=-7mm]{$U_4$}
+
+(DN) to[short] ++(0,0.5) node[circ]{} node[above]{DN}
+
+(F) to[short] ++(1.5,0) node[](F1){} to[short] (F1 |- U4.in 1) to[short] (U4.in 1)
+
+(F1) node[above, xshift=-5mm]{DPD}
+
+(I) to[short] ++(1.75,0) node[](I1){} to[short] (I1 |- U3.in 2)
+to[short] (U3.in 2)
+
+(I1) node[above, xshift=-5mm]{DND}
+
+(U3.out) to[short] ++(1,0)
 ;
 \end{circuitikz}
 \end{document}

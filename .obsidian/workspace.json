@@ -153,12 +153,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Notes/Addition.md",
+                "file": "01 - Notes/Phase Shift Circuit.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Addition"
+              "title": "Phase Shift Circuit"
             }
           },
           {
@@ -233,7 +233,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "e9b292d34ab8b0bc",
@@ -346,8 +347,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "93fca07d514028a9",
+  "active": "f24534275b85d601",
   "lastOpenFiles": [
+    "01 - Notes/Phase Shift.md",
+    "01 - Notes/Addition.md",
     "01 - Notes/Phase Shift Circuit.md",
     "01 - Notes/Silicon-Controlled Rectifier.md",
     "01 - Notes/Rectifier.md",
@@ -372,8 +375,6 @@
     "01 - Notes/Sample (Statistics).md",
     "01 - Notes/Fission Reactor.md",
     "01 - Notes/Light Fixture.md",
-    "01 - Notes/Solar Cell.md",
-    "01 - Notes/CEC s.28.md",
     "02 - Pictures/table-27.png",
     "02 - Pictures/table-45.png",
     "02 - Pictures/table-44-1.png",

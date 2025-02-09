@@ -4,8 +4,13 @@ tags:
   - electrical-engineering
   - power-systems
 ---
-**Power systems** are systems that handle the *generation*, *transmission*, and *distribution* of electrical power to consumers.  
-
+**Power systems** are systems that handle the *generation*, *transmission*, and *distribution* of electrical power to consumers.  This system must provide a constant source of power for consumers to use, and this power has five requirements:
+1. Stable voltage $\pm 10\%$.
+2. Stable frequency $\pm 0.1\pu{\! Hz}$
+3. Supply energy at an acceptable price
+4. Comply with safety standards
+5. Respect environmental standards
+![[power-systems-single-line.png]]
 # Generation
 Electrical power systems make use of large generation stations that generate electricity by means of [[Generator|generators]]. The generated [[Voltage|voltage]] at these stations ranges from $1-30\pu{ kV}$. Ideally, the generated power must be balanced. That is, at any given moment, the power generated must be the same as the power being consumed.
 $$
@@ -18,7 +23,6 @@ If this demand is not met, the load will increase and this increase in load will
 In a given power plant, the generator's speed is monitored by a *speed regulator* or *governor*. These regulators can detect a change of $0.02\%$ in the generator's speed, or a change in frequency of about $0.012\pu{ Hz}$. 
 
 Note that this idea of power "balancing" is a *local* job. For example, in North America all power grids are connected, but this can be thought of as the *base* power stations being connected, whereas peak and intermediate power stations are local stations that can react to local demands.
-
 ## Power Demand
 The consumed power is also known as the *power demand*. The power demand is how the consumer behaves and when they require more or less power. The average daily power demand is shown below (source: ieso.ca):
 ![[daily-power-demand.png]]
@@ -28,16 +32,12 @@ Over time various patterns emerge from this data.
 - **Peak demand**. This demand is around an additional $3\pu{ GW}$ but it is changing all the time and must be adjusted constantly. 
 
 To meet these types of power demands, we have three different types of generation stations. They are named after the demand they fill: *Base station*, *Intermediate station*, and *Peak station*.
-
 ### Base-Power stations
 These stations deliver full power at all times and never changes. An example of this type of power station is a [[Nuclear Power Plant|nuclear power plant]] which takes *days* to adjust their power output.
-
 ### Intermediate-Power stations
 These stations respond relatively quickly to demand changes. An example of this type is a [[Hydroelectric Power Station|hydroelectric power station]].
-
 ### Peak-Power stations
 These stations respond *very* quickly to changes (matter of minutes or even seconds). Examples of peak power stations are diesel engines or gas turbines (see [[Thermal Power Station|thermal power station]]). This is the main issue with fully renewable power sources: renewable sources struggle to react quickly to changes in the power demand. 
-
 ## Types of generation stations
 ![[ontario-generation-capacity.png]]
 Above is a chart depicting the current (as of Jan. 2025) breakdown of all Ontario power generation capacity. The actual delivered power is shown below:
@@ -52,13 +52,29 @@ The most commonly used generation stations are:
 - [[Solar Power Plant]]
 - [[Biomass Power Station]]
 # Transmission
-From generation stations, electricity is transmitted via [[Transmission Line|transmission lines]] to distribution stations. Before leaving the generation station, the voltage is [[Transformer|stepped up]] to anywhere from $115\pu{ kV}$ to $800\pu{ kV}$. This high voltage serves to reduce the current in transmission lines which serves 2 purposes: 1) lower current means less internal losses due to the transmission lines, and 2) lower current means smaller cables to carry that current. 
+From generation stations, electricity is transmitted via [[Transmission Line|transmission lines]] to distribution stations. Before leaving the generation station, the voltage is [[Transformer|stepped up]] to anywhere from $115\pu{ kV}$ to $800\pu{ kV}$. This high voltage serves to reduce the [[Current|current]] in transmission lines which serves 2 purposes: 1) lower current means less internal losses due to the transmission lines, and 2) lower current means smaller cables to carry that current. 
+## Voltage standards
+| Designation              | Value                           |
+| ------------------------ | ------------------------------- |
+| Low Voltage (LV)         | $<600\pu{\! V}$                 |
+| Medium Voltage (MV)      | $2.4\pu{\! kV} - 69\pu{\! kV}$  |
+| High Voltage (HV)        | $115\pu{ \! kV}-230\pu{ \! kV}$ |
+| Extra High Voltage (EHV) | $345\pu{ \! kV}-800\pu{ \! kV}$ |
+As mentioned above, higher voltages reduce losses in the transmission lines by reducing the current in the lines.
+### Low voltage
+In single phase, low voltage is typically $120\pu{\! V}$ or $120/240\pu{ \! V}$. In three phase, typical line voltage is $480\pu{ \! V}$ or $600\pu{ \! V}$. This is typically used for factories, homes, or commercial buildings.
+### Medium voltage
+Medium voltage, along with higher designations, are always three phases. Common values are: $2.4\pu{ \! kV}$, $4.16\pu{ \! kV}$, $4.8\pu{ \! kV}$, $6.9\pu{ \! kV}$, $13.8\pu{ \! kV}$, $23\pu{ \! kV}$, $27.6\pu{ \! kV}$, $34.5\pu{ \! kV}$, $46\pu{ \! kV}$, and $69\pu{ \! kV}$. In Ontario, the values used are typically $4.16\pu{ \! kV}$, $27.6\pu{ \! kV}$, and $69\pu{ \! kV}$. 
 
+These are used in distribution subsystems, high-rise buildings, shopping centres, campuses, and factories. 
+### High voltage
+High voltage common values are: $115\pu{ \! kV}$, $138\pu{ \! kV}$, $161\pu{ \! kV}$, and $230\pu{ \! kV}$. In Ontario only $230\pu{ \! kV}$ is typically used. These are only used between two power systems, and between generating stations and main substations.
+### Extra high voltage
+Extra high voltage common values are: $345\pu{ \! kV}$, $500\pu{ \! kV}$, $735\pu{ \! kV}$ - $765\pu{ \! kV}$. In Ontario, the commonly used value is $500\pu{ \! kV}$. These are used for very long distance transmission lines.
 # Distribution
 Before power is sent to consumers, it arrives at distribution stations. Here, it is stepped down to anywhere from $2.4\pu{ kV}$ to $69\pu{ kV}$. This distribution voltage is what is sent to the consumers.
 
 Similar to how generation stations monitor frequency changes for varying power demands, distribution stations also monitor frequency in case of emergencies. If extra power can not be put into the system by either increasing peak and intermediate plants or by buying power from neighbouring grids, distribution stations may need to *load shed*. This is where the distribution station cuts off power from consumers in order to balance the power generated with the power demand.
-
 # Power Flow
 ![[power-systems-flow.png]]
 Traditionally, power only flows in one direction: from the generation stations to the consumers. However, due to renewable options becoming more prevalent, more and more the power flow becomes bidirectional, as someone with a solar panel may generate more power than they consume, sending the remainder back to the utilities.

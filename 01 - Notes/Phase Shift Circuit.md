@@ -161,7 +161,7 @@ node[op amp, anchor=+, yscale=-1](U2){}
 \end{circuitikz}
 \end{document}
 ```
-2. **Edge Detector**. This section of the circuit detects when the signals $DP$ and $DN$ change from low to high or high to low. It accomplishes this by feeding their output into a configuration of [[NAND Gate|NAND gate]] [[Schmitt Trigger|Schmitt triggers]]. 
+2. **Edge Detector**. This section of the circuit detects when the signals $DP$ and $DN$ change from low to high or high to low. It accomplishes this by feeding their output into a configuration of [[NAND Gate|NAND gate]] [[Schmitt Trigger|Schmitt triggers]]. The output of $U_{3}$ and $U_{4}$ form the inputs to $U_{5}$. $DPD$ and $DND$ are delayed versions of $DP$ and $DN$, respectively, delayed by the RC filter formed by $R_{6}$ and $C_{1}$ (as well as $R_{8}$ and $C_{2}$). This delay triggers the Schmitt triggers (which  are positive-edge detecting) to send out a pulse to $U_{5}$. This pulse causes $U_{5}$ to produce pulses every time the $DP$ / $DN$ signals change state.  
 ```tikz
 \usepackage{circuitikz}
 \begin{document}
@@ -195,7 +195,84 @@ to[short] (U3.in 2)
 
 (I1) node[above, xshift=-5mm]{DND}
 
-(U3.out) to[short] ++(1,0)
+(U3.out) to[short] ++(1,0) node[nand port, anchor=in 1](U5){}
+(U5.center) node[xshift=-7mm]{$\LARGE \mathrm{S}$}
+node[yshift=8mm, xshift=-7mm]{$U_5$}
+
+(U4.out) to[short] ++(0.5,0) node[](U4A){} to[short] (U4A |- U5.in 2)
+to[short] (U5.in 2)
+;
+\end{circuitikz}
+\end{document}
+```
+3. **Phase shift**. The next section is what allows us to introduce a phase shift into our rectifier. The IC $U_{6}$ is a $\text{74LS123}$ monostable circuit that outputs a pulse at $Q$ (and by extension, an opposite pulse at $\bar{Q}$). The pulse width of the output pulse is determined by the $R/C$ input, which in this case is adjustable by adjusting the [[Potentiometer|potentiometer]]. The output is technically $Q$ which would correspond to the phase shift angle $\delta$, but we make use of $\bar{Q}$ which corresponds to the conduction angle $\alpha$.
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{circuitikz}
+\draw
+(0,0) node[nand port, anchor=in 1](U5){}
+(U5.center) node[xshift=-7mm]{$\LARGE \mathrm{S}$}
+node[yshift=8mm, xshift=-7mm]{$U_5$}
+
+(U5.out) to[short] ++(2,0)
+node[dipchip, num pins=12, hide numbers, no topmark, external pins width=0, anchor=bpin 2](U6){$U_6$}
+(U6.bpin 1) 
+node[left, yshift=2mm, font=\tiny]{1} 
+node[right, font=\small] {A}
+(U6.bpin 2)
+node[left, yshift=1mm, font=\tiny]{2} 
+node[right, font=\small] {B}
+(U6.bpin 4)
+node[left, yshift=1mm, font=\tiny]{14} 
+node[right, font=\small] {C}
+(U6.bpin 5)
+node[left, yshift=1mm, font=\tiny]{15} 
+node[right, font=\small] {R/C}
+(U6.bpin 6)
+node[left, yshift=2mm, font=\tiny]{3} 
+node[right, font=\small] {CLR}
+(U6.bpin 7)
+node[right, yshift=1mm, font=\tiny]{4} 
+node[left, font=\small] {$\bar{\mathrm{ Q }}$}
+(U6.bpin 9)
+node[right, yshift=1mm, font=\tiny]{13} 
+node[left, font=\small] {Q}
+
+(U6.bpin 1) node[ocirc, xshift=-1mm, scale=1.5]{} to[short] ++(-0.5,0) node[circ](P1){}
+to[short] ++(0,1) to[short] ++(0.5,0) node[rground]{}
+(U6.bpin 4) to[short] (U6.bpin 4 -| P1) to[short] (P1)
+(U6.bpin 5) to[short] ++(-1.5,0) node[circ](P15){} to[short] ++(-1.5,0) to[cC, l=$C_3$, a=$1\mu\mathrm{F}$] ++(0,-1.25) to[short] ++(0,-0.75) node[rground]{}
+
+(U6.bpin 6) node[ocirc, xshift=-1mm, scale=1.5]{} to[short] ++(-0.5,0) node[circ](P3){} to[short] ++(0,-0.5) node[circ]{} node[yshift=-2mm, xshift=4mm]{$5\mathrm{V}$}
+(P3) to[short] ++(-0.2,0) to[pR, mirror, n=POT] ++(0,-2)
+(POT.wiper) to[short] (POT.wiper -| P15) to[short] (P15)
+
+(U6.bpin 7) to[short] ++(1,0)
+
+;
+\end{circuitikz}
+\end{document}
+```
+1. **Oscillator**. This stage provides an oscillating signal to the gate logic stage. This is done by using another Schmitt trigger NAND gate to 
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{circuitikz}
+\draw
+(0,0) node[circ](J){}
+
+(J) to[R, l=$R_9$, a=$10\mathrm{k}\Omega$] ++(-2,0) node[circ](K){}
+
+(K) to[short] ++(0,-1.25) node[circ](L){} to[short] ++(0.25,0) node[nand port, anchor=in 1](U9){}
+(U9.center) node[xshift=-7mm]{$\LARGE \mathrm{S}$}
+node[yshift=-8mm, xshift=-7mm]{$U_9$}
+(L) to[short] (L |- U9.in 2) to[short] (U9.in 2)
+
+(K) to[short] ++(-0.75,0) to[cC] ++(0,-2) node[rground]{} node[xshift=-7mm, yshift=5mm]{$C_4$}
+node[xshift=-5mm, yshift=1mm]{$0.1\mu\mathrm{F}$}
+
+(U9.out) to[short] (U9.out -| J) to[short] (J)
 ;
 \end{circuitikz}
 \end{document}

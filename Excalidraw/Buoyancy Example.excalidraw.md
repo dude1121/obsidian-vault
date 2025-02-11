@@ -10,7 +10,7 @@ tags: [excalidraw]
 # Excalidraw Data
 
 ## Text Elements
-[[Bouyancy]] ^Es0EkhuF
+[[Buoyancy]] ^Es0EkhuF
 
 ## Embedded Files
 231bb7fb0c0555dd0a1baacc2d1b418dabef61f3: [[buoyancy-example.png]]

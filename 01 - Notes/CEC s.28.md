@@ -46,6 +46,7 @@ In other words, the conductor sizing for a circuit with a motor and other loads 
 ## 3)
 > The rating of the overcurrent device required by Subrule 1) shall
 > 	a) not exceed the values given in [[CEC t.29|table 29]] using the rated full load current of the motor, except that an overcurrent device having a minimum rating or setting of $15\pu{ A}$ shall be permitted even though
+![[CEC t.29]]
 # 28-204 Feeder overcurrent protection
 ## 1)
 > For a feeder supplying motor branch circuits only, the ratings or settings of the feeder overcurrent device shall not exceed the calculated value of the overcurrent devices permitted by Rule [[CEC s.28#28-200 Branch circuit overcurrent protection|28-200]] for the motor that is permitted the highest rated overcurrent devices of any motor supplied by the feeder, plus the sum of the full load current ratings of all other motors that will be in operation at the same time.

@@ -37,7 +37,7 @@ Above are both half wave and full wave rectifier circuits with [[Silicon-Control
 ![[full-wave-firing-angle.png]]
 Above is a timing diagram of an input sinusoidal voltage like in the full wave rectifier circuit above. For the positive half-cycle, the SCRs $T_{1}$ and $T_{4}$ are triggered on. For the negative half-cycle, $T_{2}$ and $T_{3}$ are on. If these SCRs are triggered to match the input voltage [[Frequency|frequency]], then this circuit would be essentially a normal rectifier circuit. However, if we delay the on-time for the SCR triggers, we get an altered rectified output. 
 
-The time (in degrees or radians) it takes for the SCRs to trigger is called the *phase shift angle* and it is denoted by $\delta$. Conversely, the time that the SCRs are conducting is called the *conduction angle* and it is denoted by $\alpha$. It stands to reason then that.
+The time (in degrees or radians) it takes for the SCRs to trigger is called the *phase shift angle* and it is denoted by $\delta$. Conversely, the time that the SCRs are conducting is called the *conduction angle* and it is denoted by $\alpha$. This angle can be controlled by an external driver circuit (see [[Phase Shift Circuit|phase shift circuit]]). It stands to reason then that.
 $$
 \delta+\alpha=180\degree=\pi
 $$

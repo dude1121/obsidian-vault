@@ -69,3 +69,87 @@ Therefore we can say that,
 $$
 y=\frac{1}{I}\int QI\ dx + C
 $$
+# Second-Order linear differential equations
+A second-order linear differential equation has the form:
+$$
+P(x)\ \frac{d^2y}{dx^2}+Q(x)\ \frac{dy}{dx} + R(x)y=G(x)
+$$
+where $P$, $Q$, $R$, and $G$ are continuous functions. If $G(x)=0$, then we say the equation is *homogenous*. Else, it is *non-homogenous*.
+## Homogenous
+> [!quote] Theorem
+> If $y_{1}(x)$ and $y_{2}(x)$ are both solutions of the homogenous equation and $c_{1}$ and $c_{2}$ are any constants, then the function
+> $$
+> y(x)=c_{1}y_{1}(x)+c_{2}y_{2}(x)
+> $$
+> is also a solution of the same equation.
+
+>[!quote] Theorem
+>If $y_{1}$ and $y_{2}$ are linearly independent solutions of the equation, and $P(x)$ is never $0$, then the general solution is given by,
+>$$
+>y(x)=c_{1}y_{1}(x)+c_{2}y_{2}(x)
+>$$
+>where $c_{1}$ and $c_{2}$ are arbitrary constants.
+
+The above theorems allow us to solve homogenous differential equations because we can make some assumptions. The second theorem is especially useful because it says that if we know *two* particular linearly independent solutions, then we know *every* solution. This is not always easy but it is always possible to do if the functions $P$, $Q$, and $R$ are constants. That is, if the equation is of the form,
+$$
+ay\ ''+by\ '+cy=0
+$$
+where $a$, $b$, and $c$ are constants and $a\neq 0$. From this we know we are looking for a function $y$ such that a constant times its second derivative $y\ ''$ plus another constant times $y\ '$ plus a third constant times $y$ is equal to $0$. We know that the [[Exponential Function|exponential function]] $y=e^{rx}$ (where $r$ is some constant) has the property that its derivative is a multiple of itself, $y\ '=re^{rx}$. Its second derivative follows the pattern, $y\ ''=r^2e^{rx}$. We can substitute this in to the above equation,
+$$
+ar^2e^{rx}+bre^{rx}+ce^{rx}=0
+$$
+or
+$$
+(ar^2+br+c)e^{rx}=0
+$$
+But $e^{rx}$ is never $0$, meaning that $y=e^{rx}$ is a solution of the equation if $r$ is a root of the equation,
+$$
+ar^2+br+c=0
+$$
+This equation is called the *auxiliary equation* or *characteristic equation* of the differential equation $ay\ ''+by\ '+cy=0$. This can be solved using the quadratic formula or factoring to find our $r$ values. 
+$$
+\begin{align}
+r_{1}=\frac{-b+\sqrt{ b^2-4ac }}{2a}&&r_{2}=\frac{-b-\sqrt{ b^2-4ac }}{2a}
+\end{align}
+$$
+Evaluating the discriminant leads us to three distinct cases:
+## $b^2-4ac>0$
+In this case, there are two [[Real Numbers|real]] [[Root (Mathematics)|roots]], meaning the solution to the differential equation is
+$$
+y=c_{1}e^{r_{1}x}+c_{2}e^{r_{2}x}
+$$
+## $b^2-4ac=0$
+If there is only one root, the solution to the differential equation is of the form,
+$$
+y=c_{1}e^{rx}+c_{2}xe^{rx}
+$$
+In this case, the root $r$ is equal to
+$$
+r=-\frac{b}{2a}
+$$
+## $b^2-4ac<0$
+In this case the roots $r_{1}$ and $r_{2}$ are not real but instead [[Complex Numbers|complex]]. We could write the roots as,
+$$
+\begin{align}
+r_{1}=\alpha+i\beta&&r_{2}=\alpha-i\beta
+\end{align}
+$$
+where $\alpha$ and $\beta$ are real numbers. They can be defined as
+$$
+\begin{align}
+\alpha=-\frac{b}{2a}&&\beta=\frac{\sqrt{ 4ac-b^2 }}{2a}
+\end{align}
+$$
+Using [[Euler's Formula|Euler's formula]],
+$$
+e^{i\theta}=\cos \theta+i\ \sin \theta
+$$
+We can therefore write the solution of the differential equation as,
+$$
+\begin{align}
+y&=c_{1}e^{(\alpha+i\beta)x}+c_{2}e^{(\alpha-i\beta)x}\\ \\
+&=c_{1}e^{\alpha x}(\cos \beta x+i\sin \beta x)+c_{2}e^{\alpha x}(\cos \beta x-\sin \beta x)\\ \\
+&=e^{\alpha x}\left[(c_{1}+c_{2})\cos \beta x+i(c_{1}-c_{2})\sin \beta x\right] \\
+&\boxed{=e^{\alpha x}(c_{1}\cos \beta x+c_{2}\sin \beta x)}
+\end{align}
+$$

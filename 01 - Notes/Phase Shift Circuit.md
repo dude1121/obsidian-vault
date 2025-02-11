@@ -254,7 +254,7 @@ to[short] ++(0,1) to[short] ++(0.5,0) node[rground]{}
 \end{circuitikz}
 \end{document}
 ```
-1. **Oscillator**. This stage provides an oscillating signal to the gate logic stage. This is done by using another Schmitt trigger NAND gate to 
+4. **Oscillator**. This stage provides an oscillating signal to the gate logic stage. This is done by using another Schmitt trigger NAND gate to create a pulsing signal that triggers the outputs.
 ```tikz
 \usepackage{circuitikz}
 \begin{document}
@@ -273,6 +273,36 @@ node[yshift=-8mm, xshift=-7mm]{$U_9$}
 node[xshift=-5mm, yshift=1mm]{$0.1\mu\mathrm{F}$}
 
 (U9.out) to[short] (U9.out -| J) to[short] (J)
+;
+\end{circuitikz}
+\end{document}
+```
+5. **Gate Logic**. The final stage of this circuit sends out a pulsed signal to $GP$ and $GN$. $GP$ and $GN$ are never on at the same time and are offset from one another by a phase shift $\delta$ that is determined by the 3rd stage of this circuit. These outputs need to be pulsed so that the [[Pulse Transformer|pulse transformer]] can operate properly. The width of these pulses are determined by the oscillator circuit. The logic gates are designed in such a way that the gate signal is only sent out when: a) the circuit is powered with $5\ \pu{ V}$, b) $DPD$ (see stage 2) is high, c) the signal corresponding to the conduction angle $\alpha$ is high, and d) the oscillator is high. 
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{circuitikz}
+\draw
+(0,0) to[short] ++(1,0) node[circ](P4){} to[short] ++(2.5,0) node[circ](P4A){} to[short] ++(0,3) to[short] ++(1,0)
+node[and port, number inputs=4, anchor=in 3](U7){}
+(U7.center) node[xshift=-7mm]{$U_7$}
+
+(U7.in 1) to[short] ++(-0.5,0) to[short] ++(0,0.5) node[vcc]{5V}
+(U7.in 2) to[short] ++(-1.5,0) node[circ]{} node[above]{DPD}
+(U7.in 4) to[short] ++(-2.5,0) node[circ](U75){} to[short] ++(0,0.5) node[ocirc]{} node[above]{OC}
+
+(U75) to[short] ++(0,-4) node[circ](J){}
+(J) to[short] (J -| U7.in 4) node[and port, number inputs=4, anchor=in 2](U8){}
+(U8.center) node[xshift=-7mm]{$U_8$}
+
+(U8.in 1) to[short] ++(-0.5,0) node[circ]{} node[above]{DND}
+(U8.in 3) to[short] (U8.in 3 -| P4A) to[short] (P4A)
+(U8.in 4) to[short] ++(-0.5,0) node[circ]{} node[yshift=-5mm]{5V}
+
+(P4) to[short] ++(0,0.5) node[ocirc]{} node[above]{SH}
+
+(U7.out) to[short] ++(0.5,0) node[circ]{} node[right]{GP}
+(U8.out) to[short] ++(0.5,0) node[circ]{} node[right]{GN}
 ;
 \end{circuitikz}
 \end{document}

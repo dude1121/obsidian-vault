@@ -10,9 +10,7 @@ In some branches of physics, power is denoted with a scripted $\mathscr{P}$ as a
 $$
 	1\text{W}=1\text{J}\cdot\text{s}^{-1}=1\text{kg}\cdot\text{m}^2\cdot\text{s}^{-3}
 $$
-
 # Kinematics
-
 The power of a system is defined as,
 $$
 \mathscr{P}=\frac{dW}{dt}
@@ -27,7 +25,6 @@ $$
 $$
 where $\tau$ is the applied [[Torque|torque]] and $\omega$ is the [[Angular Velocity|angular velocity]] of the object.
 # Electromagnetism
-
 Recall that a [[Volts|volt]] is defined as:
 $$
 	V=\frac{W}{Q}=\frac{\text{[J]}}{\text{[C]}}
@@ -40,14 +37,28 @@ If we multiply volts and amps together we get
 $$
 	VI=\frac{\text{[J][C]}}{\text{[C][s]}}=\frac{\text{[J]}}{\text{[s]}}=\text{[W]}
 $$
-Therefore, by means of dimensional analysis, we find our first equation for power, namely,
+Therefore, by means of dimensional analysis, we find our equation for power, namely,
 $$ P=VI $$
 Power is therefore proportional to voltage and current. This relationship is known as _[[Joule’s Law]]_. But, due to [[Ohm's Law]] we know that $I=V/R$. We can therefore further derive that,
 $$ P=\frac{V^2}{R} $$
 and since $V=IR$,
 $$ P=I^2R $$
 Returning to this circuit from [[Ohm's Law]],
-![[Ohm's Law Circuit.png]]
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{circuitikz}
+\ctikzset{voltage/distance from node=.5}
+\ctikzset{voltage/bump b=2.5}
+\draw
+
+(0,0) to[battery, a=$E_{S1}$, l=$12$V] ++(0,-2) node[ground]{}
+to[short] ++(3,0) to[R,l2=$R_1$ and $1$k$\Omega$, v=$V_{R1}$] ++(0,2)
+(0,0) to[short, f=$I_1$] ++(3,0) 
+;
+\end{circuitikz}
+\end{document}
+```
 we are now able to calculate the power dissipated by the [[Resistor|resistor]] $R_1$.
 $$ P=\frac{V^2}{R}=\frac{12\text{V}^2}{1\text{k}\Omega}=144\text{mW} $$
 In the case of an electrical circuit, this power represents the amount of energy lost from the circuit due to [[Heat|heat]]. 
@@ -79,7 +90,7 @@ The angle between $P$ and $S$ is the [[Power Factor|power factor]] angle.
 $$
 \cos \theta=\frac{P}{S}
 $$
-$S$ can also be found as the [[vector sum]] of $P$ and $Q$.
+$S$ can also be found as the [[Vector#Vector Addition|vector sum]] of $P$ and $Q$.
 $$
 \vec{S}=\vec{P}+\vec{Q}
 $$

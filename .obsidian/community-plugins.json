@@ -1,9 +1,9 @@
 [
   "obsidian-minimal-settings",
   "obsidian-style-settings",
-  "obsidian-latex-suite",
-  "obsidian-tikzjax",
   "table-editor-obsidian",
   "obsidian-excalidraw-plugin",
-  "omnisearch"
+  "omnisearch",
+  "obsidian-tikzjax",
+  "obsidian-latex-suite"
 ]

@@ -5,10 +5,8 @@ tags:
   - electromagnetism
 ---
 An **electrolyte** is a substance that conducts electricity through the movement of [[Ion|ions]], not the movement of [[Electron|electrons]]. Most soluble [[Ionic Compound|salts]], [[Acid|acids]], and [[Base|bases]], when dissolved in a polar solvent (typically water) are electrolytes. Electrolytes can be classified as *strong* or *weak*.
-
 # Strong Electrolytes
-
-Strong electrolytes are substances that are entirely ionized when they are dissolved. This category includes salts, strong acids, and strong bases. Take [[Sodium Chloride|sodium chloride]] as an example. When it dissolves in water, it produces $\ce{Na+}$ and $\ce{Cl-}$ ions in the solution. This makes $\ce{NaCl}$ a strong electrolyte, since it splits entirely into ions when dissolved.
+Strong electrolytes are substances that are entirely ionized when they are dissolved. A solution with a lot of strong electrolytes will conduct electricity very well by increasing the solution's [[Conductivity|conductivity]]. This category includes salts, strong acids, and strong bases. Take [[Sodium Chloride|sodium chloride]] as an example. When it dissolves in water, it produces $\ce{Na+}$ and $\ce{Cl-}$ ions in the solution. This makes $\ce{NaCl}$ a strong electrolyte, since it splits entirely into ions when dissolved.
 
 Strong acids like [[Hydrochloric Acid|hydrochloric acid]] $\ce{HCl}$, [[Nitric Acid|nitric acid]] $\ce{HNO_{3}}$, and [[Sulfuric Acid|sulfuric acid]] $\ce{H_{2}SO_{4}}$ are also strong electrolytes. When dissolved in water, they all produce a [[Hydrogen|hydrogen]] cation and the accompanying [[Polyatomic Ion|polyatomic ions]].  For example,
 $$
@@ -26,7 +24,6 @@ $$
 \end{aligned}
 $$
 # Weak Electrolytes
-
 Weak electrolytes are substances that produce relatively few ions when dissolved. Most commonly these substances are weak acids or bases. For example, the principle acidic component of vinegar is [[Acetic Acid|acetic acid]] $\ce{HC_{2}H_{3}O_{2}}$. 
 $$
 \begin{aligned}
@@ -38,7 +35,5 @@ $$
 \ce{NH_{3}(aq) + H_{2}O(l) <=> NH_{4}+(aq) + OH-(aq)}
 $$
 This solution is basic because $\ce{OH-}$ ions are produced. Similar to acetic acid, only 1 in 100 molecules of ammonia will actually react. 
-
 # Nonelectrolytes
-
 Nonelectrolytes are water-soluble substances that do not produce any ions. Examples include [[Ethanol|ethanol]] $\ce{C_{2}H_{5}OH}$ or [[Sucrose|sucrose]] $\ce{C_{12}H_{22}O_{11}}$. 

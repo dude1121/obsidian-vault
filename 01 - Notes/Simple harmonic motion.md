@@ -11,4 +11,4 @@ Since [[Acceleration|acceleration]] is the second time [[Derivative|derivative]]
 $$
 \frac{d^2x}{dt^2}=-\frac{k}{m}x
 $$
-We can define the term $k/m$ as $\omega^2$. 
+We can define the term $k/m$ as $\omega^2$. Doing this allows us to solve the [[Differential Equation|differential equation]] easier.

@@ -16,9 +16,7 @@
                 "file": "01 - Notes/Simple harmonic motion.md",
                 "mode": "source",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Simple harmonic motion"
+              }
             }
           },
           {
@@ -30,9 +28,7 @@
                 "file": "01 - Notes/Nuclear Fission.md",
                 "mode": "source",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Nuclear Fission"
+              }
             }
           },
           {
@@ -44,9 +40,7 @@
                 "file": "01 - Notes/Fission Reactor.md",
                 "mode": "source",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Fission Reactor"
+              }
             }
           },
           {
@@ -58,9 +52,7 @@
                 "file": "01 - Notes/CEC s.28.md",
                 "mode": "source",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CEC s.28"
+              }
             }
           },
           {
@@ -72,9 +64,7 @@
                 "file": "01 - Notes/Nuclear Power Plant.md",
                 "mode": "preview",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Nuclear Power Plant"
+              }
             }
           },
           {
@@ -86,9 +76,7 @@
                 "file": "01 - Notes/Phase Shift Circuit.md",
                 "mode": "preview",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Phase Shift Circuit"
+              }
             }
           },
           {
@@ -100,9 +88,7 @@
                 "file": "01 - Notes/Silicon-Controlled Rectifier.md",
                 "mode": "source",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Silicon-Controlled Rectifier"
+              }
             }
           },
           {
@@ -114,9 +100,7 @@
                 "file": "01 - Notes/Transmission Line.md",
                 "mode": "source",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Transmission Line"
+              }
             }
           },
           {
@@ -128,9 +112,7 @@
                 "file": "01 - Notes/Solid state relay.md",
                 "mode": "preview",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Solid state relay"
+              }
             }
           },
           {
@@ -142,9 +124,7 @@
                 "file": "DC-DC Convertor.md",
                 "mode": "source",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DC-DC Convertor"
+              }
             }
           },
           {
@@ -156,9 +136,7 @@
                 "file": "01 - Notes/Differential Equation.md",
                 "mode": "source",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Differential Equation"
+              }
             }
           },
           {
@@ -170,9 +148,7 @@
                 "file": "01 - Notes/Phase Shift Circuit.md",
                 "mode": "source",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Phase Shift Circuit"
+              }
             }
           },
           {
@@ -184,9 +160,7 @@
                 "file": "01 - Notes/Function.md",
                 "mode": "source",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Function"
+              }
             }
           },
           {
@@ -198,9 +172,7 @@
                 "file": "01 - Notes/Phase Shift Circuit.md",
                 "mode": "source",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Phase Shift Circuit"
+              }
             }
           },
           {
@@ -212,9 +184,7 @@
                 "file": "01 - Notes/Phase Shift Circuit.md",
                 "mode": "source",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Phase Shift Circuit"
+              }
             }
           },
           {
@@ -226,13 +196,11 @@
                 "file": "01 - Notes/Phase Shift Circuit.md",
                 "mode": "source",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Phase Shift Circuit"
+              }
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -251,11 +219,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
+                "sortOrder": "alphabetical"
+              }
             }
           },
           {
@@ -270,9 +235,7 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "Search"
+              }
             }
           },
           {
@@ -280,9 +243,7 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "state": {}
             }
           }
         ],
@@ -307,7 +268,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 - Notes/Triac.md",
+                "file": "01 - Notes/Transmission Line.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -315,9 +276,7 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for Triac"
+              }
             }
           },
           {
@@ -326,12 +285,10 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 - Notes/Solution.md",
+                "file": "01 - Notes/Transmission Line.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from Solution"
+              }
             }
           },
           {
@@ -342,9 +299,7 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
+              }
             }
           },
           {
@@ -356,9 +311,7 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "All properties"
+              }
             }
           },
           {
@@ -367,10 +320,8 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 - Notes/Solution.md"
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Solution"
+                "file": "01 - Notes/Transmission Line.md"
+              }
             }
           },
           {
@@ -378,9 +329,7 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "state": {}
             }
           }
         ]
@@ -404,11 +353,16 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "091ecccb0af3669c",
+  "active": "47dca9f584761f11",
   "lastOpenFiles": [
+    "02 - Pictures/lightning-strike-transmission-line.png",
+    "01 - Notes/Power Systems.md",
+    "01 - Notes/Transmission Line.md",
+    "02 - Pictures/bundled-conductor.jpg",
+    "02 - Pictures/arrester.jpeg",
+    "01 - Notes/Phase Shift Circuit.md",
     "01 - Notes/Speed of Light.md",
     "01 - Notes/Simple harmonic motion derivation.md",
-    "01 - Notes/Phase Shift Circuit.md",
     "01 - Notes/Phase Shift.md",
     "Pulse Width Modulation.md",
     "02 - Pictures/tl494-block-diagram.png",
@@ -434,14 +388,9 @@
     "01 - Notes/CEC s.8.md",
     "01 - Notes/CEC s.4.md",
     "01 - Notes/CEC t.44.md",
-    "01 - Notes/CEC t.29.md",
     "02 - Pictures/table-29.png",
-    "01 - Notes/Spring motion.md",
-    "01 - Notes/Solid state relay.md",
     "02 - Pictures/polymer-disc.jpeg",
     "02 - Pictures/pin-insulator.jpg",
-    "02 - Pictures/suspension-string-insulator.jpg",
-    "02 - Pictures/acsr.png",
     "Excalidraw",
     "Untitled.canvas"
   ]

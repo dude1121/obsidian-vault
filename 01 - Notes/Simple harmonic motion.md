@@ -3,7 +3,7 @@ tags:
   - physics
   - oscillatory-motion
 ---
-A particle in **simple harmonic motion** is a model used to represent oscillatory situations. An example of this is [[Spring motion|spring motion]]. From examining a simple spring, we see that,
+A particle in **simple harmonic motion** is a model used to represent oscillatory situations. An example of this is [[Spring motion|spring motion]] or a [[Pendulum|pendulum]]. From examining a simple spring, we see that,
 $$
 a=-\frac{k}{m}x
 $$

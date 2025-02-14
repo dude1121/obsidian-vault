@@ -12,8 +12,7 @@ The oscillator frequency that controls a PWM signal is typically around $20\pu{ 
 # Example PWM circuit
 The sample circuit below makes use of a TL494 integrated circuit. This block diagram for this IC is shown below.
 ![[tl494-block-diagram.png]]
-This chip makes use of two [[Error Amplifier|error amplifiers]] 
-
+This chip makes use of two [[Error Amplifier|error amplifiers]] (TODO: explain TL494)
 ```tikz
 \usepackage{circuitikz}
 \begin{document}
@@ -113,3 +112,4 @@ node[left, font=\small] {$V_{CC}$}
 \end{circuitikz}
 \end{document}
 ```
+This circuit allows us to alter both the duty cycle and the pulse width of the output signal ($\text{PWM}$).  

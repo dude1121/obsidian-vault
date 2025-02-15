@@ -27,6 +27,8 @@ A suspension-type insulator is a series of insulator caps that look similar to a
 A polymer disc insulator is like the best of both worlds of the suspension-type and pin-type insulators. It is the type pictured above. Unlike the suspension type, the polymer disc type insulators are not modular and their size must be determined when they are manufactured. However, these insulators can have a much higher voltage rating for much less material, ranging anywhere from $10\pu{ \! kV }-800\pu{ \! kV}$. 
 ![[polymer-disc.jpeg]]
 Often times, more discs than necessary are used in the event one or two are damaged or dirtied, thereby making the insulation less effective.
+#### Insulator voltage ratings
+The voltage ratings for these types of insulators will consist of two primary values: the *rated voltage*, and the *basic impulse isolation level (BIL)*. The rated voltage is the [[Root Mean Square|rms]] voltage level that the insulator can withstand at a given frequency (in North America, $f=60\pu{ \! Hz}$). The basic impulse isolation level is the peak value of applied [[DC Electricity|dc]] impulse before the insulator breaks down. This value represents the absolute maximum voltage the insulator could withstand in the event of over-voltage conditions, such as [[Lightning|lightning]] strikes.
 ### Galloping lines
 When wind acts on dangling transmission lines, the lines begin to sway back and forth. If they sway too much, they put too much stress on the insulators keeping them in place. We call lines in this state *galloping lines*. To avoid galloping lines, we add anti-galloping dampers (sometimes called *arresters*) to the power lines.
 ![[arrester.jpeg]]

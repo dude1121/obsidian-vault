@@ -5,7 +5,7 @@ tags:
 ---
 An **ionic bond** is a type of [[Chemical Bond|chemical bond]] between two [[Atom|atoms]] that results in an [[Ionic Compound|ionic compound]]. This type of bond occurs when one atom loses an [[Electron|electron]] (becoming positively [[Charge|charged]]) and gives that electron to another neutral atom (making it negatively charged). Since the two atoms now have opposite charges, they attract one another, forming a bond between the two. 
 
-Metals have a relatively low [[Ionization|ionization]] [[Energy|energy]], meaning when a metal is near a non-metal and it is given some energy, it will become a cation and one of its [[Valence Shell|valence]] electrons will become free.
+Metals have a relatively low [[Ionization Energy|ionization energy]], meaning when a metal is near a non-metal and it is given some [[Energy|energy]], it will become a cation and one of its [[Valence Shell|valence]] electrons will become free.
 $$
 \ce{Na->Na+ + e-}
 $$

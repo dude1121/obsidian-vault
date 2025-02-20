@@ -8,7 +8,7 @@ An **ion** is an [[Atom|atom]] or [[Molecule|molecule]] that has a net positive 
 
 Ions are denoted with a superscript. If the symbol is just $+$ or $-$, this indicates a charge of $+1$ or $-1$. Else, the charge will be written as $2+$ or $3-$. For example, $\ce{O_{2}^{2-}}$ for a [[Peroxide|peroxide]] with a net charge of $-2$.
 
-Atoms become ions by either losing or gaining an electron. The amount of [[Energy|energy]] required to free an electron from its atom is called its [[Ionization|ionization]] energy. In general, this energy level is much lower in [[Metals|metals]] than it is in [[Non-Metals|non-metals]], which is why metals tend to become cations and non-metals tend to become anions. These cations and anions can [[Ionic Bond|bond]] together to form an [[Ionic Compound|ionic compound]].
+Atoms become ions by either losing or gaining an electron. The amount of [[Energy|energy]] required to free an electron from its atom is called its [[Ionization Energy|ionization energy]]. In general, this energy level is much lower in [[Metals|metals]] than it is in [[Non-Metals|non-metals]], which is why metals tend to become cations and non-metals tend to become anions. These cations and anions can [[Ionic Bond|bond]] together to form an [[Ionic Compound|ionic compound]].
 
 # Common Ions
 

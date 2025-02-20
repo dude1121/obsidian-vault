@@ -7,7 +7,6 @@ tags:
   - force
 ---
 Coulomb’s Law defines the amount of [[Force|force]] that acts on two [[Point Charge|point charges]]. 
-
 ![[Point Charge]]
 
 It is defined as:

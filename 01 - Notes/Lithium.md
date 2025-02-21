@@ -14,6 +14,8 @@ tags:
 | $453.65$                              | $1617$                                | $3220\ \pu{ K}$, $67\ \pu{ MPa}$ | $0.98$                                    | $167\ \pu{ pm }$                      | $92.8\ \pu{ n\Omega \cdot m}$                         |
 | **[[Young's Modulus]]**               | **[[Shear Modulus]]**                 | **[[Bulk Modulus]]**             | **[[Oxidation State\|Oxidation states]]** | **Main [[Isotope\|isotopes]]**        | **Ionization Energy (1st) $[\pu{ kJ/mol}]$**          |
 | $4.9\ \pu{ GPa }$                     | $4.2\ \pu{ GPa }$                     | $11\ \pu{ GPa }$                 | $+1$                                      | $\ce{^6Li}:2-8\%$ $\ce{^7Li}:92-98\%$ | $520.2$                                               |
+|                                       |                                       |                                  |                                           |                                       |                                                       |
+|                                       |                                       |                                  |                                           |                                       |                                                       |
 
 
 Like all alkali metals, lithium is extremely reactive, however it is the least reactive of them all due to its [[Valence Shell|valence electron's]] close proximity to the [[Nucleus|nucleus]]. 

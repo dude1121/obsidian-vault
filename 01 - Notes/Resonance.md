@@ -5,15 +5,29 @@ tags:
   - physics
 ---
 **Resonance** is a phenomenon that has varying applications in many different fields. Typically, resonance deals with the [[Frequency|frequency]] of some signal or wave.
+# Mechanical resonance
+Consider a simple [[Forced Oscillator|forced oscillator]]. The equation for the position of the pendulum is
+$$
+x(t)=A\cos(\omega t+\varphi)
+$$
+where $A$ is the amplitude, $\omega$ is the frequency of the driving [[Force|force]] and $\varphi$ is the [[Phase Shift|phase shift]]. The amplitude is given by,
+$$
+A=\frac{F_{0}/m}{\sqrt{ (\omega ^2-\omega_{0}^2)^2+\left(\displaystyle \frac{b\omega}{m}\right)^2 }}
+$$
+Note that none of these values are time varying, meaning that the amplitude of a forced oscillator is constant. However, if the frequency of the driving force is varied, the amplitude of the oscillations will vary with it. 
+![[amplitude-v-frequency.png]]
+In the above plot of amplitude vs [[Angular Frequency|angular frequency]], the three plots differ only in values of $b$, the [[Damping Coefficient|damping coefficient]]. The peaks in the middle correspond to when $\omega=\omega_{0}$, that is, when the system is at *resonance*. When $b=0$, that is, when there is no damping, the amplitude follows the blue plot, and when $\omega=\omega_{0}$, it tends to infinity. The red plot corresponds to a small value of $b$, and the green plot a much larger value of $b$. 
 
+This condition of resonance occurs when the driving force is in phase with the [[Velocity|velocity]] of the system. Since the [[Work|work]] done by force and velocity is
+$$
+W=\mathbf{\vec{F}}\cdot \mathbf{\vec{v}}
+$$
+and the [[Dot Product|dot product]] is maximum when the two vectors are parallel, resonance corresponds to the maximum possible work done by the driving force.
 # Electrical Engineering
-
 In EE, a circuit is said to be in *resonance* if the frequency of the applied voltage is such that the all [[Reactance|reactive]] elements have their reactive attributes canceled out, such that only resistive elements have an impact on the circuit. A resonant circuit *must* have [[Inductor|inductive]] and [[Capacitor|capacitive]] elements. 
 
 Resonant circuits can be either series or parallel. 
-
 ## Series Resonant Circuits
-
 Consider the following circuit:
 ```tikz
 \usepackage{circuitikz}
@@ -48,14 +62,12 @@ f^2&=\frac{1}{(2\pi)^2LC}\\
 f&=\frac{1}{2\pi \sqrt{ LC }}
 \end{aligned}
 $$
-Note that at resonance, $\mathbf{Z_{T}}$ is at its minimum value. Since current is given by,
+Note that at resonance, $\mathbf{Z}_{\text{T}}$ is at its minimum value. Since current is given by,
 $$
 \mathbf{I}=\frac{\mathbf{E}}{\mathbf{Z}}
 $$
 this means that at resonance, the current will be at its maximum value. The input voltage and current are also *in phase* since the [[Resistance|resistive]] element introduces no [[Phase Shift|phase shift]].
-
 ### Quality Factor
-
 The [[Quality Factor|quality factor]] $Q_{s}$ for a series resonant circuit is defined as,
 $$
 Q_{s}=\frac{\text{Reactive Power}}{\text{Average Power}}=\frac{Q}{P}
@@ -79,7 +91,6 @@ Q_{s}&=\frac{X_{L}}{R}\\
 \end{aligned}
 $$
 ### Selectivity
-
 ![[series-resonance.png]]
 Above is a plot of the current through a given series resonant circuit as a [[Function|function]] of frequency. As can be seen, at resonance frequency, $f_{s}$, the current is at a maximum. For this circuit in particular, that frequency is about $f=15\text{kHz}$. Note that this curve is not entirely symmetrical. This is due to the fact that while inductive reactance is linear, capacitive reactance is not, and the current vs frequency curve falls off much slower as $f\rightarrow \infty$ than as $f\rightarrow 0$. 
 ![[series-resonance-impedance.png]]
@@ -92,7 +103,7 @@ $$
 $$
 P_{half-power}=\left(\frac{\mathbf{I}_{max}}{\sqrt{ 2 }}\right)^2R=\frac{1}{2}\mathbf{I}_{max}^2R=\frac{1}{2}P_{max}
 $$
-Therefore, using this value of current will give us the point where the power dissipated in the circuit is exactly *half* its maximum values. Any resonant circuit will have two frequencies for which the power is half its maximum value, and these are called various names be it *cut-off frequencies*, *half-power frequencies*, *corner frequencies*, or, the one I will use here, *[[Band Frequency|band frequencies]]*. They are commonly denoted as $f_{1}$ and $f_{2}$. The range between the two is called the [[Bandwidth|bandwidth]]. 
+Therefore, using this value of current will give us the point where the power dissipated in the circuit is exactly *half* its maximum values. Any resonant circuit will have two frequencies for which the power is half its maximum value, and these are called various names be it *cut-off frequencies*, *half-power frequencies*, *corner frequencies*, or, the one used here, *[[Band Frequency|band frequencies]]*. They are commonly denoted as $f_{1}$ and $f_{2}$. The range between the two is called the [[Bandwidth|bandwidth]]. 
 $$
 BW=f_{2}-f_{1}
 $$
@@ -118,7 +129,6 @@ $$
 f_{2}=\left[\frac{1}{2\pi}\left(\frac{R}{2L}+\left[\left(\frac{1}{2}\sqrt{ \left(\frac{R}{L}\right)^2+\frac{4}{LC} }\right)\right]\right)\right]
 $$
 ### Practical Considerations
-
 In a series resonant circuit, the resistance of any given resistor is not the only resistance that must be considered. Both the voltage source and the inductor have internal resistances.
 ```tikz
 \usepackage{circuitikz}
@@ -137,9 +147,7 @@ to[short] (0,-4) node[ground] {}
 \end{document}
 ```
 When calculating the circuit quality factor, then, the *entire* resistance must be considered.
-
 ## Parallel Resonant Circuits
-
 Consider the following parallel circuit.
 ```tikz
 \usepackage{circuitikz}
@@ -235,7 +243,6 @@ $$
 ![[parallel-resonance-impedance.png]]
 The above plot is of a parallel circuit's impedance vs frequency. Of note to me: the equation for $f_{m}$ does not appear to give the true maximum of this function. Maybe there's something wrong in my model? The result is close but off by around $300\pu{ Hz }$.
 ### Parallel Selectivity
-
 From the above plot, we see that unlike in series resonance where the impedance was minimum at resonance, in parallel circuits the impedance is maximum at resonance. The impedance in a parallel resonant circuit follows the same pattern as the current did in a series resonant circuit. The quality factor of the circuit, $Q_{p}$, determines the selectivity response and the bandwidth of the circuit. The band frequencies in a parallel resonant circuit can be found by,
 $$
 f_{1}=\frac{1}{4\pi C}\left[-\frac{1}{R}+\sqrt{ \frac{1}{R^2}+\frac{4C}{L} }\right]

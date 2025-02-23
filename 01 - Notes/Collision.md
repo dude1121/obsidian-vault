@@ -7,7 +7,6 @@ tags:
 In kinematics, a **collision** is an event during which two particles come close to each other and interact by means of forces. In classical mechanics, the interaction forces are assumed to be much greater than any other external forces present, so we are able to use the [[Impulse|impulse]] approximation.
 
 Collisions can be categorized into two main categories: *elastic collisions* and *inelastic collisions*. 
-
 # Elastic collisions
 An elastic collision between two objects is one in which the total [[Kinetic Energy|kinetic energy]] (as well as total [[Linear Momentum|linear momentum]]) of the system is the same before and after the collision. Collisions on the macroscopic scale are only ever *approximately* elastic because there is also some deformation or loss of kinetic energy that occurs. *Truly* elastic collisions only occur between atomic and subatomic particles.
 
@@ -29,11 +28,8 @@ Note that this gives the resultant [[Speed|speed]], not [[Velocity|velocity]]. A
 
 In the inverse case, $m_{2}$ is much greater than $m_{1}$ and $m_{2}$ is initially at rest, then $v_{1f}\approx-v_{1i}$ and $v_{2f}\approx{0}$. That is, when a very light particle collides with a very heavy particle at rest, the light particle has its velocity reversed and the heavy one remains approximately at rest.
 # Inelastic collisions
-
 An inelastic collision is one in which the total kinetic energy of the system is *not* the same before and after the collision. Note though that the total momentum is *still* conserved. There are two types of inelastic collisions. *Perfectly inelastic* collisions are collisions in which the two objects stick together after they collide. Think of a car colliding with another car in an intersection and the force carries them both to the corner of the intersection. When the objects do not stick together, the collision is simply called *inelastic*. 
-
 ## Perfectly inelastic collisions
-
 In a perfectly inelastic collision, the conservation of momentum leads to a special case that can  be used to analyze this situation. Consider two particles of masses $m_{1}$ and $m_{2}$ moving towards each other with initial velocities $\mathbf{\vec{v}}_{1i}$ and $\mathbf{\vec{v}}_{2i}$. The two particles collide and continue moving with a common velocity, $\mathbf{\vec{v}}_{f}$. Due to the [[Law of Conservation of Linear Momentum|law of conservation of linear momentum]],
 $$
 m_{1}\mathbf{\vec{v}}_{1i}+m_{2}\mathbf{\vec{v}}_{2i}=(m_{1}+m_{2})\mathbf{\vec{v}}_{f}
@@ -42,7 +38,6 @@ Solving for the final velocity gives,
 $$
 \mathbf{\vec{v}}_{f}=\frac{m_{1}\mathbf{\vec{v}}_{1i}+m_{2}\mathbf{\vec{v}}_{2i}}{m_{1}+m_{2}}
 $$
-
 # Collisions in two dimensions
 Conservation of linear momentum still holds in two dimensions, so instead of one equation for momentum we now have two (or, really, we have $n$ equations for the $n$ dimensions being examined).
 

@@ -7,6 +7,75 @@ tags:
 A **transmission line** is a means of transferring [[Energy|energy]] between [[Communication System|system]] elements that are carrying signal power. In essence, transmission lines are simply [[Wire|wires]], but at [[Radio|radio frequencies]] the conductors behave differently than at typical frequencies. For example, at high frequencies, the stray [[Inductance|inductances]] and [[Capacitance|capacitances]] that were negligible at low frequencies now become important. If the [[Impedance|impedances]] at either end of the transmission line are mismatched, then signals can be reflected back towards the source. This makes the concept of [[Impedance Matching|impedance matching]] very important in telecommunications.
 
 Transmission lines are also used in [[Power Systems|power systems]] as a means of distributing power from generation to transmission to distribution. These transmission lines are much different from their telecommunication counterpart but they essentially serve the same purpose.
+# Equivalent circuit
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{circuitikz}
+\ctikzset{resistors/scale=0.5}
+\ctikzset{inductors/scale=0.5}
+\ctikzset{capacitors/scale=0.5}
+\draw
+(0,0) node[ocirc](A){} to[L, l=$x_L$] ++(1,0) to[R, l=$r$] ++(1,0) node[circ](B){}
+
+(A) ++(0,-2) node[ocirc](C){} to[short] ++(2,0) node[circ](D){}
+
+(B) to[cC, l=$x_C$] (D)
+
+(B) to[L] ++(1,0) to[R] ++(1,0) node[circ](E){}
+(D) to[short] ++(2,0) node[circ](F){}
+(E) to[cC] (F)
+
+(E) to[L] ++(1,0) to[R] ++(1,0) node[circ](G){}
+(F) to[short] ++(2,0) node[circ](H){}
+(G) to[cC] (H)
+
+(G) to[short] ++(1,0) node[ocirc]{}
+(H) to[short] ++(1,0) node[ocirc]{}
+;
+\end{circuitikz}
+\end{document}
+```
+A transmission line can be modelled as above, with each RLC combination representing one kilometre of a transmission. The top of this circuit represents the line itself, and the bottom is the neutral line. In reality, this transmission model would extend to all three phases but we only really need to model one of them, knowing it extends to the other two phases.
+
+This model represents the losses in the transmission line due to stray [[Reactance|reactance]] and [[Resistance|resistance]]. Typical reactance values for power transmission lines are,
+
+| Type of Line | $X_{L}\ [\pu{ \Omega / km}]$ | $X_{C}\ [\pu{ \Omega \cdot km}]$ |
+| ------------ | ---------------------------- | -------------------------------- |
+| Aerial       | $0.5$                        | $300\ 000$                       |
+| Underground  | $0.1$                        | $3\ 000$                         |
+The typical reactances are listed in different units because the inductors and capacitors are "connected" in different configurations. Typical resistance values for power transmission lines are,
+
+| [[American Wire Gauge\|AWG]] | [[Copper]] $[\pu{ \Omega/km}]$ | [[ACSR]] $[\pu{ \Omega/km}]$ |
+| ---------------------------- | ------------------------------ | ---------------------------- |
+| $1$                          | $0.5$                          | $0.9$                        |
+| $3/0$                        | $0.25$                         | $0.47$                       |
+| $300\ \pu{ kcmil}$           | $0.14$                         | $0.22$                       |
+| $600 \ \pu{ kcmil}$          | $0.072$                        | $0.11$                       |
+| $1000\ \pu{ kcmil}$          | $0.045$                        | $0.065$                      |
+## Lumped circuit
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{circuitikz}
+\draw
+(0,0) node[ocirc](A){} to[short] ++(1,0) node[circ](E){} to[L, l=$X_L$] ++(2,0) to[R, l=$R$] ++(2,0) node[circ](B){} to[short] ++(1,0) node[ocirc]{}
+
+(A) ++(0,-2) node[ocirc](C){} to[short] ++(1,0) node[circ](D){} to[short] ++(4,0) node[circ](F){} to[short] ++(1,0) node[ocirc]{}
+
+(E) to[cC, l=$2\ X_C$] (D)
+
+(B) to[cC, l=$2\ X_C$] (F)
+;
+\end{circuitikz}
+\end{document}
+```
+To make analysis easier, we lump together the reactance and resistance of a large power line using the values above. The three values are given by,
+$$
+\begin{align}
+R=rl&&X_{L}=x_{L}\ l&&X_{C}=\frac{x_{C}}{l}
+\end{align}
+$$
 # Power transmission lines
 ## High voltage transmission lines
 High voltage transmission lines transmit power with voltages anywhere from $115\pu{\! kV}$ to $800\pu{ \! kV}$. They are carried by large towers (sometimes called *pylons*) that keep the lines far away from one another to prevent arcing.

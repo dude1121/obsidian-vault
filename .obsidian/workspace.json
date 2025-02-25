@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5b41a0307df949d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - Notes/Simple harmonic motion.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Simple harmonic motion"
-            }
-          },
-          {
             "id": "1d34e6a43b317f77",
             "type": "leaf",
             "state": {
@@ -120,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -292,8 +278,18 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "4bdbaec3b27e1da3",
+  "active": "19d8bdc55a07e14b",
   "lastOpenFiles": [
+    "01 - Notes/Electromagnetic Radiation.md",
+    "01 - Notes/Mechanical Wave.md",
+    "02 - Pictures/pulse-rope.png",
+    "02 - Pictures/screenshot_2025-02-23-143915.png",
+    "01 - Notes/Nuclear Fission.md",
+    "01 - Notes/Simple harmonic motion.md",
+    "01 - Notes/Solid state relay.md",
+    "01 - Notes/Intermolecular Forces.md",
+    "01 - Notes/Spring motion.md",
+    "01 - Notes/Chemical Bond.md",
     "01 - Notes/Collision.md",
     "01 - Notes/Binomial Theorem.md",
     "01 - Notes/Hydrocarbon.md",
@@ -307,21 +303,13 @@
     "01 - Notes/Damped oscillations.md",
     "01 - Notes/Series-Parallel R & X Conversions.md",
     "01 - Notes/Band Frequency.md",
-    "01 - Notes/Mechanical Wave.md",
-    "01 - Notes/Chemical Bond.md",
-    "01 - Notes/Simple harmonic motion.md",
     "01 - Notes/Beryllium.md",
     "01 - Notes/Chemical Reaction.md",
     "01 - Notes/Lithium.md",
-    "01 - Notes/Intermolecular Forces.md",
-    "01 - Notes/Solid state relay.md",
     "01 - Notes/Quantum Numbers.md",
     "01 - Notes/Phase Shift Circuit.md",
     "01 - Notes/Transmission Line.md",
     "01 - Notes/Function.md",
-    "01 - Notes/Differential Equation.md",
-    "01 - Notes/Fission Reactor.md",
-    "01 - Notes/Silicon-Controlled Rectifier.md",
     "02 - Pictures/damped-oscillator-critically-damped.png",
     "02 - Pictures/damped-oscillator-critically-damped.png.crdownload",
     "02 - Pictures/damped-oscillator-underdamped.png",
@@ -331,8 +319,6 @@
     "02 - Pictures/helium.jpg",
     "02 - Pictures/sodium.jpg",
     "02 - Pictures/hydrogen-phase-diagram.png",
-    "02 - Pictures/hydrogen.jpg",
-    "02 - Pictures/nitrogen.jpg",
     "Excalidraw",
     "Untitled.canvas"
   ]

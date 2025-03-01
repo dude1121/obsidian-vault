@@ -287,13 +287,12 @@
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "omnisearch:Omnisearch": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "4a1b971070ad818f",
   "lastOpenFiles": [
+    "02 - Pictures/pulse-rope.png",
     "01 - Notes/Carbon.md",
     "02 - Pictures/carbon-phase-diagram.png",
     "01 - Notes/Boron.md",

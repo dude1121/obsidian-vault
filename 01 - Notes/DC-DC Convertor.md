@@ -20,6 +20,8 @@ In reality of course there will be losses in the conversion process. The average
 # Overview of design
 ![[dc-dc-overview.png]]
 Any dc-dc convertor can be broken down into three main components: the *power section*, consisting of the convertor itself; the *gate driver*, a supplementary circuit that will energize the gate of the switching components; and the *PWM control*, a circuit that times the gate circuit using [[Pulse Width Modulation|pulse width modulation]]. This final part is typically done via software. 
+
+All types of convertors contain a MOSFET which is switched rapidly by a PWM signal on its gate (controlled by a [[Convertor Driver Circuit|driver circuit]]), an inductor that stores and releases energy, a flyback diode to guide the current and allow the inductor to release energy safely, and capacitors to smooth the voltage ripples. The amount of current ripple caused by the inductor, denoted below as $\Delta I$, varies inversely with the inductance of the inductor. That is, $\uparrow L, \downarrow \Delta I$.
 # Buck convertor
 A buck convertor, also known as a *step-down* convertor, is a dc-dc convertor that provides an output voltage that is lower than the input voltage.
 ## Sample circuit
@@ -183,6 +185,221 @@ V_{o}&=V_{in}\left(\frac{T}{T-t_{on}}\right) \\
 &\boxed{=V_{in}\left(\frac{1}{1-D}\right)}
 \end{align}
 $$
-where $D$ is the duty cycle. This means that, like the buck convertor, the output voltage is entirely dependent on the duty cycle of the FET gate driver. However, unlike the buck convertor, the output voltage is going to be greater than the input voltage, increasing with the duty cycle. However, this relationship practically only holds so long as $D<0.80$. If the duty cycle is greater than this value, the circuit does not have sufficient time to deliver the energy stored by the inductor, and the actual $V_{o}$ not longer matches the expected theoretical value.
+where $D$ is the duty cycle. This means that, like the buck convertor, the output voltage is entirely dependent on the duty cycle of the FET gate driver. However, unlike the buck convertor, the output voltage is going to be greater than the input voltage, increasing with the duty cycle. However, this relationship practically only holds so long as $D<75\%$. If the duty cycle is greater than this value, the circuit does not have sufficient time to deliver the energy stored by the inductor, and the actual $V_{o}$ not longer matches the expected theoretical value.
 
-At a duty cycle of around $75\%$, the output voltage is approximately $4$ times the input voltage. If we need the voltage to be more than $4$ times the input voltage, it would be better to use an [[Invertor|invertor]] circuit followed by a high-frequency [[Transformer|transformer]] to step up the voltage rather than a series of boost convertors, as these convertors will be more expensive and have more losses than a transformer.
+At a duty cycle of around $80\%$, the output voltage is approximately $4$ times the input voltage. If we need the voltage to be more than $4$ times the input voltage, it would be better to use an [[Invertor|invertor]] circuit followed by a high-frequency [[Transformer|transformer]] to step up the voltage rather than a series of boost convertors, as these convertors will be more expensive and have more losses than a transformer.
+# Buck-Boost
+A buck-boost convertor, otherwise known as a *step-up / step-down* convertor, is a dc-dc convertor that can either step up or step down dc voltage.
+## Sample circuit
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{circuitikz}
+\ctikzset{diodes/scale=0.6}
+\draw
+(0,0) node[ocirc](in){} node[above]{$+V_\mathrm{in}$} to[short] ++(1,0) node[circ](B){}
+(0,-3) node[ocirc](out){} node[below]{$-V_\mathrm{in}$} to[short] ++(1,0) node[circ](C){}
+
+(B) to[cC, l=$C_1$] (C)
+
+node[nigfete, bodydiode, anchor=D, rotate=90](Q){} node[xshift=14mm, yshift=-5mm]{$Q$}
+(Q.G) node[ocirc]{} node[below]{G}
+(Q.S) node[circ](G){} to[L, l_=$L_1$, mirror] (Q.S |- B) node[circ](D){}
+(Q.S) to[diode, l=$D_1$] ++(2,0) node[circ](E){}
+(B) to[short] (D)
+(D) to[short] (D -| E) node[circ](F){}
+
+(F) to[cC, l=$C_2$] (E) 
+
+(F) to[short] ++(1,0) node[ocirc]{} node[above]{$-V_\mathrm{out}$}
+(E) to[short] ++(1,0) node[ocirc]{} node[below]{$+V_\mathrm{out}$}
+
+;
+\end{circuitikz}
+\end{document}
+```
+A sample buck-boost convertor circuit is shown above. Unlike the individual boost and buck convertors, buck-boost convertors **do not share a common ground**. The polarity of the output voltage is inverted from the input voltage. We can analyze this circuit in a similar way to the above convertors, by analyzing it when the MOSFET is on and when it is off.
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{circuitikz}
+\ctikzset{diodes/scale=0.6}
+\draw
+(0,0) node[ocirc](in){} node[above]{$+V_\mathrm{in}$} to[short] ++(1,0) node[circ](B){}
+(0,-3) node[ocirc](out){} node[below]{$-V_\mathrm{in}$} to[short] ++(1,0) node[circ](C){}
+
+(B) to[cC, l=$C_1$] (C)
+to[short] ++(2,0) node[circ](G){}
+(G) to[L, l_=$L_1$, mirror] (G |- B) node[circ](D){}
+(G) to[open] ++(2,0) node[circ](E){}
+(B) to[short] (D)
+(D) to[short] (D -| E) node[circ](F){}
+
+(F) to[cC, l=$C_2$] (E) 
+
+(F) to[short] ++(1,0) node[ocirc]{} node[above]{$-V_\mathrm{out}$}
+(E) to[short] ++(1,0) node[ocirc]{} node[below]{$+V_\mathrm{out}$}
+
+;
+\end{circuitikz}
+\end{document}
+```
+When the MOSFET is triggered on, we can model it as a short. This shorts out the diode which we model as an open. This means that when the MOSFET is on, the inductor is storing energy. The on-time ripple current caused by the inductor is the same as the boost convertor,
+$$
+\Delta I = \frac{t_{on}}{L}V_{in}
+$$
+
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{circuitikz}
+\ctikzset{diodes/scale=0.6}
+\draw
+(0,0) node[ocirc](in){} node[above]{$+V_\mathrm{in}$} to[short] ++(1,0) node[circ](B){}
+(0,-3) node[ocirc](out){} node[below]{$-V_\mathrm{in}$} to[short] ++(1,0) node[circ](C){}
+
+(B) to[cC, l=$C_1$] (C)
+to[open] ++(2,0) node[circ](G){}
+(G) to[L, l_=$L_1$, mirror] (G |- B) node[circ](D){}
+(G) to[short] ++(2,0) node[circ](E){}
+(B) to[short] (D)
+(D) to[short] (D -| E) node[circ](F){}
+
+(F) to[cC, l=$C_2$] (E) 
+
+(F) to[short] ++(1,0) node[ocirc]{} node[above]{$-V_\mathrm{out}$}
+(E) to[short] ++(1,0) node[ocirc]{} node[below]{$+V_\mathrm{out}$}
+
+;
+\end{circuitikz}
+\end{document}
+```
+In the off case, the inductor is able to discharge. This will cause an opposite polarity voltage to be induced across the output terminals. The voltage across the inductor therefore $-V_{o}$. For reasons stated above, our $\Delta I$ is now $I_{min}-I_{max}$. Therefore,
+$$
+\Delta I=\frac{t_{off}}{L}V_{o}
+$$
+We can combine these two states to get,
+$$
+\begin{align}
+\frac{t_{on}}{L}V_{in}&=\frac{t_{off}}{L}V_{o} \\
+t_{on}V_{in}&=t_{off}V_{o} \\
+V_{o}&=\frac{t_{on}}{t_{off}}V_{in} \\
+&=\frac{t_{on}}{T-t_{on}}V_{in} \\
+&\boxed{=\frac{D}{1-D}V_{in}}
+\end{align}
+$$
+Therefore we can determine our output voltage solely by the duty cycle of the MOSFET gate driver, as seen above. If the duty cycle $D>50\%$, this operates as a boost convertor. That is, when $D>50\%$, $V_{o}>V_{in}$. If $D<50\%$, then $V_{o}<V_{in}$. This corresponds to whether or not the inductor is primarily storing or delivering energy.
+
+Just like the boost convertor, the duty cycle should in principle be restricted to $D<80\%$. Any higher than this limit can cause damage to the circuit.
+# Convertors with no diode
+In each of these convertors, we can replace the diode with a second MOSFET. Since each MOSFET has a body diode, this component will behave exactly the same as the diode. The FET also has less losses than a normal diode.
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{circuitikz}
+\draw
+(0,0) to[vsource, l=$V_s$] ++(0,-3)
+(0,0) to[short] ++(2,0) node[circ](A){}
+(0,-3) to[short] ++(2,0) node[circ](B){}
+
+(A) to[cC, l=$C_1$] (B) node[below=5mm, xshift=15mm]{Buck Convertor Equivalent}
+
+(A) to[short] ++(3,0) node[nigfete, anchor=D, bodydiode](Q1){} node[right=3mm, yshift=-5mm]{$Q_1$}
+
+(Q1.G) node[ocirc]{} node[left]{$G_1$}
+(Q1.S) node[circ](C){} node[nigfete, bodydiode, anchor=D](Q2){} node[right=3mm, yshift=-5mm]{$Q_2$}
+
+(Q2.G) node[ocirc]{} node[left]{$G_2$}
+(Q2.S) to[short] (Q2.S |- B) node[circ](D){}
+
+(C) to[L, l=$L_1$] ++(2,0) node[circ](E){} to[cC, l=$C_2$] (E |- B) node[circ](F){}  to[short] (B)
+
+(E) to[short] ++(1,0) node[ocirc]{} node[above]{$+V_{\mathrm{out}}$}
+(F) to[short] ++(1,0) node[ocirc]{} node[below]{$-V_{\mathrm{out}}$}
+;
+\end{circuitikz}
+\end{document}
+```
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{circuitikz}
+\draw
+(0,0) to[vsource, l=$V_s$] ++(0,-2)
+(0,0) to[short] ++(2,0) node[circ](A){}
+(0,-2) to[short] ++(2,0) node[circ](B){}
+
+(A) to[cC, l=$C_1$] (B) node[below=5mm, xshift=15mm]{Boost Convertor Equivalent}
+
+(A) to[L, l_=$L_1$] ++(3,0) node[circ](C){} to[short] ++(0,0.5) node[nigfete, anchor=S, bodydiode](Q1){} node[right=3mm, yshift=5mm]{$Q_1$}
+
+(Q1.G) node[ocirc]{} node[left]{$G_1$}
+(Q1.D) to[short] ++(2,0) node[circ](E){} 
+
+(C) node[nigfete, bodydiode, anchor=D](Q2){} node[right=3mm, yshift=-5mm]{$Q_2$}
+
+(Q2.G) node[ocirc]{} node[left]{$G_2$}
+(Q2.S) to[short] (Q2.S |- B) node[circ](D){}
+
+(E) to[cC, l=$C_2$] (E |- B) node[circ](F){}  to[short] (B)
+
+(E) to[short] ++(1,0) node[ocirc]{} node[above]{$+V_{\mathrm{out}}$}
+(F) to[short] ++(1,0) node[ocirc]{} node[below]{$-V_{\mathrm{out}}$}
+;
+\end{circuitikz}
+\end{document}
+```
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{circuitikz}
+\draw
+(0,0) node[ocirc]{} node[above]{$+V_{\mathrm{out}}$} to[short] ++(3,0) node[circ](A){} to[cC, l=$C_1$] ++(0,-2) node[circ](B){} to[short] ++(-2,0) node[circ](C){} to[short] ++(-1,0) node[ocirc]{} node[below]{$-V_{\mathrm{out}}$}
+
+(C) to[vsource, l=$V_s$] ++(0,-2) node[](E){}
+
+(A) to[short] ++(3,0) node[nigfete, bodydiode, anchor=D](Q1){} node[right=3mm, yshift=-5mm]{$Q_1$}
+(Q1.G) node[ocirc]{} node[left]{$G_1$}
+(Q1.S) to[short] (Q1.S |- B) node[circ](D){} node[nigfete, bodydiode, anchor=D](Q2){} node[right=3mm, yshift=-5mm]{$Q_2$}
+(Q2.G) node[ocirc]{} node[left]{$G_2$}
+(Q2.S) to[short] (Q2.E |- E) node[ground]{} to[short] (E)
+
+(B) to[L, l=$L_1$] (D)
+(B) to[cC, l=$C_2$] node[circ]{} (B |- E) node[below=5mm, xshift=5mm]{Buck-Boost Equivalent}
+;
+\end{circuitikz}
+\end{document}
+```
+We can create a generalized circuit that can behave as either type of convertor. It looks like this:
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{circuitikz}
+\draw
+(0,0) node[circ]{} node[above]{$V_H$} to[short] ++(1,0) node[circ](A){} to[short] ++(3,0) node[nigfete, bodydiode, anchor=D](Q1){} node[right=3mm, yshift=-5mm]{$Q_1$}
+(Q1.G) node[ocirc]{} node[left]{$G_1$}
+(Q1.S) to[short] ++(0,-1) node[circ](B){} to[short] ++(-.5,0) node[circ]{} node[left]{M}
+(B) node[nigfete, bodydiode, anchor=D](Q2){} node[right=3mm, yshift=-5mm]{$Q_2$}
+(Q2.G) node[ocirc]{} node[left]{$G_2$}
+(Q2.S) to[short] ++(0,-0.5) node[circ](G){} node[ground]{}
+(A) to[cC, l=$C_1$] (A |- G) to[short] (G)
+
+(B) to[L, l=$L_1$] ++(3,0) node[circ](D){} to[short] ++(1,0) node[circ]{} node[above]{$V_L$}
+
+(D) to[cC, l=$C_2$] (D |- G) to[short] (G)
+
+;
+\end{circuitikz}
+\end{document}
+```
+Whether this behaves as a buck or boost convertor depends on which point you consider the input or output. If $V_{H}$ is the input, then the output is $V_{L}$, making this a buck convertor. In any case the two nodes share this relationship:
+$$
+V_{L}=D\cdot V_{H}
+$$
+where $D$ is the 'high-side' duty cycle of the MOSFETs. The output voltage is determined according to the table below.
+
+| Convertor Type | Output Voltage                            | Input   | Output        |
+| -------------- | ----------------------------------------- | ------- | ------------- |
+| Buck           | $V_{o}=D\cdot V_{in}$                     | $V_{H}$ | $V_{L}$       |
+| Boost          | $\displaystyle V_{o}=\frac{1}{D}V_{in}$   | $V_{L}$ | $V_{H}$       |
+| Buck-Boost     | $\displaystyle V_{o}=\frac{1-D}{D}V_{in}$ | $V_{L}$ | $V_{H}-V_{L}$ |

@@ -76,6 +76,107 @@ $$
 R=rl&&X_{L}=x_{L}\ l&&X_{C}=\frac{x_{C}}{l}
 \end{align}
 $$
+In this lumped circuit model, the resistance $R$ represents the power losses of the power line, since only the resistance can dissipate real power. The inductor represents the absorbed [[Reactive Power|reactive power]] $Q_{L}$ whereas the capacitor represents the delivered reactive power $Q_{C}$. These power values can be found by,
+$$
+\begin{align}
+P_{J}=I^2R&&Q_{L}=I^2X_{L}&&Q_{C}=\frac{E^2}{X_{C}}
+\end{align}
+$$
+In some cases as discussed below, $P_{J}$ and $Q_{C}$ are so small that they become negligible and can be ignored for analysis purposes.
+
+>[!question] Example
+>A 3-$\Phi$ transmission line delivers $300\ \pu{ MW }$ to a $3-\Phi$ load. Its parameters are: $R=3.25\ \Omega$, $X_{L}=25\ \Omega$, and $X_{C}=6\ \pu{ k}\Omega$. The line voltage at both ends is $230\ \pu{ kV}$. Determine:
+>a) the active and reactive power associated with the line
+>b) the approximate equivalent circuit per phase
+>
+>a) Per phase:
+>$P_{\Phi}=\frac{300\ \pu{ MW}}{3}=100\ \pu{ MW}$
+>$E_{\Phi}=\frac{E_{L}}{\sqrt{ 3}}=\frac{230\ \pu{ kV}}{\sqrt{ 3 }}=132.791\ \pu{ kV}$
+>$I_{\Phi}=\frac{P_{\Phi}}{E_{\Phi}}=\frac{100\ \pu{ MW}}{132.791\ \pu{ kV}}=753.066\ \pu{ A}$
+>$P_{J}=I^2R=(753.066\ \pu{ A})^2(3.25\ \Omega)\boxed{=1.843\ \pu{ MW}}$
+>$Q_{L}=I^2X_{L}=(753.066\ \pu{ A})^2(25\ \Omega)\boxed{=14.178\ \pu{ MVAR_{L}}}$
+>$Q_{C}=\frac{E^2}{X_{C}}=\frac{132.791\ \pu{ kV}^2}{6\ \pu{ k}\Omega}\boxed{=2.939\ \pu{ MVAR_{C}}}$
+
+### Short low voltage line
+In a short, low [[Voltage|voltage]] transmission line, we can simplify the lumped circuit. Since $Q_{C}=\frac{E^2}{X_{C}}$ and $X_{C}=\frac{x_{C}}{l}$ and both $l$ and $E$ are relatively small values here, we can ignore the reactive power.
+### Long high voltage line
+In a long, high voltage transmission line, we can also simplify the lumped circuit. In this case, we use high voltage in power transmission lines such that the [[Current|current]] is very small. This means that, since $P_{J}=I^2R$ and $R$ is already going to be a very small value, the real losses of the line are going to be negligible. 
+## Simplified transmission line
+Since we can cut the resistive and capacitive portions under different conditions, we can make the transmission circuit even simpler by removing the resistance and capacitance entirely. This makes our circuit,
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{circuitikz}
+\draw
+(0,0) to[vsource, l=$E_S$] ++(0,-3)
+(0,0) to[L, l=$X_L$] ++(3,0) to[generic, l=Load, v<=$E_R$] ++(0,-3) to[short] (0,-3) 
+;
+\end{circuitikz}
+\end{document}
+```
+The difference between $E_{S}$ and $E_{R}$ will be the voltage drop on the transmission line due to the inductance. While drawn as a static resistor here, we recognize that this load "resistance" is always changing. To analyze the power that can be delivered by a given transmission line, we can analyze this circuit for varying levels of $R$.
+![[max-power-transmission-line.png]]
+From the above plot we see that the power is maximum when the load resistance is equivalent to the line reactance. This is the principle of [[Maximum Power Transfer|maximum power transfer]]. When this occurs, the voltage at the load will be less than the source voltage by a factor of $\sqrt{ 2}$. That is, at maximum power
+$$
+E_{R}=\frac{E_{S}}{\sqrt{ 2 }}
+$$
+This is interesting because it means that the maximum power of a line is determined by the source voltage and the length of the cable, not the cable itself. Specifically, the maximum power is determined by,
+$$
+P_{\ \text{max}}=\frac{E_{S}^2}{2X_{L}}
+$$
+## Compensation capacitors
+As noted above we can model a transmission line as a simple [[Inductor|inductor]], neglecting the stray [[Capacitance|capacitance]] and [[Resistance|resistance]] present in the line, since it is the line's [[Inductance|inductance]] that has the greatest impact on the line's performance. 
+
+This inductance is still not desired in the line since it introduces a [[Phase Shift|phase shift]] into the transmission line, and it reduces the load voltage $E_{R}$ down to about $70\%$ of the generated voltage value $E_{S}$. It is this voltage drop that is especially undesirable that needs to be compensated for.  
+
+To account for this, we can add a capacitor in parallel with the load that corrects the [[Power Factor|power factor]] to increase the load voltage.
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{circuitikz}
+\draw
+(0,0) to[vsource, l=$E_S$] ++(0,-3)
+(0,0) to[L, l=$X_L$] ++(3,0) node[circ](A){} to[short] ++(2,0) to[generic, l=Load, v<=$E_R$] ++(0,-3) to[short] (0,-3) 
+(A) to[vC, l_=$C$, invert, mirror] ++(0,-3) node[circ]{}
+;
+\end{circuitikz}
+\end{document}
+```
+As denoted in the circuit diagram, the capacitor is variable. This allows it to be adjusted to react to changes in the inductance of the line. Adding this capacitor causes it to deliver the [[Reactive Power|reactive power]] stored by the line's inductance. 
+
+In theory the capacitor should deliver *all* the reactive power stored by the line. But in reality this is not necessary. If we design our capacitor to deliver at least half of the stored reactive power, this will be sufficient to correct the load voltage. This is because in designing the transmission system we assume that the source takes care of the other half. Not only that, but adding a compensating capacitor will increase the maximum power rating of the line, given by
+$$
+P_{\ \text{max}}=\frac{E_{S}^2}{X}
+$$
+The reactive power supplied by the capacitor is,
+$$
+Q_{c}=\frac{E_{R}^2}{X_{C}}
+$$
+The absorbed reactive power by the line inductance is given by,
+$$
+Q_{L}=I^2X_{L}
+$$
+We can select our capacitor size by sizing it such that
+$$
+Q_{C}=\frac{Q_{L}}{2}
+$$
+>[!question] Example
+>A single-phase transmission line has an inductive reactance of $10\ \Omega$. The source voltage is $1000\ \pu{ V}$. If it is fully compensated, calculate:
+>a) The maximum active power that can be delivered to a resistive load
+>b) The $X_{C}$ that must be installed for maximum power
+>c) The $X_{C}$ that must be installed for $40\ \pu{ kW}$.
+>
+>a) $P_{\ \text{max}}=\frac{E_{S}^2}{X_{L}}=\frac{1000\ \pu{ V}^2}{10\ \Omega}\boxed{=100\ \pu{ kW}}$
+>b) $I_{R}=\frac{P}{E_{R}}=\frac{100\ \pu{ kW}}{1000\ \pu{ V}}=100\ \pu{ A}$
+>$\mathbf{I}=\mathbf{I}_{C}+\mathbf{I}_{R}=I_{C}^2+I_{R}^2=I_{C}^2+100\ \pu{ A}^2$
+>$Q_{L}=I^2X_{L}=(I_{C}^2+100\ \pu{ A}^2) \cdot 10=10I_{C}^2+100\ 000$
+>$Q_{C}=E_{R}I_{C}=1000I_{C}$
+>Under full compensation:
+>$Q_{C}=\frac{1}{2}Q_{L} \to 1000I_{C}^2=\frac{1}{2}(10I_{C}^2+100\ 000)$
+>Solving the quadratic equation gives us
+>$I_{C}=100\ \pu{ A}$
+>$X_{C}=\frac{E_{C}}{I_{C}}=\frac{1000\ \pu{ V}}{100\ \pu{ A}}\boxed{=10\ \Omega}$
+>
 # Power transmission lines
 ## High voltage transmission lines
 High voltage transmission lines transmit power with voltages anywhere from $115\pu{\! kV}$ to $800\pu{ \! kV}$. They are carried by large towers (sometimes called *pylons*) that keep the lines far away from one another to prevent arcing.

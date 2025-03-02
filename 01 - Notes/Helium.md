@@ -20,6 +20,20 @@ tags:
 | $0.1513$                                           | $5193.1$                                     |                                              |                                                                          |                                            |
 
 # Isotopes
+| Isotope     | Half-Life                       | [[Decay Mode]]            | Daughter Isotope                   | Abundance   |
+| ----------- | ------------------------------- | ------------------------- | ---------------------------------- | ----------- |
+| $\ce{^2He}$ | $\ll 1\  \pu{ ns }$             | $p$ ($>99.99\%$)          | [[Hydrogen#Hydrogen-1\|Protium]]   | -           |
+|             |                                 | $\beta^+$ ($<0.01\%$)     | [[Hydrogen#Hydrogen-2\|Deuterium]] | -           |
+| $\ce{^3He}$ | Stable                          | -                         | -                                  | $0.0002\%$  |
+| $\ce{^4He}$ | Stable                          | -                         | -                                  | $99.9998\%$ |
+| $\ce{^5He}$ | $6.02 \times 10^{-22}\ \pu{ s}$ | $n$                       | $\ce{^4He}$                        | -           |
+| $\ce{^6He}$ | $806.92\ \pu{ ms}$              | $\beta^-$ ($99.999\%$)    | [[Lithium#Lithium-6\|Lithium-6]]   | -           |
+|             |                                 | $\beta^-d$ ($0.000\ 2\%$) | $\ce{^4He}$                        | -           |
+| $\ce{^7He}$ | $2.51\times 10^{-21}\ \pu{ s}$  | $n$                       | $\ce{^6He}$                        | -           |
+| $\ce{^8He}$ | $119.5\ \pu{ ms}$               | $\beta^-$ ($83.1\%$)      | [[Lithium#Lithium-8\|Lithium-8]]   | -           |
+|             |                                 | $\beta^-n$ ($16\%$)       | [[Lithium#Lithium-7\|Lithium-7]]   | -           |
+|             |                                 | $\beta^-t$ ($0.9\%$)      | $\ce{^5He}$                        | -           |
+
 ## Helium-2
 $\ce{^2He}$, sometimes known as  *diproton*, is an extremely unstable isotope of helium. Its [[Nucleus|nucleus]] consists of only two [[Proton|protons]] and no [[Neutron|neutrons]]. Due to [[Pauli Exclusion Principle|Pauli's exclusion principle]] we know that the two protons must have opposite-aligned [[Quantum Spin|spins]]; this would cause the nucleus to have negative [[Nuclear binding energy|binding energy]].
 

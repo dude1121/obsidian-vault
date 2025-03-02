@@ -120,7 +120,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -280,6 +280,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "omnisearch:Omnisearch": false,
       "daily-notes:Open today's daily note": false,
       "markdown-importer:Open format converter": false,
       "switcher:Open quick switcher": false,
@@ -290,23 +292,25 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4a1b971070ad818f",
+  "active": "2fd621c0f73d9c26",
   "lastOpenFiles": [
-    "02 - Pictures/pulse-rope.png",
     "01 - Notes/Carbon.md",
-    "02 - Pictures/carbon-phase-diagram.png",
-    "01 - Notes/Boron.md",
     "01 - Notes/Element (Chemistry).md",
+    "01 - Notes/Boron.md",
     "01 - Notes/Beryllium.md",
-    "02 - Pictures/carbon.jpg",
     "01 - Notes/Lithium.md",
-    "01 - Notes/Helium.md",
     "01 - Notes/Hydrogen.md",
+    "01 - Notes/Helium.md",
+    "01 - Notes/Half-Life.md",
+    "01 - Notes/Isotope.md",
+    "01 - Notes/Transmission Line.md",
+    "02 - Pictures/pulse-rope.png",
+    "02 - Pictures/carbon-phase-diagram.png",
+    "02 - Pictures/carbon.jpg",
     "02 - Pictures/boron.jpg",
     "01 - Notes/Polar Molecule.md",
     "01 - Notes/DC-DC Convertor.md",
     "01 - Notes/Convertor Driver Circuit.md",
-    "01 - Notes/Transmission Line.md",
     "02 - Pictures/max-power-transmission-line.png",
     "02 - Pictures/CO2-electrostatic-potential.jpg",
     "02 - Pictures/HF-electrostatic-potential.png",
@@ -324,10 +328,8 @@
     "02 - Pictures/damped-oscillator-underdamped.png",
     "02 - Pictures/damped-oscillator-critically-damped.png",
     "02 - Pictures/beryllium.jpg",
-    "02 - Pictures/amplitude-v-frequency.png",
     "01 - Notes/Symbol Index.md",
     "01 - Notes/Quantum Numbers.md",
-    "01 - Notes/Pauli Exclusion Principle.md",
     "Excalidraw",
     "Untitled.canvas"
   ]

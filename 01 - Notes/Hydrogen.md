@@ -21,6 +21,15 @@ tags:
 
 # Isotopes
 The most common isotope of hydrogen is $\ce{^1H}$ which consists of one [[Proton|proton]] and one [[Electron|electron]]. There are two other observed isotopes, $\ce{^2H}$ (called [[Deuterium|deuterium]]) and $\ce{^3H}$ (called [[Tritium|tritium]]). All three of these isotopes have been observed naturally. The fact that these three isotopes have special names is unique to hydrogen, and special symbols may be given to these isotopes ($\ce{D}$ for deuterium and $\ce{T}$ for tritium).
+
+| Isotope    | Half-Life        | [[Decay Mode]] | Daughter Isotope              | Abundance   |
+| ---------- | ---------------- | -------------- | ----------------------------- | ----------- |
+| $\ce{^1H}$ | Stable           | -              | -                             | $99.9855\%$ |
+| $\ce{^2H}$ | Stable           | -              | -                             | $0.0145\%$  |
+| $\ce{^3H}$ | $12.32\ \pu{ y}$ | $\beta^-$      | [[Helium#Helium-3\|Helium-3]] | Trace       |
+| $\ce{^4H}$ | $139\ \pu{ ys}$  | $n$            | $\ce{^3H}$                    | -           |
+| $\ce{^5H}$ | $86\ \pu{ ys}$   | $2n$           | $\ce{^3H}$                    | -           |
+
 ## Hydrogen-1
 $\ce{^1H}$ is the most common hydrogen isotope with an abundance of $99.9855\%$. It is a stable isotope. Since the [[Nucleus|nucleus]] of this isotope only has a single proton it is sometimes called *protium*. $\ce{^1H}$ is the only stable isotope with no neutrons (see [[Helium#Helium-1|diproton]]). 
 ## Hydrogen-2

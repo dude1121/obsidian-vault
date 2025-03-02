@@ -19,6 +19,28 @@ tags:
 | **[[Thermal Conductivity]] $[\pu{W/(m\cdot K)}]$** | **[[Specific Heat]] $[\pu{J/(kg\cdot K)}]$** |                                              |                                                       |                                                                                                   |
 | $200$                                              | $1820$                                       |                                              |                                                       |                                                                                                   |
 # Isotopes
+Beryllium has 11 known isotopes with only one of them being stable. 
+
+| Isotope      | Half-Life                   | [[Decay Mode]]               | Daughter Isotope                   | Abundance |
+| ------------ | --------------------------- | ---------------------------- | ---------------------------------- | --------- |
+| $\ce{^6Be}$  | $5.0\ \pu{ zs}$             | $2p$                         | [[Helium#Helium-4\|Helium-4]]      | -         |
+| $\ce{^7Be}$  | $53.22\ \pu{ d}$            | $\varepsilon$                | [[Lithium#Lithium-7\|Lithium-7]]   | Trace     |
+| $\ce{^8Be}$  | $81.9\ \pu{ as}$            | $\alpha$                     | $\ce{^4He}$                        | -         |
+| $\ce{^9Be}$  | Stable                      | -                            | -                                  | $100\%$   |
+| $\ce{^10Be}$ | $1.387\times 10^6\ \pu{ y}$ | $\beta^-$                    | [[Boron#Boron-10\|Boron-10]]       | Trace     |
+| $\ce{^11Be}$ | $13.76\ \pu{ s}$            | $\beta^-$ ($96.7\%$)         | [[Boron#Boron-11\|Boron-11]]       | -         |
+|              |                             | $\beta^-\alpha$ ($3.3\%$)    | $\ce{^7Li}$                        | -         |
+|              |                             | $\beta^-p$ ($0.001\ 3\%$)    | $\ce{^10Be}$                       | -         |
+| $\ce{^12Be}$ | $21.46\ \pu{ ms}$           | $\beta^-$ ($99.50\%$)        | [[Boron#Boron-12\|Boron-12]]       | -         |
+|              |                             | $\beta^-n$                   | $\ce{^11B}$                        | -         |
+| $\ce{^13Be}$ | $1.0\ \pu{ zs}$             | $n$ ?                        | $\ce{^12Be}$ ?                     | -         |
+| $\ce{^14Be}$ | $4.53\ \pu{ ms}$            | $\beta^-n$ ($86\%$)          | [[Boron#Boron-13\|Boron-13]]       | -         |
+|              |                             | $\beta^-$ ($>9.0\%$)         | [[Boron#Boron-14\|Boron-14]]       | -         |
+|              |                             | $\beta^-{2n}$ ($5\%$)        | $\ce{^12B}$                        | -         |
+|              |                             | $\beta^-t$ ($0.02\%$)        | $\ce{^11Be}$                       | -         |
+|              |                             | $\beta^-\alpha$ ($<0.004\%$) | [[Lithium#Lithium-10\|Lithium-10]] | -         |
+
+
 ## Beryllium-7
 $\ce{^7Be}$ is a [[Radioactivity|radioactive]] isotope of beryllium. It has a [[Half-Life|half-life]] of $t_{1/2}=53.22\ \text{days}$ and will decay to [[Lithium#Lithium-7|lithium-7]] via [[Electron Capture|electron capture]]. This isotope is a [[Cosmogenic Nuclide|cosmogenic nuclide]], and the prevalence of $\ce{^7Be}$ in sediment can indicate that they are fresh due to $\ce{^7Be}$'s half-life.  
 ## Beryllium-8

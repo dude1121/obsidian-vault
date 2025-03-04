@@ -6,12 +6,10 @@ tags:
   - linear-algebra
 cssclasses:
 ---
-**Mesh Loop Analysis** is a method of circuit analysis that expands on the idea of [[Branch Current Analysis]] and allows us to solve circuits much easier than Branch Current Analysis allowed us to. Consider the same circuit seen in the Branch Current note.
+Y**Mesh Loop Analysis** is a method of circuit analysis that expands on the idea of [[Branch Current Analysis]] and allows us to solve circuits much easier than Branch Current Analysis allowed us to. Consider the same circuit seen in the Branch Current note.
 ![[Mesh Loop - General.png]]
 This is the same circuit as before, with the main difference being that instead of there being three unknown currents, there are now only two. Mesh Loop, along with [[Nodal Analysis]], allows us to solve the circuit using one fewer equation and unknown variable than Branch Current Analysis. There are two methods of mesh loop analysis: *general* and *format*. The general method is shown here as an example, but generally format would be preferred.
-
 # General Approach
-
 In the general approach, we build two equations, both [[Kirchhoff’s Voltage Law|KVL]] loops based on currents $I_1$ and $I_2$. We then assign [[Resistor|resistor]] polarities based on these currents, as in Branch Current analysis. This gives us two equations that we can solve using [[Determinant|determinants]].
 
 > [!question] Mesh Loop Analysis - General Approach
@@ -65,7 +63,6 @@ In the general approach, we build two equations, both [[Kirchhoff’s Voltage La
 > $$
 
 Note that the answer we get from Mesh Loop Analysis matches the answer we got from Branch Current Analysis, but it took far fewer steps. 
-
 # Format Approach
 The format approach is similar to the general approach, but it allows us to skip the step of building the KVL equations and immediately create our equations for the linear system of equations. Consider the following circuit:
 ![[Mesh Loop - Format.png]]

@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Notes/Boron.md",
+                "file": "01 - Notes/Nitrogen.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Boron"
+              "title": "Nitrogen"
             }
           },
           {
@@ -134,7 +134,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -280,8 +280,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ],
@@ -294,8 +294,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "omnisearch:Omnisearch": false,
       "daily-notes:Open today's daily note": false,
       "markdown-importer:Open format converter": false,
       "switcher:Open quick switcher": false,
@@ -303,42 +301,44 @@
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "47e9c18dd97aa90a",
+  "active": "ebc527290d6a2cf9",
   "lastOpenFiles": [
-    "01 - Notes/Simple harmonic motion.md",
+    "01 - Notes/Element (Chemistry).md",
+    "01 - Notes/Carbon.md",
+    "01 - Notes/Nitrogen.md",
+    "01 - Notes/Boron.md",
+    "01 - Notes/Wave Model.md",
+    "01 - Notes/Differential Equation.md",
     "01 - Notes/Laplace Transform.md",
+    "01 - Notes/Nodal Analysis.md",
+    "01 - Notes/Mesh Loop Analysis.md",
+    "01 - Notes/Euler's Formula.md",
+    "01 - Notes/Simple harmonic motion.md",
     "01 - Notes/Spring motion.md",
     "01 - Notes/Forced Oscillator.md",
-    "01 - Notes/Differential Equation.md",
     "01 - Notes/Simple harmonic motion derivation.md",
     "01 - Notes/DC-DC Convertor.md",
     "01 - Notes/Polar Molecule.md",
-    "01 - Notes/Wave Model.md",
     "01 - Notes/Wavelength.md",
     "02 - Pictures/wave-wavelength-period-amplitude.png",
     "01 - Notes/Mechanical Wave.md",
     "01 - Notes/Quantum Numbers.md",
     "01 - Notes/Atom.md",
-    "01 - Notes/Nitrogen.md",
-    "01 - Notes/Element (Chemistry).md",
-    "01 - Notes/Carbon.md",
     "01 - Notes/Atomic Mass Unit.md",
-    "01 - Notes/Boron.md",
     "01 - Notes/Beryllium.md",
     "01 - Notes/Lithium.md",
     "01 - Notes/Hydrogen.md",
     "01 - Notes/Helium.md",
     "01 - Notes/Half-Life.md",
-    "01 - Notes/Isotope.md",
-    "01 - Notes/Transmission Line.md",
     "02 - Pictures/pulse-rope.png",
     "02 - Pictures/carbon-phase-diagram.png",
     "02 - Pictures/carbon.jpg",
     "02 - Pictures/boron.jpg",
-    "01 - Notes/Convertor Driver Circuit.md",
     "02 - Pictures/max-power-transmission-line.png",
     "02 - Pictures/CO2-electrostatic-potential.jpg",
     "02 - Pictures/HF-electrostatic-potential.png",

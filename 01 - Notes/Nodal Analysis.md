@@ -7,7 +7,6 @@ tags:
 ---
 **Nodal Analysis** is a form of advanced circuit analysis that allows us to find unknown [[Voltage|voltages]] and [[Current|currents]] by use of *nodes*. Similar to how [[Mesh Loop Analysis]] is an extension of [[Kirchhoff’s Voltage Law]], nodal analysis is an extension of [[Kirchhoff's Current Law]]. Also like Mesh Loop analysis, there are two approaches to Nodal Analysis: *general* and *format*. 
 # General Approach
-
 ## Procedure
  1. *Determine the number of nodes within the network.*
  2. *Pick a reference node, and label each remaining node with a subscripted value of voltage ($V_1$, $V_2$, etc.)*
@@ -15,7 +14,6 @@ tags:
  4. *Solve the resulting equations for the nodal voltages.*
 Take the following circuit as an example:
 ![[Nodal Example 1.png]]
-
 Here, we have three *nodes*: node 1, node 2, and [[Ground (Electricity)|ground]]. Since ground is assumed to have a potential of $0\text{V}$, it is our reference node, as per step 2. We'll note the voltages at node 1 and 2 as $V_1$ and $V_2$. 
 
 Next, we build our KCL equations. For node 1,

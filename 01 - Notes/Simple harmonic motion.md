@@ -3,7 +3,7 @@ tags:
   - physics
   - oscillatory-motion
 ---
-A particle in **simple harmonic motion** is a model used to represent oscillatory situations. An example of this is [[Spring motion|spring motion]] or a [[Pendulum|pendulum]]. The following assumes there is no [[Damped oscillations|damping]]. From examining a simple spring, we see that,
+A particle in **simple harmonic motion** is a model used to represent oscillatory situations. An example of this is [[Spring motion|spring motion]] or a [[Pendulum|pendulum]]. The following assumes there is no [[Damped oscillations|damping]]. If the pendulum is damped, the system becomes a [[Forced Oscillator|forced oscillator]].From examining a simple spring, we see that,
 $$
 a=-\frac{k}{m}x
 $$

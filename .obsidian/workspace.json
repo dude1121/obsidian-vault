@@ -78,20 +78,6 @@
             }
           },
           {
-            "id": "2582eb6dcd6a58ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - Notes/Polar Molecule.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Polar Molecule"
-            }
-          },
-          {
             "id": "ebc527290d6a2cf9",
             "type": "leaf",
             "state": {
@@ -111,12 +97,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Notes/Carbon.md",
+                "file": "01 - Notes/Wave Model.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Carbon"
+              "title": "Wave Model"
+            }
+          },
+          {
+            "id": "47e9c18dd97aa90a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 - Notes/Differential Equation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Differential Equation"
+            }
+          },
+          {
+            "id": "880f4399ec1f26db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 - Notes/Laplace Transform.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Laplace Transform"
             }
           }
         ],
@@ -292,10 +306,26 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2fd621c0f73d9c26",
+  "active": "47e9c18dd97aa90a",
   "lastOpenFiles": [
-    "01 - Notes/Carbon.md",
+    "01 - Notes/Simple harmonic motion.md",
+    "01 - Notes/Laplace Transform.md",
+    "01 - Notes/Spring motion.md",
+    "01 - Notes/Forced Oscillator.md",
+    "01 - Notes/Differential Equation.md",
+    "01 - Notes/Simple harmonic motion derivation.md",
+    "01 - Notes/DC-DC Convertor.md",
+    "01 - Notes/Polar Molecule.md",
+    "01 - Notes/Wave Model.md",
+    "01 - Notes/Wavelength.md",
+    "02 - Pictures/wave-wavelength-period-amplitude.png",
+    "01 - Notes/Mechanical Wave.md",
+    "01 - Notes/Quantum Numbers.md",
+    "01 - Notes/Atom.md",
+    "01 - Notes/Nitrogen.md",
     "01 - Notes/Element (Chemistry).md",
+    "01 - Notes/Carbon.md",
+    "01 - Notes/Atomic Mass Unit.md",
     "01 - Notes/Boron.md",
     "01 - Notes/Beryllium.md",
     "01 - Notes/Lithium.md",
@@ -308,28 +338,12 @@
     "02 - Pictures/carbon-phase-diagram.png",
     "02 - Pictures/carbon.jpg",
     "02 - Pictures/boron.jpg",
-    "01 - Notes/Polar Molecule.md",
-    "01 - Notes/DC-DC Convertor.md",
     "01 - Notes/Convertor Driver Circuit.md",
     "02 - Pictures/max-power-transmission-line.png",
     "02 - Pictures/CO2-electrostatic-potential.jpg",
     "02 - Pictures/HF-electrostatic-potential.png",
-    "01 - Notes/Intermolecular Forces.md",
-    "01 - Notes/Fission Reactor.md",
-    "01 - Notes/Nuclear Power Plant.md",
-    "01 - Notes/Silicon-Controlled Rectifier.md",
-    "01 - Notes/Solid state relay.md",
-    "01 - Notes/Chemical Reaction.md",
-    "01 - Notes/Chemical Bond.md",
-    "01 - Notes/Phase Shift Circuit.md",
-    "01 - Notes/Function.md",
-    "01 - Notes/Differential Equation.md",
-    "01 - Notes/Simple harmonic motion.md",
     "02 - Pictures/damped-oscillator-underdamped.png",
     "02 - Pictures/damped-oscillator-critically-damped.png",
-    "02 - Pictures/beryllium.jpg",
-    "01 - Notes/Symbol Index.md",
-    "01 - Notes/Quantum Numbers.md",
     "Excalidraw",
     "Untitled.canvas"
   ]

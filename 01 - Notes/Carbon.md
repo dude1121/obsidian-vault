@@ -48,7 +48,13 @@ Carbon has fourteen known isotopes ranging from $\ce{^8C}$ to $\ce{^20C}$ as wel
 |             |                             | $\beta^-2n$ ($< 37\%$)                      | $\ce{^20N}$                                                                                        | -         |
 |             |                             | $\beta^-$ ($> 2\%$)                         | [[Nitrogen#Nitrogen-22\|Nitrogen-22]]                                                              | -         |
 ## Carbon-12
-$\ce{^12C}$ is the most abundant of all the carbon isotopes amounting to about $98\%$ of all carbon on Earth. This is due to the [[Triple-Alpha Process|triple-alpha process]] by which 3 $\ce{^4He}$ nuclei fuse to form $\ce{^12C}$. This specific nuclide is the standard for all [[Atomic Mass Unit|atomic masses]] are measured, since the carbon-12 nucleus has a mass of exactly $12\ \pu{ u}$ by definition.  
+$\ce{^12C}$ is the most abundant of all the carbon isotopes amounting to about $98\%$ of all carbon on Earth. This is due to the [[Triple-Alpha Process|triple-alpha process]] by which 3 $\ce{^4He}$ nuclei fuse to form $\ce{^12C}$. This specific nuclide is the standard for all [[Atomic Mass Unit|atomic masses]] are measured, since the carbon-12 nucleus has a mass of exactly $12\ \pu{ u}$ by definition. 
+## Carbon-13
+$\ce{^13C}$ is a stable isotope of carbon with an abundance of $1.06\%$. It has applications in biology and earth sciences as well as [[Nuclear Magnetic Resonance|nuclear magnetic resonance]]. 
+## Carbon-14
+$\ce{^14C}$, or *radiocarbon*, as its sometimes known, is a [[Radioisotope|radioisotope]] of carbon with a half-life of around $t_{1/2}\approx 5700\ \pu{ years}$ and decays via [[Beta Minus Decay|beta minus decay]] into $\ce{^14N}$.
+$$\ce{^14_{6}C -> ^14_{7}N +e- + \nu_{e}- + 0.156\ \pu{ MeV}}$$
+Due to its very long half-life, $\ce{^14C}$ is the isotope used in [[Carbon Dating|carbon dating]] to determine the age of artifacts based on the amount of $\ce{^14C}$ in the surrounding sample. 
 # Ionization
 | Ionization | Energy $[\pu{ kJ/mol}]$ |
 | ---------- | ----------------------- |

@@ -113,12 +113,12 @@ r_{1}=\frac{-b+\sqrt{ b^2-4ac }}{2a}&&r_{2}=\frac{-b-\sqrt{ b^2-4ac }}{2a}
 \end{align}
 $$
 Evaluating the discriminant leads us to three distinct cases:
-## $b^2-4ac>0$
+### $b^2-4ac>0$
 In this case, there are two [[Real Numbers|real]] [[Root (Mathematics)|roots]], meaning the solution to the differential equation is
 $$
 y=c_{1}e^{r_{1}x}+c_{2}e^{r_{2}x}
 $$
-## $b^2-4ac=0$
+### $b^2-4ac=0$
 If there is only one root, the solution to the differential equation is of the form,
 $$
 y=c_{1}e^{rx}+c_{2}xe^{rx}
@@ -127,7 +127,7 @@ In this case, the root $r$ is equal to
 $$
 r=-\frac{b}{2a}
 $$
-## $b^2-4ac<0$
+### $b^2-4ac<0$
 In this case the roots $r_{1}$ and $r_{2}$ are not real but instead [[Complex Numbers|complex]]. We could write the roots as,
 $$
 \begin{align}
@@ -153,3 +153,16 @@ y&=c_{1}e^{(\alpha+i\beta)x}+c_{2}e^{(\alpha-i\beta)x}\\ \\
 &\boxed{=e^{\alpha x}(c_{1}\cos \beta x+c_{2}\sin \beta x)}
 \end{align}
 $$
+## Non-homogenous
+A non-homogenous differential equation is of the form,
+$$
+a\frac{d^2y}{dx^2} + P(x)\frac{dy}{dx} + Q(x)y=f(x)
+$$
+where $P(x)$, $Q(x)$, and $f(x)$ are arbitrary functions of $x$.
+
+To solve a non-homogenous differential equation, we first recognize that the general solution to a non-homogenous equation is of the form,
+$$
+y=y_{c}+y_{p}
+$$
+where $y_{c}$ is the *complementary solution* and $y_{p}$ is the *particular solution*. We find the complementary solution by solving the left-hand side as a homogenous equation. We then use the right-hand side $f(x)$ to find the particular solution.
+### Particular solution

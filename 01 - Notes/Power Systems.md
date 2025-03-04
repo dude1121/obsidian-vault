@@ -78,3 +78,35 @@ Similar to how generation stations monitor frequency changes for varying power d
 # Power Flow
 ![[power-systems-flow.png]]
 Traditionally, power only flows in one direction: from the generation stations to the consumers. However, due to renewable options becoming more prevalent, more and more the power flow becomes bidirectional, as someone with a solar panel may generate more power than they consume, sending the remainder back to the utilities.
+## Transmission regions
+Within Ontario, the province is divided into various different regions that are all connected to one another. Some regions have external connections to either Quebec or Michigan or New York.
+![[ontario-transmission-zones.png]]
+We can simplify the circuit between two regions as 
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{circuitikz}
+\draw
+(0,0) to[vsource, l=$E_S$] ++(0,-2) to[short] ++(3,0) to[vsource, l=$E_R$] ++(0,2)
+(0,0) to[L, l=$X$] ++(3,0) 
+;
+\end{circuitikz}
+\end{document}
+```
+These two regions have the same nominal voltage. We can use phasor diagrams to model this as well.
+![[es-er-phasor.png]]
+The power transferred in this transmission line is
+$$
+P=\frac{E_{S}E_{R}}{X}\sin \delta
+$$
+where $\delta$ is the phase angle between $E_{S}$ and $E_{R}$. However, since $E_{S}=E_{R}$ we can simplify this to,
+$$
+P=\frac{E_{S}^2}{X}\sin \delta
+$$
+If there is no phase angle, i.e. $\delta=0$, then there is no power transmitted because there is now no voltage difference at any point in time between $E_{S}$ and $E_{R}$ and therefore no current $I$. We call this *synchronization*. 
+
+If we want to send power or receive power from a given region, we can adjust $\delta$. If $E_{S}$ leads $E_{R}$, then $E_{S}$ *delivers* power to $E_{R}$. If $E_{S}$ lags $E_{R}$, then $E_{S}$ *receives* power from $E_{R}$. This is done via a [[Phase Shift Transformer|phase shift transformer]].
+
+As we increase the phase angle we increase the amount of power transferred. 
+![[phase-shift-power-plot.png]]
+While power transferred is maximum at $90\degree$, we realistically never operate above $60\degree$, but commonly it is operated at around $30\degree$. At $\delta=30\degree$ we can see that $50\%$ of power is transferred, which is typically sufficient.

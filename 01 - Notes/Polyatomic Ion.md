@@ -12,7 +12,7 @@ A **polyatomic ion** is an [[Molecule|molecular]] [[Ion|ion]]. Most polyatomic i
 | $+5$            | $\ce{ClO_{3}^{-}}$ | Chlorate     |
 | $+7$            | $\ce{ClO_{4}^{-}}$ | Perchlorate  |
 
-This pattern follows for ions made of [[Bromine|bromine]], [[Iodine|iodine]], [[Sulfur|sulfur]], [[Nitrogen|nitrogen]], [[Phosphorus|phosphorus]], [[Arsenic|arsenic]], [[Selenium|selenium]], and [[Tellurium|tellurium]], that are oxidized.
+This pattern follows for ions made of [[Bromine|bromine]], [[Iodine|iodine]], [[Sulfur|sulfur]], [[Nitrogen|nitrogen]], [[Phosphorus|phosphorus]], [[Arsenic|arsenic]], [[Selenium|selenium]], and [[Tellurium|tellurium]], that are [[Oxidation State|oxidized]].
 
 | Oxidation State | Formula                | Name          |
 | --------------- | ---------------------- | ------------- |
@@ -43,3 +43,6 @@ Common polyatomic ions that are not directly related to oxidization are:
 - [[Hydrogen Phosphate]] $\ce{HPO_{4}^{2-}}$
 - [[Peroxide]] $\ce{O_{2}^{2-}}$
 - [[Hydroxide]] $\ce{OH-}$
+- [[Ammonium]] $\ce{NH_{4}+}$
+- [[Permanganate]] $\ce{MnO_{4}-}$
+- [[Dichromate]] $\ce{Cr_{2}O_{7}^{2-}}$

@@ -42,7 +42,7 @@ $$
 \\ BaCrO_{4}(s) + 2K+(aq) + 2NO_{3}-(aq)} 
 \end{aligned}
 $$
-Writing it this way better represents the actual forms of the reactants and products in the solution. In a complete ionic equation, *all substances that are strong electrolytes are represented as ions*.
+Writing it this way better represents the actual forms of the reactants and products in the solution. In a complete ionic equation, *all substances that are [[Electrolytes|strong electrolytes]] are represented as ions*.
 # Types of Chemical Reactions
 Chemical reactions can broadly be defined into three distinct categories: *precipitation reactions*, *acid-base reactions*, *oxidation-reduction reactions*. 
 ## Precipitation Reactions

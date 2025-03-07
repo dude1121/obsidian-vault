@@ -177,6 +177,29 @@ $$
 >$I_{C}=100\ \pu{ A}$
 >$X_{C}=\frac{E_{C}}{I_{C}}=\frac{1000\ \pu{ V}}{100\ \pu{ A}}\boxed{=10\ \Omega}$
 >
+## Voltage rating for transmission lines
+We discussed above that for a non-compensated line, the maximum power can be found by 
+$$
+P_{\text{max}}=\frac{E_{S}^2}{2X}
+$$
+and in a compensated line,
+$$
+P_{\text{max}}=\frac{E_{S}^2}{X}
+$$
+We can generalize this and define our max power as,
+$$
+P_{\text{max}}=\frac{E_{S}^2}{cX}
+$$
+where $c=1$ for compensated lines and $c=2$ for uncompensated lines. We can simplify by remembering that $X=xl$ and solve for the voltage.
+$$
+\begin{align}
+P_{\text{max}}&=\frac{E_{S}^2}{cxl} \\
+E_{S}^2&=cxlP_{\text{max}} \\
+E_{S}&=\sqrt{ cxlP_{\text{max}} } \\
+E_{L}=\sqrt{ 3 }E_{S}&=\sqrt{ 3 }\cdot\sqrt{ cxlP_{\text{max}} }\ \boxed{=k\sqrt{ Pl }} \\
+\end{align}
+$$
+where $k$ converts the other terms into one coefficient. Due to engineering magic, this value is typically either $k=0.1$ for uncompensated lines and $k=0.06$ for compensated lines. When establishing the line voltage for a transmission line, we typically state the voltage within a range where the minimum voltage $E_{\text{min}}=0.6E$ and the maximum voltage $E_{\text{max}}=1.5E$. These ranges help an engineer to determine the standard voltage rating. 
 # Power transmission lines
 ## High voltage transmission lines
 High voltage transmission lines transmit power with voltages anywhere from $115\pu{\! kV}$ to $800\pu{ \! kV}$. They are carried by large towers (sometimes called *pylons*) that keep the lines far away from one another to prevent arcing.

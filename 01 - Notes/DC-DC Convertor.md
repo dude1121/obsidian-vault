@@ -370,7 +370,7 @@ In each of these convertors, we can replace the diode with a second MOSFET. Sinc
 \end{circuitikz}
 \end{document}
 ```
-We can create a generalized circuit that can behave as either type of convertor. It looks like this:
+We can create a generalized circuit that can behave as either type of convertor. This is called a *[[Half-Bridge Circuit|half-bridge]]* circuit. It looks like this:
 ```tikz
 \usepackage{circuitikz}
 \begin{document}

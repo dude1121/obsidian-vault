@@ -3,7 +3,7 @@ tags:
   - physics
   - kinematics
 ---
-**Elasticity** is a quality of solids that related to the behaviour of solid objects when a [[Force|force]] is applied to it that causes its shape to deform in some way. Elasticity is a concept ignored when considering [[Rigid Body|rigid bodies]]. 
+**Elasticity** is a quality of [[Solid|solids]] that related to the behaviour of solid objects when a [[Force|force]] is applied to it that causes its shape to deform in some way. Elasticity is a concept ignored when considering [[Rigid Body|rigid bodies]]. 
 
 When a force is applied across some area on a body, the object experiences [[Stress|stress]].  This stress results in [[Strain|strain]]. The two are directly proportional to one another
 $$

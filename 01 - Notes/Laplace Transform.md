@@ -26,7 +26,7 @@ where $\sigma$ and $\omega$ are real numbers.
 | $1-\cos at$                            | $\displaystyle \frac{a^2}{s(s^2+a^2)}$    | $\sin at+at\cos at$    | $\displaystyle \frac{2as^2}{(s^2+a^2)^2}$   |
 | $at - \sin at$                         | $\displaystyle \frac{a^3}{s^2(s^2+a^2)}$  | $t\cos at$             | $\displaystyle \frac{s^2-a^2}{(s^2+a^2)^2}$ |
 | $e^{-at}-e^{-bt}$                      | $\displaystyle \frac{b-a}{(s+a)(s+b)}$    | $e^{-at}\sin bt$       | $\displaystyle \frac{b}{(s+a)^2+b^2}$       |
-| $ae^{-at}-be^{-at}$                    | $\displaystyle \frac{s(a-b)}{(s+a)(s+b)}$ | $e^{-at}\cos bt$       | $\displaystyle \frac{s+a}{(s+a)^2+b^2}$     |
+| $ae^{-at}-be^{-bt}$                    | $\displaystyle \frac{s(a-b)}{(s+a)(s+b)}$ | $e^{-at}\cos bt$       | $\displaystyle \frac{s+a}{(s+a)^2+b^2}$     |
 
 # The linearity property
 For a sum of two function $f(t)$ and $g(t)$ multiplied by constants $a$ and $b$, the Laplace transform is defined as,

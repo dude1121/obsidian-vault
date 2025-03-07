@@ -1,11 +1,9 @@
 {
   "accentColor": "#f04f0a",
-  "enabledCssSnippets": [
-    "main"
-  ],
+  "enabledCssSnippets": [],
   "baseFontSize": 15,
   "cssTheme": "",
-  "theme": "obsidian",
+  "theme": "moonstone",
   "interfaceFontFamily": "Hasklug Nerd Font",
   "textFontFamily": "Hasklug Nerd Font",
   "baseFontSizeAction": true

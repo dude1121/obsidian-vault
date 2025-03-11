@@ -42,7 +42,7 @@ tags:
 >...if you said to me in this regard: "Socrates, we do not believe Anytus now, we acquit you, but only on condition that you spend no more time on this investigation and do not practice philosophy, and if you are caught doing so you will die"; if, as I say, you were to acquit me on those terms, I would say to you: "Men of Athens, I am grateful and I am your friend, but I will obey the god rather than you, and as long as I draw breath and am able, I shall not cease to practice philosophy... For I go around doing nothing but persuading both young and old among you not to care for your body or your wealth in preference to or as strongly as for the best possible state of your soul, as I say to you: Wealth does not bring about excellence, but excellence makes wealth and everything else good for men, both individually and collectively."
 - Socrates says that he is not making a defense on his own behalf, but rather he is making a defense on the behalf of the jury, to prevent them from "mistreating the god's gift to you by condemning me". 
 	- He goes on to say that there will be no person like him in the future, and if they kill him now they will come to regret it
-## Guilty verdict
+# Guilty verdict
 - Socrates is found guilty by the jury and Meletus requests the death penalty for Socrates. Socrates argues that, while he does not *want* to die, if death is the penalty for doing the things Meletus says he did, then he should be put to death.
 - However, he then moves on to exile being a fitting punishment, since he can not pay a fine since he is poor and feels he should not be imprisoned, permanently subjected to the men who found him guilty.
 - In exile, Socrates reasons that he would just do that same thing elsewhere as he did in Athens but for good reason.
@@ -50,8 +50,13 @@ tags:
 >Perhaps someone might say: But Socrates, if you leave us will you not be able to live quietly, without talking? Now this is the most difficult point on which to convince some of you. If I say that it is impossible for me to keep quiet because that means disobeying the god, you will not believe me and will think I am being ironical. On the other hand, if I say that it is the greatest good for a man to discuss virtue every day and those other things about which you hear me conversing and testing myself and others, *for the unexamined life is not worth living* for men, you will believe me even less.
 - I love this quote, "for the unexamined life is not worth living". To Socrates, a life where he is not allowed to reason and think and converse with the populace is not a life at all, and he might as well be given the death penalty.
 - Socrates' defence against the death penalty is really about [[Truth|truth]]. Is it better to hear and accept truth even though it may be harmful or infuriating? Or is it better to drive that truth and the one proclaiming it away? Socrates tells the men of Athens what he believes is true and will better them. He does this to help them live an *examined* life, since this is what Socrates believes is the meaning of living.
-## Sentenced to death
+# Sentenced to death
 - Socrates is now reconciling with death. He argues that no man should contrive to avoid death at any cost, instead, they should accept it when it comes. To avoid death is cowardice; anyone can avoid death but few if any can avoid wickedness.
 > [!quote] Apology p.42
 > Neither I nor any other man should, on trial or in war, contrive to avoid death at any cost. Indeed it is often obvious in battle that one could escape death by throwing away one's weapons and by turning to supplicate one's pursuers, and there are many ways to avoid death in every kind of danger if one will venture to do or say anything to avoid it. It is not difficult to avoid death, gentlemen; it is much more difficult to avoid wickedness, for it runs faster than death.
-- Socrates then 
+- In this section Socrates is also wrestling with the concept of [[Death|death]]. He says that death is either a) a dreamless, eternal sleep, or b) the promised [[Greek Underworld|Greek afterlife]].
+>[!quote] Apology p.43
+>Let us reflect in this way, too, that there is good hope that death is a blessing, for it is one of two things: either the dead are nothing and have no perception of anything, or it is, as we are told, a change and a relocating for the [[Soul|soul]] from here to another place.
+- If death is an eternal sleep, Socrates continues, then he will be satisfied, since if a someone had a dreamless sleep they would rank that sleep as one of the best in their life. 
+- If instead he is to go down to Hades, then even better, as Socrates can think of nothing better than spending eternity with the likes of [[Homer]], [[Orpheus]], and [[Hesiod]]. 
+- He concludes his statement by saying that he is off to go die and they are off to go live, and it is up to the god whose lot is better.

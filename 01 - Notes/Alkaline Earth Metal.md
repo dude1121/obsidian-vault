@@ -2,7 +2,7 @@
 tags:
   - chemistry
 ---
-The **alkaline earth metals** are six [[Element (Chemistry)|elements]] in group 2 of the [[Periodic Table|periodic table]]. The alkaline earth metals contain:
+The **alkaline earth metals** are six [[Element (Chemistry)|elements]] in group 2 (or group 2A) of the [[Periodic Table|periodic table]]. The alkaline earth metals contain:
 - [[Beryllium]] $\ce{_{4}Be}$
 - [[Magnesium]] $\ce{_{12}Mg}$
 - [[Calcium]] $\ce{_{20}Ca}$

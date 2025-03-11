@@ -13,7 +13,8 @@ $$
 $$
 $$
 \mathbf{\vec{v}}=\int \mathbf{\vec{a}}\ dt
-$$As noted with the boldface and arrows above $\mathbf{v}$, velocity is a [[Vector|vector]]. Its scalar counterpart is [[Speed|speed]]. Velocity is measured in [[Metre|metres]] per [[Second|second]] $[\pu{ m/s}]$.
+$$
+As noted with the boldface and arrows above $\mathbf{v}$, velocity is a [[Vector|vector]]. Its scalar counterpart is [[Speed|speed]]. Velocity is measured in [[Metre|metres]] per [[Second|second]] $[\pu{ m/s}]$.
 # Velocity of a centre of mass
 If the object under examination is not a point particle but rather a [[Rigid Body|rigid body]], the velocity of that body, also known as the velocity of the [[Centre of Mass|centre of mass]] of the system, is given by,
 $$

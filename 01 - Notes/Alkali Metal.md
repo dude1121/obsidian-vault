@@ -2,7 +2,7 @@
 tags:
   - chemistry
 ---
-An **alkali metal** is an element in the first group of the [[Periodic Table|periodic table]], excluding [[Hydrogen|hydrogen]]. The alkali metals include:
+An **alkali metal** is an element in the first group (Group 1 or Group 1A) of the [[Periodic Table|periodic table]], excluding [[Hydrogen|hydrogen]]. The alkali metals include:
 - [[Lithium]] $\ce{_{3}Li}$
 - [[Sodium]] $\ce{_{11}Na}$
 - [[Potassium]] $\ce{_{19}K}$

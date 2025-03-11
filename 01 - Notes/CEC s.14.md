@@ -2,7 +2,7 @@
 tags:
   - canadian-electrical-code
 ---
-# 14-104
+# 14-104 Rating of overcurrent devices
 ## 1)
 >The rating or setting of overcurrent devices shall not exceed the allowable ampacity of the conductors that they protect, except
 >	a) where a [[Fuse|fuse]] or [[Circuit Breaker|circuit breaker]] having a rating or setting of the same value as the ampacity of the [[Conductor|conductor]] is not available, and the maximum calculated or known load is in accordance with the Rules of [[CEC s.8|Section 8]], the ratings or settings given in [[CEC t.13|Table 13]] shall be permitted to be used within the maximum value of 800 A;

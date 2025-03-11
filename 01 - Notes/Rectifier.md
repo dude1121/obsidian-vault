@@ -53,3 +53,7 @@ Evaluating the first integral though has this expression simplify to
 $$
 V_{\text{av}}=\frac{V_{\text{pk}}}{\pi}(1+\cos \delta)
 $$
+The average power delivered by this rectifier is found by,
+$$
+P_{\text{avg}} = \frac{V_{pk}^2}{R\pi}\int_{\delta}^\pi \sin^2\theta\ d\theta
+$$

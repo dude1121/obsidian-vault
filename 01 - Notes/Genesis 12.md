@@ -7,11 +7,13 @@ tags:
 # Summary
 - *1*. God tells [[Abraham|Abram]] to leave.
 - *2*. Abram will become a great nation.
-- *4*. [[Lot]] leaves with Abram. Abram is 75, meaning they leave in the year 2023 AA.
+- *4*. [[Lot]] leaves with Abram. Abram is 75, meaning they leave in the year 2023 AA. He leaves out of Harran.
 - *5*. Abram takes his family, as well as "the persons whom \[he] had acquired," thereby indication Abram owned slaves and is the first to be mentioned as having slaves.
 - *6*. "At that time the [[Canaan|Canaanites]] were in the land." This implies that when this was written, the Canaanites were no longer in the land. If Moses did write this, wouldn't the Canaanites *still be there*, since [[Ancient Israel|Israel]] had not conquered the promised land yet?
 - *7*. God promises land of Shechem to Abram.
 - *10 - 16*. Abram tells [[Sarah|Sarai]] to say she is his sister, not wife, for fear the Egyptians will kill Abram to take Sarai from him. In verses 1 - 3 God promised to protect Abram, so why did he feel the need to turn to deceit to protect himself?
+	- *15*. This plan ends up not working out the way he intended anyways, as Pharaoh hears of Sarai and sends for her to be taken into his house.
+	- *16*. Abram seems to have no problem with this as he is gifted many things by Pharaoh. It is only later when God begins punishing Pharaoh that Abram decides to leave with his wife.
 - *17 - 20*. [[Pharaoh]] sends Abram and Sarai out of Egypt because God inflicts plagues on him. This story echoes the later exodus out of Egypt with plagues, followed by Pharaoh telling God's people to go.
 # Thoughts
 The promise made to Abram seemed to be lost on him, as he immediately seems to try to fix the situation on his own.

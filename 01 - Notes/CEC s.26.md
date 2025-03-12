@@ -61,12 +61,28 @@ Both [[Circuit Breaker|circuit breakers]] and [[Fuse|fuses]] can not exceed $250
 > b) have the bottom of their platform not less than $3.6\ \pu{ m}$ above ground if they are isolated by elevation;
 > c) have the entire installation surrounded by a suitable fence in accordance with Rules [[CEC s.26#26-300 General|26-300]] to 26-324 if they are not isolated by elevation or not housed in suitable enclosures; and
 > d) have conspicuously posted, suitable warning signs indicating the highest voltage employed except where there is no exposed live part.
+
+I.e., if there are exposed live parts of the transformer then the enclosure requires a fence (unless the transformer is more than $3.6\ \pu{ m}$ above ground) and an adequate warning sign indicating the highest voltage present.
 ### 2)
 > Dielectric liquid-filled, pad-mounted distribution transformers, either independently installed or forming part of a unit substation, shall be installed at least $3\ \pu{ m}$ from any combustible surface or material on a building and at least $6\ \pu{ m}$ from any window, door, or ventilation inlet or outlet on a building, except where
 > a) a wall or barrier with non-combustible surfaces or material is constructed between the transformer and any door, window, ventilation opening, or combustible surface; or
 > b) the transformer is protected by an internal current-limiting fuse and equipped with a pressure relief device, with working spaces around the transformer of at least $3\ \pu{ m}$ on the access side and on all other sides, as follows:
 > 	i) $1\ \pu{ m}$ for three-phase transformers; and
 > 	ii) $0.6\ \pu{ m}$ for single-phase transformers.
+## 26-246 Dry-core, open-ventilated-type transformers
+### 1)
+> Transformers of the dry-core, open-ventilated type shall be mounted so that there is an air space of not less than $150\ \pu{ mm}$ between transformer enclosures and between a transformer enclosure and any adjacent surface except floors.
+### 2)
+> Notwithstanding Subrule 1), where the adjacent surface is a combustible material, the minimum permissible separation between the transformer enclosure and the adjacent surface shall be $300\ \pu{ mm}$.
+### 3)
+> Notwithstanding Subrule 1), where the adjacent surface is the wall on which the transformer is mounted, the minimum permissible separation between the enclosure and the mounting wall shall be $6.5\ \pu{ mm}$ if the adjacent surface is made of
+> a) non-combustible material;
+> b) combustible material adequately protected by non-combustible heat insulating material other than sheet metal; or
+> c) combustible material shielded by grounded sheet metal with an air space of not less than $50\ \pu{ mm}$ between the sheet metal and the combustible material.
+### 4)
+> Dry-type transformers not of the sealed type shall not be installed below grade level unless adequate provision is made to prevent flooding.
+### 5)
+> Dry-type transformers not of the sealed type shall be installed in such a manner that water or other liquids cannot fall onto the windings.
 ## 26-248 Disconnecting means for transformers
 > A disconnecting means shall be installed in the primary circuit of each power and distribution transformer.
 ## 26-250 Overcurrent protection for power and distribution transformer circuits rated over $750\ \pu{ V}$
@@ -84,11 +100,33 @@ Both [[Circuit Breaker|circuit breakers]] and [[Fuse|fuses]] can not exceed $250
 ## 26-252 Overcurrent protection for power and distribution transformer circuits rated $750\ \pu{ V}$ or less, other than dry-type transformers
 ### 1)
 > Except as permitted in Subrule 2) to 6), each ungrounded conductor of the transformer feeder or branch circuit supplying the transformer shall be provided with overcurrent protection rated or set at not more than $150\%$ of the rated primary current of the transformer.
+
+I.e., if the primary current is $100\ \pu{ A}$, each conductor needs to be rated for no more than $150\ \pu{ A}$. 
 ### 2)
 > Where the rated primary current of a transformer is
 > a) $9\ \pu{ A}$ or more, and $150\%$ of this current does not correspond to a standard rating of a fuse or non-adjustable circuit breaker, the next higher standard rating shall be permitted; or
-> b) less than $9\ \pu{ A}$, an overcurrent device rated or set at not more than $167\%$ of the rated primary current shall be permitted, except that where the rated primary current is less than $2\ \pu{ A}$. an overcurrent device rated or set at not more than $300\%$ of the rated primary current shall be permitted. 
+> b) less than $9\ \pu{ A}$, an overcurrent device rated or set at not more than $167\%$ of the rated primary current shall be permitted, except that where the rated primary current is less than $2\ \pu{ A}$, an overcurrent device rated or set at not more than $300\%$ of the rated primary current shall be permitted. 
+
+For example, if the primary current is $90\ \pu{ A}$, then $150\%$ of the primary current is $135\ \pu{ A}$, which does not correspond to a standard breaker size (see [[CEC t.13|table 13]]). This rule allows us to go up to a $150\ \pu{ A}$ breaker.
+### 3)
+> An individual overcurrent device shall not be required where the feeder or branch circuit overcurrent device provides the protection specified in this Rule.
+### 4)
+> A transformer having an overcurrent device on the secondary side rated or set at not more than $125\%$ of the rated secondary current of the transformer shall not be required to have an individual overcurrent device on the primary side, provided that the primary feeder overcurrent device is rated or set at not more than $300\%$ of the rated primary current of the transformer. 
+### 5)
+> Notwithstanding Subrule 4), where the secondary current of a transformer is
+> a) $9\ \pu{ A}$ or more, and $125\%$ of this current does not correspond to a standard rating of a fuse or non-adjustable circuit breaker, the next higher standard rating shall be permitted; or
+> b) less than $9\ \pu{ A}$, an overcurrent device rated or set at not more than $167\%$ of the rated secondary current shall be permitted.
+### 6)
+> A transformer equipped with coordinated thermal overload protection by the manufacturer and arranged to interrupt the primary current shall not be required to have an individual overcurrent device on the primary side if the primary feeder overcurrent device is rated or set at a value
+> a) not more than $6$ times the rated current of the transformer for a transformer having not more than $7.5\%$ [[Impedance|impedance]]; or
+> b) not more than $4$ times the rated current of the transformer for a transformer having more than $7.5\%$ but not more than $10\%$ impedance.
 ## 26-254 Overcurrent protection for dry-type transformer circuits rated $750\ \pu{ V}$ or less
+### 1)
+> Except as permitted in Subrule 2), each ungrounded conductor of the transformer feeder or branch circuit supplying the transformer shall be provided with overcurrent protection rated or set at not more than $125\%$ of the rated primary current of the transformer, and this primary overcurrent device shall be considered as protecting secondary conductors rated at $125\%$ or more of the rated secondary current.
+### 2)
+> Notwithstanding Subrule 1), a transformer having an overcurrent device on the secondary side set at not more than $125\%$ of the rated secondary current of the transformer shall not be required to have an individual overcurrent device on the primary side, provided that the primary feeder overcurrent device is set at not more than $300\%$ of the rated primary current of the transformer.
+### 3)
+> Where a value not exceeding $125\%$ of the rated primary current of the transformer as specified in Subrule 1) does not correspond to the standard rating of the overcurrent device, the next higher standard rating shall be permitted.
 ## 26-256 Conductor size for transformers
 ### 1)
 > The conductors supplying transformers shall have an ampacity of
@@ -104,6 +142,17 @@ Both [[Circuit Breaker|circuit breakers]] and [[Fuse|fuses]] can not exceed $250
 > Where the transformer overcurrent protection is more than $125\%$ of the rated primary or secondary current in accordance with Rule [[CEC s.26#26-250 Overcurrent protection for power and distribution transformer circuits rated over $750 pu{ V}$|26-250]] 1) or 2) or [[CEC s.26#26-254 Overcurrent protection for dry-type transformer circuits rated $750 pu{ V}$ or less|26-254]] 3), the primary and secondary conductors connected to the transformer shall be protected in accordance with Rules [[CEC s.14#14-100|14-100]] and [[CEC s.14#14-104|14-104]].
 ### 5)
 > Where multi-rating transformers are used, the primary and secondary conductors shall have an ampacity not less than $125\%$ of the rated primary and secondary current of the transformer at the utilization voltage.
+## 26-262 Marking of transformers
+> Each transformer shall be provided with a nameplate bearing the following marking:
+> a) manufacturer's name;
+> b) rating in kilovolt amperes;
+> c) rated full load temperature rise;
+> d) primary and secondary ratings;
+> e) frequency in hertz;
+> f) liquid capacity, if of the liquid-filled type;
+> g) type of liquid to be used;
+> h) rated impedance, if of the power or distribution type; and
+> i) basic impulse insulation level (BIL) for transformers rated at $2.5\ \pu{ kV}$ voltage class and higher.
 # Fences
 ## 26-300 General
 Rules 26-302 to 26-324 apply to fences for guarding electrical equipment, especially transformers, located outdoors.

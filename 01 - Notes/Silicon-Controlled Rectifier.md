@@ -103,7 +103,7 @@ to[short] ++(-1,0) node[ocirc]{} node[left]{$G_4$}
 
 (TP1) to[short] ++(2,0) to[short] ++(0,-2) node[npn, anchor=C, xscale=-1](Q1){\ctikzflipx{$Q_1$}}
 (Q1.E) to[short] (Q1.E |- TP2) node[ground](G){}
-(TP2) to[short] (G)
+(TP2) node[ocirc]{} node[below=2mm]{$V_{CC}$}
 
 (Q1.B) to[short] ++(0.5,0) node[circ](E){} to[R, a=$1\mathrm{k}\Omega$] ++(2,0) to[short] ++(1,0) node[ocirc]{} node[right]{$GP$}
 (E) to[R, a=$5\mathrm{k}\Omega$] ++(0,-2) node[](F){} to[short] (F -| G) node[circ]{}

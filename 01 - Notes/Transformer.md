@@ -45,4 +45,25 @@ $$
 \frac{i_{1}}{i_{2}}=\frac{N_{2}}{N_{1}}=\frac{1}{a}
 $$
 This means that the currents in a transformer have an inverse relationship to the turns ratio.
+# Fault condition
+If the terminals of the secondary side of a transformer are shorted together, in theory there is no [[Impedance|impedance]] and the resulting current is very large, near infinite. In reality, the secondary has some impedance that limits this short circuit current. This causes the primary current to increase in turn and, if the primary is protected by some [[Overcurrent Device|overcurrent device]], the overcurrent device will open, breaking the circuit.
+
+However, this device does not open instantaneously. There will still be a large primary current for $1$ to $2$ cycles. This can damage devices connected to the transformer, and is known as the *fault current*.
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{circuitikz}
+\draw
+node[transformer](T){}
+(T.A1) to[short] ++(-1,0) node[ocirc]{}
+(T.A2) to[short] ++(-1,0) node[ocirc]{}
+(T.B1) to[short] ++(1,0) node[circ](A){}
+(T.B2) to[short] ++(1,0) node[circ](B){}
+(A) to[short] (B)
+;
+\end{circuitikz}
+\end{document}
+```
+> [!question] Example
+> If a $250\ \pu{ kVA}$, $3\Phi$, $120/208\ \pu{ V}$, with an impedance of $\%Z=2.5\%$ has a short on the secondary side, determine the fault current.
 

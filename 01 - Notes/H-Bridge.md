@@ -10,7 +10,7 @@ An **H-bridge** is a circuit that switches the polarity of a [[Voltage|voltage]]
 \begin{document}
 \begin{circuitikz}
 \draw
-(0,0) to[battery, invert] ++(0,5)
+(0,0) to[vsource] ++(0,5)
 -- ++(3,0) to[nos, invert, l=$S_1$, *-] ++(0,-2.5) node[circ](A){}
 to[nos, invert, l=$S_2$, -*] ++(0,-2.5) node[ground](G){}
 -- ++(4,0) to[nos, l=$S_4$] ++(0,2.5) node[circ](B){}

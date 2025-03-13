@@ -32,7 +32,9 @@ The type of convertor this circuit behaves as depends on which terminal is desig
 | Buck           | $V_{o}=D\cdot V_{in}$                     | $V_{H}$ | $V_{L}$       |
 | Boost          | $\displaystyle V_{o}=\frac{1}{D}V_{in}$   | $V_{L}$ | $V_{H}$       |
 | Buck-Boost     | $\displaystyle V_{o}=\frac{1-D}{D}V_{in}$ | $V_{L}$ | $V_{H}-V_{L}$ |
-In each case, $D$ is the [[Duty Cycle|duty cycle]] of the gate driver circuit. 
+In each case, $D$ is the [[Duty Cycle|duty cycle]] of the gate driver circuit.
+
+Two half bridges can be used to create an [[Inverter|inverter]].
 # Driver circuit
 The driver circuit for the half-bridge needs to control the gates $G_{1}$ and $G_{2}$ of the MOSFETs. These gates need to be on at opposite times and never at the same time. The sample circuit below uses a IRS2004 IC to control the timing of the gates.
 ```tikz

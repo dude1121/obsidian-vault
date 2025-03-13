@@ -50,31 +50,17 @@
             }
           },
           {
-            "id": "e594404175739412",
+            "id": "8b50f42be50ea679",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Notes/Power Systems.md",
+                "file": "01 - Notes/Genesis 28.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Power Systems"
-            }
-          },
-          {
-            "id": "03ee0ed25bd72081",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - Notes/Genesis 25.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Genesis 25"
+              "title": "Genesis 28"
             }
           }
         ],
@@ -247,18 +233,32 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "omnisearch:Omnisearch": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e594404175739412",
+  "active": "8b50f42be50ea679",
   "lastOpenFiles": [
-    "01 - Notes/Transmission Line.md",
-    "01 - Notes/Power Systems.md",
     "01 - Notes/Genesis 27.md",
-    "01 - Notes/Genesis 25.md",
+    "01 - Notes/Genesis 28.md",
     "01 - Notes/Genesis 26.md",
+    "01 - Notes/Simple harmonic motion.md",
+    "01 - Notes/Nuclear Fission.md",
+    "01 - Notes/Crito.md",
+    "01 - Notes/Power Systems.md",
+    "01 - Notes/DC-DC Convertor.md",
+    "01 - Notes/CEC s.26.md",
+    "01 - Notes/CEC s.28.md",
+    "01 - Notes/H-Bridge.md",
+    "01 - Notes/Inverter.md",
+    "01 - Notes/Half-Bridge Circuit.md",
+    "01 - Notes/Genesis 25.md",
+    "01 - Notes/Full Wave Rectifier.md",
+    "01 - Notes/Rectifier.md",
+    "02 - Pictures/inverter-design.png",
+    "01 - Notes/Wind Turbine.md",
+    "01 - Notes/Laplace Transform.md",
+    "01 - Notes/Transmission Line.md",
     "01 - Notes/Genesis 24.md",
     "01 - Notes/Genesis 23.md",
     "01 - Notes/Genesis 22.md",
@@ -266,22 +266,8 @@
     "01 - Notes/Genesis 20.md",
     "01 - Notes/Genesis 19.md",
     "01 - Notes/Genesis 18.md",
-    "01 - Notes/Genesis 17.md",
-    "01 - Notes/Genesis 16.md",
-    "01 - Notes/Genesis 15.md",
-    "01 - Notes/Integral.md",
     "02 - Pictures/genesis-30-family-tree.png",
-    "01 - Notes/Genesis 11.md",
-    "01 - Notes/Genesis 9.md",
-    "01 - Notes/Genesis 5.md",
-    "Genesis 25.md",
-    "Genesis 24.md",
-    "01 - Notes/Genesis 12.md",
-    "Genesis 23.md",
-    "Genesis 22.md",
     "02 - Pictures/genesis-22-family-tree.png",
-    "Genesis 21.md",
-    "01 - Notes/Genesis 8.md",
     "02 - Pictures/genesis-5-family-tree.png",
     "02 - Pictures/genesis-4-family-tree.png",
     "02 - Pictures/genesis-11-family-tree.png",
@@ -289,7 +275,6 @@
     "02 - Pictures/oxygen.jpg",
     "02 - Pictures/unit-cell-and-lattice.png",
     "02 - Pictures/phase-shift-power-plot.png",
-    "02 - Pictures/es-er-phasor.png",
     "Excalidraw",
     "Untitled.canvas"
   ]

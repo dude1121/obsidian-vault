@@ -21,3 +21,8 @@ tags:
 - *34 - 35*. Esau marries Judith and Basemath who "make life bitter for Isaac and Rebekah." 
 	- Esau does this when he is 40, meaning this occurs in 2148 AA.
 # Thoughts
+This entire chapter seems to serve to parallel Isaac to Abraham. Even including the covenant with Abimelech, who must be on death's door at this point.
+
+Isaac even copies Abraham's tactic of calling his wife his sister. But with Isaac, this is an outright lie. Rebekah is his first cousin, once removed, not his sister. If God hates lying, why was Isaac blessed even though he blatantly lied?
+
+Interesting that Beer-sheba is given a second origin with Isaac.

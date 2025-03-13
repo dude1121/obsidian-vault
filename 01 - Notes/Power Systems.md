@@ -93,7 +93,7 @@ We can simplify the circuit between two regions as
 \end{circuitikz}
 \end{document}
 ```
-Where $E_{S}$ is the voltage source in region $S$ and $E_{R}$ is the voltage source in region $R$. These two regions have the same nominal voltage. We can use phasor diagrams to model this as well.
+Where $E_{S}$ is the voltage source in region $S$ and $E_{R}$ is the voltage source in region $R$. These two regions have the same nominal voltage. We can use [[Phasor|phasor]] diagrams to model this as well.
 ![[es-er-phasor.png]]
 The power transferred in this transmission line is
 $$

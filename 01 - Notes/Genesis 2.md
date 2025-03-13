@@ -11,7 +11,7 @@ tags:
 - *6*. A stream rises up from the ground since there is no rain.
 - *7*. God creates 'adam' (אדם) from 'adamah' (אדמה)
 	- Man is created first, before animals in this story
-	- The NRSV translates [[Adam]] as being a 'living being', not having a 'soul.'
+	- The NRSV translates [[Adam]] as being a 'living being', not having a '[[Soul|soul]].'
 - *8*. The [[Garden of Eden]] is created.
 - *9*. The [[Tree of Life|tree of life]] and the [[Tree of Knowledge|tree of knowledge]] are created in the garden.
 - *10 - 14*. Rivers are flowing out of Eden.

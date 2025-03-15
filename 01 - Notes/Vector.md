@@ -153,7 +153,29 @@ where $k$ is some scalar value. Note that if $k=-1$, we get the additive inverse
 Division can be viewed as multiplication by $\frac{1}{k}$. 
 ## Parallel vectors
 The vectors $x$ and $y$ are said to be parallel if $y=tx$ for some nonzero [[Real Numbers|real]] number $t$. That is, parallel vectors have the same direction but their magnitudes differ by a factor of $t$. If $t<0$, then the vectors will point in the exact opposite directions but still be considered parallel.
-# Dot Product
+# Dot product
 ![[Dot Product]]
-# Cross Product
+# Cross product
 ![[Cross Product]]
+# Triple product
+Since the cross product of two vectors is itself a vector, it can be dotted or crossed with a third vector to create a _triple product_.
+## Scalar triple product $\vec{A}\cdot(\vec{B}\times\vec{C})$
+Geometrically, this represents the volume of the [[Parallelepiped|parallelepiped]] formed by $\vec{A}$, $\vec{B}$, and $\vec{C}$, since $\vec{B}\times \vec{C}$ is the area of the base and $|\vec{A}\cos \theta|$ is the altitude. Note that,
+$$
+\vec{A}\cdot(\vec{B}\times \vec{C})=\vec{B}\cdot(\vec{C}\times \vec{A})=\vec{C}\cdot(\vec{A}\times \vec{B})
+$$
+but 'alphabetical' order is maintained. If the cross product terms were swapped, the sign of the triple product would also change. The dot and cross can also be changed.
+$$
+\vec{A}\cdot(\vec{B}\times \vec{C})=(\vec{A}\times \vec{B})\cdot \vec{C}
+$$
+But the placement of parentheses is critical. $(\vec{A}\cdot \vec{B})\times \vec{C}$ is a meaningless expression since you can not take the cross product of a vector and a scalar.
+## Vector triple product $\vec{A}\times(\vec{B}\times \vec{C})$
+This triple product can be simplified by the $BAC-CAB$ rule:
+$$
+\vec{A}\times(\vec{B}\times \vec{C})=\vec{B}(\vec{A}\cdot \vec{C})-\vec{C}(\vec{A}\cdot \vec{B})
+$$
+Notice that
+$$
+(\vec{A}\times \vec{B})\times \vec{C}=-\vec{C}\times(\vec{A}\times \vec{B})=-\vec{A}(\vec{B}\cdot \vec{C})+\vec{B}(\vec{A}\cdot \vec{C})
+$$
+is an entirely different vector. All higher vector products can be similarly reduced, often by repeated application of the above equations, so it is never necessary for an expression to have more than one cross product.

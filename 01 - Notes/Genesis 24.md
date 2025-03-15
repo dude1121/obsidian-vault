@@ -10,7 +10,7 @@ tags:
 - *12 - 14*. Abraham's servant's prayer to find a wife for Isaac. In this prayer he asks that the woman he has been sent for ought to offer him a drink when he asks, and she will further offer to let his camels drink.
 - *15*. [[Rebekah]] is first mentioned.
 - *15 - 21*. The first interaction with Rebekah involves her drawing water for Abraham's servant as well as his camels. She is described as "very fair to look upon, a virgin."
-- *22*. Why did the servant have this jewelry? Did Rebekah wear a nose ring?
+- *22*. Why did the servant have this jewellery? Did Rebekah wear a nose ring?
 - *28 - 32*. [[Laban]] invites the servant in.
 - *33 - 49*. The servant relates his task and his account of meeting Rebekah.
 	- *47*. Yes, Rebekah was wearing a nose ring.

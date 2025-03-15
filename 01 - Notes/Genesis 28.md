@@ -14,7 +14,7 @@ tags:
 - *14*. Like his father and [[Abraham|grandfather]], Jacob receives a promise of a large offspring and that his offspring will live in this land.
 - *17*. Jacob says that the place he is in is God's house, the gate of heaven.
 - *18 - 19*. Jacob takes the stone he laid his head on when he saw the vision and he builds a pillar with the stone on top and he pours oil on it. He names the place '[[Bethel]]'. Formerly known as 'Luz'.
-	- In this verse Bethel is depicted as an unsettled place but in [[Genesis 12|Gen 12.8]] Abraham is recorded as to have settled between Bethel and [[Ai (Biblical Location)|Ai]]. Did Bethel exist in Abraham's time? Or was the author referring to a city that *would* exist (i.e. 'he settled in between *what would become* Bethel...')?
+	- In this verse Bethel is depicted as an unsettled place but in [[Genesis 12|Gen 12.8]] Abraham is recorded as to have settled between Bethel and [[Ai (Biblical Location)|Ai]]. Did Bethel exist in Abraham's time? Or was the author referring to a city that *would* exist (i.e. 'he settled in between *what would become* Bethel...')? Jacob will name this location *Bethel* one more time in [[Genesis 35|chapter 35]].
 - *20 - 22*. Jacob vows that if God protects him, he and his descendants will return to Bethel. He also promises to gives a [[Tithe|tithe]] back to God.
 # Thoughts
 Jacob parallels Isaac and Abraham again by receiving a promise from God to multiply his offspring.

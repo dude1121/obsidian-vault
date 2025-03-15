@@ -10,7 +10,7 @@ tags:
 - *4*. [[Lot]] leaves with Abram. Abram is 75, meaning they leave in the year 2023 AA. He leaves out of Harran.
 - *5*. Abram takes his family, as well as "the persons whom \[he] had acquired," thereby indication Abram owned slaves and is the first to be mentioned as having slaves.
 - *6*. "At that time the [[Canaan|Canaanites]] were in the land." This implies that when this was written, the Canaanites were no longer in the land. If Moses did write this, wouldn't the Canaanites *still be there*, since [[Ancient Israel|Israel]] had not conquered the promised land yet?
-- *7*. God promises land of Shechem to Abram.
+- *7*. God promises land of [[Shechem]] to Abram.
 - *8*. God 'moves' to the hill country between [[Bethel]] and [[Ai (Biblical Location)|Ai]] (cf. [[Genesis 28]]).
 - *10 - 16*. Abram tells [[Sarah|Sarai]] to say she is his sister, not wife, for fear the Egyptians will kill Abram to take Sarai from him. In verses 1 - 3 God promised to protect Abram, so why did he feel the need to turn to deceit to protect himself?
 	- *15*. This plan ends up not working out the way he intended anyways, as Pharaoh hears of Sarai and sends for her to be taken into his house.

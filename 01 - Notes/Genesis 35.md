@@ -24,6 +24,7 @@ tags:
 - *22*. [[Reuben]] sleeps with [[Bilhah]], Rachel's former maid and Jacob's concubine. This is punished in [[Genesis 49]].
 - *23 - 26*. The sons of Jacob are all listed. Verse 26 says these were all born to Jacob in Paddan-aram, but only Benjamin was born here. The rest were born in Haran (see [[Genesis 30]]).
 - *27 - 29*. Jacob comes back to [[Hebron]] to be with his father. [[Isaac]] dies at 180 years of age and is buried by Jacob and [[Esau]].
+	- This means that Isaac dies in 2228 AA.
 # Thoughts
 Once again we see a place named twice, this time, Bethel. We also see a double naming of Jacob to Israel.
 

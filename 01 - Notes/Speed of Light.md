@@ -8,6 +8,6 @@ c=299\ 792\ 458\pu{\!  m/s }
 $$
 Specifically it is defined as,
 $$
-c=\frac{1}{\sqrt{ \epsilon_{0}\mu_{0} }}
+c=\frac{1}{\sqrt{ \varepsilon_{0}\mu_{0} }}
 $$
-where $\epsilon_{0}$ is the [[Permittivity|permittivity]] of free space and $\mu_{0}$ is the [[Permeability|permeability]] of free space, both of which, like $c$ itself, are physical [[Constant|constants]].
+where $\varepsilon_{0}$ is the [[Permittivity|permittivity]] of free space and $\mu_{0}$ is the [[Permeability|permeability]] of free space, both of which, like $c$ itself, are physical [[Constant|constants]].

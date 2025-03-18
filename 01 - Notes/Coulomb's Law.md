@@ -11,8 +11,8 @@ tags:
 It is defined as:
 $$ F_e=k_e\frac{|q_1||q_2|}{r^2} $$
 where $F$ is the force in [[Newton|newtons]] $[\pu{ N}]$, $q_1$ and $q_2$ are the charges, measured in [[Coulomb|coulombs]] $[\pu{ C}]$, $r$ is the distance (or radius) between the charges in [[Metre|metres]] $[\pu{ m}]$, and $k_e$ is _Coulomb’s constant_, defined as
-$$ k_e\equiv\frac{1}{4\pi\epsilon_0}\approx9.0\times10^9\text{ N}\text{m}^2\text{C}^{-2} $$
-where $\epsilon_0$ is the [[Permittivity|permittivity]] of free air.
+$$ k_e\equiv\frac{1}{4\pi\varepsilon_0}\approx9.0\times10^9\text{ N}\text{m}^2\text{C}^{-2} $$
+where $\varepsilon_0$ is the [[Permittivity|permittivity]] of free air.
 
 Remember, though, that force is a [[Vector|vector quantity]] and must be treated accordingly. Therefore, we can express Coulomb's Law as a vector equation by,
 $$

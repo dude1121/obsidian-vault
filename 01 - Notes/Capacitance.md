@@ -12,6 +12,6 @@ $$
 $$
 where $C$ is the capacitance in Farads $[\text{F}]$, $Q$ is the charge in Coulombs $[\text{C}]$, and $V$ is [[Voltage|voltage]] in [[Volts]] $[\text{V}]$. We can also define capacitance purely in terms of the construction of the capacitor by,
 $$
-	C=\epsilon\frac{A}{d}
+	C=\varepsilon\frac{A}{d}
 $$
-where $\epsilon$ is the [[Permittivity|permittivity]] of the [[Dielectric|dielectric]], $A$ is the cross sectional area of the plates in $[\text{m}^2]$, and $d$ is the distance between the plates in $[\text{m}]$. 
+where $\varepsilon$ is the [[Permittivity|permittivity]] of the [[Dielectric|dielectric]], $A$ is the cross sectional area of the plates in $[\text{m}^2]$, and $d$ is the distance between the plates in $[\text{m}]$. 

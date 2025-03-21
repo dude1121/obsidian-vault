@@ -9,7 +9,7 @@ Consider an example of a damped oscillator driven by a force that varies periodi
 $$
 F_{0}\sin \omega t - b\ \frac{dx}{dt} -kx=m\ \frac{d^2x}{dt^2}
 $$
-This is a [[Differential Equation#Nonhemogenous|linear nonhomegenous second order differential equation]]. The solution is
+This is a [[Ordinary Differential Equation#Nonhemogenous|linear nonhomegenous second order differential equation]]. The solution is
 $$
 x(t)=A\cos(\omega t+\varphi)
 $$

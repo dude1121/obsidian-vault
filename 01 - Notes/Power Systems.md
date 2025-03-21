@@ -75,6 +75,20 @@ Extra high voltage common values are: $345\pu{ \! kV}$, $500\pu{ \! kV}$, $735\p
 Before power is sent to consumers, it arrives at distribution stations. Here, it is stepped down to anywhere from $2.4\pu{ kV}$ to $69\pu{ kV}$. This distribution voltage is what is sent to the consumers.
 
 Similar to how generation stations monitor frequency changes for varying power demands, distribution stations also monitor frequency in case of emergencies. If extra power can not be put into the system by either increasing peak and intermediate plants or by buying power from neighbouring grids, distribution stations may need to *load shed*. This is where the distribution station cuts off power from consumers in order to balance the power generated with the power demand.
+## Substations
+Distribution substations are complexes that receive high voltage from transmission lines and steps it down to distribution level. In Ontario, this is typically stepping down $230\ \pu{ kV}$ to $27.6\ \pu{ kV}$.
+![[distribution-transformer.jpg]]
+As distribution lines send electricity to consumers, they will further step down the voltage to either $600\ \pu{ V}$ or $240\ \pu{ V}$.
+
+At these distribution stations, there are also circuit breakers that protect the station and lines downstream from overcurrent. These circuit breakers can be of three main types: [[Oil Circuit Breaker|oil]], [[Air Blast Circuit Breaker|air blast]], or [[Vacuum Circuit Breaker|vacuum]].
+![[air-blast-circuit-breaker.jpg]]
+Distribution stations will further have over voltage protection in the form of [[Surge Arrester|surge arresters]]. Finally, there is additional overcurrent protection in the form of [[Current Transformer|current transformers]] and [[Relay|relays]] that, when the current in the secondary of the transformer is sufficient to energize the relay coil, it will trip the circuit breaker.
+### Circuit breakers
+The circuit breakers at distribution stations operate well up to a certain point. Say we have a station with a circuit breaker rated for $200\ \pu{ A}$. This breaker will operate fine for currents around its rating, but if there is a short circuit that brings the current above $4000\ \pu{ A}$, the circuit breaker may not be able to open and it will melt, fusing it closed. If this is not fixed, the transformer supplying the circuit breaker can be damaged. This is illustrated below.
+![[non-limited-fault.png]]
+To remedy this, we add some impedance before each circuit breaker. This impedance is, in theory, entirely reactive, because a resistive impedance would increase losses in the system.
+![[limited-fault.png]]
+This impedance successfully limits the fault current to a level that is manageable for the circuit breaker.
 # Power Flow
 ![[power-systems-flow.png]]
 Traditionally, power only flows in one direction: from the generation stations to the consumers. However, due to renewable options becoming more prevalent, more and more the power flow becomes bidirectional, as someone with a solar panel may generate more power than they consume, sending the remainder back to the utilities.

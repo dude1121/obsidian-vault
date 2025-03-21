@@ -4,7 +4,7 @@ tags:
 ---
 # CSA type designation letters
 - **H** - Cables for electric heaters
-- **J** - Junior (max. $300\pu{ V}$)
+- **J** - Junior (max. $300\ \pu{ V}$)
 - **O** - Oil resistant jacket
 - **OO** - Oil resistant jacket and insulation
 - **S** - Service

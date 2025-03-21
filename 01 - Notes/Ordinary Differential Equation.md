@@ -3,7 +3,7 @@ tags:
   - mathematics
   - calculus
 ---
-A **differential equation** is an [[Equation|equation]] that contains [[Derivative|derivatives]] or [[Differential|differentials]]. Differential equations can either be *ordinary*, meaning it makes use of only ordinary or "true" derivatives, or they can be *partial*, meaning it makes use of [[Partial Derivative|partial derivatives]]. 
+A **ordinary differential equation** (or, **ODE**) is a [[Differential Equation|differential equation]] that contains [[Derivative|derivatives]] or [[Differential|differentials]]. Differential equations can either be *ordinary*, meaning it makes use of only ordinary or "true" derivatives, or they can be *[[Partial Differential Equation|partial]]*, meaning it makes use of [[Partial Derivative|partial derivatives]]. 
 # Order and degree
 The *order* of a differential equation refers to the highest derivative in the equation. For example,
 $$

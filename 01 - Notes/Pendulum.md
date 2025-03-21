@@ -27,7 +27,7 @@ $$
  $$
 \frac{d^2\theta}{dt^2}=-\frac{g}{L}\theta\ \ \ (\text{for small values of }\theta)
 $$
-This time the solution for this [[Differential Equation|differential equation]] is,
+This time the solution for this [[Ordinary Differential Equation|differential equation]] is,
 $$
 \theta\ (t)=\theta_{\text{max}}\cos(\omega t+\varphi)
 $$

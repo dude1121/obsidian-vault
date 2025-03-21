@@ -17,7 +17,7 @@ Move the term on the right side to the left side of the equation.
 $$
 \frac{d^2x}{dt^2}+\omega^2x=0
 $$
-This is in the form of a [[Differential Equation#Second-Order linear differential equations|second-order linear differential equation]]. As such, we can write this as,
+This is in the form of a [[Ordinary Differential Equation#Second-Order linear differential equations|second-order linear differential equation]]. As such, we can write this as,
 $$
 r^2+\omega^2=0
 $$

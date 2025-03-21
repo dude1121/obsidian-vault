@@ -11,7 +11,7 @@ Since [[Acceleration|acceleration]] is the second time [[Derivative|derivative]]
 $$
 \frac{d^2x}{dt^2}=-\frac{k}{m}x
 $$
-We can define the term $k/m$ as $\omega^2$. Doing this allows us to solve the [[Differential Equation|differential equation]] easier. The derivation for this relation can be found [[Simple harmonic motion derivation|here]], but the end result is the following equation:
+We can define the term $k/m$ as $\omega^2$. Doing this allows us to solve the [[Ordinary Differential Equation|differential equation]] easier. The derivation for this relation can be found [[Simple harmonic motion derivation|here]], but the end result is the following equation:
 $$
 x(t)=A \cos(\omega t+\varphi)
 $$

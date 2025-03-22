@@ -62,20 +62,6 @@
               "icon": "lucide-file",
               "title": "Inverter"
             }
-          },
-          {
-            "id": "3b4e1ee5ae4d4811",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - Notes/Half-Bridge Circuit.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Half-Bridge Circuit"
-            }
           }
         ],
         "currentTab": 3
@@ -251,12 +237,15 @@
   },
   "active": "89259f1bd4115297",
   "lastOpenFiles": [
+    "03 - Journal/2025-03-21.md",
+    "01 - Notes/Untitled 1.md",
+    "01 - Notes/Eigenvalue.md",
+    "01 - Notes/Half-Bridge Circuit.md",
+    "01 - Notes/Inverter.md",
     "02 - Pictures/50-offset-inverter.png",
     "02 - Pictures/100-low-side-inverter.png",
     "01 - Notes/Laplace Transform.md",
-    "01 - Notes/Inverter.md",
     "01 - Notes/Inverter Gate Driver.md",
-    "01 - Notes/Half-Bridge Circuit.md",
     "01 - Notes/H-Bridge.md",
     "Euler's Method.md",
     "01 - Notes/Ordinary Differential Equation.md",
@@ -282,11 +271,8 @@
     "03 - Journal/2025-03-15.md",
     "Adam.md",
     "01 - Notes/Genesis.md",
-    "01 - Notes/Genesis 3.md",
-    "01 - Notes/Genesis 4.md",
     "02 - Pictures/unit-cells-within-lattice.png",
     "02 - Pictures/inverter-design.png",
-    "02 - Pictures/genesis-30-family-tree.png",
     "Excalidraw",
     "Untitled.canvas"
   ]

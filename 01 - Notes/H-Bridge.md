@@ -4,7 +4,7 @@ tags:
   - physics
   - circuit-analysis
 ---
-An **H-bridge** is a circuit that switches the polarity of a [[Voltage|voltage]] applied across a load. It is typically used to control the direction of rotation of a [[DC Motor|dc motor]]. 
+An **H-bridge** is a circuit that switches the polarity of a [[Voltage|voltage]] applied across a load that is comprised of two [[Half-Bridge Circuit|half-bridges]]. It is typically used to control the direction of rotation of a [[DC Machine#As a Motor|dc motor]]. It can also be used in [[Inverter|inverter]] circuits to convert dc to ac. 
 ```tikz
 \usepackage{circuitikz}
 \begin{document}
@@ -25,5 +25,3 @@ to[nos, l=$S_3$] ++(0,2.5) -- ++(-4,0)
 If switches $S_{1}$ and $S_{4}$ are closed, current will flow through the motor from the left side to the right, and the motor will have a positive voltage across it. If instead switches $S_{2}$ and $S_{3}$ are closed, the motor will have a negative voltage across it. This will result in the motor rotating in the opposite direction it rotated in with a positive voltage across it. 
 
 Care must be taken to ensure that switches $S_{1}$ and $S_{2}$ are not closed at the same time (same with switches $S_{3}$ and $S_{4}$) otherwise the motor will be shorted out.
-
-An H-bridge circuit is also used in [[Inverter|inverters]] to convert dc to ac.

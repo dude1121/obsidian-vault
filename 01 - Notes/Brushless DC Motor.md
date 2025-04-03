@@ -22,3 +22,48 @@ When compared to [[Induction Machine|induction motors]], BLDCs are more efficien
 However, there are some disadvantages. Neither brushed dc motors nor induction motors require the complex power electronics that BLDCs require, making BLDCs more expensive up front. An accidental overload or fault can cause the permanent magnets within the BLDC to become demagnetized, an issue the other machines don't have. However, these disadvantages are typically outweighed by their advantages.
 
 BLDCs are used in many different applications including but not limited to computer [[Hard Drive|hard disk drives]], servo drives, robotics, machine tools, [[Electric Vehicle|electric vehicles]], [[Windmill|electric windmills]], and more.
+# Driver circuit
+The BLDC driver is a circuit that can control a BLDC including its speed, torque, and direction of rotation. 
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{circuitikz}
+\draw
+(0,0) node[](B){} to[vsource, l=$V_s$] ++(0,6) node[](A){}
+
+(A) to[short] ++(1.5,0) node[circ](C){} to[cC, l=$C$] ++(0,-6) node[circ]{}
+
+(C) to[short] ++(2,0) node[circ](F){} to[short] ++(0,-0.5) node[nigfete, anchor=D, bodydiode](Q1){$Q_1$}
+(Q1.G) node[ocirc]{} node[left]{$G_1$}
+(Q1.S) node[circ](D){} to[short] ++(0,-2.25) node[nigfete, anchor=D, bodydiode](Q2){$Q_2$}
+(Q2.G) node[ocirc]{} node[left]{$G_2$}
+(Q2.S) to[short] (Q1.S |- B) node[circ](E){} to[short] (B)
+
+(F) to[short] ++(2.5,0) node[circ](G){}  to[short] ++(0,-0.5) node[nigfete, anchor=D, bodydiode](Q3){$Q_3$}
+(Q3.G) node[ocirc]{} node[left]{$G_3$}
+(Q3.S) to[short] ++(0,-1) node[circ](H){} to[short] ++(0,-1.25) node[nigfete, anchor=D, bodydiode](Q4){$Q_4$}
+(Q4.G) node[ocirc]{} node[left]{$G_4$}
+(Q4.S) to[short] (Q4.S |- E) node[circ](I){} to[short] (E)
+
+(G) to[short] ++(2.5,0) node[circ](K){} to[short] ++(0,-0.5) node[nigfete, anchor=D, bodydiode](Q5){$Q_5$}
+(Q5.G) node[ocirc]{} node[left]{$G_5$}
+(Q5.S) to[short] ++(0,-2) node[circ](L){} to[short] ++(0,-0.25)
+node[nigfete, anchor=D, bodydiode](Q6){$Q_6$}
+(Q6.G) node[ocirc]{} node[left]{$G_6$}
+(Q6.S) to[short] (Q6.S |- E) node[circ](M){} to[short] (I)
+
+(D) to[short] ++(6,0) node[](N){} to[short] ++(0.75,-1) 
+(H) to[short] (H -| N) node[]{} to[short] ++(0.75,0) node[](circle){}
+(L) to[short] (L -| N) node[]{} to[short] ++(0.75,1)
+
+;
+\filldraw[white] (circle) circle (5mm);
+\draw (circle) circle (5mm);
+\draw
+
+(circle) ++(0.75,0.75) node[]{BLDC}
+;
+\end{circuitikz}
+\end{document}
+```
+Note that this circuit is essentially a [[Three Phase Inverter|three phase inverter]] circuit but the controls side will be different.

@@ -4,7 +4,7 @@ tags:
   - electronics
   - physics
 ---
-An **inverter** is an electrical circuit that converts a [[DC Electricity|dc voltage]] into an [[AC Electricity|ac voltage]]. Inverters are used in applications like [[Variable Frequency Drive|VFDs]], [[Wind Turbine#|VVVF wind turbines]], or [[Power Factor|power factor]] correction.
+An **inverter** is an electrical circuit that converts a [[DC Electricity|dc voltage]] into an [[AC Electricity|ac voltage]]. Inverters are used in applications like [[Variable Frequency Drive|VFDs]], [[Wind Turbine#|VVVF wind turbines]], or [[Power Factor|power factor]] correction. This design can be modified to create a [[Three Phase Inverter|three phase variation]].
 # Overview of design
 ![[inverter-design.png]]
 Any inverter can be broken down into three distinct parts: the power section, where the signal inversion actually occurs, the gate driver circuit, which controls which parts of the power section are conducting, and the [[Pulse Width Modulation|PWM]] control which essentially sets the timing for the gate driver. This PWM control can either be hardware or controlled by [[Microprocessor|microprocessors]].

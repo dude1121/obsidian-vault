@@ -27,44 +27,72 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Notes/Power Systems.md",
+                "file": "01 - Notes/DC-DC Convertor.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Power Systems"
+              "title": "DC-DC Convertor"
             }
           },
           {
-            "id": "9c391e4a0296d0e3",
+            "id": "6cceddbeca9d3688",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Per-Unit Rating.md",
+                "file": "01 - Notes/Inductor.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Per-Unit Rating"
+              "title": "Inductor"
             }
           },
           {
-            "id": "89259f1bd4115297",
+            "id": "c45758d46130e371",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Notes/Inverter.md",
+                "file": "01 - Notes/CEC s.14.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Inverter"
+              "title": "CEC s.14"
+            }
+          },
+          {
+            "id": "22b3dffe4ba02ec8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 - Notes/Brushless DC Motor.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Brushless DC Motor"
+            }
+          },
+          {
+            "id": "6d878ec5845a53f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 - Notes/Three Phase Inverter.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Three Phase Inverter"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -138,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 - Notes/Inverter.md",
+                "file": "01 - Notes/Variable Frequency Drive.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +176,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Inverter"
+              "title": "Backlinks for Variable Frequency Drive"
             }
           },
           {
@@ -235,44 +263,45 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "89259f1bd4115297",
+  "active": "22b3dffe4ba02ec8",
   "lastOpenFiles": [
-    "03 - Journal/2025-03-21.md",
-    "01 - Notes/Untitled 1.md",
-    "01 - Notes/Eigenvalue.md",
+    "01 - Notes/Three Phase Inverter.md",
+    "01 - Notes/Brushless DC Motor.md",
+    "Fuse.md",
+    "01 - Notes/CEC s.14.md",
+    "Candian Electrical Code, Part 1, 26 Ed, 2024.pdf",
+    "01 - Notes/Transformer.md",
+    "01 - Notes/CEC s.28.md",
+    "01 - Notes/CEC d.3.md",
+    "02 - Pictures/diagram-3.png",
+    "01 - Notes/DC-DC Convertor.md",
+    "01 - Notes/Inductor.md",
+    "01 - Notes/Inductance.md",
     "01 - Notes/Half-Bridge Circuit.md",
-    "01 - Notes/Inverter.md",
+    "01 - Notes/Power Systems.md",
+    "01 - Notes/Variable Frequency Drive.md",
+    "02 - Pictures/3-phase-vvvf-vfd.png",
+    "02 - Pictures/vfd-block-diagram.png",
+    "01 - Notes/Induction Machine.md",
+    "01 - Notes/DC Motor Drive.md",
+    "01 - Notes/Laplace Transform.md",
+    "Per-Unit Rating.md",
+    "01 - Notes/Triac.md",
+    "01 - Notes/DC Machine.md",
+    "01 - Notes/Electrical Machine.md",
+    "01 - Notes/H-Bridge.md",
+    "01 - Notes/Torque.md",
+    "01 - Notes/Solubility.md",
+    "01 - Notes/Periodic Table.md",
+    "01 - Notes/Polyatomic Ion.md",
+    "01 - Notes/Genesis 39.md",
+    "02 - Pictures/three-phase-inverter-square.png",
     "02 - Pictures/50-offset-inverter.png",
     "02 - Pictures/100-low-side-inverter.png",
-    "01 - Notes/Laplace Transform.md",
-    "01 - Notes/Inverter Gate Driver.md",
-    "01 - Notes/H-Bridge.md",
-    "Euler's Method.md",
-    "01 - Notes/Ordinary Differential Equation.md",
-    "Per-Unit Rating.md",
-    "01 - Notes/Power Systems.md",
     "02 - Pictures/limited-fault.png",
     "02 - Pictures/non-limited-fault.png",
     "02 - Pictures/air-blast-circuit-breaker.jpg",
     "02 - Pictures/distribution-transformer.jpg",
-    "01 - Notes/Simple harmonic motion.md",
-    "01 - Notes/Flexible Cable.md",
-    "01 - Notes/Nuclear Fission.md",
-    "01 - Notes/Genesis 38.md",
-    "01 - Notes/Forced Oscillator.md",
-    "01 - Notes/Metal Oxide-Semiconductor Field Effect Transistor.md",
-    "01 - Notes/Periodic Table.md",
-    "Pythagorean Theorem.md",
-    "03 - Journal/2025-03-17.md",
-    "02 - Pictures/pythagorean-theorem.png",
-    "01 - Notes/CEC s.42.md",
-    "01 - Notes/CEC t.42C.md",
-    "02 - Pictures/table-42c.png",
-    "03 - Journal/2025-03-15.md",
-    "Adam.md",
-    "01 - Notes/Genesis.md",
-    "02 - Pictures/unit-cells-within-lattice.png",
-    "02 - Pictures/inverter-design.png",
     "Excalidraw",
     "Untitled.canvas"
   ]

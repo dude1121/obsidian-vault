@@ -3,9 +3,7 @@ tags:
   - chemistry
 ---
 **Solubility** is the ability of a substance (the *solute*) to form a solution with another substance (the *solvent*). 
-
 # Salts in Water
-
 For various [[Ionic Compound|salts]], there are some rules that can be followed to determine how well a given salt will dissolve in [[Water|water]].
 1. Most [[Nitrate|nitrate]] $\ce{NO_{3}-}$ salts are soluble.
 2. Most salts containing the [[Alkali Metal|alkali metal]] ions ($\ce{Li+}$,$\ce{Na+}$,$\ce{K+}$,$\ce{Rb+}$, and $\ce{Cs+}$) and the [[Ammonium|ammonium]] ion $\ce{NH_{4}+}$ are soluble.

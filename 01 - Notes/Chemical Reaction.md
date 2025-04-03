@@ -43,6 +43,14 @@ $$
 \end{aligned}
 $$
 Writing it this way better represents the actual forms of the reactants and products in the solution. In a complete ionic equation, *all substances that are [[Electrolytes|strong electrolytes]] are represented as ions*.
+
+In short, for all reactions in solution, the following steps should be followed:
+1. Identify the species present in the combined solution, and determine what reaction occurs.
+2. Write the balanced net ionic equation for the reaction.
+3. Calculate the moles of reactants.
+4. Determine which reactant is limiting.
+5. Calculate the moles of product or products, as required.
+6. Convert to grams or other units, as required.
 # Types of Chemical Reactions
 Chemical reactions can broadly be defined into three distinct categories: *precipitation reactions*, *acid-base reactions*, *oxidation-reduction reactions*. 
 ## Precipitation Reactions
@@ -66,6 +74,7 @@ $\ce{K_{2}CrO4}$ and $\ce{Ba(NO_{3})2}$ are the reactants, so we know they're no
 $$
 \ce{K_{2}CrO_{4}(aq) + Ba(NO_{3})2(aq) -> BaCrO_{4}(s) + KNO_{3}(aq)}
 $$
+The type of product that is the result of a precipitation reaction is dependant on the [[Solubility|solubility]] of the ions. 
 ## Acid-Base Reactions
 Acid-base reactions are also known as *neutralization reactions*. Recall that an [[Acid|acid]] produces $\ce{H+}$ when dissolved and a [[Base|base]] produces $\ce{OH-}$ when dissolved. In general, an acid can be described as a [[Proton|proton]] donor and a base is a proton acceptor.
 

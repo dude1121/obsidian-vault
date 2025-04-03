@@ -2,6 +2,7 @@
 tags:
   - electromagnetism
   - electrical-engineering
+  - electrical-machines
 ---
 A **dc machine** is an [[Electrical Machine|electrical machine]] that runs on [[DC Electricity|dc electricity]]. It can be operated as either a [[Generator|generator]] or a [[Motor|motor]].
 
@@ -29,9 +30,9 @@ The stator side of a dc generator consists of a magnetic field winding (basicall
 ## Induced Voltage
 The voltage induced by a given generator is,
 $$
-E_0=\frac{zn\phi}{60}
+E_0=\frac{ZPn\Phi}{60A}
 $$
-where $E_0$ is the induced voltage $[\text{V}]$, $z$ is the number of conductors on the armature, $n$ is the speed of rotation in revolutions-per-minute $[\text{rpm}]$, and $\phi$ is the [[magnetic flux]] per pole $[\text{Wb}]$. Dividing the expression by $60$ serves to convert rotations per minute into rotations per second.
+where $E_0$ is the induced voltage $[\text{V}]$, $Z$ is the number of conductors on the armature, $n$ is the speed of rotation in revolutions-per-minute $[\text{rpm}]$, $P$ is the number of poles, $A$ is the number of parallel paths, and $\Phi$ is the [[magnetic flux]] per pole $[\text{Wb}]$. Dividing the expression by $60$ serves to convert rotations per minute into rotations per second.
 
 This equation shows that for a given generator the voltage is directly proportional to the flux per pole and to the speed of rotation. The equation only holds if the brushes are on the neutral position. Shifting the brushes off neutral is equivalent to reducing the number of conductors. 
 
@@ -59,7 +60,7 @@ A generator may be over-compounded if there are additional turns added to the se
 #### Differential Compound
 A special case of the compound generator is the differential compound generator, where the series winding is wired in such a way that its mmf actually opposes the field winding's mmf. This has the effect of drastically lowering $E_{o}$ as the load increases. 
 # As a Motor
-As a motor the dc machine operates very similarly to the dc generator. Instead of an external force providing the relative motion in the armature, a voltage is applied to the armature and the field windings to generate this motion. The following describes a *brushed dc motor*. See [[Brushless DC Motor|here]] for brushless dc motors.
+As a motor the dc machine operates very similarly to the dc generator. Instead of an external force providing the relative motion in the armature, a voltage is applied to the armature and the field windings to generate this motion. The following describes a *brushed dc motor*. See [[Brushless DC Motor|here]] for brushless dc motors. Dc motors can be controlled via a [[DC Motor Drive|dc motor drive]].
 ## Starting the Motor
 If a voltage is applied to the field winding, the winding generates a magnetic field within the machine. When a voltage is then applied to the armature, a very high current passes through the armature (since the armature's [[Resistance|resistance]] is relatively small). Since there are now many current carrying conductors in a magnetic field, they being to experience a force due to Lorenz's Law that causes the machine to rotate. 
 
@@ -71,7 +72,7 @@ Another, more common, solution to the starting problem is electronic methods lik
 ## Counter-emf
 The rotation of the armature in the presence of a magnetic field is a similar situation to the generator. The physics does not change just because we want it to operate as a motor. Due to this motion, the armature generates an induced voltage $E_{o}$ proportional to the speed of rotation and flux per pole in the same way for a generator.
 $$
-E_{o}=\frac{Zn\phi}{60}
+E_{o}=\frac{ZPn\Phi}{60A}
 $$
 In the case of a motor, however, we call this voltage the *counter-emf* or *back-emf* because its polarity is always against the applied voltage. That means that the net voltage across the armature is 
 $$

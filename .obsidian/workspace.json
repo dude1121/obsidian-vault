@@ -13,72 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Notes/Simple harmonic motion.md",
+                "file": "01 - Notes/Genesis 40.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Simple harmonic motion"
-            }
-          },
-          {
-            "id": "9e0ba182f9cd2cd8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - Notes/DC-DC Convertor.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DC-DC Convertor"
-            }
-          },
-          {
-            "id": "6cceddbeca9d3688",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - Notes/Inductor.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Inductor"
-            }
-          },
-          {
-            "id": "c45758d46130e371",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - Notes/CEC s.14.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CEC s.14"
-            }
-          },
-          {
-            "id": "22b3dffe4ba02ec8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - Notes/Brushless DC Motor.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Brushless DC Motor"
+              "title": "Genesis 40"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -249,45 +192,45 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "22b3dffe4ba02ec8",
+  "active": "5b41a0307df949d7",
   "lastOpenFiles": [
+    "01 - Notes/Genesis 39.md",
+    "01 - Notes/Genesis 40.md",
+    "01 - Notes/Genesis 38.md",
+    "01 - Notes/Genesis 37.md",
+    "01 - Notes/Genesis 36.md",
+    "01 - Notes/Genesis 35.md",
+    "01 - Notes/Genesis 34.md",
+    "01 - Notes/Genesis 33.md",
+    "01 - Notes/Genesis 32.md",
+    "01 - Notes/Genesis 31.md",
+    "01 - Notes/Genesis 30.md",
+    "01 - Notes/Simple harmonic motion.md",
+    "01 - Notes/DC-DC Convertor.md",
+    "01 - Notes/Inductor.md",
+    "01 - Notes/CEC s.14.md",
+    "01 - Notes/Brushless DC Motor.md",
     "02 - Pictures/BLDC-trapezoid-bemf-current.png",
     "01 - Notes/Resonance.md",
     "01 - Notes/Three Phase Inverter.md",
-    "01 - Notes/Brushless DC Motor.md",
     "Fuse.md",
-    "01 - Notes/CEC s.14.md",
     "Candian Electrical Code, Part 1, 26 Ed, 2024.pdf",
     "01 - Notes/Transformer.md",
     "01 - Notes/CEC s.28.md",
     "01 - Notes/CEC d.3.md",
     "02 - Pictures/diagram-3.png",
-    "01 - Notes/DC-DC Convertor.md",
-    "01 - Notes/Inductor.md",
     "01 - Notes/Inductance.md",
     "01 - Notes/Half-Bridge Circuit.md",
     "01 - Notes/Power Systems.md",
     "01 - Notes/Variable Frequency Drive.md",
     "02 - Pictures/3-phase-vvvf-vfd.png",
     "02 - Pictures/vfd-block-diagram.png",
-    "01 - Notes/Induction Machine.md",
-    "01 - Notes/DC Motor Drive.md",
-    "01 - Notes/Laplace Transform.md",
-    "Per-Unit Rating.md",
-    "01 - Notes/Triac.md",
-    "01 - Notes/DC Machine.md",
-    "01 - Notes/Electrical Machine.md",
-    "01 - Notes/H-Bridge.md",
-    "01 - Notes/Torque.md",
-    "01 - Notes/Solubility.md",
-    "01 - Notes/Periodic Table.md",
     "02 - Pictures/three-phase-inverter-square.png",
     "02 - Pictures/50-offset-inverter.png",
     "02 - Pictures/100-low-side-inverter.png",
     "02 - Pictures/limited-fault.png",
     "02 - Pictures/non-limited-fault.png",
     "02 - Pictures/air-blast-circuit-breaker.jpg",
-    "02 - Pictures/distribution-transformer.jpg",
     "Excalidraw",
     "Untitled.canvas"
   ]

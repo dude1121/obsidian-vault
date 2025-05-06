@@ -15,6 +15,7 @@ The elements in the table are grouped into 10 categories:
 8. [[Noble Gas|Noble gases]]
 9. [[Lanthanide|Lanthanides]]
 10. [[Actinide|Actinides]]
+
 The only element that does not fit neatly into a group is [[Hydrogen|hydrogen]].
 
 Of the 18 groups in the periodic table, 8 of them are sometimes referred to by other names. 

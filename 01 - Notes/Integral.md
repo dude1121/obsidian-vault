@@ -47,7 +47,7 @@ $$
 &\int \frac{du}{u\sqrt{ u^2-a^2 }}=\frac{1}{a}\mathrm{arcsec}\left( \frac{u}{a} \right)
 \end{aligned}
 $$
-### Exponential functions
+### Exponential *functions*
 For [[Exponential Function|exponential functions]], the following relationships hold:
 $$
 \begin{aligned}
@@ -78,9 +78,10 @@ $$
 F(x)\biggr|_{3}^5=F(5)-F(3)
 $$
 # Area under a curve
-Integration has another property in that when evaluated as a definite integral it represents the *signed* area under the function between two points. 
-
-# $u$-Substitution
+Integration has another property in that when evaluated as a definite integral it represents the *signed* area under the function between two points.
+# Integration techniques
+When the integral we are trying to evaluate is not as straight forward as the examples shown above, we need to use other techniques to evaluate it.
+## $u$-Substitution
 In the examples above, we have used $u$ for the variable instead of the typical $x$. This is due to a powerful technique in evaluating integrals: $u$-substitution. This involves substituting some part of the integrand with some arbitrary variable ($u$ is often used) which turns the integral into something much easier to evaluate. 
 >[!question] Example
 >Evaluate the following integral.
@@ -118,3 +119,78 @@ Using $u$-substitution allowed us to not have to expand $(x^3+5)^6$ and instead 
 >$$
 
 $u$-substitution does not always work, however. For example, if the "leftovers" of the derivation of any of the terms in the integrand do not match up, $u$-substitution can not be used and other methods must be used.
+## Integration by parts
+Integration by parts is a method of integration that effectively serves to undo the [[Derivative#Rules for Differentiation|product rule of differentiation]]. Recall the product rule states:
+$$
+\frac{d}{dx}[f(x)g(x)]=f'(x)g(x) + f(x)g'(x)
+$$
+We can write this in integral notation to be,
+$$
+\begin{align}
+\int [f'(x)g(x) + f(x)g'(x)]\ dx&=f(x)g(x) \\
+\int f'(x)g(x)\ dx + \int f(x)g'(x)\ dx&= f(x)g(x) \\
+\int f(x)g'(x)\ dx&=f(x)g(x) - \int f(x)g'(x)\ dx
+\end{align}
+$$
+This is more often written as,
+$$
+\int u\ dv=uv-\int v\ du
+$$
+where $u=f(x)$ and $dv=g'(x)\ dx$. 
+
+When solving an integral that requires integration by parts, it is helpful to remember **LIATE**, an acronym to help pick '$u$'.
+- **L** - logarithmic
+- **I** - inverse trigonometric
+- **A** - algebraic
+- **T** - trigonometric
+- **E** - exponential
+This is because the derivative of the first three types of functions become algebraic, thus simplifying the integral. 
+>[!question] Example 3
+>Evaluate the integral $\int x\sin x\ dx$.
+>$$
+>\begin{align*}
+>\text{Let }&&u&=x&dv&=\sin x\ dx \\
+>&&du&=dx&v&=-\cos x \\
+>\end{align*}
+>$$
+>$$
+>\begin{align*}
+>\int x\sin x\ dx&=uv-\int v\ du \\
+>&=(x)(-\cos x)+\int \cos x\ dx \\
+>&=-x\cos x+ \sin x + C
+\end{align*}
+>$$
+## Trigonometric substitution
+Trigonometric substitution is used when $u$-substitution fails and one of the following terms are in the integrand.
+$$
+\begin{align}
+\sqrt{ a^2-x^2 }&&\sqrt{ a^2 + x^2}&&\sqrt{ x^2 - a^2}
+\end{align}
+$$
+In each of these cases, we substitute a different trigonometric function for $x$ based on a certain trig identity.
+
+| Expression           | Substitution     | Identity                      |
+| -------------------- | ---------------- | ----------------------------- |
+| $\sqrt{ a^2 -x^2}$   | $x=a\sin \theta$ | $1-\sin^2\theta=\cos^2\theta$ |
+| $\sqrt{ a^2 + x^2}$  | $x=a\tan \theta$ | $1+\tan^2\theta=\sec^2\theta$ |
+| $\sqrt{ x^2 - a^2 }$ | $x=a\sec \theta$ | $\sec^2\theta-1=\tan^2\theta$ |
+>[!question] Example
+>Evaluate $\displaystyle \int \frac{\sqrt{ 9-x^2 }}{x^2}\ dx$.
+>
+>Let $x=3\sin \theta$. Therefore, $dx=3\cos \theta\ d\theta$.
+>$$
+>\begin{align}
+>&\int \frac{\sqrt{ 9-9\sin^2\theta }}{9\sin^2\theta}3\cos \theta \ d\theta \\
+>=&\int \frac{3\cos \theta\sqrt{ 9(1-\sin^2\theta) }}{9\sin^2\theta}\ d\theta \\
+>=&\int \frac{9\cos^2\theta}{9\sin^2\theta}\ d\theta \\
+>=&\int \cot^2\theta\ d\theta \\
+>=& \int (\csc^2\theta - 1)\ d\theta \\
+>=&-\cot\theta-\theta +C\
+>\end{align}
+>$$
+>Recall that $\sin \theta=\frac{\text{opposite}}{adjacent}$. We can therefore construct a right triangle as below.
+>![[integral-trig-sub-triangle.png]]
+>Therefore, $\cot \theta=\frac{\sqrt{ 9-x^2 }}{x}$ and $\theta=\arcsin\left( \frac{x}{3} \right)$.
+>$$
+>\int \frac{\sqrt{ 9-x^2 }}{x}\ dx=-\frac{\sqrt{ 9-x^2 }}{x}-\arcsin\left( \frac{x}{3} \right) + C
+>$$

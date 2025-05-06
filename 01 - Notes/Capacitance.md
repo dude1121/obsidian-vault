@@ -10,7 +10,7 @@ tags:
 $$
 	C=\frac{Q}{V}
 $$
-where $C$ is the capacitance in Farads $[\text{F}]$, $Q$ is the charge in Coulombs $[\text{C}]$, and $V$ is [[Voltage|voltage]] in [[Volts]] $[\text{V}]$. We can also define capacitance purely in terms of the construction of the capacitor by,
+where $C$ is the capacitance in Farads $[\text{F}]$, $Q$ is the charge in Coulombs $[\text{C}]$, and $V$ is [[Voltage|voltage]] in [[Volt]] $[\text{V}]$. We can also define capacitance purely in terms of the construction of the capacitor by,
 $$
 	C=\varepsilon\frac{A}{d}
 $$

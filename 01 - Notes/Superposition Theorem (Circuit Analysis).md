@@ -12,7 +12,7 @@ tags:
 
 Consider the following circuit:
 ![[Superposition 1a.png]]
-To examine this circuit with each source independently, we much remove each source from the circuit. Setting a [[Voltage Sources|voltage source]] to zero [[Volts|volts]] is almost like placing a short circuit across its terminals, therefore we can replace a voltage source with a "jumper", a direct connection of zero ohms. ***Any internal [[resistance]] associated with the source must remain in the circuit***. 
+To examine this circuit with each source independently, we much remove each source from the circuit. Setting a [[Voltage Sources|voltage source]] to zero [[Volt|volts]] is almost like placing a short circuit across its terminals, therefore we can replace a voltage source with a "jumper", a direct connection of zero ohms. ***Any internal [[resistance]] associated with the source must remain in the circuit***. 
 
 Setting a [[Current Sources|current source]] to zero [[Amperes|amps]] is like replacing it with an open circuit, therefore when removing a current source from a network, replace it with an open circuit of infinite ohms. Once again, **any internal resistance associated with the source must remain in the circuit***.
 

@@ -117,34 +117,3 @@ D_{A}&=\frac{V_{A}}{V_{s}}=0.5+\frac{V_{pk}}{2V_{s}}\sin(\omega t) \\
 D_{B}&=\frac{V_{B}}{V_{s}}=0.5-\frac{V_{pk}}{2V_{s}}\sin(\omega t)
 \end{align}
 $$
-$$
-\begin{align}
-\frac{d^2y}{dt^2}&=-6 \frac{dy}{dt}-9y \\
-\frac{d}{dt}\left( \frac{dy}{dt} \right)&=-6 \frac{dy}{dt}-9y \\
-\mathrm{Let\ }z=\frac{dy}{dt} \\
-\frac{dz}{dt}&=-6z-9y \\
-\frac{d^2z}{dt^2}&=-6 \frac{dz}{dt}-9 \frac{dy}{dt} \\
-&=-6(-6z-9y)-9z \\
-&=36z+54y-9z \\
-\boxed{\frac{dz}{dt}=-6z-9y}
-&&\boxed{\frac{d^2z}{dt^2}=27z+54y}
-\end{align}
-$$
-
-$$
-\begin{align}
-\frac{d^2y}{dt^2}+6\frac{dy}{dt}+9y&=0 \\
-\mathcal{L}\left\{y''\right\}+6\mathcal{L}\left\{y'\right\}+9\mathcal{L}\left\{y\right\}&=0 \\
-s^2\mathcal{L}\left\{y\right\}-5s+2+6s\mathcal{L}\left\{y\right\}-30+9\mathcal{L}\left\{y\right\}&=0 \\
-\mathcal{L}\left\{y\right\}(s^2+6s+9)&=28+5s \\
-\mathcal{L}\left\{y\right\}&=\frac{28+5s}{s^2+6s+9} \\
-&=28\cdot\frac{1}{(s+3)^2}+5\cdot\frac{s}{(s+3)^2} \\
-y(t)&=28te^{-3t}+5e^{-3t}(1-3t) \\
-&=28te^{-3t}+5e^{-3t}-15te^{-3t} \\
-&=5e^{-3t}+13te^{-3t} \\
-&=e^{-3t}(5+13t)
-\end{align}
-$$
-$$
-\boxed{y(t)=e^{-3t}(5+13t)}
-$$

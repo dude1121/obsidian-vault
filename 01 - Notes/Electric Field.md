@@ -28,9 +28,30 @@ $$
 $$
 we can extend this concept further. What if there were more than just one point charge? In that case, the electric field would be the [[Vector#Vector Addition|vector sum]] of all the electric field vectors from each point charge.
 $$
-\mathbf{\vec{E}}=k_{e}\sum_{i}\ \frac{q_{i}}{r_{i}^2}\mathbf{\hat{r}}_{i}
+\mathbf{\vec{E}}(\mathbf{r})=k_{e}\sum_{i}\ \frac{q_{i}}{r_{i}^2}\mathbf{\hat{r}}_{i}
 $$
-where $r_{i}$ is the distance from the $i$th source charge $q_{i}$ to the source charge $P$ and $\mathbf{\hat{r}}_{i}$ is a unit vector directed from $q_{i}$ to $P$.
+where $r_{i}$ is the distance from the $i$th source charge $q_{i}$ to the source charge $P$ and $\mathbf{\hat{r}}_{i}$ is a unit vector directed from $q_{i}$ to $P$. Note that this field is a function of [[Position|position]], as the separation vectors $\mathbf{r}_{i}$ depend on the location of the field point $P$. That is, *the electric field is a vector quantity that varies from point to point and is determined by the configuration of source charges; physically, $\mathbf{\vec{E}}(\mathbf{r})$ is the force per unit charge that would be exerted on a test charge if you were to place one at $P$*.
+# Electric field due to a continuous charge distribution
+The equation above assumes that the source of the electric field is a collection of discrete point charges $q_{i}$. If, instead, the charge is distributed continuously over some region, the sum becomes an integral,
+$$
+\mathbf{\vec{E}(\mathbf{r})}=k_{e}\int \frac{1}{r^2}\mathbf{\hat{r}}\ dq
+$$
+This definition leads to some various *continuous charge distributions*.
+- If the charge is spread out along a line with a charge-per-unit-length $\lambda$, then $dq=\lambda \ dl'$ (where $dl'$ is an element of length along the line)
+- If the charge is smeared out over a surface with a charge-per-unit-area $\sigma$, then $dq=\sigma\ da'$ (where $da'$ is an element of area on the surface)
+- If the charges fills a [[Volume|volume]] with a charge-per-unit-volume $\rho$, then $dq= \rho\ d\tau'$ (where $d\tau'$ is, you guessed it, an element of volume)
+Therefore for all three cases we get,
+$$
+\begin{align*}
+\text{Line charge:\ }& \\
+&\mathbf{\vec{E}}(\mathbf{r})=k_{e} \int \frac{\lambda(\mathbf{r'})}{r_{2}}\mathbf{\hat{r}}\ dl' \\
+\text{Surface charge:\ }& \\
+&\mathbf{\vec{E}}(\mathbf{r})=k_{e} \int \frac{\sigma(\mathbf{r'})}{r_{2}}\mathbf{\hat{r}}\ da' \\
+\text{Volume charge:\ }& \\
+&\mathbf{\vec{E}}(\mathbf{r})=k_{e} \int \frac{\rho(\mathbf{r'})}{r_{2}}\mathbf{\hat{r}}\ d\tau'
+\end{align*}
+$$
+$\mathbf{r'}$ is the position of the source charge, and $\mathbf{r}$ is the position of a theoretical test charge. 
 # Field lines
 We can also represent the electric field as a series of lines called **electric field lines**. This idea was first introduced by [[Michael Faraday]]. These lines are related to the electric field by:
 - The electric field vector $\vec{E}$ is tangent to the electric field line at each point. The line has a direction, indicated by an arrowhead, that is the same as that of the electric field vector. The direction of the line is that of the force on a positive test charge placed in the field.
@@ -41,7 +62,34 @@ In the above diagram, we see that the magnitude of the electric field is larger 
 This can be more simply viewed by imagining a positive point charge in a 2D plane.
 ![[Flux-density.png]]
 
-We can call these electric field lines *flux lines*. From this it is evident that closer to the particle, these flux lines are denser than the flux lines further away from the particle. The larger the charge of the particle, the greater the number of flux lines generated. Therefore, we can equate the charge with the *flux*,
+We can call these electric field lines *flux lines*. From this it is evident that closer to the particle, these flux lines are denser than the flux lines further away from the particle. The larger the charge of the particle, the greater the number of flux lines generated. This means that charge is proportional to the flux. This is what [[Gauss's Law|Gauss's law]] states.
 $$
-	\psi=Q
+\Phi_{E}=\frac{Q}{\varepsilon_{0}}
 $$
+Here, $\Phi_{E}$ is the electric flux, $Q$ is the enclosed charge within some volume, and $\varepsilon_{0}$ is the [[Permittivity|permittivity]] of free space.
+# Electric potential
+The discussion of electric potential's relation to electric fields first hinges on the fact that the [[Curl|curl]] of an electric field is zero.
+$$
+\nabla \times \mathbf{E}=0
+$$
+This means that the electric field is *conservative* and therefore forces arising from this field are also conservative. From the [[Curl#Fundamental theorem for curls|fundamental theorem for curls]] we can see that this also means that
+$$
+\oint_{\mathcal{S}}\mathbf{E}\cdot d\mathbf{l}=0
+$$
+for any closed loop. If we have two points in an electric field therefore, the path taken to these points is irrelevant, since no matter what path you take, the return trip must cancel out to equal 0. This path independence leads to the definition of the potential function, $V(\mathbf{r})$.
+$$
+V(\mathbf{r})=-\int_{\mathcal{O}}^r\mathbf{E}\cdot d\mathbf{l}
+$$
+$\mathcal{O}$ is some reference point, meaning that the potential depends solely on $r$. The potential difference between two points can be found by,
+$$
+\begin{align}
+V(\mathbf{b})-V(\mathbf{a})&=-\int_{\mathcal{O}}^b\mathbf{E}\cdot d\mathbf{l}+\int_{\mathcal{O}}^a\mathbf{E}\cdot d\mathbf{l} \\
+&=-\int_{\mathcal{O}}^b\mathbf{E}\cdot d\mathbf{l}-\int_{a}^\mathcal{O}\mathbf{E}\cdot d\mathbf{l} \\
+&\boxed{=-\int_{a}^b\mathbf{E}\cdot d\mathbf{l}}
+\end{align}
+$$
+Note that the potential difference between two points is independent of the reference point. We can express this relationship between field and potential in differential form as well as,
+$$
+\boxed{\mathbf{E}=-\nabla V}
+$$
+This is the relationship that [[Voltage|voltage]] and the electric field share. We can therefore interpret the electric field as a measure of the rate of change with position of the electric potential.

@@ -25,7 +25,7 @@ $$
 $$
 where $\tau$ is the applied [[Torque|torque]] and $\omega$ is the [[Angular Velocity|angular velocity]] of the object.
 # Electromagnetism
-Recall that a [[Volts|volt]] is defined as:
+Recall that a [[Volt|volt]] is defined as:
 $$
 	V=\frac{W}{Q}=\frac{\text{[J]}}{\text{[C]}}
 $$

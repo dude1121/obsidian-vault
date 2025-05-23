@@ -6,7 +6,7 @@ A **limit** is the value a [[Function|function]] or [[Sequence (Mathematics)|seq
 $$
 \lim_{ x \to a }f(x)=L 
 $$
-which would be read as "the limit of $f(x)$ as $x$ approaches $a$ is $L$." This means that the value of the function $f(x)$ approaches some value $L$ as the variable $x$ gets closer and closer to some other value $a$, however crucially $x\neq a$. This caveat means that a limit for a function can be defined at some value even if the function itself is [[Undefined|undefined]] at that point. 
+which would be read as "the limit of $f(x)$ as $x$ approaches $a$ is $L$." This means that the value of the function $f(x)$ approaches some value $L$ as the variable $x$ gets closer and closer to some other value $a$, however crucially $x\neq a$. This caveat means that a limit for a function can be defined at some value even if the function itself is [[Undefined|undefined]] at that point. This is because the limit describes the *behaviour* of the function, not the actual *value* of the function.
 
 For example, consider the value of $\displaystyle \lim_{ x \to 0 }\frac{\sin x}{x}$. The function itself is clearly undefined when $x=0$, but examining values of $x$ close to $0$ reveals that this function actually approaches $1$. 
 # One-sided limits
@@ -53,6 +53,27 @@ This implicitly requires three things for $f$ to be continuous at $a$,
 1. $f(a)$ must be defined (i.e., $a$ is within the domain of $f$)
 2. $\lim_{ x \to a }f(x)$ exists
 3. $\lim_{ x \to a }f(x)=f(a)$
+# Precise limit definition
+Consider the following function
+$$
+f(x)=\begin{cases}
+2x-1&\text{if } x\neq 3 \\
+6&\text{if }x=3
+\end{cases}
+$$
+Intuitively we see that when $x$ is close to $3$ then $f(x)$ is close to $5$, therefore $\lim_{ x \to 3 }f(x)=5$. To obtain more detailed information about how $f(x)$ varies when $x$ is close to $3$ we ask the following question:
+$$
+\text{How close to 3 does }x\text{ need to be so that }f(x)\text{ differs from }5\text{ by less than }0.1\text{?}
+$$
+The distance from $x$ to $3$ is $|x-3|$ and the distance from $f(x)$ to $5$ is $|f(x) - 5|$, so our problem is to find the number $\delta$ such that,
+$$
+|f(x)-5| < 0.1\ \ \text{ if }\ \ |x-3|<\delta\ \  \text{ but }\ \ x\neq 3
+$$
+If $|x-3|>0$ then $x\neq 3$ so an equivalent formulation is to find a number $\delta$ such that,
+$$
+|f(x)-5|<0.1\ \ \text{ if }\ \ 0<|x-3|<\delta
+$$
+
 # Relation to derivatives
 The idea of a limit is crucial to the definition of a [[Derivative|derivative]]. Specifically,
 $$

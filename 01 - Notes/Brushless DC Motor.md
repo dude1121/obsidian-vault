@@ -102,4 +102,4 @@ where $E_{\mathrm{a}}$ and $E_{\mathrm{b}}$ are the back emf of phases A and B a
 \end{circuitikz}
 \end{document}
 ```
-Of course, depending on the commutation stage, the phases will not be A and B and the example above only hold between $30\degree$ and $90\degree$.
+Of course, depending on the commutation stage, the phases will not be A and B and the example above only holds between $30\degree$ and $90\degree$.

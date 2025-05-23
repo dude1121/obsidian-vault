@@ -1139,6 +1139,69 @@ Stokesbury, James L. *A Short History of World War I*. 1981. HarperCollins Press
 - A German delegation led by Erzberger met Marshal Foch in Compiègne.
   - Harsh terms included Allied occupation west of the Rhine, surrender of matériel and ships, and withdrawal from all fronts.
 - [[WWI Armistice|Armistice]] was signed in Foch’s railway car early on 11 November 1918; ceasefire took effect at 11:00 a.m.
+# 23. Peacemaking
+## Exclusion of the Vanquished and the Spirit of the Conference (pp. 308–309)
+- Unlike 1815, the 1919 peace conference excluded the defeated powers entirely.
+  - The war had taken on the tone of a moral crusade, making reconciliation politically and emotionally impossible.
+  - The enemy was demonised—Hun atrocities vs. Allied blockade starvation—leaving no room for compromise.
+- Woodrow Wilson arrived as a revered figure, believing deeply in democracy and his own vision of peace.
+  - His messianic attitude clashed with other leaders’ practical concerns and nationalist agendas.
+## Economic Costs and Casualties of the War (pp. 309–310)
+- The Carnegie Endowment estimated the war’s cost at $338 billion (in 1920 dollars), though the figure was speculative.
+  - Human lives were given monetary value: $4,720 per American, $2,900 per Frenchman, $2,020 per Russian.
+- Casualties:
+  - Allies mobilised 42 million men; 22 million became casualties (52%)
+  - France suffered 73% losses; Russia 76%; British Empire 36%; U.S. only 8%
+  - Central Powers: 23 million mobilised; 15 million casualties—Austria-Hungary lost 90% of its men
+## The Paris Peace Conference and Power Structure (pp. 310–311)
+- Conference opened 18 January 1919 with 27 Allied nations; real power was quickly consolidated.
+- A Supreme Council of Ten was formed, soon reduced to the “Big Four”: Wilson, Lloyd George, Clemenceau, and Orlando.
+- Wilson dominated early sessions with the Fourteen Points, but his influence faded due to political troubles at home.
+## Contrasting National Aims (pp. 311–312)
+- Lloyd George wanted a quick economic recovery and generous peace, but had promised a punitive one at home.
+- Clemenceau aimed to cripple Germany permanently to ensure France’s future security.
+- Orlando simply wanted all territory promised to Italy in the Treaty of London—and more.
+## Franco-American Rift and Rhineland Dispute (pp. 312–313)
+- France sought to separate the Rhineland and create a buffer republic; Britain and the U.S. offered a mutual defence treaty instead.
+  - The U.S. Senate later refused to ratify the treaty, leaving France without either concession.
+## Russia and the Bolsheviks (p. 313)
+- Bolsheviks were excluded from the main conference; an island summit was proposed but failed as White generals refused to attend.
+- Allied intervention in Russia was minor and ineffective; Lenin’s regime survived despite predictions.
+## Wilson’s Focus on the League of Nations (pp. 313–314)
+- Wilson prioritised the League of Nations above all else.
+  - Faced opposition from Britain on freedom of the seas and from all powers on reparations and colonies.
+- Jan Smuts proposed the “mandate system” to resolve the colonial deadlock:
+  - Former German colonies would be governed by Allies on behalf of the League.
+## Drafting the Covenant and U.S. Political Collapse (p. 314)
+- The League covenant was eventually approved without a general staff or army, as France had wanted.
+- Wilson returned home to face a hostile Republican Senate and was forced to water down the covenant.
+  - His weakened position emboldened the other powers to push their own agendas.
+## Reparations and Financial Gridlock (pp. 314–315)
+- Reparations became the most contentious issue—what should be counted, and how much Germany should pay?
+  - No final sum was agreed upon in the treaty; Germany accepted responsibility and obligation to pay later-defined amounts.
+- The issue remained unresolved for years, exacerbated by Allied war debts and global financial instability.
+## German Frontiers and Border Disputes (pp. 315–316)
+- Germany was diminished in territory to strengthen border states:
+  - Poland was restored with access to the sea (cutting off East Prussia); Danzig made a free city.
+  - The Sudetenland was given to Czechoslovakia; the Rhineland was demilitarised.
+- These arrangements became rallying points for German revisionism in the 1930s.
+## Italy’s Disappointment and Irredentism (p. 316)
+- Italy demanded full execution of the Treaty of London and additional gains like Fiume.
+  - When denied, the Italians walked out, later returning only to sign the treaty.
+  - Italy became a frequent critic of the Versailles system, demanding further revision.
+## The Paris Treaties and Germany’s Protest (p. 317)
+- Five treaties were signed: Versailles (Germany), St. Germain (Austria), Trianon (Hungary), Neuilly (Bulgaria), Sèvres (Ottoman Empire).
+  - The Treaty of Versailles was the most significant; Germany refused to sign until threatened with invasion.
+  - Article 231—the “war guilt clause”—was particularly hated.
+- The U.S. Senate rejected the treaty; the U.S. made a separate peace in 1921.
+## Ottoman Settlement and Aftermath (pp. 317–318)
+- Treaty of Sèvres dismantled the Ottoman Empire; mandates and territorial awards were distributed.
+  - Harsh terms provoked Turkish resistance led by Mustafa Kemal; replaced by Treaty of Lausanne in 1923.
+## Final Assessment (p. 318)
+- The treaties were deeply flawed but not uniquely so; created under immense pressure and trauma.
+- Despite their limitations, postwar diplomacy has not consistently improved upon their outcomes.
+  - As the author notes, even nursery children know Humpty Dumpty can't be put back together again.
+
 # Footnotes
 ---
 [^1]: The Greeks declare independence in 1822 leading to the [[Greek War of Independence]] from 1821-1829, [[Kingdom of Serbia|Serbia]] gains independence in 1835, and the [[Treaty of San Stefano]] in 1878 led to an independent [[Principality of Bulgaria|Bulgaria]].

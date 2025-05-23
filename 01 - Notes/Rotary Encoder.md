@@ -13,3 +13,5 @@ More encoder lines however means more maintenance and a higher cost. In other en
 ## Hall effect encoder
 A [[Hall Effect Sensor|Hall effect sensor]] can also be used as a rotary encoder. In this case, the hall effect sensor can be used to detect when a magnetic north or south pole is near the sensor. A digital hall effect sensor will then output a digital signal depending on if there is a magnetic field present or not. 
 ![[hall-effect-rotary.png]]
+### Flip-flop for encoding
+A cost-effective option for a quick hall effect encoder is to use a flip flop IC like a CD74AC174. Use one channel of the encoder as the clock signal and the other as the input. 

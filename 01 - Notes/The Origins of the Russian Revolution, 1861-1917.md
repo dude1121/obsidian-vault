@@ -14,5 +14,7 @@ tags:
 - Russia then embarked on a program of industrialization and at the turn of the century was one of the world's leading industrial producers.
 	- For the first time in history the country had a large industrial labour force (known by revolutionaries as the *[[Proletariat]]*) and an economically strong middle class of businessmen and owners (what [[Karl Marx|Marx]] called the [[Bourgeoisie]])
 - Much of Russia was still agrarian though. Trotsky described Russia as being in a process of "combined development" where there were two simultaneous historical epochs in Russia: the medieval, agrarian, and semi-feudal peasantry, and the modern, industrial, capitalist cities.
-## Russian military
-- 
+- At the time the Russian army was the largest military force in the world
+- After Russia's defeat in Crimea the military underwent a series of radical military reforms in the 1870s
+- Despite this, the Russians face a military disaster against the Japanese in the [[Russo-Japanese War]]
+- Despite some successes and advancements in science and culture, by and large the Russian population was illiterate 

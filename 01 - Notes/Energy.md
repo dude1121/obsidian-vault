@@ -3,9 +3,7 @@ tags:
   - physics
 ---
 **Energy** is an object's capacity to do [[Work|work]]. It is measured in [[Joule|joules]] $[\pu{ J}]$. Similar to [[Linear Momentum|momentum]], energy is a [[Law of Conservation of Energy|conserved]] quantity, meaning it can not be created or destroyed. 
-
 # Forms of Energy
-
 Energy comes in various forms:
 - [[Electrical Energy|Electrical energy]]
 - [[Magnetic Energy|Magnetic energy]]

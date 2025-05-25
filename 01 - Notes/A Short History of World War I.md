@@ -1191,7 +1191,7 @@ Stokesbury, James L. *A Short History of World War I*. 1981. HarperCollins Press
   - Italy became a frequent critic of the Versailles system, demanding further revision.
 ## The Paris Treaties and Germany’s Protest (p. 317)
 - Five treaties were signed: Versailles (Germany), St. Germain (Austria), Trianon (Hungary), Neuilly (Bulgaria), Sèvres (Ottoman Empire).
-  - The Treaty of Versailles was the most significant; Germany refused to sign until threatened with invasion.
+  - The [[Treaty of Versailles]] was the most significant; Germany refused to sign until threatened with invasion.
   - Article 231—the “war guilt clause”—was particularly hated.
 - The U.S. Senate rejected the treaty; the U.S. made a separate peace in 1921.
 ## Ottoman Settlement and Aftermath (pp. 317–318)

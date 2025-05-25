@@ -4,179 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "622e4c848c5468b1",
+        "id": "595ee709d5fb70b0",
         "type": "tabs",
         "children": [
           {
-            "id": "d016ba8c3da07f15",
+            "id": "fa83e4db004c8330",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Notes/Noise.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Noise"
-            }
-          },
-          {
-            "id": "1ae40530bcafd142",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - Notes/Receiver.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Receiver"
-            }
-          },
-          {
-            "id": "e491a05842c6ba86",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - Notes/Synchronous Machine.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Synchronous Machine"
-            }
-          },
-          {
-            "id": "64c0061aefbefbcc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - Notes/Electric Field.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Electric Field"
-            }
-          },
-          {
-            "id": "a66b5a9ade076ba8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Instrumentation.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Instrumentation"
-            }
-          },
-          {
-            "id": "758a701681ba12a3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - Notes/A Short History of World War I.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "A Short History of World War I"
-            }
-          },
-          {
-            "id": "574f5406a21a86bf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - Notes/DC-DC Convertor.md",
+                "file": "01 - Notes/Treaty of Versailles.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DC-DC Convertor"
-            }
-          },
-          {
-            "id": "49fe1f42965bb8f1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - Notes/Limit.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Limit"
-            }
-          },
-          {
-            "id": "96fcf27b9df56b04",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - Notes/World War I.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "World War I"
-            }
-          },
-          {
-            "id": "cdb04c9f5cc9d16e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - Notes/The Origins of the Russian Revolution, 1861-1917.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "The Origins of the Russian Revolution, 1861-1917"
-            }
-          },
-          {
-            "id": "9ab396e2bce0d3f9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "The Russian Revolution (Fitzpatrick).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "The Russian Revolution (Fitzpatrick)"
-            }
-          },
-          {
-            "id": "7598f8a755e963bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - Notes/Russian Revolution Essay.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Russian Revolution Essay"
+              "title": "Treaty of Versailles"
             }
           }
-        ],
-        "currentTab": 10
+        ]
       }
     ],
     "direction": "vertical"
@@ -347,45 +192,47 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "9ab396e2bce0d3f9",
+  "active": "fa83e4db004c8330",
   "lastOpenFiles": [
-    "01 - Notes/Russian Revolution Essay.md",
-    "The Russian Revolution (Fitzpatrick).md",
-    "01 - Notes/The Origins of the Russian Revolution, 1861-1917.md",
-    "01 - Notes/A Short History of World War I.md",
-    "01 - Notes/World War I.md",
-    "02 - Pictures/pyramid-of-capitalism.png",
-    "01 - Notes/DC-DC Convertor.md",
-    "01 - Notes/Limit.md",
+    "01 - Notes/War Guilt Clause.md",
+    "01 - Notes/Treaty of Versailles.md",
     "01 - Notes/Hall Effect.md",
-    "01 - Notes/Rotary Encoder.md",
-    "01 - Notes/The White Man's Burden.md",
-    "02 - Pictures/hall-effect-rotary.png",
-    "02 - Pictures/optical-encoder.jpg",
-    "02 - Pictures/Hall_Sensor.webm",
-    "02 - Pictures/hall-effect.webp",
-    "01 - Notes/Convertor Driver Circuit.md",
-    "01 - Notes/Full Wave Rectifier.md",
-    "01 - Notes/Metal Oxide-Semiconductor Field Effect Transistor.md",
-    "01 - Notes/Half-Bridge Circuit.md",
-    "01 - Notes/Inverter.md",
-    "01 - Notes/Electric Field.md",
-    "01 - Notes/Divergence.md",
-    "01 - Notes/Instrumentation.md",
-    "01 - Notes/July Crisis.md",
-    "02 - Pictures/battle-of-the-frontiers.png",
-    "01 - Notes/Three Phase Inverter.md",
-    "01 - Notes/History Note May 12.md",
-    "02 - Pictures/French-75.JPG",
-    "02 - Pictures/l'illustration-august-15-1914.png",
-    "01 - Notes/First Moroccan Crisis.md",
-    "02 - Pictures/pre-wwi-alliances.png",
-    "02 - Pictures/europe-pre-wwi.png",
-    "01 - Notes/Ultimatum to Serbia, 1914.md",
-    "01 - Notes/Bosnian Crisis.md",
-    "01 - Notes/Germany's Blank Cheque.md",
+    "01 - Notes/Atom.md",
+    "01 - Notes/Element (Chemistry).md",
+    "01 - Notes/A Short History of World War I.md",
+    "01 - Notes/Velocity.md",
+    "01 - Notes/Kinetic Energy.md",
+    "01 - Notes/Energy.md",
+    "01 - Notes/Electrical Energy.md",
+    "01 - Notes/Electrical Machine.md",
+    "01 - Notes/DC Machine.md",
     "01 - Notes/Assassination of Franz Ferdinand.md",
+    "01 - Notes/Paris Peace Conference.md",
+    "02 - Pictures/germany-after-treaty-of-versailles.gif",
+    "02 - Pictures/germany-after-treaty-of-versailles.gif.crdownload",
+    "02 - Pictures/treaty-of-versailles.jpg",
+    "02 - Pictures/treaty-of-versailles.jpg.crdownload",
+    "01 - Notes/Bosnian Crisis.md",
+    "01 - Notes/World War I.md",
+    "01 - Notes/The Russian Revolution (Fitzpatrick).md",
+    "01 - Notes/DC Motor Drive.md",
+    "01 - Notes/Brushless DC Motor.md",
+    "03 - Journal/2025-04-16.md",
+    "02 - Pictures/tanh-plot.svg",
+    "02 - Pictures/sync-generator-1.png",
+    "02 - Pictures/sinh-plot.svg",
+    "02 - Pictures/sine-graph.svg",
+    "02 - Pictures/sech-plot.svg",
+    "02 - Pictures/pyramid-of-capitalism.png",
     "02 - Pictures/process-control-elements.png",
+    "02 - Pictures/pre-wwi-alliances.png",
+    "02 - Pictures/Hall_Sensor.webm",
+    "01 - Notes/Volt.md",
+    "01 - Notes/Ultimatum to Serbia, 1914.md",
+    "01 - Notes/The White Man's Burden.md",
+    "01 - Notes/The Origins of the Russian Revolution, 1861-1917.md",
+    "01 - Notes/Russian Revolution Essay.md",
+    "01 - Notes/Rotary Encoder.md",
     "Candian Electrical Code, Part 1, 26 Ed, 2024.pdf",
     "Excalidraw",
     "Untitled.canvas"

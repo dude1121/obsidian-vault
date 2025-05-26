@@ -14,6 +14,8 @@ The treaty was drafted in early 1919 at the Paris Peace Conference, primarily di
 	- President of the [[United States of America|United States]] [[Woodrow Wilson]]
 	- Italian Prime Minister [[Vittorio Orlando]]
 None of the defeated Central Powers were included in the conference, and even the associated allied powers like Canada only played a minor role in creating the treaty.
+
+The terms of the treaty were originally to be based on the [[Fourteen Points]] declaration by Woodrow Wilson, but many of these points were neglected when the original treaty was signed.
 # Terms
 ## Territorial Losses
 The treaty of Versailles reduced the German population by about $10\%$. The province of [[Alsace-Lorraine]] was returned to France after the Germans had took it in the [[Franco-Prussian War]]. The [[Saarland]] was taken from Germany and placed under [[League of Nations]] supervision.[^2] The territory of Schleswig-Holstein were forced to hold a referendum where the northern part of the state opted to join Denmark.

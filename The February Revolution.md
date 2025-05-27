@@ -21,6 +21,7 @@ On the third day, February 25, the strike becomes a general strike. The strikers
 The next day, Khabalov tried to disperse the crowds and he was temporarily successful with a lot of demonstrators shot. This use of force however may have served to simply intensify the efforts of the protesters. Several regiments of the Imperial Guard had revolted and joined the demonstrators causing Khabalov to send a group of 1000 troops under command of Col. [[Alexander Kutepov]]. This was an abject failure as Kutepov's men came into contact with the mutinous soldiers and joined their side. The ministers in the Winter Palace tried to hide themselves but to no avail. They were arrested and imprisoned on February 27, 1917.
 # Outcome
 The February revolution resulted in the
+!TODO Finish note
 
 ---
 [^1]: Unless otherwise noted, all dates in this page are Russian old style dates.

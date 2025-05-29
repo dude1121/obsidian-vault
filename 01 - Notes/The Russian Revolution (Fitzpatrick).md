@@ -30,6 +30,11 @@ tags:
 	- This led to an increase in literacy in the otkhodniki with young men in less fertile regions being more likely to be literate than those in fertile regions (p. 18 - 19)
 - Even within the large urban areas mentioned above, many workers lived in the villages and commuted to the cities to work
 	- St. Petersburg seemed to be the only exception where workers lived with their families in the city
-- 
+- See [[Russian Populism]], [[Russian Marxism]], [[Russian Social Democratic Labour Party]], and [[Vladimir Lenin]].
+- See [[Russian Revolution (1905)]].
+- The 1905 revolution showed the landowners that their interested lay with the autocracy, not the liberals
+- The revolution resulted in an increase in the police state.
+	- Trade unions, for example, were legal in principle, but individual unions were constantly closed down by the police
+	- Political parties were "legal", but members of socialist parties were still arrested at the same rates as before and their party leaders were forced back into exile.
 
 

@@ -4,7 +4,7 @@
     "main"
   ],
   "baseFontSize": 15,
-  "cssTheme": "",
+  "cssTheme": "Solarized",
   "theme": "moonstone",
   "interfaceFontFamily": "Hasklug Nerd Font",
   "textFontFamily": "Hasklug Nerd Font",

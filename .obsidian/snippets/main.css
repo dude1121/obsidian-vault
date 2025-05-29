@@ -3,6 +3,8 @@
     --p-spacing: 10px;
     --file-line-width: 800px;
     --heading-spacing: 20px;
+    --link-unresolved-color: rgb(249,60,57);
+    --link-color: rgb(195,47,45);
 }
 
 .HyperMD-header-1 {
@@ -33,4 +35,16 @@
 .centre {
     display: block;
     margin: auto;
+}
+
+.images {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding: 0 10em;
+} 
+
+.images img {
+    margin: 1em;
+    height: 10em;
 }

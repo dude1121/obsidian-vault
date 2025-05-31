@@ -6,3 +6,5 @@ France was worried because of the Franco-Prussian war and Russia was worried due
 The second Moroccan crisis.
 4. What factors led to the alliance between Germany and Austria-Hungary?
 A desire for a strong central Europe and shared history. Germany and Austria-Hungary initially form an alliance to weaken France and remove potential French allies.
+
+Many countries after WWI threw off 

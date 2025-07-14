@@ -2,6 +2,7 @@
 tags:
   - canadian-electrical-code
 ---
+# Section 14 — Protection and control
 # 14-012 Ratings of protective and control equipment
 > In circuits of $750\ \mathrm{V}$ or less,
 > a) electrical equipment required to interrupt fault currents shall have ratings sufficient for the voltage employed and for the fault current that is available at the terminals; and

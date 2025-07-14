@@ -2,6 +2,7 @@
 tags:
   - canadian-electrical-code
 ---
+# Section 42 — Electric welders
 # 42-002 Special terminology
 **[[Duty Cycle]]** - the ratio of the time during which the [[Welder|welder]] is loaded to the total time required for one complete operation.
 	- This information is typically available on the welder's nameplate given as a percentage

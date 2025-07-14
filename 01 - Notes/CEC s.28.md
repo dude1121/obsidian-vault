@@ -2,6 +2,7 @@
 tags:
   - canadian-electrical-code
 ---
+# Section 28 — Motors and generators
 # 28-010 Special terminology
 **Service** - Relates to the nature of the mechanical load. 
 **Continuous duty** - "any application of a motor where the motor can operate continuously with load under  any normal or abnormal condition of use"

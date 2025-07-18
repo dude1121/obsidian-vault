@@ -13,48 +13,54 @@ tags:
 ![[CEC t.44]]
 ![[CEC t.45]]
 # 28-106 Insulated conductors - individual motors
-## 1)
-> The insulated conductors of a branch circuit supplying a motor for use on continuous duty service shall have an ampacity not less than $125\%$ of the full load current rating of the motor.
-## 2)
-> The insulated conductors of a branch circuit supplying a motor for use on non-continuous duty service shall have an ampacity not less than the current value obtained by multiplying the full load current rating of the motor by the applicable percentage given in [[CEC t.27|table 27]] for the duty involved, or varying duty service where a deviation has been allowed in accordance with [[CEC s.28#2-030 Deviation or postponement|Rule 2-030]] by a percentage less than that specified in table 27.
-
+> 1) The insulated conductors of a branch circuit supplying a motor for use on continuous duty service shall have an ampacity not less than $125\%$ of the full load current rating of the motor.
+> 2) The insulated conductors of a branch circuit supplying a motor for use on non-continuous duty service shall have an ampacity not less than the current value obtained by multiplying the full load current rating of the motor by the applicable percentage given in [[CEC t.27|table 27]] for the duty involved, or varying duty service where a deviation has been allowed in accordance with [[CEC s.28#2-030 Deviation or postponement|Rule 2-030]] by a percentage less than that specified in [[CEC t.27|Table 27]].
 ![[CEC t.27]]
-
 # 28-108 Insulated conductors - Two or more motors
-## 1)
-> Insulated conductors supplying a group of two or more motors shall have an ampacity not less than
-> a) 125% of the full load current rating of the motor having the largest full load current rating plus the full load current ratings of all the other motors in the group, where all motors in the group are for use on continuous duty service
-> b) the total of the calculated currents determined in accordance with Rule [[CEC s.28#2)|28-106 2)]] for each motor, where all motors in the group are for use on non-continuous duty service; or
-> c) the total of the following, where the group consists of two or more motors for use on both continuous and non-continuous duty service:
-> 	i) 125% of the current of the motor having the largest full load current rating for use on continuous duty service
->	ii) the full load current ratings of all other motors for use on continuous duty service; and
-> 	iii) the calculated current determined in accordance with Rule [[CEC s.28#2)|28-106 2)]] for motors for use on non-continuous duty service. 
+> 1) Insulated conductors supplying a group of two or more motors shall have an ampacity not less than
+> 	<span>&emsp;</span>a) 125% of the full load current rating of the motor having the largest full load current rating plus the full load current ratings of all the other motors in the group, where all motors in the group are for use on continuous duty service
+> 	<span>&emsp;</span>b) the total of the calculated currents determined in accordance with Rule [[CEC s.28#28-106 Insulated conductors - individual motors|28-106]] for each motor, where all motors in the group are for use on non-continuous duty service; or
+> 	<span>&emsp;</span>c) the total of the following, where the group consists of two or more motors for use on both continuous and non-continuous duty service:
+> 		<span>&emsp;</span><span>&emsp;</span>i) 125% of the current of the motor having the largest full load current rating for use on continuous duty service
+>		<span>&emsp;</span><span>&emsp;</span>ii) the full load current ratings of all other motors for use on continuous duty service; and
+> 		<span>&emsp;</span><span>&emsp;</span>iii) the calculated current determined in accordance with Rule [[CEC s.28#2)|28-106 2)]] for motors for use on non-continuous duty service. 
+> 2) Where the circuitry is interlocked in order to prevent all motors of the group from running at the same time, the size of the conductors feeding the group shall be permitted to be determined for the motor, or group of motors operating at the same time, that has the largest rating selected as determined in Subrule 1).
+> 3) Demand factors shall be permitted to be applied where the character of the motor loading justifies reduction of the ampacity of the insulated conductors to less than the ampacity specified in Subrule 1), provided that
+> 	<span>&emsp;</span>a) the insulated conductors have sufficient ampacity for the maximum demand load; and
+> 	<span>&emsp;</span>b) the rating or setting of the overcurrent devices protecting them is in accordance with [[CEC s.28#28-204 Feeder overcurrent protection|Rule 28-204]]. 
 # 28-110 Feeder conductors
-## 1)
-> Where a feeder supplies both motor loads and other loads, the ampacity of the insulated conductors shall be calculated in accordance with rules [[CEC s.28#28-106 Insulated conductors - individual motors|28-106]] and [[CEC s.28#28-108 Insulated conductors - Two or more motors|28-108]] plus the requirements of the other loads. 
+> 1) Where a feeder supplies both motor loads and other loads, the ampacity of the insulated conductors shall be calculated in accordance with rules [[CEC s.28#28-106 Insulated conductors - individual motors|28-106]] and [[CEC s.28#28-108 Insulated conductors - Two or more motors|28-108]] plus the requirements of the other loads. 
+> 2) The ampacity of a tap from a feeder to a single set of overcurrent devices protecting a motor branch circuit shall not be less than that of the feeder, except that the ampacity of the tap shall be permitted to be calculated in accordance with Rules [[CEC s.28#28-106 Insulated conductors - individual motors|28-106]] and [[CEC s.28#28-108 Insulated conductors - Two or more motors|28-108]] if the tap does not exceed
+> 	<span>&emsp;</span>a) $3\ \mathrm{m}$ in length and is enclosed in metal; or
+> 	<span>&emsp;</span>b) $7.5\ \mathrm{m}$ in length, has an ampacity not less than one-third that of the feeder, and is suitably protected from mechanical damage. 
 
 In other words, the conductor sizing for a circuit with a motor and other loads on it requires first finding the motor load conductors and then adding the other loads.
 # 28-200 Branch circuit overcurrent protection
-## 1)
-> Each ungrounded conductor of a motor branch circuit shall be protected by an overcurrent device in accordance with Subrules 2) to 5).
-## 2)
-> The overcurrent device required by subrule 1)  shall be
-> a) a non-time-delay [[Fuse|fuse]];
-> b) a time-delay fuse;
-> c) an inverse-time [[Circuit Breaker|circuit breaker]];
-> d) an instantaneous-trip (magnetic only) circuit interrupter applied in accordance with [[CEC s.28#28-210 Instantaneous-trip circuit breakers|Rule 28-210]]; or
-> e) a self-protected combination motor controller selected in accordance with [[CEC s.28#28-500 Control Required|Rule 28-500]].
-## 3)
-> The rating of the overcurrent device required by Subrule 1) shall
-> a) not exceed the values given in [[CEC t.29|table 29]] using the rated full load current of the motor, except that an overcurrent device having a minimum rating or setting of $15\pu{ A}$ shall be permitted even though
+> 1) Each ungrounded conductor of a motor branch circuit shall be protected by an overcurrent device in accordance with Subrules 2) to 5).
+> 2) The overcurrent device required by subrule 1)  shall be
+> 	<span>&emsp;</span>a) a non-time-delay [[Fuse|fuse]];
+> 	<span>&emsp;</span>b) a time-delay fuse;
+> 	<span>&emsp;</span>c) an inverse-time [[Circuit Breaker|circuit breaker]];
+> 	<span>&emsp;</span>d) an instantaneous-trip (magnetic only) circuit interrupter applied in accordance with [[CEC s.28#28-210 Instantaneous-trip circuit breakers|Rule 28-210]]; or
+> 	<span>&emsp;</span>e) a self-protected combination motor controller selected in accordance with [[CEC s.28#28-500 Control Required|Rule 28-500]].
+> 3) The rating of the overcurrent device required by Subrule 1) shall
+> 	<span>&emsp;</span>a) not exceed the values given in [[CEC t.29|table 29]] using the rated full load current of the motor, except that an overcurrent device having a minimum rating or setting of $15\pu{ A}$ shall be permitted even though it exceeds the values specified in [[CEC t.29|Table 29]]; and
+> 	<span>&emsp;</span>b) for a branch circuit supplying two or more motors, not exceed the maximum value permitted by [[CEC s.28#28-206 Grouping of motors on a single branch circuit|Rule 28-206]].
 ![[CEC t.29]]
+> 4) Where an overcurrent device rated in accordance with Subrule 3) a) will not permit the motor to start, the rating or setting of the overcurrent device shall be permitted to be increased as follows:
+> 	<span>&emsp;</span>a) for a non-time-delay fuse, not more than
+> 		<span>&emsp;</span><span>&emsp;</span>i) 400% of the motor full load current, for fuses rated up to $600\ \mathrm{A}$; or
+> 		<span>&emsp;</span><span>&emsp;</span>ii) 300% of the motor full load current, for fuses rated $601$ to $6000\ \mathrm{A}$;
+> 	<span>&emsp;</span>b) for a time-delay fuse, not more than 225% of the motor full load current; and
+> 	<span>&emsp;</span>c) for an inverse time circuit breaker, not more than
+> 		<span>&emsp;</span><span>&emsp;</span>i) 400% of the motor full load current, for circuit breakers rated up to $100\ \mathrm{A}$; or
+> 		<span>&emsp;</span><span>&emsp;</span>ii) 300% of the motor full load current, for circuit breakers rated greater than $100\ \mathrm{A}$.
+> 5) Where the overcurrent device required by Subrule 1) is a thermal magnetic circuit breaker that has separate instantaneous-trip settings, the instantaneous-trip setting shall not be greater than that specified in [[CEC s.28#28-210 Instantaneous-trip circuit breakers|Rule 28-210]].
 # 28-204 Feeder overcurrent protection
-## 1)
-> For a feeder supplying motor branch circuits only, the ratings or settings of the feeder overcurrent device shall not exceed the calculated value of the overcurrent devices permitted by Rule [[CEC s.28#28-200 Branch circuit overcurrent protection|28-200]] for the motor that is permitted the highest rated overcurrent devices of any motor supplied by the feeder, plus the sum of the full load current ratings of all other motors that will be in operation at the same time.
-## 2)
-> Where a feeder supplies a group of motors, two or more of which are required to start simultaneously, and the feeder overcurrent devices as calculated in accordance with Subrule 1) are not sufficient to allow the motors to start, the rating or setting of the feeder overcurrent devices shall be permitted to be increased as necessary, to a maximum that does not exceed the rating permitting for a single motor having a full load current rating not less than the sum of the full load current ratings of all other motors that will be in operation at the same time, provided that this value does not exceed $300\%$ of the ampacity of the feeder conductors.
-## 3)
-> Where a feeder supplies one or more motor branch circuits together with other loads, the overcurrent protection required shall be determined by calculating the overcurrent protection required for the motor circuits and adding to this value the requirements of the other loads supplied by the feeder.
+> 1) For a feeder supplying motor branch circuits only, the ratings or settings of the feeder overcurrent device shall not exceed the calculated value of the overcurrent devices permitted by Rule [[CEC s.28#28-200 Branch circuit overcurrent protection|28-200]] for the motor that is permitted the highest rated overcurrent devices of any motor supplied by the feeder, plus the sum of the full load current ratings of all other motors that will be in operation at the same time.
+> 2) Where a feeder supplies a group of motors, two or more of which are required to start simultaneously, and the feeder overcurrent devices as calculated in accordance with Subrule 1) are not sufficient to allow the motors to start, the rating or setting of the feeder overcurrent devices shall be permitted to be increased as necessary, to a maximum that does not exceed the rating permitting for a single motor having a full load current rating not less than the sum of the full load current ratings of all other motors that will be in operation at the same time, provided that this value does not exceed $300\%$ of the ampacity of the feeder conductors.
+> 3) Where a feeder supplies one or more motor branch circuits together with other loads, the overcurrent protection required shall be determined by calculating the overcurrent protection required for the motor circuits and adding to this value the requirements of the other loads supplied by the feeder.
+> 4) Where a demand factor has been applied as permitted in [[CEC s.28#28-108 Insulated conductors - Two or more motors|Rule 28-108]] 3), the rating or setting of the overcurrent device(s) protecting a feeder shall not exceed the ampacity of the feeder, except as permitted by [[CEC s.14#14-104 Rating of overcurrent devices|Rule 14-104]] and [[CEC t.13|Table 13]].
 
 Similar to [[CEC s.28#1)|here]], the overcurrent protection is first found by determining the motor circuit overcurrent protection and then adding to it the requirements of the other loads.
 # 28-210 Instantaneous-trip circuit breakers

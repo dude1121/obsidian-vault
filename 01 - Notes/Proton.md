@@ -14,7 +14,5 @@ $$
 which is slightly less than the mass of a [[Neutron|neutron]]. This mass is approximately equal to the [[Atomic Mass Unit|atomic mass unit]] $u$. 
 
 The number of protons within an atom are what define the [[Element (Chemistry)|element]] of that atom along with its [[Atomic Number|atomic number]].
-
 # Standard Model
-
 Within the [[Standard Model of Physics|standard model]], protons are understood to be made up of three valence [[Quark|quarks]]: two [[Up (Quark)|up quarks]] and one [[Down (Quark)|down quark]]. Protons are classified as both [[Fermion|fermions]] and [[Hadron|hadrons]].

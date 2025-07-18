@@ -17,6 +17,10 @@
 
 }
 
+.callout[data-callout="lightbulb"] {
+    --callout-color: 253, 165, 77;
+}
+
 .HyperMD-header-1 {
     font-size: 2.25em;
 }

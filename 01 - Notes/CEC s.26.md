@@ -91,8 +91,6 @@ I.e., if there are exposed live parts of the transformer then the enclosure requ
 I.e., if the primary current is $100\ \pu{ A}$, each conductor needs to be rated for no more than $150\ \pu{ A}$. 
 
 For example, if the primary current is $90\ \pu{ A}$, then $150\%$ of the primary current is $135\ \pu{ A}$, which does not correspond to a standard breaker size (see [[CEC t.13|table 13]]). This rule allows us to go up to a $150\ \pu{ A}$ breaker.
-
-
 ## 26-254 Overcurrent protection for dry-type transformer circuits rated $750\ \pu{ V}$ or less
 > 1) Except as permitted in Subrule 2), each ungrounded conductor of the transformer feeder or branch circuit supplying the transformer shall be provided with overcurrent protection rated or set at not more than $125\%$ of the rated primary current of the transformer, and this primary overcurrent device shall be considered as protecting secondary conductors rated at $125\%$ or more of the rated secondary current.
 > 2) Notwithstanding Subrule 1), a transformer having an overcurrent device on the secondary side set at not more than $125\%$ of the rated secondary current of the transformer shall not be required to have an individual overcurrent device on the primary side, provided that the primary feeder overcurrent device is set at not more than $300\%$ of the rated primary current of the transformer.
@@ -285,7 +283,7 @@ Rules 26-302 to 26-324 apply to fences for guarding electrical equipment, especi
 - **Laundry room**: 1 additional duplex
 - **Utility room**: 1 duplex
 - **Unfinished basement**: 1 duplex
-- **Bathrooms/washrooms**: 1 receptacle within 1 m of a wash basin
+- **Bathrooms/washrooms**: 1 receptacle within $1\ \mathrm{m}$ of a wash basin
 ##### f) Bathroom Proximity
 - Bathroom receptacles must be at least $500\ \mathrm{mm}$, preferably $1\ \mathrm{m}$, away from bathtubs or showers, measured horizontally.
 ##### g) Cabinet Receptacle Exceptions

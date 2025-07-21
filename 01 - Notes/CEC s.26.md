@@ -345,6 +345,73 @@ Receptacles must be installed for:
 > 2) At least one duplex receptacle shall be installed on single dwellings having a continuous perimeter at grade level of $20\ \mathrm{m}$ or less.
 > 3) At least one duplex receptacle readily accessibly from floor or grade level shall be provided for each car space in a garage or carport of a single dwelling.
 > 4) One receptacle shall be provided in a garage for each cord-connected overhead garage door opener and located within $1\ \mathrm{m}$ of the overhead door opener.
+# Electric heating and cooking appliances
+## 26-740 Location of non-portable appliances
+> Non-portable electric heating and cooking appliances shall be installed so that the danger of igniting adjacent combustible material is reduced to a minimum.
+## 26-742 Separate built-in cooking units
+> Tap conductors feeding individual built-in cooking units from a single branch circuit shall be permitted to be smaller than the branch circuit conductors, provided that the tap conductors
+> 	<span>&emsp;</span>a) are not more than $7.5\ \mathrm{m}$ in length;
+> 	<span>&emsp;</span>b) have an ampacity not less than the ampere rating of the built-in cooking unit they supply; and
+> 	<span>&emsp;</span>c) have an ampacity not less than one-third the ampere rating of the branch circuit overcurrent device.
+## 26-744 Supply connections for appliances
+### Code text
+> 1) Except as permitted in Subrule 10), all electric heating and cooking appliances shall have only one point of connection for supply.
+> 2) Where an electric clothes dryer having an input in excess of $1500\ \mathrm{W}$ at $115\ \mathrm{V}$ but not exceeding $30\ \mathrm{A}$ is intended to be installed in a dwelling unit, a receptacle of CSA configuration 14-30R, as shown in [[CEC d.1|Diagram 1]], shall be installed for the supply of energy to the appliance.
+> 3) An electric clothes dryer having an input in excess of $1500\ \mathrm{W}$ at $115\ \mathrm{V}$ but not exceeding $30\ \mathrm{A}$, and used in a dwelling unit, shall be cord-connected by means of a cord and attachment plug of CSA configuration 14-30P to the receptacle referred to in Subrule 2).
+> 4) Where a free-standing electric range, having a calculated demand of $50\ \mathrm{A}$ or less, is intended to be installed in a dwelling unit, a receptacle of CSA configuration 14-50R, as shown in [[CEC d.1|Diagram 1]], shall be installed for the supply of electric energy to the appliance.[^9]
+> 5) The receptacle required by Subrule 4) shall be permitted to be connected to a branch circuit rated at not less than $40\ \mathrm{A}$.
+> 6) The receptacle required by Subrule 4) shall be installed 
+> 	<span>&emsp;</span>a) above the finished floor at a height not exceeding 130 mm to the centre of the receptacle;
+> 	<span>&emsp;</span>b) as near midpoint as is practicable, measured along the floor line of the wall space intended for the electric range; and
+> 	<span>&emsp;</span>c) with the U-ground slot oriented to either side.
+> 7) In a dwelling unit, a free-standing electric range having a calculated demand of $50\ \mathrm{A}$ or less shall be cord-connected by means of a cord and attachment plug of CSA configuration 14-50P.
+> 8) Appliances that are intended for connection by a wiring method as specified in [[CEC s.12|Section 12]] shall be permitted to be cord-connected using an attachment plug and receptacle.
+> 9) The receptacles required by Subrules 2) and 4) shall be flush-mounted wherever practicable.
+> 10) A permanently connected electric heating and cooking appliance provided with multiple points of connection shall be permitted to be supplied from more than one branch circuit provided 
+> 	<span>&emsp;</span>a) the appliance is marked accordingly; and
+> 	<span>&emsp;</span>b) connection to the different branch circuits conforms to [[CEC s.14#14-414 Connection to different circuits|Rule 14-414]].
+
+The following is added by the OESC:
+> 11) Where a wiring system intended to supply an electric clothes dryer is installed, it shall be connected to a receptacle as outlined in Subrule 3) at the load end and connected to the panelboard at the supply end.
+> 12) Where a receptacle as required by Subrule 3) is installed, it shall be connected to the panelboard by a wiring system as specified in [[CEC s.12|Section 12]].
+> 13) The range receptacle referred to in Subrule 4) shall be connected to the panelboard by a wiring system as specified in [[CEC s.12|Section 12]] and shall have overcurrent protection as required by [[CEC s.14|Section 14]].
+> 14) Notwithstanding Subrule 4), the range receptacle need not be installed in
+> 	<span>&emsp;</span>a) dwelling units where a built-in gas fired or electric cooktop or a built-in gas-fired or electric oven is installed;
+> 	<span>&emsp;</span>b) other than single dwellings where provision has been made for a gas range; or
+> 	<span>&emsp;</span>c) dwelling units where power from a supply authority is not available and the capacity of local generation is less than $6\ \mathrm{kW}$.
+### Summary
+#### CEC/OESC Summary – Electric Heating and Cooking Appliances in Dwelling Units
+##### Single Point of Connection
+- All electric heating and cooking appliances must have **only one supply connection**, except as allowed by Subrule 10.
+##### Clothes Dryer Receptacle Requirements
+- For electric clothes dryers within the specified input range:
+  - Install a **CSA 14-30R receptacle** (see Diagram 1).
+  - Dryer must be **cord-connected** using a **CSA 14-30P plug**.
+  - The receptacle must be connected at the panelboard using a wiring system compliant with **Section 12**.
+##### Range Receptacle Requirements
+###### CEC (General Rule)
+- If a free-standing electric range with **calculated demand ≤ specified limit** is intended:
+  - Install a **CSA 14-50R receptacle** (see Diagram 1).
+###### OESC (Ontario Only – *Replaces Subrule 4)*)
+- A **CSA 14-50R receptacle** must be installed at a **suitable location** in:
+  - **Every single dwelling**, and
+  - **Every dwelling unit** in an **apartment or multi-unit building**,
+  - To supply energy to an **electric range**, regardless of whether one is immediately installed.
+###### Additional Requirements for All Jurisdictions
+- The **14-50R receptacle** must be:
+  - Connected to a branch circuit rated **not less than the specified minimum**
+  - Mounted **≤130 mm above the floor** (centerline)
+  - Positioned **as close to midpoint** of the intended wall space as practical
+  - Installed with the **U-ground slot oriented sideways**
+- The receptacle must be wired per **Section 12** and protected as per **Section 14**.
+- The range receptacle **need not be installed** if:
+  - A **built-in cooktop or oven** (gas or electric) is used
+  - A **gas range** is provided (excluding single dwellings)
+  - **Utility power is unavailable** and **local generation capacity is below a specified threshold**
+##### General Requirements
+- Receptacles (dryer and range) must be **flush-mounted** wherever practicable.
+- Appliances typically wired per Section 12 may be **cord-connected** using approved plugs and receptacles.
+- Appliances with **multiple points of connection** may be supplied by more than one branch circuit **if marked** and connected per **Rule 14-414**.
 
 [^1]: The intent of these Subrules is to provide both series (also called low-level) and parallel (also called high-level) arc-fault protection downstream from the panelboard through the entire branch circuit wiring, including cord sets and power supply cords connected to the outlets.
 	
@@ -371,3 +438,5 @@ Receptacles must be installed for:
 	It is not intended that the $1.5\ \mathrm{m}$ dimension be extended through a wall opening that is fitted with a door. Where a room combines a wash basin or shower/bathing facilities with an area serving another purpose, such as an ensuite bathroom in a bedroom, requirements for receptacles located in such rooms or areas should be considered similar to the requirements for receptacles located in bathrooms and washrooms.
 	
 	It is also intended that no receptacle be located directly behind any sink unless the distance between the wall and the inside edge of the sink exceeds $450\ \mathrm{mm}$, such as in the case of a diagonal corner sink. ![[cec-figure-b26-1.png]]
+
+[^9]: OESC: A receptacle of CSA configuration 14-50R, as shown in [[CEC d.1|Diagram 1]], shall be installed at a suitable location in every single dwelling and in every dwelling unit of an apartment or similar multi-dwelling building for supplying electric energy to an electric range.

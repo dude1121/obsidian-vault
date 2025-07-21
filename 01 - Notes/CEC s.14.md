@@ -127,6 +127,24 @@ The "others" in c) would apply to things like motors (see [[CEC s.28]]) or welde
 > 	<span>&emsp;</span>b) each supply circuit shall be provided with a disconnecting means integral with or adjacent to the equipment, and the disconnecting means shall be grouped together.
 ## 14-416 Control devices used only for switching
 > Except as permitted by other Rules in this Code, control devices that perform only switching functions shall disconnect all ungrounded conductors of the controlled circuit when in the OFF position.
+## 14-418 Disconnecting means (OESC only)
+> 1)  A single disconnecting means shall be provided either integral with or adjacent to the distribution equipment 
+> 	<span>&emsp;</span>a)  within each unit of a multi-unit building, other than a dwelling unit; 
+> 	<span>&emsp;</span>b)  within each area common to more than one building (e.g., an underground parking area); or 
+> 	<span>&emsp;</span>c)  within each building when fed from another building. 
+> 2)  Subrule 1) does not apply to circuits from part of fire alarm, fire protection, and emergency systems. 
+> 3)  Where more than one feeder supplies a unit or building, a single disconnecting means as required by Subrule 1) shall be permitted for each feeder.
+# Switches
+## 14-510 Use and rating of manually operated general-use ac switches
+> 1) Manually operated general-use switches intended for ac systems shall have an ampere rating not less than the current rating of the load when they are installed in branch circuits supplying 
+> 	<span>&emsp;</span>a) tungsten-filament lamp loads at 120 V maximum;
+> 	<span>&emsp;</span>b) non-inductive loads; or
+> 	<span>&emsp;</span>c) inductive loads at not less than 75% power factor lag.
+> 2) The current rating of the switches shall be not less than $15\ \mathrm{A}$ in conjunction with a voltage rating of $120$ or $277\ \mathrm{V}$.
+> 3) Switches shall be adapted for mounting in flush-device boxes, surface-type boxes, or special boxes or have complete self-enclosures.
+> 4)  When two or more single disconnecting means are installed in a unit or building in accordance with Subrule 3), all disconnecting means shall 
+> 	<span>&emsp;</span>a)  be grouped together, where practical; or 
+> 	<span>&emsp;</span>b) have a permanent diagram posted on or near each disconnect, indicating the location of all the other single disconnects supplying power to the building or unit.
 # Protection and control of miscellaneous apparatus
 ## 14-600 Protection of receptacles
 > Receptacles shall not be connected to a branch circuit having overcurrent protection rated or set at more than the ampere rating of the receptacle, except as permitted by other Sections of this Code.

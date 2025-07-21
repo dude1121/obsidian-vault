@@ -184,7 +184,7 @@ Use the greater of:
 > 		v) 10% of the sum of the calculated loads in the remaining units;
 > 	b) if electric space heating is used, the sum of all the space-heating loads as determined in accordance with the requirements of [[CEC s.62|Section 62]] shall be added to the load determined in accordance with Item a), subject to [[CEC s.8#8-106 Use of demand factors|Rule 8-106]] 3);
 > 	c) if air conditioning is used, the sum of all the air-conditioning loads shall be added, with a demand factor of 100%, to the load determined in accordance with Items a) and b), subject to [[CEC s.8#8-106 Use of demand factors|Rule 8-106]] 3);
-> 	d) except as permitted by [[CEC s.8#8-106 Use of demand factors|Rule 8-106]] 10) or [[CEC s.8#8-106 Use of demand factors|Rule 8-106]] 11), any electric vehicle supply equipment loads not supplied from a panelboard installed in a dwelling unit in accordance with [[CEC s.8#8-202 Apartment and similar buildings|Rule 8-202]] 1) a) vii), shall be added with a demand of 100%; and
+> 	d) except as permitted by [[CEC s.8#8-106 Use of demand factors|Rule 8-106]] 10) or [[CEC s.8#8-106 Use of demand factors|Rule 8-106]] 11), any electric vehicle supply equipment loads not supplied from a panelboard installed in a dwelling unit in accordance with [[CEC s.8#8-202 Apartment and similar buildings|Rule 8-202]] 1) a) vii), shall be added with a demand of 100%; and[^1]
 > 	e) in addition, any lighting, heating, and power loads not located in dwelling units shall be added with a demand factor of 75%.
 > 4) The ampacity of feeder conductors from a service supplying loads not located in dwelling units shall be not less than the rating of the equipment installed with demand factors as permitted by this Code.
 ---
@@ -316,6 +316,11 @@ L_{\ \mathrm{service-total}}&=(75\%\cdot R\cdot 900\ \mathrm{m^2}) + (50\%\cdot 
 \end{align}
 $$
 ---
+## 8-210 Other types of occupancy
+> The calculated load for the service or feeder for the types of occupancies listed in [[CEC t.14|Table 14]] shall be based on
+> 	<span>&emsp;</span>a) a basic load in watts per square metre as required by [[CEC t.14|Table 14]] for the area of the occupancy served based on the outside dimensions of the occupancy, with application of demand factors as indicated in [[CEC t.14|Table 14]]; plus
+> 	<span>&emsp;</span>b) special loads such as electric space-heating, air-conditioning, motor loads, show window lighting, stage lighting, etc., based on the rating of the equipment installed with demand factors permitted by this Code; plus
+> 	<span>&emsp;</span>c) except as permitted by [[CEC s.8#8-106 Use of demand factors|Rule 8-106]] 10) or [[CEC s.8#8-106 Use of demand factors|Rule 8-106]] 11), any electric vehicle supply equipment loads with a demand factor of 100%.
 ## 8-212 Exit sign, emergency lighting, and show window loads
 > 1) Where a panel is supplying specific types of lighting, such as exit signs or emergency lighting, which may be located throughout a building such that it is impossible to calculate the area served, the connected load of the circuits involved shall be used in determining a feeder size.
 > 2) For show window lighting installations, the demand load shall be determined on the assumption that not less than $650\ \mathrm{W/m}$ will be required measured along the base of the window(s), except that a lower figure shall be permitted where a deviation has been allowed in accordance with [[CEC s.2#2-030 Deviation or postponement|Rule 2-030]].
@@ -351,3 +356,5 @@ $$
 **Note:** "Outlets" can be [[Electrical Receptacle|receptacles]] or [[Light Fixture|lights]]. In *residential* construction, lights and receptacles *can* be on the same circuit. In *commercial*/*industrial* applications, these loads are typically on separate circuits.
 
 If the connected load is something like lights, the load is known, and so long as the designer does not exceed the ampacity rating of the circuit, more than the maximum number of outlets may be used.
+
+[^1]:  OESC: EVSEs are to be given a demand factor of 100% *regardless* of how they are connected.

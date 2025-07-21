@@ -193,7 +193,7 @@ Depending on the location of the Q-point along the dc load line, an input signal
 ![[signal-cutoff.png]]
 When designing an amplifier then, the designer must make sure that the Q-point will not result in signal distortion.
 ## Voltage Divider Bias
-In most circuits analyzed so far, there was a separate source biasing the base of the transistor. But in practice, this typically is not the case. Instead a single source, $V_{CC}$, is used to bias the transistor and provide a voltage source to the collector. One way this can be done is through a [[Voltage Divider Rule|voltage divider]] circuit.
+In most circuits analyzed so far, there was a separate source biasing the base of the transistor. But in practice, this typically is not the case. Instead a single source, $V_{CC}$, is used to bias the transistor and provide a voltage source to the collector. One way this can be done is through a [[Voltage Divider|voltage divider]] circuit.
 
 Typically, the circuit is designed such that the base current $I_{B}$ is much smaller than the current through the second resistor in the voltage divider, $I_{{2}}$.
 ```tikz

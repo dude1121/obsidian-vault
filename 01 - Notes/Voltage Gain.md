@@ -10,4 +10,4 @@ tags:
 $$
 A_{v}=\frac{V_{o}}{V_{i}}
 $$
-Typically if $A_{v}<1$, it is called the circuits *attenuation* and not gain, since the output voltage is not greater than the output voltage.
+Typically if $A_{v}<1$, it is called the circuit's *attenuation* and not gain, since the output voltage is not greater than the output voltage.

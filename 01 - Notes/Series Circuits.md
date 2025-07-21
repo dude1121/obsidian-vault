@@ -27,7 +27,7 @@ We can write an equation summarizing KVL as,
 $$ E_{S1}-V_{R1}-V_{R2}=0\text{V} $$
 The signs of each voltage depend on the convention assumed. In this case, we assume conventional current flow, meaning that current flows from the positive side of $E_{S1}$ into $R_1$ and $R_2$. This means that the voltages across the two resistors _oppose_ the voltage from the source. In this case, we mark the voltages across the resistors as negative. In general, if we draw our loop in a given direction, say clockwise, any voltage arrow that is in the same direction as the rotation is positive in our KVL equation, and any arrow that opposes our “loop” is negative. From this we can see that
 $$ E_{S1}=V_{R1}+V_{R2} $$
-We can further derive a **[[Voltage Divider Rule|voltage divider rule]]**. If we know the resistances of all the resistors and the total voltage across all of them, we can find each [[Resistor|resistor]]’s voltage without needing to know the current. In the case above with two resistors, the voltage across $R_2$ can be found by,
+We can further derive a **[[Voltage Divider|voltage divider rule]]**. If we know the resistances of all the resistors and the total voltage across all of them, we can find each [[Resistor|resistor]]’s voltage without needing to know the current. In the case above with two resistors, the voltage across $R_2$ can be found by,
 $$ V_{R2}=E_{S1}\left(\frac{R_2}{R_T} \right) $$
 Put generally,
 $$ V_{R_n}=\left(\sum_i V_{R_i}\right)\left(\frac{R_n}{\displaystyle\sum_iR_i} \right) $$

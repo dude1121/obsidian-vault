@@ -3,7 +3,7 @@
   "enabledCssSnippets": [
     "main"
   ],
-  "baseFontSize": 16,
+  "baseFontSize": 18,
   "cssTheme": "Solarized",
   "theme": "moonstone",
   "interfaceFontFamily": "Hasklug Nerd Font",

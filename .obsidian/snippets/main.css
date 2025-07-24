@@ -98,3 +98,8 @@
     font-weight: bold;
     color: var(--h1-color);
 }
+
+.icon {
+    display: inline-block;
+    height: 1em;
+}

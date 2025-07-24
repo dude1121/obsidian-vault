@@ -2,6 +2,7 @@
 tags:
   - mathematics
   - physics
+  - electrical-engineering
 ---
 The **Dirac delta function**, sometimes called the **delta distribution** or **unit impulse**, is a function that has the properties of having a value of zero everywhere except at zero where it has a value of [[Infinity|infinity]]. It is defined as,
 $$

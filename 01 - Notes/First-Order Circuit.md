@@ -124,7 +124,21 @@ $$
 w_{R}(t)=\frac{1}{2}LI_{0}^2(1-e^{-2t/\tau})
 $$
 # Step response of an RC circuit
-When a dc source is suddenly applied to an RC circuit
+When a dc source is suddenly applied to an RC circuit, the voltage can be modeled as a [[Heaviside Function|step function]], with the response known as a *step response*.
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{circuitikz}
+\draw
+(0,0) to[cC, l_=$C$, i=$i_C$] ++(0,-3) to[short] ++(1.5,0) node[](B){} to[short] ++(1.5,0)
+(0,0) to[short] ++(1.5,0) node[ocirc](A){} node[above]{$a$} to[switch] ++(1.5,0) to[R, l=$R$, i=$i_R$] ++(0,-3)
+(A) to[open, v<=$v$] (B)
+(B) node[circ]{} node[ground]{}
+;
+\end{circuitikz}
+\end{document}
+```
+
 
 [^1]: Note that this need not be 1 discrete capacitor and 1 discrete resistor but could also be an equivalent of numerous components.
 

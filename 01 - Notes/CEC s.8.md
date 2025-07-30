@@ -24,7 +24,7 @@ controller(s), a timer(s), and other applicable device(s).
 > 3) Notwithstanding Subrule 1), wiring for general-use branch circuits rated at not more than $120\ \mathrm{V}$ or $20\ \mathrm{A}$ in dwelling units, with the insulated conductor length measured from the supply side of the consumer's service to the furthest point of utilization in accordance with the values in [[CEC t.68|Table 68]], shall be acceptable.
 > 4) Notwithstanding Subrule 1), at industrial establishments where conditions of maintenance and supervision ensure use by qualified persons, the design shall ensure that the voltage at the point of utilization is within the rating or voltage tolerance of the connected device(s).
 
-The connected load voltage should be used if known, else use $80\%$ of the rating of the [[Overcurrent Device|overcurrent device]] to find the [[Voltage Drop|voltage drop]]. This calculated voltage drop can not be more than $3\%$ in a feeder or branch circuit and it can not be more than $5\%$ of the total service voltage.
+The connected load voltage should be used if known, else use $80\%$ of the rating of the [[Overcurrent Device|overcurrent device]] to find the [[Voltage Drop|voltage drop]]. This calculated voltage drop can not be more than $3\%$ in a feeder or branch circuit and it can not be more than $5\%$ of the total service voltage. Refer to [[CEC t.d3|Table D3]] for calculating voltage drop.
 ## 8-104 Maximum circuit loading
 > 1) The ampere rating of a consumer's service, feeder, or branch circuit shall be the ampere rating of the overcurrent device protecting the circuit or the ampacity of the conductors, whichever is less.
 > 2) The calculated load in a circuit shall not exceed the ampere rating of the circuit.

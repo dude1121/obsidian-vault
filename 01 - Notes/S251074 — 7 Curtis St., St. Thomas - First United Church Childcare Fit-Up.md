@@ -1,7 +1,7 @@
 ---
 scope: renovation
 started: 2025.07.24
-latest-update: 2025.07.30
+latest-update: 2025.08.01
 ongoing: y
 ici: y
 murb: n
@@ -93,5 +93,8 @@ Started **07/24/2025**. Received RCP from Architect **07/25/2025**. Refer to sim
 	- [x] Add general purpose receptacles to north and south walls
 ## Power plan
 No circuiting. Reusing some existing receptacles.
+### Fire alarm
+Referred to [[NBC div. B s.3.2.4|NBC s. 3.2.4.]] and [[NBC div. B s.9.10.18|9.10.18]] for locations of fire detectors. Remote trouble lights added at entrances. Ceiling horns/strobes in corridors and rooms (at least 15' from end of corridor). Fire alarm strobes must be visible at any point in the [[NBC Term - Floor area|floor area]] as per NBC.
 ### Unique notes
-<span>&emsp;</span>F. ALL RECEPTACLES MUST BE TAMPER RESISTANT AND MARKED AS SUCH.
+1. ALL RECEPTACLES WITHIN CHILDCARE AREAS ARE TO BE TAMPER-RESISTANT AND MARKED AS SUCH.
+2. ANY EXISTING DEVICES IN EXCESS OF THOSE ON DRAWINGS USED FOR RENOVATION ARE TO BE REMOVED/DEMOLISHED. EXISTING CONNECTED TO BE CAPPED AND MADE SAFE.

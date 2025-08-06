@@ -1,7 +1,7 @@
 ---
 scope: renovation
 started: 2025.07.21
-latest-update: 2025.07.24
+last-update: 2025.07.24
 ongoing: n
 ici: y
 murb: n

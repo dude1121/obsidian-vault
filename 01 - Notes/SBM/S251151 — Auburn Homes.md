@@ -1,7 +1,7 @@
 ---
 scope: photometric
 started: 07.23.2025
-latest-update: 07.30.2025
+last-update: 07.30.2025
 ongoing: n
 ici: n
 murb: n

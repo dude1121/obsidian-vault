@@ -5,5 +5,10 @@
   "obsidian-excalidraw-plugin",
   "omnisearch",
   "obsidian-tikzjax",
-  "obsidian-latex-suite"
+  "obsidian-latex-suite",
+  "obsidian-full-calendar",
+  "obsidian-tasks-plugin",
+  "homepage",
+  "dataview",
+  "templater-obsidian"
 ]

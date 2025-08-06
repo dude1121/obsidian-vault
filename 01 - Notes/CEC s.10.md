@@ -88,15 +88,15 @@ That is, the lightning protection system needs to have its own separate groundin
 >  3) Notwithstanding Subrule 2), a bonding bushing shall not be required for cable assemblies incorporating an internal bonding conductor in continuous contact with the cable armour, provided that the internal bonding conductor extends from the cable and connects to the service equipment.
 ## 10-610 Bonding means — Fixed equipment
 > 1) The bonding means for fixed equipment shall consist of one of the following:
-	a) an effective metallic interconnection between fixed equipment, consisting of metal raceway, metal sheath, or cable armour except
-		i) armour as specified in Subrules 2) and 3);
-		ii) the sheath of mineral-insulated cable when not of copper or aluminum, as specified in Subrule 4); or
-		iii) where the raceway or cables are
-			A) run underground;
-			B) run in locations coming within the scope of [[CEC s.22|Section 22]]; or
-			C) otherwise subject to corrosion;
-	 b) a bonding conductor that is run with circuit conductors as part of a cable; or
-	 c) a bonding conductor that is run with circuit conductors installed in raceways.
+> 	<span>&emsp;</span>a) an effective metallic interconnection between fixed equipment, consisting of metal raceway, metal sheath, or cable armour except
+> 		<span>&emsp;</span><span>&emsp;</span>i) armour as specified in Subrules 2) and 3);
+> 		<span>&emsp;</span><span>&emsp;</span>ii) the sheath of mineral-insulated cable when not of copper or aluminum, as specified in Subrule 4); or
+> 		<span>&emsp;</span><span>&emsp;</span>iii) where the raceway or cables are
+> 		<span>&emsp;</span><span>&emsp;</span><span>&emsp;</span>A) run underground;
+> 		<span>&emsp;</span><span>&emsp;</span><span>&emsp;</span>B) run in locations coming within the scope of [[CEC s.22|Section 22]]; or
+> 		<span>&emsp;</span><span>&emsp;</span><span>&emsp;</span>C) otherwise subject to corrosion;
+> 	<span>&emsp;</span>b) a bonding conductor that is run with circuit conductors as part of a cable; or
+> 	<span>&emsp;</span>c) a bonding conductor that is run with circuit conductors installed in raceways.
 > 2) The armour of armoured cables incorporating a bonding conductor shall not be deemed to fulfill the requirements of a bonding conductor except where both the armour and the bonding conductor are in continuous electrical contact. 
 > 3) Unless otherwise marked, the armour of flexible metal conduit and liquid-tight flexible metal conduit shall not be deemed to fulfill the requirements of a bonding conductor, and a bonding conductor shall be run within the conduit.
 > 4) The sheath of mineral-insulated cable, when not of copper or aluminum, shall not be deemed to fulfill the requirements of the bonding conductor, and bonding shall be by the method specified in Subrule 1) b).

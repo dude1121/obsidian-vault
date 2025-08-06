@@ -1,0 +1,26 @@
+{
+  "calendarSources": [
+    {
+      "type": "local",
+      "color": "#e60f0f",
+      "directory": "04 - Calendar/SBM"
+    },
+    {
+      "type": "local",
+      "color": "#e17c09",
+      "directory": "04 - Calendar/Personal"
+    },
+    {
+      "type": "local",
+      "color": "#18bdc9",
+      "directory": "04 - Calendar/Commute"
+    }
+  ],
+  "defaultCalendar": 0,
+  "firstDay": 0,
+  "initialView": {
+    "desktop": "timeGridWeek",
+    "mobile": "timeGrid3Days"
+  },
+  "timeFormat24h": true
+}

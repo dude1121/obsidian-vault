@@ -26,3 +26,12 @@ Issued for *Permit* **07/18/2025**.
 ![[S251074 — 7 Curtis St., St. Thomas - First United Church Childcare Fit-Up]]
 # S250107 — Talu - Block 50 Jackson Midrise Apartments
 ![[S250107 — Talu - Block 50 Jackson Midrise Apartments]]
+# S251487 — Comfort Lane 2054 Adelaide St. N
+![[S251487 — Comfort Lane 2054 Adelaide St. N]]
+# SBM-24-0653 — 46 Elmwood Pl - London
+![[SBM-24-0653 — 46 Elmwood Pl]]
+# SBM-23-1910 — Maple Reinders - Landscape Ontario - 7856 Fifth Line S, Milton
+![[SBM-23-1910 — Maple Reinders - Landscape Ontario - 7856 Fifth Line S, Milton]]
+
+# Tasks
+- [ ] Remind El to add Site Lighting Power notes to general commercial notes template for review. ➕ 2025-08-06 📅 2025-08-12

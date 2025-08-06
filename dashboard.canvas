@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"7d1eb504a8ac5168","type":"text","text":"# ** `=dateformat(date(today), \"DDDD\")`**","x":-1460,"y":-880,"width":460,"height":60},
+		{"id":"efabe336fe0a4895","type":"text","text":"```dataview\ntable scope, started, last-update, ongoing, ici, murb\nfrom \"01 - Notes/SBM\"\nsort last-update desc\nsort ongoing desc\n```","x":-820,"y":-780,"width":980,"height":580,"color":"5"},
+		{"id":"bb596d61ed595cef","type":"file","file":"05 - Tasks/Ongoing Tasks.md","x":-1460,"y":-780,"width":620,"height":1100,"color":"5"},
+		{"id":"deb41eb53809668d","x":-820,"y":-180,"width":490,"height":80,"color":"1","type":"text","text":"**For Permit drawings, make sure each drawing has Page Labels created with Revu.**"}
+	],
+	"edges":[]
+}

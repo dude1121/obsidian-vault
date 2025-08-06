@@ -1,7 +1,7 @@
 ---
 scope: renovation
 started: 2025.07.24
-latest-update: 2025.08.01
+last-update: 2025.08.01
 ongoing: y
 ici: y
 murb: n
@@ -98,3 +98,7 @@ Referred to [[NBC div. B s.3.2.4|NBC s. 3.2.4.]] and [[NBC div. B s.9.10.18|9.10
 ### Unique notes
 1. ALL RECEPTACLES WITHIN CHILDCARE AREAS ARE TO BE TAMPER-RESISTANT AND MARKED AS SUCH.
 2. ANY EXISTING DEVICES IN EXCESS OF THOSE ON DRAWINGS USED FOR RENOVATION ARE TO BE REMOVED/DEMOLISHED. EXISTING CONNECTED TO BE CAPPED AND MADE SAFE.
+# Tasks
+
+- [x] Send to El for review. ⏫ 📅 2025-08-06 ✅ 2025-08-06
+- [ ] Update CAD as per El's notes. Going for review Thursday. ⏫ ➕ 2025-08-06 🛫 2025-08-07 📅 2025-08-07
